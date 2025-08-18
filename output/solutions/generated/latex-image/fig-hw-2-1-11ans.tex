@@ -1,0 +1,54 @@
+\documentclass[10pt]{article}
+\usepackage{geometry}
+\geometry{letterpaper,total={340pt,9.0in}}
+%% Custom Page Layout Adjustments (use publisher page-geometry)
+\usepackage{amsmath,amssymb}
+\usepackage{tikz}
+\usetikzlibrary{calc}
+\usetikzlibrary{arrows}
+\usetikzlibrary{decorations.pathreplacing}
+\usetikzlibrary{patterns}
+\usetikzlibrary{calc,intersections,through,backgrounds}
+\usetikzlibrary{shapes.geometric}
+\ifdefined\tikzset
+\tikzset{ampersand replacement = \amp}
+\fi
+\newcommand\degree[0]{^{\circ}}
+\newcommand\Ccancel[2][black]{\renewcommand\CancelColor{\color{#1}}\cancel{#2}}
+\newcommand{\alert}[1]{\boldsymbol{\color{magenta}{#1}}}
+\newcommand{\blert}[1]{\boldsymbol{\color{blue}{#1}}}
+\newcommand{\bluetext}[1]{\color{blue}{#1}} 
+\delimitershortfall-1sp
+\newcommand\abs[1]{\left|#1\right|}
+\newcommand{\lt}{<}
+\newcommand{\gt}{>}
+\newcommand{\amp}{&}
+\begin{document}
+\pagestyle{empty}
+\resizebox{\width}{\height}{
+\tikzset{%
+}
+\begin{tikzpicture} [scale=.6]
+\draw[cyan] (0,0) grid[step=1/2] (6.5,6);
+\draw[black,thick,->,>=stealth'] (0,0)--(7.,0) node[right]{$x$};
+\draw[black,thick,->,>=stealth'] (0,0)--(0,6.5) node[above]{$y$};
+\foreach \x [evaluate=\x as \xi using int( 10* \x )]  in {1,2,...,6} {
+  \draw[black,thick] (\x,.1)--++(0,-.2) node[below, fill=white, inner sep=1, yshift=-2]{\xi};
+}
+\foreach \x [evaluate=\x as \xi using int( 10* \x )]  in {1,2,...,6} {
+  \draw[black,thick] (.1,\x)--++(-.2,0) node[left, fill=white, inner sep=1, xshift=-2]{\xi};
+}
+\filldraw[blue] (4.1,2.0) circle (.15);
+\filldraw[blue] (3.8,2.4) circle (.15);
+\filldraw[blue] (3.4,2.5) circle (.15);
+\filldraw[blue] (3.2,2.1) circle (.15);
+\filldraw[blue] (3.0,2.4) circle (.15);
+\filldraw[blue] (2.5,2.7) circle (.15);
+\filldraw[blue] (2.4,3.1) circle (.15);
+\filldraw[blue] (2.4,3.5) circle (.15);
+\filldraw[blue] (2.3,4.0) circle (.15);
+\filldraw[blue] (1.4,4.2) circle (.15);
+\draw[samples=2,domain=0:{5.3/.85},smooth,variable=\x,red,very thick] plot (\x,{-0.85*\x+5.3 });
+\end{tikzpicture}
+}
+\end{document}

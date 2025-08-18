@@ -1,0 +1,42 @@
+\documentclass[10pt]{article}
+\usepackage{geometry}
+\geometry{letterpaper,total={340pt,9.0in}}
+%% Custom Page Layout Adjustments (use publisher page-geometry)
+\usepackage{amsmath,amssymb}
+\usepackage{tikz}
+\usetikzlibrary{calc}
+\usetikzlibrary{arrows}
+\usetikzlibrary{decorations.pathreplacing}
+\usetikzlibrary{patterns}
+\usetikzlibrary{calc,intersections,through,backgrounds}
+\usetikzlibrary{shapes.geometric}
+\ifdefined\tikzset
+\tikzset{ampersand replacement = \amp}
+\fi
+\newcommand\degree[0]{^{\circ}}
+\newcommand\Ccancel[2][black]{\renewcommand\CancelColor{\color{#1}}\cancel{#2}}
+\newcommand{\alert}[1]{\boldsymbol{\color{magenta}{#1}}}
+\newcommand{\blert}[1]{\boldsymbol{\color{blue}{#1}}}
+\newcommand{\bluetext}[1]{\color{blue}{#1}} 
+\delimitershortfall-1sp
+\newcommand\abs[1]{\left|#1\right|}
+\newcommand{\lt}{<}
+\newcommand{\gt}{>}
+\newcommand{\amp}{&}
+\begin{document}
+\pagestyle{empty}
+\resizebox{\width}{\height}{
+\tikzset{%
+}
+\begin{tikzpicture} [scale=.5]
+\draw[blue, thick, dashed] (-4,-1)--(8,5);
+\draw[blue, thick, dashed] (-2,5)--(6,-1);
+\draw[magenta!90!black,ultra thick] (-4,-1) -- (-2,5) -- (8,5) -- (6,-1) --cycle;
+\filldraw (-4,-1) circle (.2) node[below] {$A(-4,-1)$};
+\filldraw (-2,5) circle (.2) node[above] {$B(-2,5)$};
+\filldraw (8,5) circle (.2) node[above] {$C(8,5)$};
+\filldraw (6,-1) circle (.2) node[below] {$D(6,-1)$};
+\filldraw[red] (2,2) circle (.2) node[text=black,below, yshift=-2] {$P$};
+\end{tikzpicture}
+}
+\end{document}

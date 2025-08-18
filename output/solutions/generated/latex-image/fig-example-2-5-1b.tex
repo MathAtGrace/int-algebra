@@ -1,0 +1,45 @@
+\documentclass[10pt]{article}
+\usepackage{geometry}
+\geometry{letterpaper,total={340pt,9.0in}}
+%% Custom Page Layout Adjustments (use publisher page-geometry)
+\usepackage{amsmath,amssymb}
+\usepackage{tikz}
+\usetikzlibrary{calc}
+\usetikzlibrary{arrows}
+\usetikzlibrary{decorations.pathreplacing}
+\usetikzlibrary{patterns}
+\usetikzlibrary{calc,intersections,through,backgrounds}
+\usetikzlibrary{shapes.geometric}
+\ifdefined\tikzset
+\tikzset{ampersand replacement = \amp}
+\fi
+\newcommand\degree[0]{^{\circ}}
+\newcommand\Ccancel[2][black]{\renewcommand\CancelColor{\color{#1}}\cancel{#2}}
+\newcommand{\alert}[1]{\boldsymbol{\color{magenta}{#1}}}
+\newcommand{\blert}[1]{\boldsymbol{\color{blue}{#1}}}
+\newcommand{\bluetext}[1]{\color{blue}{#1}} 
+\delimitershortfall-1sp
+\newcommand\abs[1]{\left|#1\right|}
+\newcommand{\lt}{<}
+\newcommand{\gt}{>}
+\newcommand{\amp}{&}
+\begin{document}
+\pagestyle{empty}
+\resizebox{\width}{\height}{
+\begin{tikzpicture} [scale=.6]
+\draw[cyan] (-2,-2) grid (12,12);
+\draw[black,thick,->,>=stealth'] (-2,0)--(12.6,0) node[above]{$x$};
+\draw[black,thick,->,>=stealth'] (0,-2)--(0,12.6) node[left]{$y$};
+\foreach \x [evaluate=\x as \xi using int(1000*\x)] in {4,8} {
+  \draw[black,thick] (\x,.1)--++(0,-.2) node[below, fill=white, inner sep=1, yshift=-2]{$\xi$};
+  \draw[black,thick] (.1,\x)--++(-.2,0) node[left, fill=white, inner sep=1, xshift=-2]{$\xi$};
+}
+\filldraw[magenta!50!white, opacity=.2] (-2,12)--(12,12)--(12,-2)--cycle;
+\draw[red,thick,<->, >=stealth'] (-2,12)--(12,-2);
+\filldraw[red] (-1,12) circle (.15);
+\filldraw[red] (5,4) circle (.15);
+\node[fill=magenta!10!white, inner sep=2] at (8,8) {$x+y \ge 10,000$};
+\draw[black, <-,>=stealth'] (8,1.5)--(6.5,1.5) node[left,fill=white, inner sep=2]{$x+y=10,000$};
+\end{tikzpicture}
+}
+\end{document}

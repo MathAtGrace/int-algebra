@@ -1,0 +1,52 @@
+\documentclass[10pt]{article}
+\usepackage{geometry}
+\geometry{letterpaper,total={340pt,9.0in}}
+%% Custom Page Layout Adjustments (use publisher page-geometry)
+\usepackage{amsmath,amssymb}
+\usepackage{tikz}
+\usetikzlibrary{calc}
+\usetikzlibrary{arrows}
+\usetikzlibrary{decorations.pathreplacing}
+\usetikzlibrary{patterns}
+\usetikzlibrary{calc,intersections,through,backgrounds}
+\usetikzlibrary{shapes.geometric}
+\ifdefined\tikzset
+\tikzset{ampersand replacement = \amp}
+\fi
+\newcommand\degree[0]{^{\circ}}
+\newcommand\Ccancel[2][black]{\renewcommand\CancelColor{\color{#1}}\cancel{#2}}
+\newcommand{\alert}[1]{\boldsymbol{\color{magenta}{#1}}}
+\newcommand{\blert}[1]{\boldsymbol{\color{blue}{#1}}}
+\newcommand{\bluetext}[1]{\color{blue}{#1}} 
+\delimitershortfall-1sp
+\newcommand\abs[1]{\left|#1\right|}
+\newcommand{\lt}{<}
+\newcommand{\gt}{>}
+\newcommand{\amp}{&}
+\begin{document}
+\pagestyle{empty}
+\resizebox{\width}{\height}{
+\tikzset{%
+}
+\begin{tikzpicture} [xscale=.36, yscale=.32]
+\draw[cyan, thin] (10,16) grid (0,0.3);
+\draw[black,very thick, ->, >=stealth'] (0,0)--(10.9,0) node[right]{$t$};
+\draw[black,very thick, ->, >=stealth'] (0,.8)--(0,16.9) node[above]{$y$};
+\foreach \x [evaluate=\x as \xi using int(10*\x)] in {5,10} {
+ \draw[cyan, very thick] (\x,16)--(\x, 0.3);
+ \draw[black] (\x,.15) --++(0,-.3)  node[below, yshift=-2, fill=white, inner sep=1]   {$\xi$};
+}
+\foreach \x [evaluate=\x as \xi using int(800+ 50*\x)] in {4,8,12,16} {
+ \draw[cyan, very thick] (10,\x)--(0, \x);
+  \draw[black] (.15,\x) --++(-.3,0)  node[left, xshift=-2, fill=white, inner sep=1]   {$\xi$};
+}
+\draw[white] (0,0)--(0,.8);
+\draw[white, ultra thick] (0,0.1)--(10,.1);
+\draw[black,thick] (0,.8)--(-.2,.7)--(.2,.5)--(-.2,.3)--(0,.2)--(0,0);
+\filldraw[red] (5,10) ellipse (.24 and .21) node[text=black, below right, xshift=2,yshift=2, yshift=-2,fill=white, inner sep=2] {$P$};
+\draw[blue!90!black, line width=0.6mm, ->, >=stealth'] (0,4)--(10,16) node[right, text=black] {$S$};
+\draw[magenta!90!black,line width=0.6mm, ->, >=stealth'] (0,8)--(10,12) node[right, text=black] {$E$};
+\filldraw[red] (5,10) ellipse (.16 and .18) node[text=black, below right, xshift=2,yshift=2, yshift=-2,fill=white, inner sep=2] {$P$};
+\end{tikzpicture}
+}
+\end{document}

@@ -1,0 +1,54 @@
+\documentclass[10pt]{article}
+\usepackage{geometry}
+\geometry{letterpaper,total={340pt,9.0in}}
+%% Custom Page Layout Adjustments (use publisher page-geometry)
+\usepackage{amsmath,amssymb}
+\usepackage{tikz}
+\usetikzlibrary{calc}
+\usetikzlibrary{arrows}
+\usetikzlibrary{decorations.pathreplacing}
+\usetikzlibrary{patterns}
+\usetikzlibrary{calc,intersections,through,backgrounds}
+\usetikzlibrary{shapes.geometric}
+\ifdefined\tikzset
+\tikzset{ampersand replacement = \amp}
+\fi
+\newcommand\degree[0]{^{\circ}}
+\newcommand\Ccancel[2][black]{\renewcommand\CancelColor{\color{#1}}\cancel{#2}}
+\newcommand{\alert}[1]{\boldsymbol{\color{magenta}{#1}}}
+\newcommand{\blert}[1]{\boldsymbol{\color{blue}{#1}}}
+\newcommand{\bluetext}[1]{\color{blue}{#1}} 
+\delimitershortfall-1sp
+\newcommand\abs[1]{\left|#1\right|}
+\newcommand{\lt}{<}
+\newcommand{\gt}{>}
+\newcommand{\amp}{&}
+\begin{document}
+\pagestyle{empty}
+\resizebox{\width}{\height}{
+\begin{tikzpicture} [xscale=.45, yscale=.9]
+\draw[cyan] (0,4) grid[xstep=1,ystep=1/2] (10,8);
+\draw[black,thick, ->, >=stealth'] (0,4)--(10.6,4) node[right]{$x$};
+\draw[black,thick, ->, >=stealth'] (0,4)--(0,8.6) node[above]{$y$};
+\foreach \x [evaluate=\x as \xi using int(10*\x)] in {5,10} {
+\draw[black] (\x,4.15) --++(0,-.3)  node[below]   {$\xi$};
+}
+\foreach \x [evaluate=\x as \xi using int(10*\x)] in {4,6,8} {
+\draw[black] (.15,\x) --++(-.3,0)  node[left]   {$\xi$};
+}
+\draw[samples=65,domain={.55:10},smooth,variable=\x,red, very thick, ->, >=stealth'] plot (\x,{(19.13+28.38 * ln(10*\x)/ln(10))/10 });
+\filldraw[blue] (1,5) ellipse (.2 and .1);
+\filldraw[blue] (2,5.41) ellipse (.2 and .1);
+\filldraw[blue] (3,5.97) ellipse (.2 and .1);
+\filldraw[blue] (4,6.29) ellipse (.2 and .1);
+\filldraw[blue] (5,6.82) ellipse (.2 and .1);
+\filldraw[blue] (6,6.97) ellipse (.2 and .1);
+\filldraw[blue] (7,7.08) ellipse (.2 and .1);
+\filldraw[blue] (8,7.37) ellipse (.2 and .1);
+\filldraw[blue] (9,7.54) ellipse (.2 and .1);
+\filldraw[blue] (10,7.68) ellipse (.2 and .1);
+\node at (6,3) {Years after 1900};
+\node[rotate=90] at (-1.8,6) {Average Life Expectancy};
+\end{tikzpicture}
+}
+\end{document}

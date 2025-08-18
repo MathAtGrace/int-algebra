@@ -1,0 +1,50 @@
+\documentclass[10pt]{article}
+\usepackage{geometry}
+\geometry{letterpaper,total={340pt,9.0in}}
+%% Custom Page Layout Adjustments (use publisher page-geometry)
+\usepackage{amsmath,amssymb}
+\usepackage{tikz}
+\usetikzlibrary{calc}
+\usetikzlibrary{arrows}
+\usetikzlibrary{decorations.pathreplacing}
+\usetikzlibrary{patterns}
+\usetikzlibrary{calc,intersections,through,backgrounds}
+\usetikzlibrary{shapes.geometric}
+\ifdefined\tikzset
+\tikzset{ampersand replacement = \amp}
+\fi
+\newcommand\degree[0]{^{\circ}}
+\newcommand\Ccancel[2][black]{\renewcommand\CancelColor{\color{#1}}\cancel{#2}}
+\newcommand{\alert}[1]{\boldsymbol{\color{magenta}{#1}}}
+\newcommand{\blert}[1]{\boldsymbol{\color{blue}{#1}}}
+\newcommand{\bluetext}[1]{\color{blue}{#1}} 
+\delimitershortfall-1sp
+\newcommand\abs[1]{\left|#1\right|}
+\newcommand{\lt}{<}
+\newcommand{\gt}{>}
+\newcommand{\amp}{&}
+\begin{document}
+\pagestyle{empty}
+\resizebox{\width}{\height}{
+\begin{tikzpicture} [scale=.7]
+\draw[black,thick, ->, >=stealth'] (-4.5,-3)--(4.5,-3) node[right]{$x$};
+\draw[black,thick, ->, >=stealth'] (-3,-4.5)--(-3,4.5) node[above]{$y$};
+\draw[darkgray, thick,dashed] (-4.3,0)--(4.3,0);
+\draw[darkgray, thick,dashed] (0,-4.3)--(0,4.3);
+\def\a{1};
+\def\b{1};
+\draw[samples=65,domain={-2:2},smooth,variable=\x,red,very thick, <->,>=stealth'] plot ( {sinh(\x)}, {cosh(\x)});
+\draw[samples=65,domain={-2:2},smooth,variable=\x,red,very thick, <->,>=stealth'] plot ( {sinh(\x)}, {-cosh(\x)});
+\draw[blue,very thick] ({-\a},0)--(\a,0);
+\filldraw[black] (0,{-sqrt(2)}) circle (.1) node[below right] {$F_2$};
+\filldraw[black] (0,{sqrt(2)}) circle (.1) node[above right] {$F_1$};
+\draw[blue,very thick] ({-\a},0)--(\a,0);
+\draw[green!70!black, very thick] (0,\b)--(0,-\b);
+\draw [green!70!black, decorate, decoration={brace,amplitude=5}] (0,{\b})--(0,0) node[right, xshift=2mm,midway]{$b$};
+
+\draw [blue, decorate, decoration={brace,amplitude=6}] ({\a},0)--(0,0) node[below, midway, yshift=-2mm]{$a$};
+\node at (0.5,-5) {\Large${\frac{(y-k)^2}{b^2}-\frac{(x-h)^2}{a^2}={} }$\normalsize 1};
+\filldraw[darkgray] (0,0) circle (.1) node[above left, xshift=-2, yshift=2, text=black] {$(h,k)$};
+\end{tikzpicture}
+}
+\end{document}

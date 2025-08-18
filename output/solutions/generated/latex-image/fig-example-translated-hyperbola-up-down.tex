@@ -1,0 +1,54 @@
+\documentclass[10pt]{article}
+\usepackage{geometry}
+\geometry{letterpaper,total={340pt,9.0in}}
+%% Custom Page Layout Adjustments (use publisher page-geometry)
+\usepackage{amsmath,amssymb}
+\usepackage{tikz}
+\usetikzlibrary{calc}
+\usetikzlibrary{arrows}
+\usetikzlibrary{decorations.pathreplacing}
+\usetikzlibrary{patterns}
+\usetikzlibrary{calc,intersections,through,backgrounds}
+\usetikzlibrary{shapes.geometric}
+\ifdefined\tikzset
+\tikzset{ampersand replacement = \amp}
+\fi
+\newcommand\degree[0]{^{\circ}}
+\newcommand\Ccancel[2][black]{\renewcommand\CancelColor{\color{#1}}\cancel{#2}}
+\newcommand{\alert}[1]{\boldsymbol{\color{magenta}{#1}}}
+\newcommand{\blert}[1]{\boldsymbol{\color{blue}{#1}}}
+\newcommand{\bluetext}[1]{\color{blue}{#1}} 
+\delimitershortfall-1sp
+\newcommand\abs[1]{\left|#1\right|}
+\newcommand{\lt}{<}
+\newcommand{\gt}{>}
+\newcommand{\amp}{&}
+\begin{document}
+\pagestyle{empty}
+\resizebox{\width}{\height}{
+\begin{tikzpicture} [scale=.6]
+\draw[cyan] (-6,-9) grid (6,5);
+\draw[black,thick, ->, >=stealth'] (-6,0)--(6.6,0) node[right]{$x$};
+\draw[black,thick, ->, >=stealth'] (0,-9)--(0,5.6) node[above]{$y$};
+\foreach \x in {-5,5} {
+ \draw[black] (\x,.1) --++(0,-.2)  node[below, yshift=-2, fill=white, inner sep=1]   {$\x$};
+ }
+\foreach \x in {5} {
+ \draw[black] (.1,\x) --++(-.2,0)  node[left, xshift=-2, fill=white, inner sep=1]   {$\x$};
+ }
+\def\a{3/2};
+\def\b{3};
+\def\h{-1};
+\def\k{-2};
+\draw[black, fill=cyan!60!white, opacity=.3] ({\h-\a},{\k-\b}) rectangle ({\h+\a},{\k+\b});
+\draw[samples=2,domain={-4.5:2.5},smooth,variable=\x,gray,dashed] plot ( {\x}, { \k+2 * (\x - \h) } );
+\draw[samples=2,domain={-4.5:2.5},smooth,variable=\x,gray,dashed] plot ( {\x}, { \k-\b/(\a )* (\x - \h) } );
+\filldraw[black] (\h,\k) circle (.15) node[left, xshift=-.4cm, fill=white, inner sep=1]{$(-1,-2)$};
+\draw[samples=65,domain={-1.5:1.5},smooth,variable=\x,red,very thick, <->,>=stealth'] plot ( {\h+\a*sinh(\x)}, {\k+\b*cosh(\x)});
+\draw[samples=65,domain={-1.5:1.5},smooth,variable=\x,red,very thick, <->,>=stealth'] plot ( {\h+\a*sinh(\x)}, {\k-\b*cosh(\x)});
+\draw [blue, decorate, decoration={brace,amplitude=7}] (\h+\a+.1,\k+\b) --++(0,{-\b}) node[right, xshift=4mm,midway,  fill=white, inner sep=1]{$b=3$};
+\draw [green!60!black, decorate, decoration={brace,amplitude=6}] ({\h+\a},\k)--(\h,\k) node[below, midway, xshift=1.9cm, yshift=-6mm, fill=white, inner sep=1]{$a=\frac{3}{2}$};
+\draw [green,thick,->, >=stealth'] (2,-3.5) to [out=180,in=280] (-.2,-2.5);
+\end{tikzpicture}
+}
+\end{document}

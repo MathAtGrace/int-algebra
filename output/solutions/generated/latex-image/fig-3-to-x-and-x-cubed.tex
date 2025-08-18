@@ -1,0 +1,43 @@
+\documentclass[10pt]{article}
+\usepackage{geometry}
+\geometry{letterpaper,total={340pt,9.0in}}
+%% Custom Page Layout Adjustments (use publisher page-geometry)
+\usepackage{amsmath,amssymb}
+\usepackage{tikz}
+\usetikzlibrary{calc}
+\usetikzlibrary{arrows}
+\usetikzlibrary{decorations.pathreplacing}
+\usetikzlibrary{patterns}
+\usetikzlibrary{calc,intersections,through,backgrounds}
+\usetikzlibrary{shapes.geometric}
+\ifdefined\tikzset
+\tikzset{ampersand replacement = \amp}
+\fi
+\newcommand\degree[0]{^{\circ}}
+\newcommand\Ccancel[2][black]{\renewcommand\CancelColor{\color{#1}}\cancel{#2}}
+\newcommand{\alert}[1]{\boldsymbol{\color{magenta}{#1}}}
+\newcommand{\blert}[1]{\boldsymbol{\color{blue}{#1}}}
+\newcommand{\bluetext}[1]{\color{blue}{#1}} 
+\delimitershortfall-1sp
+\newcommand\abs[1]{\left|#1\right|}
+\newcommand{\lt}{<}
+\newcommand{\gt}{>}
+\newcommand{\amp}{&}
+\begin{document}
+\pagestyle{empty}
+\resizebox{\width}{\height}{
+\begin{tikzpicture} [scale=.45]
+\draw[cyan] (0,0) grid (10,10);
+\draw[black,thick, ->, >=stealth'] (0,0)--(10.9,0) node[right]{$x$};
+\draw[black,thick, ->, >=stealth'] (0,0)--(0,10.9) node[above]{$y$};
+\foreach \x [evaluate=\x as \y using int(100*\x)]  in  {5,10} {
+    \draw[black] (\x,.15) --++(0,-.3)  node[below]   {$\x$};
+    \draw[black] (.15,\x) --++(-.3,0)  node[left]   {$\y$};
+}
+\draw[samples=65,domain={0}:{ln(1000)/ln(3))},smooth,variable=\x,blue, thick, <->, >=stealth'] plot ({(\x)},{3^(\x)/100});
+\draw[samples=65,domain={0:10},smooth,variable=\x,red, thick, <->, >=stealth'] plot ({(\x)},{(\x)^3 /100 });
+\node[text=blue] at (4.8 ,10.8) {$g(x)=3^x$};
+\node[text=red] at (9.5,10.8) {$f(x)=x^3$};
+\end{tikzpicture}
+}
+\end{document}

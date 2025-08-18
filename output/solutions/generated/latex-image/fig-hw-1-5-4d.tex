@@ -1,0 +1,40 @@
+\documentclass[10pt]{article}
+\usepackage{geometry}
+\geometry{letterpaper,total={340pt,9.0in}}
+%% Custom Page Layout Adjustments (use publisher page-geometry)
+\usepackage{amsmath,amssymb}
+\usepackage{tikz}
+\usetikzlibrary{calc}
+\usetikzlibrary{arrows}
+\usetikzlibrary{decorations.pathreplacing}
+\usetikzlibrary{patterns}
+\usetikzlibrary{calc,intersections,through,backgrounds}
+\usetikzlibrary{shapes.geometric}
+\ifdefined\tikzset
+\tikzset{ampersand replacement = \amp}
+\fi
+\newcommand\degree[0]{^{\circ}}
+\newcommand\Ccancel[2][black]{\renewcommand\CancelColor{\color{#1}}\cancel{#2}}
+\newcommand{\alert}[1]{\boldsymbol{\color{magenta}{#1}}}
+\newcommand{\blert}[1]{\boldsymbol{\color{blue}{#1}}}
+\newcommand{\bluetext}[1]{\color{blue}{#1}} 
+\delimitershortfall-1sp
+\newcommand\abs[1]{\left|#1\right|}
+\newcommand{\lt}{<}
+\newcommand{\gt}{>}
+\newcommand{\amp}{&}
+\begin{document}
+\pagestyle{empty}
+\resizebox{\width}{\height}{
+\tikzset{%
+}
+\begin{tikzpicture} [scale=1]
+\draw[black,thick, ->, >=stealth'] (-3.8,0)--(.5,0) node[right]{$q$};
+\draw[black,thick, ->, >=stealth'] (0,-2.1)--(0,1.7) node[left]{$n$};
+\filldraw[red] (-1.,-.9) circle (.08) node[above, yshift=2] {$Q(-2,-1)$};
+\filldraw[red] (-3.3,-.9) circle (.08) node[above, yshift=2, xshift=2] {$P(-7,-1)$};
+\draw[red,thick] (-3.3,-.9) -- (-1.,-.9);
+\node[text width=1cm] at (-1.,-2.6){$\Delta q=$};
+\end{tikzpicture}
+}
+\end{document}

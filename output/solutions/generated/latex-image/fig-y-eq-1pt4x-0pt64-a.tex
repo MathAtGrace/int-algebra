@@ -1,0 +1,48 @@
+\documentclass[10pt]{article}
+\usepackage{geometry}
+\geometry{letterpaper,total={340pt,9.0in}}
+%% Custom Page Layout Adjustments (use publisher page-geometry)
+\usepackage{amsmath,amssymb}
+\usepackage{tikz}
+\usetikzlibrary{calc}
+\usetikzlibrary{arrows}
+\usetikzlibrary{decorations.pathreplacing}
+\usetikzlibrary{patterns}
+\usetikzlibrary{calc,intersections,through,backgrounds}
+\usetikzlibrary{shapes.geometric}
+\ifdefined\tikzset
+\tikzset{ampersand replacement = \amp}
+\fi
+\newcommand\degree[0]{^{\circ}}
+\newcommand\Ccancel[2][black]{\renewcommand\CancelColor{\color{#1}}\cancel{#2}}
+\newcommand{\alert}[1]{\boldsymbol{\color{magenta}{#1}}}
+\newcommand{\blert}[1]{\boldsymbol{\color{blue}{#1}}}
+\newcommand{\bluetext}[1]{\color{blue}{#1}} 
+\delimitershortfall-1sp
+\newcommand\abs[1]{\left|#1\right|}
+\newcommand{\lt}{<}
+\newcommand{\gt}{>}
+\newcommand{\amp}{&}
+\begin{document}
+\pagestyle{empty}
+\resizebox{\width}{\height}{
+\tikzset{%
+}
+\begin{tikzpicture} [scale=.4]
+\draw[lightgray] (-3,-8) grid (7,6);
+\draw[black,thick, ->, >=stealth'] (-3,0)--(7.6,0) node[right]{$x$};
+\draw[black,thick, ->, >=stealth'] (0,-8)--(0,6.8) node[above]{$y$};
+\node[below, fill=white, inner sep=1] at (4,-.15) {$0.8$};
+\node[below, fill=white, inner sep=1] at (6,-.15) {$1.2$};
+\node[left, fill=white, inner sep=1] at (-.15,4) {$0.8$};
+\node[left, fill=white, inner sep=1] at (-.15,6) {$1.2$};
+\node[left, fill=white, inner sep=1] at (-.15,-2) {$-0.4$};
+\node[left, fill=white, inner sep=1] at (-.15,-6) {$-1.2$};
+\draw[red!80!white,thick,<->,>=stealth'] (-3,-7.4) -- (6.5714,6);
+\draw[red!80!black,ultra thick,->,>=stealth'] (3,1) -- (6.5714,6);
+\draw[red,fill=white] (3,1) circle (.2);
+\draw[blue, ultra thick] (3,0) -- (7.6,0);
+\draw[blue,fill=white] (3,0) circle (.2);
+\end{tikzpicture}
+}
+\end{document}
