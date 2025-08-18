@@ -8,6 +8,6 @@
     <target name="print-latex" format="latex" source="int-alg.xml" publication="publication.ptx" />
     <target name="print" format="pdf" source="int-alg.xml" publication="publication.ptx" />
     <target name="subset" format="html" source="test-section.ptx" publication="publication-test.ptx" />
-    <target name="solutions" format="custom" source="int-alg.xml" publication="publication.ptx" xsl="xsl/solution-manual.xsl" output="output/solutions"/>
+    <target name="solutions" format="custom" source="int-alg.xml" publication="publication.ptx" xsl="solution-manual.xsl" output-dir="solutions"/>
   </targets>
 </project>
