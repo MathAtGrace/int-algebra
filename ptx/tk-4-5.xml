@@ -8,35 +8,35 @@
 
 <subsubsubsection><title>Examples</title>
 
-<example><statement><p>Solve <m>~3x^{1.05} = 18~</m>.  Round your answer to hundredths. </p></statement>
+<activity><statement><p>Solve <m>~3x^{1.05} = 18~</m>.  Round your answer to hundredths. </p></statement>
  
 <solution><p>This is a power equation. We divide both sides by 3 to isolate the variable, then raise both sides to the reciprocal of the exponent.
     <md><mrow>(x^{1.05})^{1/1.05} \amp = 6^{1/1.05}</mrow>
         <mrow>    x \amp = 5.51</mrow></md></p>                
-</solution></example>
+</solution></activity>
 
-<example><statement><p>Solve <m>~3(1.05)^x = 18~</m>.  Round your answer to hundredths. </p></statement>
+<activity><statement><p>Solve <m>~3(1.05)^x = 18~</m>.  Round your answer to hundredths. </p></statement>
  
 <solution><p>This is an exponential equation. We divide both sides by 3, then take logarithms.
     <md><mrow>\log(1.05^x) \amp = \log 6  \amp\amp \blert{\text{Apply the third log property.}}</mrow>
         <mrow>x \log 1.05\amp = \log 6</mrow>
         <mrow>x \amp =\dfrac{\log 6}{\log 1.05} = 36.72</mrow></md></p>                
-</solution></example>
+</solution></activity>
 
-<example><statement><p>Solve <m>~9x^{3/5} = 36~</m>.  Round your answer to hundredths. </p></statement>
+<activity><statement><p>Solve <m>~9x^{3/5} = 36~</m>.  Round your answer to hundredths. </p></statement>
  
 <solution><p>This is a power equation. We divide both sides by 9 to isolate the variable, then raise both sides to the reciprocal of the exponent.
     <md><mrow>(x^{3/5})^{5/3} \amp = 4^{5/3}</mrow>
         <mrow>x \amp = 10.08</mrow></md></p>                
-</solution></example>
+</solution></activity>
 
-<example><statement><p>Solve <m>~1.5(3^{x/5}) = 12~</m>.  Round your answer to hundredths. </p></statement>
+<activity><statement><p>Solve <m>~1.5(3^{x/5}) = 12~</m>.  Round your answer to hundredths. </p></statement>
  
 <solution><p>This is an exponential equation. We divide both sides by 1.5, then take logarithms.
     <md><mrow>\log 3^{x/5} \amp = \log 8  \amp\amp \blert{\text{Apply the third log property.}}</mrow>
         <mrow>\dfrac{x}{5} \log 3  \amp = \log 8</mrow>
         <mrow>x \amp =\dfrac{5\log 8}{\log 3} = 9.46</mrow></md></p>                
-</solution></example>
+</solution></activity>
 </subsubsubsection>
 
 <subsubsubsection><title>Exercises</title>
@@ -67,22 +67,22 @@
 
 <subsubsubsection><title>Examples</title>
 
-<example><statement><p>The half-life of a cold medication in the body is 6 hours. Find its decay rate.</p></statement>
+<activity><statement><p>The half-life of a cold medication in the body is 6 hours. Find its decay rate.</p></statement>
 
 <solution><p>The decay law for the medication is 
     <me>N=N_0(0.5)^{t/8}</me> 
 We can rewrite this expression as 
     <me>N=N_0(0.5^{1/8})^t</me>
-so <m>b=0.5^{1/8}=0.9170</m>, and <m>r=1-b=0.083</m>. The decay rate is 8.3%.</p></solution></example>
+so <m>b=0.5^{1/8}=0.9170</m>, and <m>r=1-b=0.083</m>. The decay rate is 8.3%.</p></solution></activity>
 
-<example><statement><p>The growth rate of a population of badgers is 3.8% per year. Find its doubling time.</p></statement>
+<activity><statement><p>The growth rate of a population of badgers is 3.8% per year. Find its doubling time.</p></statement>
 
 <solution><p>The growth law for the population is <m>P=P_0(1.038)^t</m>. We set <m>P=2P_0</m> and solve for <m>t</m>.
     <md><mrow>2P_0 \amp = P_0(1.038)^t  \amp\amp \blert{\text{Divide both sides by}~P_0.}</mrow>
         <mrow>2 \amp = (1.038)^t  \amp\amp \blert{\text{Take the log of both sides.}}</mrow>
         <mrow>\log 2 \amp = t \log 1.038  \amp\amp \blert{\text{Apply the third log property.}}</mrow>
         <mrow>t \amp = \dfrac{\log 2}{\log 1.038} = 18.59</mrow></md>            
-The doubling time is 18.59 years.</p></solution></example>
+The doubling time is 18.59 years.</p></solution></activity>
 </subsubsubsection>
 
 <subsubsubsection><title>Exercises</title>
@@ -101,7 +101,7 @@ The doubling time is 18.59 years.</p></solution></example>
 
 <subsubsubsection><title>Examples</title>
 
-<example>
+<activity>
     <statement>
         <p>The graph shows the population, <m>P</m>, of a herd of llamas <m>t</m> years after 2000.<ol marker="a.">
             <li>How many llamas were there in 2000?</li>
@@ -140,9 +140,9 @@ The doubling time is 18.59 years.</p></solution></example>
             <li>The growth factor for the population is <m>2^{1/4} = 1.189</m>, so the annual growth rate is 18.9%.</li></ol>
         </p>
     </solution>
-</example>
+</activity>
 
-<example>
+<activity>
     <statement>
         <p>Write a decay law for the graph shown below, where <m>t</m> is in hours and <m>N</m> is in milligrams.</p>
         <sidebyside width="40%">
@@ -173,7 +173,7 @@ The doubling time is 18.59 years.</p></solution></example>
     <solution>
         <p>The initial value is given by the vertical intercept of the graph, <m>(0,600)</m>, so <m>N_0 = 600</m>.</p>  <p>When <m>t=5,~N=300</m>, so the half-life of the substance is 5 hours. Thus the decay law is <m>N(t)=600(0.5)^{t/5}</m>, or <m>N(t)=600(0.87)^t</m>.</p>
     </solution>
-</example> 
+</activity> 
 </subsubsubsection>
 
 <subsubsubsection><title>Exercises</title>

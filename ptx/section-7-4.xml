@@ -75,13 +75,13 @@
 
 <aside><p><m>\alert{\text{[TK]}}~~</m>At this point, it may also be helpful to compare the distributive law with the log properties. See <xref ref="tkDistLaw" text="custom"> Section 7.4.2 </xref> of the Toolkit.</p></aside>
 
-<example xml:id="example-use-log-property"><statement><p>Write <m>~~\log_{b}{(\sqrt{xy})}~~</m> as an expression in simpler logs.</p></statement>
+<activity xml:id="example-use-log-property"><statement><p>Write <m>~~\log_{b}{(\sqrt{xy})}~~</m> as an expression in simpler logs.</p></statement>
 
 <solution><p>First, we write <m>\sqrt{xy}~~</m> using a fractional exponent:
 	<md><mrow>\log_{b}{(xy)} \amp = \log_{b}{((xy)^{1/2})} \amp \amp \blert{\text{Apply Property 3.}}</mrow>
 		<mrow> \amp = \frac{1}{2}\log_{b}{(xy)} \amp \amp \blert{\text{Apply Property 1 to the product}~xy.}</mrow>
 		<mrow> \amp = \frac{1}{2}(\log_{b}{(x)} + \log_{b}{(y)})</mrow></md>
-Thus, <m>~~\log_{b}{(\sqrt{xy})} = \dfrac{1}{2}(\log_{b}{(x)} + \log_{b}{(y)})</m>.</p></solution></example>
+Thus, <m>~~\log_{b}{(\sqrt{xy})} = \dfrac{1}{2}(\log_{b}{(x)} + \log_{b}{(y)})</m>.</p></solution></activity>
 
 <exercise component="webwork"><title>Practice 1</title>
     <webwork><pg-code>
@@ -102,12 +102,12 @@ Thus, <m>~~\log_{b}{(\sqrt{xy})} = \dfrac{1}{2}(\log_{b}{(x)} + \log_{b}{(y)})</
 
 <p>We can also use the properties of logarithms to combine sums and differences of logarithms into one logarithm.</p>
 
-<example xml:id="example-rewrite-as-single-log"><statement><p>Express <m>~~3(\log_b {(x)} - \log_b {(y)})</m> as a single logarithm with a coefficient of <m>1</m>.</p></statement>
+<activity xml:id="example-rewrite-as-single-log"><statement><p>Express <m>~~3(\log_b {(x)} - \log_b {(y)})</m> as a single logarithm with a coefficient of <m>1</m>.</p></statement>
 
 <solution><p>We begin by applying Property (2) to combine the logs.
 	<md><mrow>3(\log_b {(x)} - \log_b {(y)}) \amp = 3 \log_{b}{\left(\dfrac{x}{y}\right)} \amp \amp \blert{\text{Apply Property 3.}}</mrow>
 	 	<mrow>\amp =\log_{b}{\left(\dfrac{x}{y}\right)^3}</mrow></md>
-Thus, <m>3(\log_b {(x)} - \log_b  {(y)}) = \log_{b}{\left(\dfrac{x}{y}\right)^3}</m>.</p></solution></example>
+Thus, <m>3(\log_b {(x)} - \log_b  {(y)}) = \log_{b}{\left(\dfrac{x}{y}\right)^3}</m>.</p></solution></activity>
 
 <warning><p>Be careful when using the properties of logarithms! Compare the statements below:<ol>
 	<li><p><m>\log_{b}{(2x)} = \log_{b}{(2)} + \log_{b}{(x)}~~~~    \text{ by Property 1,}</m></p>
@@ -196,7 +196,7 @@ Although
 We cannot simplify <m>~\dfrac{\log_{10}{(7)}}{\log_{10}{(5)}}~</m>; we must evaluate it as 
 	<me>\log_{10}{(7)} \div \log_{10}{(5)} \approx 1.2091 </me></p></warning>
 
-<example><statement><p>Solve <m>~~1640 = 80 \cdot 6^{0.03x}</m>  <m>~\alert{\text{[TK]}}</m></p></statement>
+<activity><statement><p>Solve <m>~~1640 = 80 \cdot 6^{0.03x}</m>  <m>~\alert{\text{[TK]}}</m></p></statement>
 
 <solution><p>First we divide both sides by 80 to isolate the power.
 	<me>20.5 = 6^{0.03x}</me>
@@ -205,7 +205,7 @@ Next, we take the base 10 logarithm of both sides of the equation and use Proper
 		<mrow> \amp = 0.03x \log_{10}{(6)}</mrow></md>
 On the right side of the equation, <m>x</m> is multiplied by two constants, <m>0.03</m> and <m>\log_{10}{(6)}</m>. So, to solve for <m>x</m> we must divide both sides of the equation by <m>0.03 \log_{10}{(6)}</m>. We use a calculator to evaluate the answer:
 	<me>x = \frac{\log_{10}{(20.5)}}{0.03 \log_{10}{(6)}}\approx 56.19</me>
-(On your calculator, remember to enclose the entire denominator, <m>0.03 \log_{10}{(6)}</m>, in parentheses.)</p></solution></example>
+(On your calculator, remember to enclose the entire denominator, <m>0.03 \log_{10}{(6)}</m>, in parentheses.)</p></solution></activity>
 
 <aside><p><m>\alert{\text{[TK]}}~~</m>To compare solving exponential equations and power equations, see <xref ref="tkSolveExpEqn" text="custom"> Section 7.4.3 </xref> of the Toolkit.</p></aside>
 
@@ -236,7 +236,7 @@ Remember that the order of operations tells us to compute the power <m>6^{0.03x}
 
 <p>By using the properties of logarithms, we can now solve equations that arise in exponential growth and decay models, no matter what base the exponential function uses.</p>
 
-<example><statement><p>The population of Silicon City was 6500 in 1990 and has been tripling every 12 years. When will the population reach 75,000?</p></statement>
+<activity><statement><p>The population of Silicon City was 6500 in 1990 and has been tripling every 12 years. When will the population reach 75,000?</p></statement>
 
 <solution><p>The population of Silicon City grows according to the formula
 	<me>P(t) = 6500 \cdot 3^{t/12}</me>
@@ -250,7 +250,7 @@ Now we can take the base 10 logarithm of both sides and solve for <m>t</m>.
 	<mrow>\frac{t}{12}\log_{10}{(3)} \amp= \log_{10}{\left(\frac{150}{13}\right)}
 	\amp\amp \blert{\text{Divide by }\log_{10}{(3)}\text{; multiply by 12.}}</mrow>
 	<mrow>t \amp = \frac{12 \left(\log_{10}{(\frac{150}{13}}\right)}{\log_{10}{(3)}}</mrow></md>
-We use a calculator to evaluate the answer, <m>t \approx 26.71</m>. The population of Silicon City will reach 75,000 about 27 years after 1990, or in 2017.</p></solution></example>
+We use a calculator to evaluate the answer, <m>t \approx 26.71</m>. The population of Silicon City will reach 75,000 about 27 years after 1990, or in 2017.</p></solution></activity>
 
 <exercise component="webwork"><title>Practice 4</title>
     <webwork><pg-code>
@@ -364,13 +364,13 @@ We use a calculator to evaluate the answer, <m>t \approx 26.71</m>. The populati
 
 <p>We can also  solve formulas involving exponential or logarithmic expressions for one variable in terms of the others.</p>
 
-<example><statement><p>Solve <m>~~P = Cb^{kt}~~</m> for <m>t</m>. (<m>C</m> and <m>k \ne 0</m>.)</p></statement>
+<activity><statement><p>Solve <m>~~P = Cb^{kt}~~</m> for <m>t</m>. (<m>C</m> and <m>k \ne 0</m>.)</p></statement>
 
 <solution><p>First, we divide both sides by <m>C</m> to isolate the power.
 		<me>b^{kt} = \dfrac{P}{C}</me>
 Then we write the exponential equation in logarithmic form:
 		<md><mrow> kt \amp = \log_b {\left(\dfrac{P}{C}\right)} \amp\amp \blert{\text{Divide both sides by}~k.}</mrow>
-			<mrow>t  \amp = \dfrac{1}{k}\log_b {\left(\dfrac{P}{C}\right)}</mrow></md></p></solution></example>
+			<mrow>t  \amp = \dfrac{1}{k}\log_b {\left(\dfrac{P}{C}\right)}</mrow></md></p></solution></activity>
 
 <exercise component="webwork"> <title>Practice 5</title>
 <webwork><pg-code>

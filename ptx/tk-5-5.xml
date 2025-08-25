@@ -4,22 +4,22 @@
                  
 <subsubsection xml:id="tkInvVar"><title>Solve an inverse variation equation</title>
 
-<example><statement><p>Solve <m>~2.8125 = \dfrac{36}{n}</m></p></statement>
+<activity><statement><p>Solve <m>~2.8125 = \dfrac{36}{n}</m></p></statement>
     
 <solution><p>We must first get the variable out of the denominator.
         <md><mrow>n(2.8125) \amp = \dfrac{36}{n} n \amp\amp \blert{\text{Multiply boyh sides by}~n.}</mrow>
             <mrow>2.8125n \amp = 36 \amp\amp \blert{\text{Divide both sides by 2.8125.}}</mrow>
             <mrow>n \amp = 12.8</mrow></md>
-</p></solution></example>
+</p></solution></activity>
 
-<example><statement><p>Solve <m>~0.5547 = \dfrac{1500}{d^2}</m></p></statement>
+<activity><statement><p>Solve <m>~0.5547 = \dfrac{1500}{d^2}</m></p></statement>
     
 <solution><p>We must first get the variable out of the denominator.
         <md><mrow>d^2(0.5547) \amp = \dfrac{1500}{d^2} d^2 \amp\amp \blert{\text{Multiply boyh sides by}~d^2.}</mrow>
             <mrow>0.5547d^2 \amp = 1500 \amp\amp \blert{\text{Divide both sides by 0.5547.}}</mrow>
             <mrow>d^2 \amp = 2704.16  \amp\amp \blert{\text{Take square roots.}}</mrow>
             <mrow>d \amp = 52 </mrow></md>
-</p></solution></example>
+</p></solution></activity>
 
 <exercise><statement><p>Solve <m>~13.03=\dfrac{380}{h^2}</m></p></statement>
 <answer><p><m>5.4</m></p></answer></exercise>
@@ -32,7 +32,7 @@
 
 <p>The graphs of inverse variations are transformations of the basic graphs <m>y=\dfrac{1}{x^n}</m>.</p>
 
-<example><statement><p>Sketch a graph of <m>H=\dfrac{48}{w}</m>.</p></statement>
+<activity><statement><p>Sketch a graph of <m>H=\dfrac{48}{w}</m>.</p></statement>
     <solution><p>We know that the graph has the shape of the basic function <m>y=\dfrac{1}{x}</m>, so all we need are a few points to "anchor" the graph.
     <md><mrow>\text{If } w=2, \amp H = \dfrac{48}{2} = 24</mrow>
         <mrow>\text{If } w=6, \amp H = \dfrac{48}{6} = 8</mrow>
@@ -52,7 +52,7 @@ The graph is shown below.</p>
         }
         \draw[samples=65,domain={1/2:6},smooth,variable=\x,magenta!90!black,very thick, <->,>=stealth'] plot ( {\x}, {3/(\x)});
         \end{tikzpicture}]]>
-        </latex-image></image></solution></example>
+        </latex-image></image></solution></activity>
 
 <exercise><statement><p>Plot three points and sketch a graph of <m>B=\dfrac{0.8}{d^2}</m>.</p>
 <image width="25%" xml:id="B-eq-pt8-over-d-sq-grid"><description>reciprocal squared</description><latex-image>
@@ -92,14 +92,14 @@ The graph is shown below.</p>
 
 <introduction><p>If we know the type of variation and the coordinates of one point on the graph, we can find the variation equation.</p></introduction>
 
-<example><statement><p>Find the constant of variation and the variation equation:</p>
+<activity><statement><p>Find the constant of variation and the variation equation:</p>
     <p><m>~~~y</m> varies inversely with the square of <m>x</m>, and <m>y=4687.5</m> when <m>x=0.16</m>.</p></statement>
 
 <solution><p>Because <m>y</m> varies inversely with the square of <m>x</m>, we know that <m>y=\dfrac{k}{x^2}</m>. We substitute the given values to find
         <md><mrow>4687.5 \amp = \dfrac{k}{0.16^2}  \amp\amp \blert{\text{Solve for}~k.}</mrow>
             <mrow>k \amp  = 4687.5(0.16)^2=120</mrow></md>
         The constant of variation is 120, and the variation equation is <m>~y=\dfrac{120}{x^2}</m>.</p></solution>
-</example>
+</activity>
 
 <exercise><statement><p>Find the constant of variation and the variation equation:</p>
 <p> <m>y</m> varies inversely with <m>x</m>, and <m>y=31.25</m> when <m>x=640</m>.</p></statement> 

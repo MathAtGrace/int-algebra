@@ -9,7 +9,7 @@
 
 <p>To write a formula for an exponential function <m>f(x)=ab^x</m>, we need to know the initial value, <m>a</m><idx>initial value</idx>, and the growth or decay factor, <m>b</m>. We can find these two parameters if we know any two function values.</p>
 
-<example xml:id="example-fit-exponential"><statement><p>Find an exponential function <m>f(x)=ab^x</m> that has the values <m>f(2) = 4.5</m> and <m>f(5) = 121.5</m>.</p></statement>
+<activity xml:id="example-fit-exponential"><statement><p>Find an exponential function <m>f(x)=ab^x</m> that has the values <m>f(2) = 4.5</m> and <m>f(5) = 121.5</m>.</p></statement>
 
 <solution><p>We would like to find values of <m>a</m> and <m>b</m> so that the given function values satisfy <m>f(x) = ab^x</m> . By substituting the function values into the formula, we can write two equations.
     <md><mrow>f(2) \amp= 4.5~~~ \text{ means }~~~x = 2, y = 4.5, \amp\amp\text{so}~~~~~ab^2 = 4.5</mrow>
@@ -26,7 +26,7 @@ Note that by dividing the two equations, we eliminated <m>a</m>, and we can now 
 Next we substitute <m>b = 3</m> into either of the two equations and solve for <m>a</m>.
     <md><mrow>a(3)^2 \amp = 4.5 </mrow>
         <mrow>a \amp= \frac{4.5}{9} = 0.5 </mrow></md>
-Thus, <m>a = 0.5</m> and <m>b = 3</m>, and the function is <m>f(x) = 0.5(3^x)</m>.</p></solution></example>
+Thus, <m>a = 0.5</m> and <m>b = 3</m>, and the function is <m>f(x) = 0.5(3^x)</m>.</p></solution></activity>
 
 <warning><p>Knowing only two points on the graph of <m>f</m> is not enough to tell us what <em>kind</em> of function <m>f</m> is. Through the two points in <xref ref="example-fit-exponential" text="type-global"/>, we can also fit a linear function or a power function. </p>
 <sidebyside widths="55% 40%"><p>You can check that the three functions below all satisfy <m>f(2) = 4.5</m> and <m>f(5) = 121.5</m>. The graphs of the functions are shown at right.
@@ -81,7 +81,7 @@ Thus, <m>a = 0.5</m> and <m>b = 3</m>, and the function is <m>f(x) = 0.5(3^x)</m
 
 <p>We can use the ratio method to find an exponential growth or decay model if we know two function values.</p>
 
-<example xml:id="example-cedi-inflation"><statement><p>The unit of currency in Ghana is the cedi, denoted by ¢. Beginning in 1986, the cedi underwent a period of exponential inflation. In 1993, one U.S. dollar was worth ¢720, and in 1996, the dollar was worth about ¢1620. Find a formula for the number of cedi to the dollar as a function of time since 1986. What was the annual inflation rate during the decade from 1986 to 1996? <m>~\alert{\text{[TK]}}</m></p></statement>
+<activity xml:id="example-cedi-inflation"><statement><p>The unit of currency in Ghana is the cedi, denoted by ¢. Beginning in 1986, the cedi underwent a period of exponential inflation. In 1993, one U.S. dollar was worth ¢720, and in 1996, the dollar was worth about ¢1620. Find a formula for the number of cedi to the dollar as a function of time since 1986. What was the annual inflation rate during the decade from 1986 to 1996? <m>~\alert{\text{[TK]}}</m></p></statement>
 
 <solution><p>We want to find a function <m>C(t) = ab^t</m> for the number of cedi to the dollar, where <m>t = 0</m> in 1986. We have two function values, <m>C(7) = 720</m>, and <m>C(10) = 1620</m>, and with these values we can write two equations.
     <md><mrow>ab^7 \amp = 720 </mrow>
@@ -93,7 +93,7 @@ Now we can solve this last equation for <m>b</m> to get <m>b = \sqrt[3]{2.25}\ap
     <md><mrow>a(1.31)^7 \amp = 720 </mrow>
         <mrow>a \amp = \frac{720}{1.317}</mrow>
         <mrow>\amp = 108.75</mrow></md>
-Thus, <m>C(t) = 108.75(1.31)^t</m>. Finally, recall that <m>b=1+r</m> to see that the annual inflation rate was 31%.</p></solution></example>
+Thus, <m>C(t) = 108.75(1.31)^t</m>. Finally, recall that <m>b=1+r</m> to see that the annual inflation rate was 31%.</p></solution></activity>
 
 <aside><p><m>\alert{\text{[TK]}}~~</m>For help interpreting function notation, see <xref ref="tkIntFncnNot" text="custom"> Section 7.5.1 </xref> of the Toolkit.</p></aside>
 
@@ -142,7 +142,7 @@ Thus, <m>C(t) = 108.75(1.31)^t</m>. Finally, recall that <m>b=1+r</m> to see tha
 
 <p>Instead of giving the rate of growth of a population, we often specify its rate of growth by giving the time it takes for the population to double. Let us see how those two descriptions are connected.</p>
 
-<example xml:id="example-doubling-time"><statement><p>In 2005, the population of Egypt was 74 million and was growing by 2% per year.<ol marker="a.">
+<activity xml:id="example-doubling-time"><statement><p>In 2005, the population of Egypt was 74 million and was growing by 2% per year.<ol marker="a.">
 		<li>If it continues to grow at the same rate, how long will it take the population of Egypt to double?</li>
 		<li>How long will it take the population to double again?</li>
 		<li>Illustrate the results on a graph.</li>
@@ -165,7 +165,7 @@ Thus, <m>C(t) = 108.75(1.31)^t</m>. Finally, recall that <m>b=1+r</m> to see tha
 	It will take the population about 35 years to double again.</p></li>
 	<li><p>A graph of <m>P(t) = 74(1.02)^t</m> is shown below. Note that the population doubles every 35 years.</p>
 		<image width="50%" source="images/fig-doubling-time"><description>graph showing doubling time</description></image></li>
-	</ol></p></solution></example>
+	</ol></p></solution></activity>
 
 <p>In the Example above, notice that the calculations in parts (a) and (b) are identical after the first step, and give the same result, 35 years. In fact, we can start at any time, and it will take the population 35 years to double. We say that 35 years is the <term>doubling time</term> for this population. Every increasing exponential function  <idx>exponential growth</idx>has a constant doubling time. And if a function has a constant doubling time, it must be exponential.</p>
 
@@ -246,7 +246,7 @@ In this form, the growth factor for the population is <m>2^{1/35}</m>, and you c
 
 <p>So, from knowing the doubling time, we can easily find the growth rate of a population.</p>
 
-<example ><statement><p>At its current rate of growth, the population of the United States will double in 115.87 years.</p>
+<activity ><statement><p>At its current rate of growth, the population of the United States will double in 115.87 years.</p>
 <p><ol marker="a.">
 		<li>Write a formula for the population of the United States as a function of time.</li>
 		<li>What is the annual percent growth rate of the population?</li>
@@ -256,7 +256,7 @@ In this form, the growth factor for the population is <m>2^{1/35}</m>, and you c
 	<li>The current population of the United States is not given, so we represent it by <m>P_0</m>. With <m>t</m> expressed in years, the formula is then
 		<me>P(t) = P_0 ~2^{t/115.87}</me></li>
 	<li>We write <m>2^{t/115.87}</m> in the form <m>\left(2^{1/115.87}\right)^t</m> to see that the growth factor is <m>b = 2^{1/115.87}</m>, or 1.006. For exponential growth, <m>b = 1 + r</m>, so <m>r = 0.006</m>, or 0.6%.</li>
-	</ol></p></solution></example>
+	</ol></p></solution></activity>
 
 <exercise component="webwork"><title>Practice 4</title>
     <webwork><pg-code>
@@ -280,7 +280,7 @@ In this form, the growth factor for the population is <m>2^{1/35}</m>, and you c
 
 <p>The <term>half-life</term><idx>half-life</idx> of a decreasing exponential function is the time it takes for the output to decrease to half its original value. For example, the half-life of a radioactive isotope is the time it takes for half of the substance to decay. The half-life of a drug is the time it takes for half of the drug to be eliminated from the body. Like the doubling time, the half-life is constant for a particular function; no matter where you start, it takes the same amount of time to reach half that value.</p>
 
-<example xml:id="example-half-life"><statement><p>If you take <m>200</m> mg of ibuprofen to relieve sore muscles, the amount of the drug left in your body after <m>t</m> hours is <m>Q(t) = 200(0.73)^t</m>.<ol marker="a.">
+<activity xml:id="example-half-life"><statement><p>If you take <m>200</m> mg of ibuprofen to relieve sore muscles, the amount of the drug left in your body after <m>t</m> hours is <m>Q(t) = 200(0.73)^t</m>.<ol marker="a.">
 		<li>What is the half-life of ibuprofen?</li>
 		<li>When will 50 mg of ibuprofen remain in your body?</li>
 		<li>Use the half-life to sketch a graph of <m>Q(t)</m>.</li>
@@ -313,7 +313,7 @@ In this form, the growth factor for the population is <m>2^{1/35}</m>, and you c
             <cell><m>25</m></cell>
             <cell><m>12.5</m></cell></row>
     </tabular></sidebyside></li>
-</ol></p></solution></example>
+</ol></p></solution></activity>
 
 <exercise component="webwork"><title>Practice 5</title>
     <webwork><pg-code>
@@ -382,7 +382,7 @@ Once again, you can check that this formula is equivalent to the decay function 
 
 <p>Radioactive isotopes are molecules that decay into more stable molecules, emitting radiation in the process. Although radiation in large doses is harmful to living things, radioactive isotopes are useful as tracers in medicine and industry, and as treatment against cancer. The decay laws for radioactive isotopes are often given in terms of their half-lives.</p>
 
-<example ><statement><p>Cobalt-60 is used in cold pasteurization to sterilize certain types of food. Gamma rays emitted by the isotope during radioactive decay kill any bacteria present without damaging the food. The half-life of cobalt-60 is 5.27 years.
+<activity ><statement><p>Cobalt-60 is used in cold pasteurization to sterilize certain types of food. Gamma rays emitted by the isotope during radioactive decay kill any bacteria present without damaging the food. The half-life of cobalt-60 is 5.27 years.
     <m>~\alert{\text{[TK]}}</m>
     <ol marker="a.">
 		<li>Write a decay law for cobalt-60.</li>
@@ -395,7 +395,7 @@ Once again, you can check that this formula is equivalent to the decay function 
 	<li>We rewrite the decay law in the form <m>Q(t) = Q_0 (1 - r )^t</m> as follows:
 		<me>Q(t) = Q_0 (0.5)^{t/5.27}=Q_0 \left((0.5)^{1/5.27}\right)^t = Q_0 (0.8768)^t</me>
 		Thus, <m>1 - r = 0.8768</m>, so <m>r = 0.1232</m>, or 12.32%.</li></ol></p>
-</solution></example>
+</solution></activity>
 
 <aside><p><m>\alert{\text{[TK]}}~~</m>For more examples of doubling time and half-life, see <xref ref="tkDblHalf" text="custom"> Section 7.5.3 </xref> of the Toolkit.</p></aside>
 
@@ -465,7 +465,7 @@ Once again, you can check that this formula is equivalent to the decay function 
     <me>A(t) = P\left(1 + \dfrac{r}{n}\right)^{nt}</me>
 where <m>P</m> is the principal invested, <m>r</m> is the interest rate, and <m>t</m> is the time period, in years.</p></assemblage>
 
-<example><statement><p>Nigel deposited $1000 in an account that pays 4% interest. Calculate the amount in his account after 5 years if the interest is compounded 
+<activity><statement><p>Nigel deposited $1000 in an account that pays 4% interest. Calculate the amount in his account after 5 years if the interest is compounded 
 <ol marker="a." cols="2">
     <li><p>quarterly</p></li>
     <li><p>monthly</p></li>
@@ -480,7 +480,7 @@ where <m>P</m> is the principal invested, <m>r</m> is the interest rate, and <m>
         <md><mrow>A(5) \amp = 1000 \left(1 + \dfrac{0.04}{2}\right)^{12(5)}</mrow>
             <mrow> \amp = 1000(1.0\overline{3})^{60} = 1221.00</mrow></md>
     If interest is compounded quarterly, the balance in the account after 5 years is $1221.</p></li>
-</ol></p></solution></example>
+</ol></p></solution></activity>
 
 <p>In Example 7.1.18 above, you can see that the larger the value of <m>n</m>, the greater the value of <m>A</m>. More frequent compounding periods result in a higher account balance.</p>
 

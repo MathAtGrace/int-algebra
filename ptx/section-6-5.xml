@@ -12,7 +12,7 @@ we square both sides to find
 		<mrow>x+3 \amp = 16</mrow></md>
 You can check that <m>x=13</m> is the solution for this equation.</p>
 
-<example><statement><p>Solve <m>~4\sqrt[3]{x-9} = 12</m></p></statement>
+<activity><statement><p>Solve <m>~4\sqrt[3]{x-9} = 12</m></p></statement>
     
 <solution><p>We first divide both sides of the equation by 4 to isolate the radical.
             <me>\sqrt[3]{x-9} = 3</me>
@@ -43,7 +43,7 @@ You can check that <m>x=13</m> is the solution for this equation.</p>
                 \node[text=red,fill=white, inner sep=2] at (42.3,16) {$y=4\sqrt[3]{x-9}$};
                 \end{tikzpicture}]]>
                 </latex-image></image></sidebyside>
-</solution></example>
+</solution></activity>
 
 <aside><p><m>\alert{\text{[TK]}}~~</m>For more examples of solving radical equations, see <xref ref="tkSimpRadEqn" text="custom"> Section 6.5.1 </xref> of the Toolkit.</p></aside>
 
@@ -105,7 +105,7 @@ You can check that <m>25</m> is <em>not</em> a solution to the original equation
 <exercise component="main"><title>QuickCheck 1</title>
 <statement><p>When we raise both sides of an equation to an <fillin characters="10"/> power, it is possible to introduce <fillin characters="10"/> solutions.</p></statement></exercise>
 
-<example xml:id="example-radical-equations"><statement><p>Solve the equation  <m>~\sqrt{x+2}+4 = x</m></p></statement>
+<activity xml:id="example-radical-equations"><statement><p>Solve the equation  <m>~\sqrt{x+2}+4 = x</m></p></statement>
 
 <solution><p>First, we isolate the radical expression on one side of the equation. (This will make it easier to square both sides.)
         <md><mrow>\sqrt{x+2}\amp = x-4\amp\amp\blert{\text{Square both sides of the equation.}}</mrow>
@@ -122,7 +122,7 @@ You can check that <m>25</m> is <em>not</em> a solution to the original equation
 <sidebyside  widths="55% 40%" valigns="middle middle" margins="0%"><p>
     <me>y_1=\sqrt{x+2} ~~~\text{ and }~~~ y_2=x-4</me>
 as shown at right. The graphs intersect in only one point, <m>(7, 3)</m>, so there is only one solution, <m>x=7</m>.</p>
-    <image source="images/fig-radical-equation"><description>graphs of both sides of radical equation</description></image></sidebyside></solution></example>
+    <image source="images/fig-radical-equation"><description>graphs of both sides of radical equation</description></image></sidebyside></solution></activity>
 
 <warning><p>When we square both sides of an equation, it is <em>not</em> correct to square each term of the equation separately. Thus, in <xref ref="example-radical-equations" text="type-global"/>, the original equation is <em>not</em> equivalent to
         <me>(\sqrt{x+2})^2+4^2=x^2 ~~~~~~~~\blert{\text{Incorrect!}}</me>
@@ -199,13 +199,13 @@ This is because <m>(a + b)^2 \ne a^2 + b^2</m>. Instead, we must square the <em>
 
 <p>	We can also solve formulas involving radicals for one variable in terms of the others.</p>
 
-<example><statement><p>Solve the formula  <m>~t=\sqrt{1+s^2}~</m> for <m>s</m>.</p></statement>
+<activity><statement><p>Solve the formula  <m>~t=\sqrt{1+s^2}~</m> for <m>s</m>.</p></statement>
     
 <solution><p>Because the variable we want is under a square root, we square both sides of the equation, to get
             <md><mrow> t^2 \amp = 1+s^2\amp\amp\blert{\text{Subtract 1 from both sides.}}</mrow>
                 <mrow>t^2-1 \amp = s^2 \amp\amp\blert{\text{Take square roots.} }</mrow>
                 <mrow>s \amp =\pm \sqrt{t^2-1}</mrow></md></p>
-    </solution></example>
+    </solution></activity>
 
 <exercise component="webwork"><title>Practice 3</title>
 <webwork>
@@ -229,7 +229,7 @@ This is because <m>(a + b)^2 \ne a^2 + b^2</m>. Instead, we must square the <em>
 
 <p>Sometimes we need to square both sides of an equation more than once in order to eliminate all the radicals.</p>
 
-<example xml:id="example-radical-equation-with-3-terms"><statement><p>Solve <m>~\sqrt{x-7}+\sqrt{x}=7 </m>.</p>
+<activity xml:id="example-radical-equation-with-3-terms"><statement><p>Solve <m>~\sqrt{x-7}+\sqrt{x}=7 </m>.</p>
 </statement>
 
 <solution><p>First, we isolate the more complicated radical on one side of the equation. (This will make it easier to square both sides.) We subtract <m>\sqrt{x} </m> from both sides to get
@@ -245,7 +245,7 @@ Finally, we square both sides again to obtain
             <mrow>16 \amp = x</mrow></md></p>
 <p><em>Check</em></p><sidebyside widths="40% 45%" margins="5% 10%"><p>
     Does <m>\sqrt{\alert{16}-7}+\sqrt{\alert{16}}=7</m>?</p><p> <m>\hphantom{blank}\blert{\text{Yes. The solution is } 16.}</m>
-    </p></sidebyside></solution></example>
+    </p></sidebyside></solution></activity>
 
 <aside><p><m>\alert{\text{[TK]}}~~</m>For more help on squaring binomials, see <xref ref="tkSqRadBin" text="custom"> Section 6.5.2 </xref> of the Toolkit.</p></aside>
 
@@ -323,9 +323,9 @@ In this case, <m>\sqrt{a^2}</m> does not equal <m>a</m>, because <m>a</m> is neg
 
 <aside><p><m>\alert{\text{[TK]}}~~</m>To review absolute value, see <xref ref="tkRadAbsVal" text="custom"> Section 6.5.3 </xref> of the Toolkit.</p></aside>
 
-<example><statement><p><ol marker="a." cols="2">
+<activity><statement><p><ol marker="a." cols="2">
 	<li><m>\sqrt{16x^2} = 4\abs{x}</m></li>
-	<li><m>\sqrt{(x-1)^2} = \abs{x-1}</m></li></ol></p></statement></example>
+	<li><m>\sqrt{(x-1)^2} = \abs{x-1}</m></li></ol></p></statement></activity>
 
 <exercise component="webwork"><title>Practice 5</title>
 <webwork><pg-code>

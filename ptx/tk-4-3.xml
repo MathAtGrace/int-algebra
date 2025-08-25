@@ -6,12 +6,12 @@
 
 <introduction><p>If a curve passes through a given point, the coordinates of the point satisfy the equation of the curve.</p></introduction>
 
-<example><statement><p>Write an equation to say that <m>(-3,8)</m> lies on the graph of<m>~y=ax^2+bx+c~</m>.</p></statement>
+<activity><statement><p>Write an equation to say that <m>(-3,8)</m> lies on the graph of<m>~y=ax^2+bx+c~</m>.</p></statement>
  
 <solution><p>Substitute <m>-3</m> for <m>x</m> and <m>8</m> for <m>y</m>. 
     <md><mrow>8 \amp = a(-3)^2+b(-3)+c \amp \amp \blert{\text{Simplify.}}</mrow>
         <mrow>8 \amp = 9a-3b+c</mrow></md>
-</p></solution></example>
+</p></solution></activity>
 
 <exercise><statement><p>Write an equation to say that <m>(-4,-18)</m> lies on the graph of<m>~y=ax^2+bx+c~</m>.</p> </statement>
     <answer><p><m>-16a-4b+c=-18</m></p></answer></exercise>
@@ -30,7 +30,7 @@
 
 <introduction><p>For fitting a parabola through given points, we'll solve systems using the method of elimination.</p></introduction>
 
-<example><statement><p>Solve the system by elimination.
+<activity><statement><p>Solve the system by elimination.
     <md><mrow>5x-2y \amp = 22</mrow>
         <mrow>2x-5y \amp = 13</mrow></md>
 </p></statement>
@@ -46,7 +46,7 @@ Solve for <m>y</m> to find <m>y=-1</m>. Finally, substitute <m>y=\alert{-1}</m> 
     <md><mrow>5x-2(\alert{-1}) \amp = 22</mrow>
         <mrow>5x+2 \amp = 22</mrow>
         <mrow> x \amp = 4</mrow></md>
-The solution to the system is <m>(4,-1)</m>. </p></solution></example>
+The solution to the system is <m>(4,-1)</m>. </p></solution></activity>
 
 <exercise><statement><p>Solve the system by elimination.
     <md><mrow>2x-9y \amp = 3</mrow>
@@ -65,7 +65,7 @@ The solution to the system is <m>(4,-1)</m>. </p></solution></example>
 
 <introduction><p>In this special case of solving a 3x3 system, we can eliminate <m>c</m> to create a 2x2 system.</p></introduction>
 
-<example><statement><p>Solve the system by elimination.
+<activity><statement><p>Solve the system by elimination.
     <md><mrow>a+b+c \amp = 3 \amp \amp \text{(1)}</mrow>
         <mrow>4a-2b+c \amp = 18 \amp \amp \text{(2)}</mrow>
         <mrow>9a+3b+c \amp = 13 \amp \amp \text{(3)}</mrow></md></p></statement>
@@ -81,7 +81,7 @@ We see that <m>a=2</m>. Substituting <m>a=2</m> into the equation <m>a-b=5</m>, 
     <md><mrow>2-3+c \amp = 3 </mrow>
         <mrow>c \amp = 4 </mrow></md>
 The solution is <m>a=2,~b=-3</m>, and <m>c=4</m>.</p>
-</solution></example>
+</solution></activity>
 
 <exercise><statement><p>Solve the system by elimination.
     <md><mrow>a+b+c \amp = 5</mrow>

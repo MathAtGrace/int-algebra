@@ -193,11 +193,11 @@ The variable <m>t</m> is called the <term>input</term> variable, and <m>C</m> is
     <li><p>The values of the input and output variables must be different</p></li>
 </ol></p></statement></exercise>
 
-<example  xml:id="example-functions"><p><ol marker="a.">
+<activity  xml:id="example-functions"><p><ol marker="a.">
     <li><p>The distance, <m>d</m>, traveled by a car in 2 hours is a function of its speed, <m>r</m>. If we know the speed of the car, we can determine the distance it travels by the formula <m>d = r \cdot 2</m>.</p></li>
     <li><p>The cost of a fill-up with unleaded gasoline is a function of the number of gallons purchased. The gas pump represents the function by displaying the corresponding values of the input variable (number of gallons) and the output variable (cost).</p></li>
     <li><p>Score on the Scholastic Aptitude Test (SAT) is not a function of score on an IQ test, because two people with the same score on an IQ test may score differently on the SAT; that is, a person’s score on the SAT is not uniquely determined by his or her score on an IQ test.</p></li>
-</ol></p></example>
+</ol></p></activity>
 
 <exercise component="webwork"><title>Practice 1</title>
 <webwork><pg-code>
@@ -254,7 +254,7 @@ The variable <m>t</m> is called the <term>input</term> variable, and <m>C</m> is
 <subsection><title>Functions Defined by Tables</title>
 <p>When we use a table to describe a function, the first variable in the table (the left column of a vertical table or the top row of a horizontal table) is the input variable, and the second variable is the output. We say that the output variable <em>is a function of</em> the input.</p>
 
-<example xml:id="example-table-functions"><statement><p><ol marker="a.">
+<activity xml:id="example-table-functions"><statement><p><ol marker="a.">
     <li><p>The table below shows data on sales compiled over several years by the accounting office for Eau Claire Auto Parts, a division of Major Motors. In this example, the year is the input variable, and total sales is the output. We say that total sales, <m>S</m>, <em>is a function of</em> <m>t</m>.</p>
         <tabular top="major" halign="center" right="minor" left="minor" bottom="minor">
         <row bottom="minor">
@@ -401,7 +401,7 @@ The variable <m>t</m> is called the <term>input</term> variable, and <m>C</m> is
     </tabular>
 
     <p>According to these data, cholesterol count is <em>not</em> a function of age, because several patients who are the same age have different cholesterol levels. For example, three different patients are 51 years old but have cholesterol counts of 227, 209, and 216, respectively. Thus, we cannot determine a <em>unique</em> value of the output variable (cholesterol count) from the value of the input variable (age). Other factors besides age must influence a person’s cholesterol count.</p></li>
-    </ol></p></statement></example>
+    </ol></p></statement></activity>
 
 <note xml:id="Note-function-from-table"><p>Note that several different inputs for a function can have the same output.  For example, the inputs 4.5 and 4.25 in part (b) of <xref ref="example-table-functions" text="type-global"/> above have output $1.56. However, a single input cannot have more than one output, as illustrated in part (c) of the <xref ref="example-table-functions" text="custom">Example</xref>.</p></note>
 
@@ -564,7 +564,7 @@ The variable <m>t</m> is called the <term>input</term> variable, and <m>C</m> is
 <subsection><title>Functions Defined by Graphs</title>
 <p>We can also use a graph to define a function. The input variable is displayed on the horizontal axis, and the output variable on the vertical axis.</p>    
 
-<example xml:id="example-sun-hours"><statement>
+<activity xml:id="example-sun-hours"><statement>
     <p>The graph  shows the number of hours, <m>H</m>, that the sun is above the horizon in Peoria, Illinois, on day <m>t</m>, where <m>t = 0</m> on January 1.</p>
     <sidebyside widths="50% 40%" valigns="middle middle" margins="0% 5%">        
         <p><ol marker="a.">
@@ -581,7 +581,7 @@ The variable <m>t</m> is called the <term>input</term> variable, and <m>C</m> is
     <li><p><m>H = 12</m> at the two points where <m>t \approx 85</m> (in late March) and <m>t \approx 270</m> (late September).</p></li>
     <li><p>The maximum value of 14.4 hours occurs on the longest day of the year, when <m>t \approx 170</m>, about three weeks into June. The minimum of 9.6 hours occurs on the shortest day, when <m>t \approx 355</m>, about three weeks into December.</p></li>
     </ol></p></solution>
-</example>
+</activity>
 
 <exercise component="webwork"><title>Practice 3</title>
 <introduction><p>The graph shows the elevation in feet, <m>a</m>, of the Los Angeles Marathon course at a distance <m>d</m> miles into the race. (Source: <em>Los Angeles Times</em>, March 3, 2005)</p>
@@ -670,9 +670,9 @@ The variable <m>t</m> is called the <term>input</term> variable, and <m>C</m> is
 <subsection><title>Functions Defined by Equations</title>
 <p><xref ref="example-falling-book" text="type-global"/> illustrates a function defined by an equation.</p>
 
-<example xml:id="example-falling-book">
+<activity xml:id="example-falling-book">
     <p>As of 2020,  One World Trade Center in New York City is the nation’s tallest building, at 1776 feet. If an algebra book is dropped from the top of One World Trade Center, its height above the ground after <m>t</m> seconds is given by the equation <me>h = 1776 - 16t^2</me> Thus, after <m>\alert{1}</m> second the book’s height is <me>h = 1776 - 16(\alert{1})^2 = 1760 \text{ feet}</me> After <m>\alert{2}</m> seconds its height is <me>h = 1776 - 16(\alert{2})^2 = 1712 \text{ feet}</me> For this function, <m>t</m> is the input variable and <m>h</m> is the output variable. For any value of <m>t</m>, a unique value of <m>h</m> can be determined from the equation for <m>h</m>. We say that <m>h</m> <em>is a function of</em> <m>t</m>.</p>
- </example>  
+ </activity>  
 
 <exercise component="webwork"><title>Practice 4</title>
     <webwork><pg-code>
@@ -737,7 +737,7 @@ to describe the function.</p>
 
 <note><p>Perhaps it seems complicated to introduce a new symbol for <m>h</m>, but the notation <m>f(t)</m> is very useful for showing the correspondence between specific values of the variables <m>h</m> and <m>t</m>.</p></note>   
 
-<example xml:id="example-falling-book-2">
+<activity xml:id="example-falling-book-2">
 <p>In <xref ref="example-falling-book" text="type-global"/>, the height of an algebra book dropped from the top of One World Trade Center is given by the equation
     <me>h = 1776 - 16t^2</me>
 We see that</p>
@@ -747,7 +747,7 @@ We see that</p>
     </md>
 <p>Using function notation, these relationships can be expressed more concisely as</p>
     <me>f(1)=1760 \quad\text{ and } \quad f(2)=1712</me>
-<p>which we read as "<m>f</m> of 1 equals 1760" and "<m>f</m> of 2 equals 1712." The values for the input variable, <m>t</m>, appear <em>inside</em> the parentheses, and the values for the output variable, <m>h</m>, appear on the other side of the equation.</p></example> 
+<p>which we read as "<m>f</m> of 1 equals 1760" and "<m>f</m> of 2 equals 1712." The values for the input variable, <m>t</m>, appear <em>inside</em> the parentheses, and the values for the output variable, <m>h</m>, appear on the other side of the equation.</p></activity> 
 
 <p>Remember that when we write <m>y = f(x)</m>, the symbol <m>f(x)</m> is just another name for the output variable. <m>~\alert{\text{[TK]}}</m></p>
 
@@ -876,7 +876,7 @@ We see that</p>
 
 <p>Finding the value of the output variable that corresponds to a particular value of the input variable is called <term>evaluating the function</term><idx>evaluating the function</idx>.</p>
 
-<example xml:id="example-postage2"><statement>
+<activity xml:id="example-postage2"><statement>
     <p>Let <m>g</m> be the name of the postage function defined by the table in <xref ref="example-table-functions" text="type-global"/> b. Find <m>g(1)</m>, <m>g(3)</m>, and <m>g(6.75</m>).</p></statement>
 <solution><p>According to the table,</p>
     <tabular>
@@ -899,7 +899,7 @@ We see that</p>
                 <cell> so </cell>
                 <cell><m>g(6.75)=2.04</m></cell></row>
      </tabular>
-     <p>Thus, a letter weighing 1 ounce costs $0.60 to mail, a letter weighing 3 ounces costs $1.08, and a letter weighing 6.75 ounces costs $1.04.</p></solution></example>
+     <p>Thus, a letter weighing 1 ounce costs $0.60 to mail, a letter weighing 3 ounces costs $1.08, and a letter weighing 6.75 ounces costs $1.04.</p></solution></activity>
 
 <p>We can also find the input (or inputs) corresponding to a given output. For example, if <m>p=g(w)</m> is the postage function, we solve the equation <m>g(w)=0.84</m> by finding all input values, <m>w</m>, that correspond to the output $0.84. According to the table in <xref ref="example-table-functions" text="type-global"/> part (b), any value of <m>w</m> greater than 1 but less than or equal to 2 is a solution.</p>
 
@@ -1020,7 +1020,7 @@ We see that</p>
 
 <p>To evaluate a function described by an equation, we simply substitute the given input value into the equation to find the corresponding output, or function value.</p>
 
-<example xml:id="example-evaluate-function"><statement>
+<activity xml:id="example-evaluate-function"><statement>
     <p>The function <m>H</m> is defined by <m>~H=f(s) = \dfrac{\sqrt{s+3}}{s}.~~</m> Evaluate the function at the following values.<ol marker = "a." cols="2">
         <li><p><m>s=6</m></p></li>
         <li><p><m>s=-1</m></p></li></ol></p>
@@ -1031,7 +1031,7 @@ We see that</p>
             \dfrac{\sqrt{9}}{6}=\dfrac{3}{6}=\dfrac{1}{2}</m>. Thus, <m>f(6)=\dfrac{1}{2}</m>.</p></li>
         <li><p><m>f(\alert{-1})=\dfrac{\sqrt{\alert{-1}+3}}{\alert{-1}}=
             \dfrac{\sqrt{2}}{-1}=-\sqrt{2}</m>. Thus, <m>f(-1)=-\sqrt{2}</m>.</p></li></ol></p>
-    </solution></example>
+    </solution></activity>
 
 <exercise component="webwork" xml:id="exercise-function-notationw"><title>Practice 7</title>
     <webwork><pg-code>

@@ -98,7 +98,7 @@ where <m>a,~b,~</m> and <m>c</m> are constants, and <m>a</m> is not zero.</p></d
 <warning><p>Be careful when squaring negative numbers. To evaluate the square of a negative number on a calculator, we must enclose the number in parentheses to show that the negative sign is included in the expression to be squared.  For example,
     <me>(-3)^2=(-3)(-3)=9,~~~~\text{but}~~~~-3^2=-3 \cdot 3=-9</me></p></warning>
 
-<example><statement><p>Graph the parabola <m>~y=x^2-4</m></p></statement>
+<activity><statement><p>Graph the parabola <m>~y=x^2-4</m></p></statement>
     
 <solution><p>We make a table of values and plot the points.  <m>~\alert{\text{[TK]}}</m> The graph is shown below.</p>
         <sidebyside widths="50% 30%" margins="0% 10%" valigns="middle middle">
@@ -137,7 +137,7 @@ where <m>a,~b,~</m> and <m>c</m> are constants, and <m>a</m> is not zero.</p></d
             \draw[samples=65,domain={-sqrt(10):sqrt(10)},smooth,variable=\x,red,very thick, <->, >=stealth'] plot (\x,{(\x)^2-4});
             \end{tikzpicture}]]>
             </latex-image></image></sidebyside>
-</solution></example>
+</solution></activity>
 
 <aside><p><m>\alert{\text{[TK]}}~~</m>To review evaluating quadratic expressions, see <xref ref="tkQuadExp" text="custom"> Section 3.1.1 </xref> of the Toolkit.</p></aside>
 
@@ -269,7 +269,7 @@ First, we can solve it graphically. Look again at the graph of <m>~y=x^2-4~</m> 
 
 <note><p>Notice that we have found two solutions for this quadratic equation, whereas linear equations have at most one solution. (Sometimes they have no solution at all.) We shall see that every quadratic equation has two solutions, which may be equal. The solutions may also be complex numbers, <idx>complex number</idx> which we'll study in Chapter 4.</p></note>
 
-<example><statement><p>Solve the equation
+<activity><statement><p>Solve the equation
         <me>\frac{1}{2}x^2-7=8</me>
 graphically and algebraically.</p></statement> 
     
@@ -304,7 +304,7 @@ graphically and algebraically.</p></statement>
                 <mrow> x \amp = \pm \sqrt{30} \amp \amp \blert{\text{Remember that every positive number}}</mrow>
                 <mrow>  \amp   \amp \amp \blert{\text{has two square roots.}}</mrow></md></p></li>
         <li><p>We use a calculator to find that <m>\sqrt{30}</m> is approximately 5.477, or about 5.5, as we saw on the graph.</p></li>
-</ul></p></solution></example>
+</ul></p></solution></activity>
 
 <warning><p>Many square roots are <term>irrational numbers</term>, which means that their decimal form never ends. When we round off the decimal form we have an approximation to the square root, but not its exact value. It is important to make a distinction betweeen exact values and decimal approximations.<ul> 
     <li>For the example above, the exact solutions are <m>\pm \sqrt{30}</m>.</li> 
@@ -380,7 +380,7 @@ graphically and algebraically.</p></statement>
 
 <p>In the next Example, we compare the steps for <em>evaluating a quadratic expression</em> and for <em>solving a quadratic equation</em>.</p>
 
-<example><statement><p>Tux the cat falls off a tree branch 20 feet above the ground. His height <m>t</m> seconds later is given by <m>h=20-16t^2</m>.<ol marker="a.">   
+<activity><statement><p>Tux the cat falls off a tree branch 20 feet above the ground. His height <m>t</m> seconds later is given by <m>h=20-16t^2</m>.<ol marker="a.">   
     <li>How high is Tux above the ground 0.5 second later?</li>
     <li>How long does Tux have to get in position to land on his feet before he reaches the ground?</li>
 </ol></p></statement>
@@ -405,7 +405,7 @@ Only the positive solution makes sense here, so Tux has approximately 1.12 secon
 <p>A graph of the Tux's height after <m>t</m> seconds is shown below. The points corresponding to parts (a) and (b) are labeled.
 </p>
         <image width="30%" source="images/fig-cat-falling"><description>graph </description></image>
-    </solution></example>
+    </solution></activity>
 </subsection>
 
 <subsection><title>Geometric Formulas</title>
@@ -417,13 +417,13 @@ Only the positive solution makes sense here, so Tux has approximately 1.12 secon
     <image width="90%" source="images/fig-volume-and-surface-area"><description>3D Objects</description></image>
 </assemblage>
 
-<example><statement><p>The volume of a can of soup is 582 cubic centimeters, and its height is 10.5 centimeters.  What is the radius of the can, to the nearest tenth of a centimeter?  <m>~\alert{\text{[TK]}}</m></p></statement>
+<activity><statement><p>The volume of a can of soup is 582 cubic centimeters, and its height is 10.5 centimeters.  What is the radius of the can, to the nearest tenth of a centimeter?  <m>~\alert{\text{[TK]}}</m></p></statement>
     
 <solution><p>The volume of a cylinder is given by the formula  <m>V=\pi r^2h</m>. We substitute <m>\alert{582}</m> for <m>V</m> and <m>\alert{10.5}</m> for <m>h</m>, then solve for <m>r</m>.
     <md><mrow>\alert{582} \amp = \pi r^2(\alert{10.5})  \amp \amp \blert{\text{Divide both sides by}~ 10.5 \pi.}</mrow>
         <mrow>17.643 \amp \approx r^2 \amp \amp \blert{\text{Take square roots.}}</mrow>
         <mrow>4.200 \amp \approx r</mrow></md>
- The radius of the can is approximately 4.2 centimeters.</p></solution></example>
+ The radius of the can is approximately 4.2 centimeters.</p></solution></activity>
 
  <aside><p><m>\alert{\text{[TK]}}~~</m>For more examples using geometric formulas, see <xref ref="tkGeomForm" text="custom"> Section 3.1.3 </xref> of the Toolkit.</p></aside>
 
@@ -451,13 +451,13 @@ Only the positive solution makes sense here, so Tux has approximately 1.12 secon
 
 <p>Sometimes it is useful to solve a formula for one variable in terms of the others. You might want to know what radius you need to build cones of various fixed volumes. In that case, it is more efficient to solve the volume formula for <m>r</m> in terms of <m>v</m>.</p>
 
-<example><statement><p>The formula <m>~V=\dfrac{1}{3}\pi r^2h~</m> gives the volume of a cone in terms of its height and radius.  Solve the formula for <m>r</m> in terms of <m>V</m> and <m>h</m>.</p></statement>
+<activity><statement><p>The formula <m>~V=\dfrac{1}{3}\pi r^2h~</m> gives the volume of a cone in terms of its height and radius.  Solve the formula for <m>r</m> in terms of <m>V</m> and <m>h</m>.</p></statement>
     
 <solution><p>Because the variable we want is squared, we use extraction of roots. First, we multiply both sides by 3 to clear the fraction.
         <md><mrow>3V \amp = \pi r^2h  \amp \amp \blert{\text{Divide both sides by } \pi h.}</mrow>
             <mrow>\frac{3V}{\pi h} \amp = r^2  \amp \amp \blert{\text{Take square roots.}}</mrow>
             <mrow>\pm \sqrt{\frac{3V}{\pi h}} \amp = r</mrow></md>
-Because the radius of a cone must be a positive number, we use only the positive square root: <m> \quad r = \sqrt{\dfrac{3V}{\pi h}}</m>.</p></solution></example>
+Because the radius of a cone must be a positive number, we use only the positive square root: <m> \quad r = \sqrt{\dfrac{3V}{\pi h}}</m>.</p></solution></activity>
 
 <exercise component="webwork"><title>Practice 4</title>
     <webwork><pg-code>
@@ -538,7 +538,7 @@ Because the radius of a cone must be a positive number, we use only the positive
     <me>a(x-p)^2=q</me>
 We start by isolating the squared expression, <m>~(x-p)^2</m>.</p>
 
-<example xml:id="Example-extract-roots"><statement><p>Solve the equation <m>~3(x-2)^2=48</m>.</p></statement>
+<activity xml:id="Example-extract-roots"><statement><p>Solve the equation <m>~3(x-2)^2=48</m>.</p></statement>
 
 <solution><p>First, we isolate the perfect square, <m>~(x-2)^2</m>.
     <md><mrow>3(x-2)^2 \amp = 48  \amp \amp \blert{\text{Divide both sides by 3.}}</mrow>
@@ -548,7 +548,7 @@ This gives us two equations for <m>x</m>,
     <md><mrow>x-2 \amp = 4~~~~\text{or}~~~~x-2=-4 \amp \amp \blert{\text{Solve each equation.}}</mrow>
         <mrow> x \amp = 6~~~~\text{or}~~~~x=-2</mrow></md>
 The solutions are <m>6</m> and <m>-2</m>. You can check that both of these solutions satisfy the original equation.</p>
-</solution></example>
+</solution></activity>
 
 <exercise component="webwork"><title>Practice 5</title>
     <webwork><pg-code>
@@ -633,7 +633,7 @@ where <m>P</m> is the original principal and <m>r</m> is the interest rate, expr
 
 <aside><p><m>\alert{\text{[TK]}}~~</m> We'll see more about compound interest in Section 7.1.</p></aside>
  
-<example><statement><p>Carmella invests $3000 in an account that pays an interest rate <m>r</m> compounded annually.<ol marker="a.">
+<activity><statement><p>Carmella invests $3000 in an account that pays an interest rate <m>r</m> compounded annually.<ol marker="a.">
     <li>Write an expression for the amount of money in Carmella's account after two years.</li>
     <li>What interest rate would be necessary for Carmella's account to grow to $3500 in two years?</li></ol></p>
 </statement>
@@ -649,7 +649,7 @@ where <m>P</m> is the original principal and <m>r</m> is the interest rate, expr
             <mrow> \pm 1.0801 \amp \approx 1+r  \amp \amp \blert{\text{Subtract 1 from both sides.}}</mrow>
             <mrow>r \approx 0.0801 \amp \text{or}~~~~r \approx -2.0801</mrow></md>
     Because the interest rate must be a positive number, we discard the negative solution. Carmella needs an account with interest rate <m>r \approx 0.0801</m>, or over 8%, in order to have an account balance of $3500 in two years.</p></li>
-</ol></p></solution></example>  
+</ol></p></solution></activity>  
 
 <p>The formula for compound interest also applies to calculating the effects of inflation. For instance, if there is a steady inflation rate of 4% per year, then in two years the price of an item that costs $100 now will be
         <md><mrow>A \amp = P(1+r)^2</mrow>

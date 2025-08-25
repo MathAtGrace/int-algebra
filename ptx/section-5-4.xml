@@ -118,14 +118,14 @@ which we recognize as the equation of a line through the origin.</p>
 where <m>k</m> is a positive constant called the <term>constant of variation</term><idx>constant of variation</idx><idx><h>direct variation</h><h>constant of variation</h></idx>.
 </p></assemblage>
 
-<example xml:id="example-circumference-and-simple-interest">
+<activity xml:id="example-circumference-and-simple-interest">
 <statement><p><ol marker="a.">
     <li><p>The circumference, <m>C</m>, of a circle varies directly with its radius, <m>r</m>, because 
         <me>C = 2\pi r </me>
     The constant of variation is <m>2\pi</m>, or about 6.28.</p></li>
     <li><p>The amount of interest, <m>I</m>, earned in one year on an account paying 7% simple interest, varies directly with the principal, <m>P</m>, invested, because 
         <me>I = 0.07P</me></p></li>
-</ol></p></statement></example>
+</ol></p></statement></activity>
 
 <p>In the opening example, we saw that the price of gasoline, <m>P</m>, is a linear function of the number of gallons purchased. From the definition above, we see that any direct variation defines a linear function of the form
     <me>y = f(x) = kx</me>
@@ -254,7 +254,7 @@ Compareing this equation to the standard form for a linear function, <m>y = b + 
 </statement>
 <solution><p>$56; $89.60; 1.6 </p></solution></exercise>
 
-<example xml:id="example-two-linear-functions"><statement><p>
+<activity xml:id="example-two-linear-functions"><statement><p>
 <ol marker="a.">
     <li>Tuition at Woodrow University is $400 plus $30 per unit. Is the tuition proportional to the number of units you take?</li>
     <li>Imogen makes a 15% commission on her sales of environmentally friendly products marketed by her co-op. Do her earnings vary directly with her sales?</li>
@@ -272,7 +272,7 @@ Compareing this equation to the standard form for a linear function, <m>y = b + 
     <li><p>Let <m>S</m> represent Imogen’s sales, and let <m>C(S)</m> represent her commission. Then 
         <me>C(S) = 0.15S</me>
     Thus, <m>C(S)</m> is a linear function of <m>S</m> with a <m>C</m>-intercept of zero, so Imogen's earnings do vary directly with her sales. </p></li>
-</ol></p></solution></example>
+</ol></p></solution></activity>
 
 <exercise component="webwork"><title>Practice 2</title>
     <webwork>
@@ -376,7 +376,7 @@ Compareing this equation to the standard form for a linear function, <m>y = b + 
 
 <p>If we know any one pair of values for the variables in a direct variation, we can find the constant of variation. Then we can use the constant to write a formula for one of the variables as a function of the other.</p>
 
-<example xml:id="example-falling-into-grand-canyon"><statement><p>If you kick a rock off the rim of the Grand Canyon, its speed, <m>v</m>, varies directly with the time, <m>t</m>, it has been falling. The rock is falling at a speed of 39.2 meters per second when it passes a lizard on a ledge 4 seconds later.
+<activity xml:id="example-falling-into-grand-canyon"><statement><p>If you kick a rock off the rim of the Grand Canyon, its speed, <m>v</m>, varies directly with the time, <m>t</m>, it has been falling. The rock is falling at a speed of 39.2 meters per second when it passes a lizard on a ledge 4 seconds later.
 <ol marker="a.">
     <li>Express <m>v</m> as a function of <m>t</m>.</li>
     <li>What is the speed of the rock after it has fallen for 6 seconds?</li>
@@ -395,7 +395,7 @@ Compareing this equation to the standard form for a linear function, <m>y = b + 
     At <m>t = 6</m> seconds, the rock is falling at a speed of 58.8 meters per second.</p></li>
         <li><p>You can use your calculator to graph the function <m>v = 9.8t</m>. The graph is shown below.</p>
         <image width="40%" source="images/fig-GC-falling-into-grand-canyon"><description>GC graph</description></image></li>
-    </ol></p></solution></example>
+    </ol></p></solution></activity>
 
 <exercise component="webwork"><title>Practice 3</title>
     <webwork><pg-code>
@@ -480,7 +480,7 @@ Compareing this equation to the standard form for a linear function, <m>y = b + 
 where <m>k</m> and <m>n</m> are positive constants.</p>
 </assemblage>
 
-<example xml:id="example-sphere-surface-area"><statement><p>The surface area of a sphere varies directly with the <em>square</em> of its radius. A balloon of radius 5 centimeters has surface area <m>100\pi</m> square centimeters, or about 314 square centimeters. 
+<activity xml:id="example-sphere-surface-area"><statement><p>The surface area of a sphere varies directly with the <em>square</em> of its radius. A balloon of radius 5 centimeters has surface area <m>100\pi</m> square centimeters, or about 314 square centimeters. 
 <ol marker="a.">
     <li><p>Find a formula <m>S=f(r)</m> for the surface area of a sphere as a function of its radius <m>~\alert{\text{[TK]}}</m>.</p></li>
     <li><p>What is the radius of a sphere whose surface area is <m>200\pi</m> square centimeters,or about 628 square centimeters?</p></li>
@@ -501,7 +501,7 @@ where <m>k</m> and <m>n</m> are positive constants.</p>
     The radius is <m>\sqrt{50}</m> centimeters, or about 7.1 centimeters.</p></li>
     <li><p>The graph has the shape of the basic function <m>y=x^2</m>, so all we need are a few points to "anchor" the graph. We know that <m>f(5)=314</m>, and <m>f(1)= 4\pi \cdot 1^2</m> or about <m>12.6</m>. A graph is shown below.</p>
         <p>(Need graph here)</p></li>
-</ol></p></solution></example>
+</ol></p></solution></activity>
 
 <aside><p><m>\alert{\text{[TK]}}~~</m>For more examples of direct variation, see <xref ref="tkConVar" text="custom"> Section 5.4.1 </xref> , <xref ref="tkVarGraph" text="custom"> Section 5.4.2 </xref>, and <xref ref="tkVarEqn" text="custom"> Section 5.4.3 </xref>  of the Toolkit.</p></aside>
 
@@ -596,7 +596,7 @@ where <m>k</m> and <m>n</m> are positive constants.</p>
 <assemblage><title>Test for Direct Variation</title><idx><h>direct variation</h><h>test for</h></idx><idx>test for direct variation</idx>
     <p>If the ratio <m>~\dfrac{y}{x^n}~</m> is constant, then <m>y</m> varies directly with <m>x^n</m>.</p></assemblage>
 
-<example xml:id="example-test-variation-with-square"><statement><p>Delbert collects the following data and would like to know if <m>y</m> varies directly with the square of <m>x</m>. What should he calculate?</p>
+<activity xml:id="example-test-variation-with-square"><statement><p>Delbert collects the following data and would like to know if <m>y</m> varies directly with the square of <m>x</m>. What should he calculate?</p>
     <tabular top="major" halign="center" right="minor" left="minor" bottom="minor">
         <row bottom="minor">
             <cell><m>x</m></cell>
@@ -638,7 +638,7 @@ where <m>k</m> and <m>n</m> are positive constants.</p>
             <cell><m>0.53</m></cell></row>
     </tabular>
 <p>Because the ratio <m>\dfrac{y}{x^2}</m> is not constant, <m>y</m> does not vary directly with <m>x^2</m>.</p>
-</solution></example>
+</solution></activity>
 
 <exercise component="webwork"><title>Practice 5</title>
     <webwork><pg-code>
@@ -703,14 +703,14 @@ where <m>k</m> and <m>n</m> are positive constants.</p>
 
 <p>You probably know that the answer to both of these questions is <em>No</em>. The area of a circle is proportional to the <em>square</em> of its radius, and the volume (and hence the weight) of an object is proportional to the <em>cube</em> of its linear dimension. Variation with a power of <m>x</m> produces a different scaling effect.</p>
 
-<example xml:id="example-scaling-weight"><statement><p>The Taipei 101 building is 1671 feet tall, and in 2006 it was the tallest skyscraper in the world. Show that doubling the dimensions of a model of the Taipei 101 building produces a model that weighs 8 times as much.</p></statement>
+<activity xml:id="example-scaling-weight"><statement><p>The Taipei 101 building is 1671 feet tall, and in 2006 it was the tallest skyscraper in the world. Show that doubling the dimensions of a model of the Taipei 101 building produces a model that weighs 8 times as much.</p></statement>
 
 <solution><p>The Taipei 101 skyscraper is approximately box shaped, so its volume is given by the product of its linear dimensions, <m>V = lwh</m>. The weight of an object is proportional to its volume, so the weight, <m>W</m>, of the model is
     <me>W = klwh</me>
 where the constant <m>k</m> depends on the material of the model. If we double the length, width, and height of the model, then
     <md><mrow> W_\text{new} \amp = k(2l)(2w)(2h)</mrow>
         <mrow> \amp = 2^3(klwh) = 8W_\text{old}</mrow></md>
-The weight of the new model is <m>2^3 = 8</m> times the weight of the original model.</p></solution></example>
+The weight of the new model is <m>2^3 = 8</m> times the weight of the original model.</p></solution></activity>
 
 <exercise component="webwork"><title>Practice 6</title>
     <webwork><pg-code>

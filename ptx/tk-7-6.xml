@@ -8,7 +8,7 @@
 
 <subsubsubsection><title>Example</title>
 
-<example><statement><p><ol marker="a.">
+<activity><statement><p><ol marker="a.">
     <li><p> Complete the table.  Round the values to one decimal place.
         <sidebyside><tabular top="major" halign="center" right="minor" left="minor" bottom="minor">              
                     <row bottom="minor">
@@ -49,7 +49,7 @@
                     </tabular></sidebyside></p></li>
     <li><sidebyside width="75%"><image source="images/fig-5-4-1.png"><description>log scale</description></image></sidebyside></li>
     <li> Each time we multiply <m>x</m> by 5, the log of <m>x</m> increases by 0.7, because <m>\log 5 = 0.7</m>. This is an application of the log properties: 
-        <me>\log 5x = \log x + \log 5 = \log x + 0.7</me></li></ol></p></solution></example>
+        <me>\log 5x = \log x + \log 5 = \log x + 0.7</me></li></ol></p></solution></activity>
 </subsubsubsection>
 
 <subsubsubsection><title>Exercises</title>
@@ -155,15 +155,15 @@
 
 <subsubsubsection><title>Examples</title>
 
-<example><statement><p>If <m>\log_b 10 = 2.303</m> and <m>\log_b 2 = 0.693</m>, what is <m>\log_b 5</m>?</p></statement>
+<activity><statement><p>If <m>\log_b 10 = 2.303</m> and <m>\log_b 2 = 0.693</m>, what is <m>\log_b 5</m>?</p></statement>
 
 <solution><p>Because <m>5 = \dfrac{10}{2}</m>,
-    <me>\log_b 5 = \log_b \left(\dfrac{10}{2}\right) = \log_b 10 - \log_b 2 = 2.303 - 0.693 = 1.61</me></p></solution></example>
+    <me>\log_b 5 = \log_b \left(\dfrac{10}{2}\right) = \log_b 10 - \log_b 2 = 2.303 - 0.693 = 1.61</me></p></solution></activity>
 
-<example><statement><p>If <m>\log_b 10 = 2.303</m> and <m>\log_b 2 = 0.693</m>, what is <m>\log_b 20</m>?</p></statement>
+<activity><statement><p>If <m>\log_b 10 = 2.303</m> and <m>\log_b 2 = 0.693</m>, what is <m>\log_b 20</m>?</p></statement>
 
 <solution><p>Because <m>20 = 10 \cdot 2</m>,
-    <me>\log_b 20 = \log_b (10 \cdot 2) = \log_b 10 + \log_b 2 = 2.303 + 0.693 = 2.996</me></p></solution></example>
+    <me>\log_b 20 = \log_b (10 \cdot 2) = \log_b 10 + \log_b 2 = 2.303 + 0.693 = 2.996</me></p></solution></activity>
 </subsubsubsection>
 
 <subsubsubsection><title>Exercises</title>
@@ -207,11 +207,11 @@
 
 <subsubsubsection><title>Example</title>
 
-<example><statement><p>When we say that "<m>A</m> is 3 times larger than <m>B</m>," we mean that <m>A=3B</m>.</p>
-</statement></example>
+<activity><statement><p>When we say that "<m>A</m> is 3 times larger than <m>B</m>," we mean that <m>A=3B</m>.</p>
+</statement></activity>
 
-<example><statement><p>When we say that "<m>A</m> is 3 more than <m>B</m>," we mean that <m>A=B+3</m>.</p>
-</statement></example>
+<activity><statement><p>When we say that "<m>A</m> is 3 more than <m>B</m>," we mean that <m>A=B+3</m>.</p>
+</statement></activity>
 </subsubsubsection>
 
 <subsubsubsection><title>Exercises</title>

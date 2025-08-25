@@ -6,19 +6,19 @@
 
 ><p>Slope is a type of ratio that compares vertical distance per unit of horizontal distance. We use ratios for comparison in other situations, for example, when shopping we might compute price per unit.</p>
 
-<example><statement><p>You are choosing between two brands of iced tea.  Which is a better bargain: a 28-ounce bottle of Teatime for $1.82, or a 36-ounce bottle of Leafdream for $2.25?</p></statement>
+<activity><statement><p>You are choosing between two brands of iced tea.  Which is a better bargain: a 28-ounce bottle of Teatime for $1.82, or a 36-ounce bottle of Leafdream for $2.25?</p></statement>
  
 <solution><p>Compute the ratio price per ounce for each brand.
     <me>\text{Teatime:}~~~\dfrac{182 \text{ cents}}{28 \text{ ounces}}= 6.5 \text{ cents per ounce}</me>
     <me>\text{Leafdream:}~~~\dfrac{225 \text{ cents}}{36 \text{ ounces}}= 6.25 \text{ cents per ounce}</me>
-Leafdream is the better bargain.</p></solution></example>
+Leafdream is the better bargain.</p></solution></activity>
 
-<example><statement><p>The trail to Lookout Point gains 780 feet in elevation over a distance of 1.3 miles. The trail to Knife Edge gains 950 feet in elevation over a distance of 1.6 miles.  Which trail is steeper?</p></statement>
+<activity><statement><p>The trail to Lookout Point gains 780 feet in elevation over a distance of 1.3 miles. The trail to Knife Edge gains 950 feet in elevation over a distance of 1.6 miles.  Which trail is steeper?</p></statement>
 
 <solution><p>Compute the ratio of elevation gain to horizontal distance traveled for each trail.
     <me>\text{Lookout Point:}~~~\dfrac{780 \text{ feet}}{1.3 \text{ miles}}= 600 \text{ feet per mile}</me>
     <me>\text{Knife Edge:}~~~\dfrac{950 \text{ feet}}{1.6 \text{ miles}}= 593.75 \text{ feet per mile}</me>
-The Lookout Point trail is steeper.</p></solution></example>
+The Lookout Point trail is steeper.</p></solution></activity>
 
 <exercise><statement><p>Rachel drove 292.4 miles on 8.6 gallons of gasoline. Reuben drove 390 miles on 12 gallons of gasoline.  Who got the better gas mileage?</p>
 <p>Hint:  Compute the ratio miles per gallon.</p></statement>
@@ -33,7 +33,7 @@ The Lookout Point trail is steeper.</p></solution></example>
 
 <p>We often think of slope as measuring the "steepness" of a graph, but the appearance of steepness is also affected by the scales on the axes.</p>
 
-<example><statement><p>Calculate the slope of the line.</p>
+<activity><statement><p>Calculate the slope of the line.</p>
     <image width="35%" xml:id="fig-calculate-slope-grid"><description>line on grid</description><latex-image>
         <!-- CDATA prevents certain LaTeX code from being interpreted as xml -->
         <![CDATA[\tikzset{%
@@ -77,9 +77,9 @@ The Lookout Point trail is steeper.</p></solution></example>
         \end{tikzpicture}]]>
         </latex-image></image>
 <p>The slope is the ratio <m>\dfrac{\Delta h}{\Delta t}</m>. The variable on the horizontal axis increases by 4 units, from 2 to 6, so <m>\Delta t=4</m>. The variable on the vertical axis increases by 8 grid lines, but each grid line represents 2 units, so <m>\Delta h=16</m>. Thus, the slope is <m>\dfrac{\Delta h}{\Delta t} = \dfrac{16}{4}=4</m>.
-</p></solution></example>
+</p></solution></activity>
 
-<example><statement><p>Calculate the slope of the line.</p>
+<activity><statement><p>Calculate the slope of the line.</p>
     <image width="35%" xml:id="fig-calculate-slope2-grid"><description>line on grid</description><latex-image>
         <!-- CDATA prevents certain LaTeX code from being interpreted as xml -->
         <![CDATA[\tikzset{%
@@ -118,7 +118,7 @@ The Lookout Point trail is steeper.</p></solution></example>
         \filldraw[red] (8,6) circle (.2);
         \end{tikzpicture}]]>
         </latex-image></image>
-<p>The slope is the ratio <m>\dfrac{\Delta V}{\Delta t}</m>. The horizontal variable, <m>t</m>, increases by 6 grid lines, but each grid line represents 2 units, so <m>\Delta t=12</m>. The vertical variable, <m>V</m>, decreases by 3 grid lines, or 6 units, so <m>\Delta V=-6</m>. Thus, <m>\dfrac{\Delta V}{\Delta t} = \dfrac{-6}{12}=\dfrac{-1}{2}</m>.</p></solution></example>
+<p>The slope is the ratio <m>\dfrac{\Delta V}{\Delta t}</m>. The horizontal variable, <m>t</m>, increases by 6 grid lines, but each grid line represents 2 units, so <m>\Delta t=12</m>. The vertical variable, <m>V</m>, decreases by 3 grid lines, or 6 units, so <m>\Delta V=-6</m>. Thus, <m>\dfrac{\Delta V}{\Delta t} = \dfrac{-6}{12}=\dfrac{-1}{2}</m>.</p></solution></activity>
 
 <exercise><statement><p>Calculate the slope of the line.</p>
     <p>Hint: Find two points that lie on the intersubsection of grid lines, so that it's easy to read their coordinates.  For example, you could use <m>(2, 300)</m> and <m>(8, 600)</m>.</p>
@@ -165,7 +165,7 @@ The Lookout Point trail is steeper.</p></solution></example>
 
 <subsubsection xml:id="tkInterpSlope"><title>Interpret the slope</title>
 
-<example><statement><p>Audrey can drive 150 miles on 6 gallons of gas, and 225 miles on 9 gallons of gas.</p>
+<activity><statement><p>Audrey can drive 150 miles on 6 gallons of gas, and 225 miles on 9 gallons of gas.</p>
 <!--<image source="photos/hp-3-3-17.png"><description>graph</description></image>-->
     <image width="35%" xml:id="hp-3-3-17"><description>graph</description><latex-image>
         <!-- CDATA prevents certain LaTeX code from being interpreted as xml -->
@@ -194,7 +194,7 @@ The Lookout Point trail is steeper.</p></solution></example>
 <solution><p><ol marker="a.">
     <li><p><m>\dfrac{\Delta d}{\Delta g} = \dfrac{225-150}{9-6} = \dfrac{25\text{ miles}}{1\text{ gallon}} </m></p></li>
     <li><p>The car gets 25 miles per gallon in gas mileage</p></li>
-</ol></p></solution></example>
+</ol></p></solution></activity>
 
 <exercise ><statement><p>The sales tax on a $15 purchase is 60 cents, and 80 cents on a $20 purchase.</p>
 <!--<image source="photos/hp-3-3-18.png"><description>segment</description></image>-->
@@ -293,13 +293,13 @@ The Lookout Point trail is steeper.</p></solution></example>
     <p><md><mrow>V \amp = lwh </mrow>
            <mrow>\amp = (6)(4)(3) = 72~ \text{cubic centimeters}</mrow></md></p></sidebyside>
 
-<example><statement><p>An aquarium is 24 inches long and 10 inches wide. What is the area of its base? How much water is needed to fill it to a depth of 5 inches?</p></statement>
+<activity><statement><p>An aquarium is 24 inches long and 10 inches wide. What is the area of its base? How much water is needed to fill it to a depth of 5 inches?</p></statement>
 
 <solution><p>The area of the base is
     <me>A=lw=(24~ \text{in})(10~ \text{in})=240~ \text{in}^2</me>
 To calculate the volume of water, we can multiply the area of the base, <m>lw</m>, by the height of the water, <m>h</m>. 
     <me>V=(lw)h=Ah=(240~ \text{in}^2)(5~ \text{in})=1200~ \text{in}^3</me></p>
-</solution></example>
+</solution></activity>
 </subsubsection>-->
 
 </subsection>

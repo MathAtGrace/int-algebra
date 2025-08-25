@@ -6,7 +6,7 @@
 
 <introduction><p>To graph a line by the intercept method, we find the <m>x</m>- and <m>y</m>-intercepts of the line and plot those points.</p>
 
-<example><statement><p>Graph the equation <m>3x+2y=7</m> by the intercept method.
+<activity><statement><p>Graph the equation <m>3x+2y=7</m> by the intercept method.
 </p></statement>
 
 <solution><p>First, we find the <m>x</m>- and <m>y</m>-intercepts of the graph. To find the <m>y</m>-intercept, we substitute <m>0</m> for <m>x</m> and solve for <m>y</m>:
@@ -42,7 +42,7 @@ The <m>x</m>-intercept is the point <m>\left(2\dfrac{1}{3}, 0\right)</m>.</p>
         }
         \draw[magenta!90!black,very thick, <->,>=stealth'] (-5/3,6)--(5,-4);
         \end{tikzpicture}]]>
-        </latex-image></image></sidebyside></solution></example>
+        </latex-image></image></sidebyside></solution></activity>
 </introduction> 
 
 <exercise><statement><p>Graph the line <m>y=\dfrac{-4}{3}x+8</m> by the intercept method.</p>
@@ -118,7 +118,7 @@ The <m>x</m>-intercept is the point <m>\left(2\dfrac{1}{3}, 0\right)</m>.</p>
 
 <introduction><p>The values of the variables at the intercepts often tell us something important about a linear model</p>
 
-<example><statement><p>The temperature, <m>T</m>, in Nome was <m>-12 \degree</m> at noon and has been rising at a rate of <m>2 \degree</m> per hour all day. <ul>
+<activity><statement><p>The temperature, <m>T</m>, in Nome was <m>-12 \degree</m> at noon and has been rising at a rate of <m>2 \degree</m> per hour all day. <ul>
     <li>Write and graph an equaton for <m>T</m> in terms of <m>h</m>, the number of hours after noon.</li>
     <li>Find the intercepts of the graph and interpret their meaning in the context of the problem situation.</li>
 </ul></p></statement>
@@ -148,7 +148,7 @@ To find the <m>T</m>-intercept, we set <m>h=0</m> and solve for <m>T</m>.
         <md><mrow>\alert{0} \amp = -12+2h \amp \amp \blert{\text{Add 12 to both sides.}}</mrow>
             <mrow>12 \amp = 2h \amp \amp \blert{\text{Divide both sides by 2.}}</mrow>
             <mrow>6 \amp =h</mrow></md>
-The <m>h</m>-intercept is the point <m>(6,0)</m>. This point tells us that when <m>h=6, T=0</m>, or the temperature will reach zero degrees at six hours after noon, or 6 pm.</p></solution></example>
+The <m>h</m>-intercept is the point <m>(6,0)</m>. This point tells us that when <m>h=6, T=0</m>, or the temperature will reach zero degrees at six hours after noon, or 6 pm.</p></solution></activity>
 </introduction>
 
 <exercise><statement><p>Sheri bought a bottle of multivitamins for her family. The number of vitamins lt in the bottle after <m>d</m> days is given by
@@ -261,22 +261,22 @@ where <m>d</m> is the number of dogs he has groomed.</p>
     <me>y = \text{starting value} + \text{rate} \times x</me>
 To put an equation into this form, we want to "isolate" the output variable on one side of the equation.</p></introduction>
 
-<example><statement><p>Solve the equation <m>2x-3y=8</m> for <m>y</m>.</p></statement>
+<activity><statement><p>Solve the equation <m>2x-3y=8</m> for <m>y</m>.</p></statement>
 
 <solution><p><md><mrow>2x-3y \amp = 8 \amp \amp \blert{\text{Subtract }2x \text{ from both sides.}} </mrow>
         <mrow>-3y \amp = 8-2x \amp \amp \blert{\text{Divide both sides by} -3.}</mrow>
         <mrow>y \amp =\dfrac{8-2x}{-3}   \amp \amp  \blert{\text{Divide each term of the numerator by} -3.}</mrow>
         <mrow>y \amp =\dfrac{8}{3}-\dfrac{2}{3}x</mrow></md>
-</p></solution></example>
+</p></solution></activity>
 
-<example><statement><p>Solve the equation <m>A=\dfrac{h}{2}(b+c)</m> for <m>b</m>.</p></statement>
+<activity><statement><p>Solve the equation <m>A=\dfrac{h}{2}(b+c)</m> for <m>b</m>.</p></statement>
 
 <solution><p>It is nearly always best to clear fractions from an equation first, so we begin by multiplying both sides by 2.
     <md><mrow>\alert{2}A \amp = \alert{\cancel{2}}\left(\dfrac{h}{\cancel{2}}(b+c)\right) \amp \amp \blert{\text{Multiply both sides by}~ \alert{2}.}</mrow>
         <mrow>2A \amp = h(b+c) \amp \amp \blert{\text{Divide both sides by}~h.}</mrow>
         <mrow>\dfrac{2A}{h} \amp = b+c   \amp \amp  \blert{\text{Subtract }c \text{ from both sides.}}</mrow>
         <mrow>\dfrac{2A}{h}-c \amp = b</mrow></md>
-</p></solution></example>
+</p></solution></activity>
 
 <exercise><statement><p>Solve  <m>f=s+at</m>  for <m>t</m></p></statement>
     <answer><p><m>t=\dfrac{f-a}{s}</m></p></answer></exercise>

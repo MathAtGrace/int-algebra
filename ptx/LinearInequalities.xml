@@ -12,7 +12,7 @@
     </p>
 </definition>
 
-<example>
+<activity>
     <statement>
         <p>
             Find a solution to the inequality <m>x + y \ge 10,000</m> for <m>x = 2000</m>
@@ -23,7 +23,7 @@
             For <m>x = 2000</m>, we have <m>2000 + y \ge 10,000</m>, or <m>y \ge 8000</m>. You can check that any value of <m>y</m> greater than or equal to 8000 provides a solution when <m>x=2000</m>. For example, <m>(2000, 9000)</m> is a solution because <m>2000 + 9000 \gt 10,000</m>.
         </p>
     </solution>
-</example>
+</activity>
 
 <sidebyside widths="50% 48%" margins="0% 0%" valigns="middle middle">
     <p>
@@ -183,7 +183,7 @@
     then we shade the half-plane <em>below</em> the line.</p>
 
 
-<example>
+<activity>
     <statement>
         <p>Graph <m>4x - 3y \ge 12</m></p>
     </statement>
@@ -205,7 +205,7 @@
             <image source="images/fig-linear-inequality2"><description>linear inequality in two variables</description></image>
         </sidebyside>
     </solution>
-</example>
+</activity>
 
 <warning>
     <p>
@@ -344,7 +344,7 @@
 
 <p>A second method for graphing inequalities does not require us to solve for <m>y</m>. Once we have graphed the boundary line, we can decide which half-plane to shade by using a <term>test point</term><idx>test point</idx>. The test point can be any point that is not on the boundary line itself.</p>
 
-<example xml:id="example-linear-inequality-test-point">
+<activity xml:id="example-linear-inequality-test-point">
     <statement>
         <p>Graph the solutions of the inequality <m>~~3x - 2y\lt 6</m></p>
     </statement>
@@ -363,7 +363,7 @@
             <image source="images/fig-linear-inequality3"><description>strict linear inequality in two variables</description></image>
         </sidebyside>
     </solution>
-</example>
+</activity>
 
 
 
@@ -499,7 +499,7 @@
     <md><mrow>x+0y\ge k</mrow></md>
     Its graph is then a region in the plane.</p>
 
-<example>
+<activity>
     <statement>
         <p>Graph <m>~~x\ge 2~~</m> in the plane.</p>
     </statement>
@@ -515,7 +515,7 @@
             <image source="images/fig-planar-graph-x-greater-or-equal-2"><description>graph of x greater or equal to 2 in the plane</description></image>
         </sidebyside>
     </solution>
-</example>
+</activity>
 
 <exercise><title>Practice 4</title>
 <webwork>
@@ -636,7 +636,7 @@
     </image> 
 </sidebyside>
 
-<example><statement><p>Laura is a finicky eater, and she dislikes most foods that are high in calcium. Her morning cereal satisfies some of her calcium requirements, but she needs an additional 500 milligrams of calcium, which she will get from a combination of broccoli, at 160 milligrams per serving, and zucchini, at 30 milligrams per serving. Draw a graph representing the possible combinations of broccoli and zucchini that fulfill Laura’s calcium requirements.</p></statement>
+<activity><statement><p>Laura is a finicky eater, and she dislikes most foods that are high in calcium. Her morning cereal satisfies some of her calcium requirements, but she needs an additional 500 milligrams of calcium, which she will get from a combination of broccoli, at 160 milligrams per serving, and zucchini, at 30 milligrams per serving. Draw a graph representing the possible combinations of broccoli and zucchini that fulfill Laura’s calcium requirements.</p></statement>
 <solution>
     <p><ul>
         <li><title>Step 1:</title>
@@ -674,7 +674,7 @@
         </li>
     </ul>
 </p></solution>
-</example>
+</activity>
 
 <exercise>
     <title>Practice 5</title>
@@ -721,7 +721,7 @@
     To describe the solutions of a system of inequalities, it is useful to locate the <term>vertices</term><idx>vertices</idx>, or corner points, of the boundary.
 </p>
 
-<example>
+<activity>
     <statement>
         <p>
             Graph the solution set of the system below and find the coordinates of its vertices.
@@ -780,7 +780,7 @@
             The vertices are the points <m>(0, 0)</m>, <m>(0, 3)</m>, <m>\left(\dfrac{10}{3},\dfrac{4}{3} \right)</m>, and <m>(2, 0)</m>.
         </p>
     </solution>
-</example>
+</activity>
 
 
 </subsection>

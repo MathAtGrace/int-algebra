@@ -8,7 +8,7 @@
     <me>2^3=8~~~~~~3^3=27~~~~~~4^3=64~~~~~~5^3=125~~~~~~6^3=216</me>
 and so on.</p>
 
-<example><statement><p>Evaluate each cube root.
+<activity><statement><p>Evaluate each cube root.
 <ol marker="a." cols="2">  
     <li><m>\sqrt[3]{64}</m></li>
     <li><m>\sqrt[3]{-125}</m></li>
@@ -23,9 +23,9 @@ and so on.</p>
     <li><m>1^3=1,~</m> so <m>~\sqrt[3]{1}=1</m></li>
     <li><p>We can take the cube root of a fraction by taking the cube root of its numerator and denominator.
         <me>\sqrt[3]{\dfrac{-1}{8}} = \dfrac{\sqrt[3]{-1}}{\sqrt[3]{8}} = \dfrac{-1}{2}</me></p></li>
-</ol></p></solution></example>
+</ol></p></solution></activity>
 
-<example><statement><p>Use a calculator to evaluate the cube root. Round to thousandths.
+<activity><statement><p>Use a calculator to evaluate the cube root. Round to thousandths.
 <ol marker="a.">
     <li><m>\sqrt[3]{347}</m></li>    
     <li><m>\sqrt[3]{0.85}</m></li>
@@ -37,7 +37,7 @@ and so on.</p>
     <li><m>\sqrt[3]{347} \approx 7.027</m></li>    
     <li><m>\sqrt[3]{0.85} \approx 0.947</m></li>
     <li><m>\sqrt[3]{-9} \approx -2.080</m></li></ol></p>
-</solution></example>
+</solution></activity>
 
 <exercise><statement><p>Evaluate <m>\sqrt[3]{-0.5}</m>. Round to thousandths.</p></statement>
     <answer><p><m>-0.794</m></p></answer></exercise>
@@ -54,7 +54,7 @@ and so on.</p>
     <li>If the number is negative, put another negative in front, which will make the number positive.</li>
 </ol></p>
 
-<example><statement><p>Simplify each expression.
+<activity><statement><p>Simplify each expression.
 <ol marker="a." cols="2">
     <li><m>|-3|</m></li>
     <li><m>-|3|</m></li>
@@ -68,9 +68,9 @@ and so on.</p>
     <li><m>-|3|</m> is the opposite of <m>|3|</m>, so <m>-|3|=-3</m>.</li>
     <li>The opposite of <m>-3</m> is <m>3</m>, so <m>-(-3)=3</m>.</li>
     <li><m>-|-3|</m> is the opposite of <m>|-3|</m>, so <m>-|-3|=-3</m>.</li>
-</ol></p></solution></example>
+</ol></p></solution></activity>
 
-<example><statement><p>Suppose <m>x</m> represents <m>-8</m>. Evaluate each expression.
+<activity><statement><p>Suppose <m>x</m> represents <m>-8</m>. Evaluate each expression.
 <ol marker="a.">
     <li><m>-x</m></li>
     <li><m>|x|</m></li>
@@ -81,7 +81,7 @@ and so on.</p>
     <li><m>-x = -(-8) = 8</m></li>
     <li><m>|x| = |-8| = 8</m></li>
     <li><m>|-x| = |-(-8)| = 8</m></li>
-</ol></p></solution></example>
+</ol></p></solution></activity>
 
 <exercise><statement><p>Simplify <m>-|-12|</m>.</p></statement>
     <answer><p><m>-12</m></p></answer></exercise>
@@ -103,15 +103,15 @@ and so on.</p>
     <li>Finally, perform all additionas and subtractions in order from left to right.</li>
 </ol></p></introduction>
 
-<example><statement><p>Simplify <m>~|2|-4|3-8|</m></p></statement>
+<activity><statement><p>Simplify <m>~|2|-4|3-8|</m></p></statement>
 
 <solution><p>Absolute value bars are a grouping device. We simplify expressions within absolute value bars first.
     <md><mrow>|2|-4|\alert{3-8}| \amp = |2|- 4|\alert{-5}| \amp \amp \blert{\text{Evaluate absolute values.}}</mrow>
         <mrow>\amp = 2-4(5) \amp \amp \blert{\text{Multiply.}}</mrow>
         <mrow>\amp =2-20=18</mrow></md>
-</p></solution></example>
+</p></solution></activity>
 
-<example><statement><p>Simplify <m>~\dfrac{8-2\sqrt[3]{11.375+2.5^3}}{8-4}</m></p></statement>
+<activity><statement><p>Simplify <m>~\dfrac{8-2\sqrt[3]{11.375+2.5^3}}{8-4}</m></p></statement>
 
 <solution><p>Simplify the expression under the radical first.
     <md><mrow>\dfrac{8-2\sqrt[3]{\alert{11.375+2.5^3}}}{8-4} \amp = \dfrac{8-2\sqrt[3]{\alert{27}}}{8-4} \amp \amp ~\blert{\text{Evaluate the radical.}}</mrow>
@@ -121,7 +121,7 @@ and so on.</p>
                 \end{array}</mrow>
     <mrow>\amp =\dfrac{8-6}{4}</mrow>
     <mrow>\amp = \dfrac{2}{4}  = \dfrac{1}{2}</mrow></md>
-</p></solution></example>
+</p></solution></activity>
 
 <exercise><statement><p>Simplify <m>~~3\sqrt[3]{\dfrac{125}{216}} + \dfrac{4}{5} \sqrt[3]{-512}~~~</m>. Follow the order of operations.</p></statement>
     <answer><p><m>\dfrac{-39}{10}</m></p></answer></exercise>

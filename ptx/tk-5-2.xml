@@ -24,7 +24,7 @@
 
 <p>Every point on the graph of an equation <m>y=f(x)</m> tells us the solution of the equation for a particular value of <m>y</m>.</p>
 
-<example><statement><p>Use the graph of <m>y=\dfrac{-2}{3}x-4</m> to solve the equation <me>\dfrac{-2}{3}x-4=-2</me>.</p>
+<activity><statement><p>Use the graph of <m>y=\dfrac{-2}{3}x-4</m> to solve the equation <me>\dfrac{-2}{3}x-4=-2</me>.</p>
 </statement>
 
 <solution><sidebyside widths="50% 45%" valigns="bottom bottom"><stack><p>We see that <m>y</m> has been replaced by <m>-2</m> in the equation for the graph. So we look for the point on the graph that has <m>y</m>-coordinate <m>-2</m>.</p> 
@@ -54,9 +54,9 @@
         \filldraw[red] (-3,0) circle (.18) node[above, yshift=2, fill=white, inner sep=2] {$-3$};
         \end{tikzpicture}]]>
         </latex-image></image></sidebyside> 
-<p>But this statement also tells us that <m>-3</m> is a solution of the equation <m>\dfrac{-2}{3}x-4=2</m>.  You can check that substituting <m>x=-3</m> into this equation produces a true statement.</p></solution></example>
+<p>But this statement also tells us that <m>-3</m> is a solution of the equation <m>\dfrac{-2}{3}x-4=2</m>.  You can check that substituting <m>x=-3</m> into this equation produces a true statement.</p></solution></activity>
 
-<example><statement><p>Use the graph of <m>y=\dfrac{-2}{3}x-4</m> to solve the inequality 
+<activity><statement><p>Use the graph of <m>y=\dfrac{-2}{3}x-4</m> to solve the inequality 
     <me>\dfrac{-2}{3}x-4 \le -2</me>.</p></statement>
 
 <solution><sidebyside widths="50% 45%" vertical="bottom bottom"><stack><p>We would like to find the <m>x</m>-coordinates of all points on the graph that have <m>y</m>-coordinate less than or equal to <m>-2</m>.  These points on the graph are indicated by the heavy portion of the line.</p>
@@ -83,7 +83,7 @@
         \filldraw[blue] (-3,0) circle (.2) node[above, yshift=2, fill=white, inner sep=2] {$-3$};
         \draw[blue,line width=1.2mm, ->, >=stealth'] (-3,0)--(10,0);
         \end{tikzpicture}]]>
-        </latex-image></image></sidebyside></solution></example>
+        </latex-image></image></sidebyside></solution></activity>
 
 <exercise><statement><p>Use the graph to solve the equation or inequality. (Note the scales on the axes.) Show your solutions on the graph. Then verify your solutions by solving algebraically.
 <ol marker="a.">

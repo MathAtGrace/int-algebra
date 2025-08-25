@@ -8,7 +8,7 @@
 
 <p>The laws of exponents still apply to variable exponents. (If you would like to review the laws of exponents, they are listed in Section 3.2.)</p>
 
-<example><statement><p>Use the laws of exponents to simplify.
+<activity><statement><p>Use the laws of exponents to simplify.
 <ol marker="a." cols="2">
     <li><m>1.35^6(1.35^4)</m></li>
     <li><m>0.64^5(0.64^n)</m></li>
@@ -18,9 +18,9 @@
 <ol marker="a.">
     <li><m>1.35^6(1.35^4) = 1.35^{6+4}=1.35^{10}</m></li>
     <li><m>0.64^5(0.64^n) = 0.64^{5+n}</m></li>
-</ol></p></solution></example>
+</ol></p></solution></activity>
 
-<example><statement><p>Use the laws of exponents to simplify.
+<activity><statement><p>Use the laws of exponents to simplify.
 <ol marker="a." cols="2">
     <li><m>\dfrac{0.32^8}{0.32^2}</m></li>
     <li><m>\dfrac{0.32^t}{0.32^x}</m></li>
@@ -30,9 +30,9 @@
 <ol marker="a." cols="2">
     <li><m>\dfrac{0.32^8}{0.32^2} = 0.32^{8-2} = 0.32^6</m></li>
     <li><m>\dfrac{0.32^t}{0.32^x} = 0.32^{t-x}</m></li>
-</ol></p></solution></example>
+</ol></p></solution></activity>
 
-<example><statement><p>Use the laws of exponents to simplify.
+<activity><statement><p>Use the laws of exponents to simplify.
 <ol marker="a." cols="2">
     <li><m>\left(1.07^5\right)^3</m></li>
     <li><m>\left(1.07^4\right)^p</m></li>
@@ -42,7 +42,7 @@
 <ol marker="a.">
     <li><m>\left(1.07^5\right)^3 = 1.07^{15}</m></li>
     <li><m>\left(1.07^4\right)^p = 1.07^{4p}</m></li>
-</ol></p></solution></example>
+</ol></p></solution></activity>
 
 <exercise><statement><p>Use the laws of exponents to simplify <m>~2.5^{2t}(2.5^3)</m>.</p></statement> 
     <answer><p><m>2.5^{2t+3}</m></p></answer></exercise> 
@@ -56,7 +56,7 @@
 
 <subsubsection xml:id="tkDistLaw"><title>Apply the distributive law</title>
 
-<example><statement><p>Which equation is a correct application of the distributive law?
+<activity><statement><p>Which equation is a correct application of the distributive law?
 <ol marker="a.">
     <li><m>2(5 \cdot 3^x) = 10 \cdot 6^x~~~~~</m> or <m>~~~~~2(5+3^x) = 10+2 \cdot 3^x</m></li>
     <li><m>\log (x+10) = \log {x} + \log {10}~~~~~</m> or <m>~~~~~\dfrac{1}{x}(x+10) = 1 +\dfrac{10}{x}</m></li>
@@ -68,7 +68,7 @@
     <p>The second equation is a correct application of the distributive law. You can check that the first equation is false and the second equation is true by substituting <m>x=1</m>.</p></li>
     <li><p>The distributive law applies only to multiplying a sum or product, not to other operations, such as taking logs.  You can check that the first equation is false by substituting <m>x=10</m>.</p>
     <p> The second equation is a correct application of the distributive law.</p> </li>
-</ol></p></solution></example>
+</ol></p></solution></activity>
 
 <p>Decide whether each equation is a correct application of the distributive law. Write a correct statement if possible.</p>
 
@@ -90,35 +90,35 @@
 
 <introduction><p>Compare the procedures for solving power equations and exponential equations.</p></introduction>
 
-<example><statement><p>Solve <m>~3x^{1.05} = 18~</m>. Round your answer to hundredths. </p></statement>
+<activity><statement><p>Solve <m>~3x^{1.05} = 18~</m>. Round your answer to hundredths. </p></statement>
  
 <solution><p>This is a power equation. We divide both sides by 3 to isolate the variable, then raise both sides to the reciprocal of the exponent.
     <md><mrow>(x^{1.05})^{1/1.05} \amp = 6^{1/1.05}</mrow>
         <mrow>    x \amp = 5.51</mrow></md></p>                
-</solution></example>
+</solution></activity>
 
-<example><statement><p>Solve <m>~3(1.05)^x = 18~</m>. Round your answer to hundredths. </p></statement>
+<activity><statement><p>Solve <m>~3(1.05)^x = 18~</m>. Round your answer to hundredths. </p></statement>
  
 <solution><p>This is an exponential equation. We divide both sides by 3, then take logarithms.
     <md><mrow>\log(1.05^x) \amp = \log 6  \amp\amp \blert{\text{Apply the third log property.}}</mrow>
         <mrow>x \log 1.05\amp = \log 6</mrow>
         <mrow>x \amp =\dfrac{\log 6}{\log 1.05} = 36.72</mrow></md></p>                
-</solution></example>
+</solution></activity>
 
-<example><statement><p>Solve <m>~9x^{3/5} = 36~</m>. Round your answer to hundredths. </p></statement>
+<activity><statement><p>Solve <m>~9x^{3/5} = 36~</m>. Round your answer to hundredths. </p></statement>
  
 <solution><p>This is a power equation. We divide both sides by 9 to isolate the variable, then raise both sides to the reciprocal of the exponent.
     <md><mrow>(x^{3/5})^{5/3} \amp = 4^{5/3}</mrow>
         <mrow>x \amp = 10.08</mrow></md></p>                
-</solution></example>
+</solution></activity>
 
-<example><statement><p>Solve <m>~1.5(3^{x/5}) = 12~</m>. Round your answer to hundredths. </p></statement>
+<activity><statement><p>Solve <m>~1.5(3^{x/5}) = 12~</m>. Round your answer to hundredths. </p></statement>
  
 <solution><p>This is an exponential equation. We divide both sides by 1.5, then take logarithms.
     <md><mrow>\log 3^{x/5} \amp = \log 8  \amp\amp \blert{\text{Apply the third log property.}}</mrow>
         <mrow>\dfrac{x}{5} \log 3  \amp = \log 8</mrow>
         <mrow>x \amp =\dfrac{5\log 8}{\log 3} = 9.46</mrow></md></p>                
-</solution></example>
+</solution></activity>
 
 <exercise><statement><p>Solve <m>~6x^{3/4}-8 = 76~</m>. Round your answer to hundredths.</p> </statement>
     <answer><p><m>33.74</m></p></answer></exercise>

@@ -68,7 +68,7 @@
 
 <p>In most cases, a mathematical model is not a perfect description of reality. Many factors can affect empirical data, including measurement error, environmental conditions, and the influence of related variables. Nonetheless, we can often find an equation that approximates the data in a useful way.</p>
 
-<example xml:id="Minimum-wage"><statement><p>The table shows the minimum wage in the US at five-year intervals. (Source: Economic Policy Institute)</p>
+<activity xml:id="Minimum-wage"><statement><p>The table shows the minimum wage in the US at five-year intervals. (Source: Economic Policy Institute)</p>
         <tabular top="minor" right="minor" left="minor" bottom="minor" halign="center">
             <row>
                 <cell halign="left">Year</cell>
@@ -111,7 +111,7 @@
     <p>We would like to draw a line that comes as close as possible to all the data points, even though it may not pass precisely through any of them. In particular, we try to adjust the line so that we have the same number of points above the line and below the line. One possible solution is shown in the figure at right.</p>
             <image source="images/fig-example-2-1-1ans"><description>scatterplot of minimum wage</description></image>
         </sidebyside></li>
-    </ol></p></solution></example>
+    </ol></p></solution></activity>
 
 <aside><p><m>\alert{\text{[TK]}}~~</m>To see more examples of line of best fit, see <xref ref="tkBestFit" text="custom"> Section 2.1.2 </xref> of the Toolkit.</p></aside>
 
@@ -168,7 +168,7 @@
 
 <subsection><title>Interpolation and Extrapolation</title><idx>extrapolation</idx><idx><h>linear regression</h><h>extrapolation</h></idx><idx>interpolation</idx><idx><h>linear regression</h><h>interpolation</h></idx>
 
-<example xml:id="example-cocoa"><statement><p>An outdoor snack bar collected the following data showing the number of cups of cocoa, <m>C</m>, they sold when the high temperature for the day was <m>T\degree</m> Celsius.</p>
+<activity xml:id="example-cocoa"><statement><p>An outdoor snack bar collected the following data showing the number of cups of cocoa, <m>C</m>, they sold when the high temperature for the day was <m>T\degree</m> Celsius.</p>
         <tabular top="minor" right="minor" left="minor" bottom="minor" halign="center">
             <row>
                 <cell halign="left">Temperature (<m>\degree\text{C}</m>), <m>T</m></cell>
@@ -218,7 +218,7 @@
     We predict that the snack bar will sell 29 or 30 cups of cocoa when the temperature is <m>9\degree\text{C}</m>. When <m>T = \alert{24}</m>,
         <me>C=-2.5(\alert{24})+52=-8</me>
     Because the snack bar cannot sell <m>-8</m> cups of cocoa, this prediction is not useful. (What is the Fahrenheit equivalent of 24°C?)</p></li>
-</ol></p></solution></example>
+</ol></p></solution></activity>
 
 <p>Using a regression line to estimate values between known data points is called <term>interpolation</term><idx>interpolation</idx><idx><h>linear regression</h><h>interpolation</h></idx>. If the data points lie fairly close to the regression line, then interpolation will usually give a fairly accurate estimate. In the <xref ref="example-cocoa" text="custom">Example</xref> above, the estimate of 29 or 30 cups of cocoa at <m>9\degree\text{C} </m> seems reasonable in the context of the data.</p>
 
@@ -300,7 +300,7 @@
 
 <p>The data in a scatterplot may show a linear trend, even though the individual points are not clustered closely around a line. Scattering of data is common in the social sciences, where many variables may influence a particular situation. Nonetheless, by analyzing the data, we may be able to detect a connection between some of the variables.</p>
 
-<example xml:id="Example-female-literacy"><statement><p>The world's population is growing at different rates in different nations. Many factors, including economic and social forces, influence the birthrate. Is there a connection between birth rates and education levels? The figure below shows the birth rate plotted against the female literacy rate in 148 countries.</p>
+<activity xml:id="Example-female-literacy"><statement><p>The world's population is growing at different rates in different nations. Many factors, including economic and social forces, influence the birthrate. Is there a connection between birth rates and education levels? The figure below shows the birth rate plotted against the female literacy rate in 148 countries.</p>
     <image width="90%" source="images/fig-female-literacy-scatterplot"><description>scatterplot birth rate and female literacy</description></image>
 <p><ol marker="a.">
     <li><p>Draw a line of best fit for the data points.</p></li>
@@ -342,7 +342,7 @@
         <li><image width="95%" source="images/fig-female-literacy-line"><description>regression line for birth rate and female literacy</description></image></li>
         <li><p>The figure above shows the regression line and the data points for each of the nations in part (b).</p></li>
         <li><p> Morocco and the Maldives could be considered outliers.</p></li>
-</ol></p></solution></example>
+</ol></p></solution></activity>
 
 <exercise component="webwork"><title>Practice 3</title>
     <webwork><pg-code>

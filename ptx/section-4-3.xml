@@ -18,7 +18,7 @@ To find these parameters we need three data points. </p>
 
 <aside><p><m>\alert{\text{[TK]}}~~</m>To review points on a graph, see <xref ref="tkPtOnGraph" text="custom"> Section 4.3.1 </xref> of the Toolkit.</p></aside>
 
-<example xml:id="Example-parabola-through-3-points"><statement><p>Find values for <m>a</m>, <m>b</m>, and <m>c</m> so that the points <m>(1, 3)</m>, <m>(3, 5)</m>, and <m>(4, 9)</m> lie on the graph of <m>y = ax^2 + bx + c</m>. <m>~\alert{\text{[TK]}}</m></p></statement>
+<activity xml:id="Example-parabola-through-3-points"><statement><p>Find values for <m>a</m>, <m>b</m>, and <m>c</m> so that the points <m>(1, 3)</m>, <m>(3, 5)</m>, and <m>(4, 9)</m> lie on the graph of <m>y = ax^2 + bx + c</m>. <m>~\alert{\text{[TK]}}</m></p></statement>
 
 <solution><p>We substitute the coordinates of each of the three points into the equation of the parabola to obtain three equations:
     <md><mrow>\alert{3} =\amp a(\alert{1})^2 + b(\alert{1}) + c \amp</mrow>
@@ -81,7 +81,7 @@ Thus, the equation of the parabola is
     <me>y = x^2 - 3x + 5</me>
 The parabola and the three points are shown below.</p>
     <image width="25%" source="images/fig-parabola-through-3-specified-points" ><description>parabola through-3 specified points</description></image>
-</solution></example>
+</solution></activity>
 
 <aside><p><m>\alert{\text{[TK]}}~~</m>To review Gaussian reduction, see <xref ref="tkSpecSys" text="custom"> Section 4.3.3 </xref>. To see more examples of elimination, see <xref ref="tkSolve2by2" text="custom"> Section 4.3.2</xref> of the Toolkit.</p></aside>
 
@@ -216,7 +216,7 @@ The parabola and the three points are shown below.</p>
 
 <p>The simplest way to fit a parabola to a set of data points is to pick three of the points and find the equation of the parabola that passes through those three points.</p>  
     
-<example xml:id="example-quadratic-fit"><statement><p>Major Motors Corporation is testing a new car designed for in-town driving. The data below show the cost of driving the car at different speeds. The speeds, <m>v</m>, are given in miles per hour, and the cost, <m>C</m>, includes fuel and maintenance for driving the car <m>100</m> miles at that speed.</p>
+<activity xml:id="example-quadratic-fit"><statement><p>Major Motors Corporation is testing a new car designed for in-town driving. The data below show the cost of driving the car at different speeds. The speeds, <m>v</m>, are given in miles per hour, and the cost, <m>C</m>, includes fuel and maintenance for driving the car <m>100</m> miles at that speed.</p>
         <tabular  top="minor" halign="center" right="minor" left="minor" bottom="minor">
             <row>
                 <cell right="major"><m>v</m></cell>
@@ -253,7 +253,7 @@ Eliminating <m>b</m> from Equations (4) and (5) gives us
         <me>C = 0.006v^2 - 0.5v + 16.2</me> 
 The graph of this equation, along with the data points, is shown at right.</p></stack>
     <image source="images/fig-parabola-fitting-scatterplot"><description>parabola fitting nonlinear scatterplot</description></image></sidebyside>
-</solution></example>
+</solution></activity>
 
 <p>As was the case with linear regression, the graph of the regression equation may not pass through all of the data points, but it should be close to most of them.</p>
 
@@ -375,7 +375,7 @@ The graph of this equation, along with the data points, is shown at right.</p></
 
 <p>We can use a graphing calculator or other technology to find an approximate quadratic fit for a set of data. The procedure is similar to the steps for linear regression.</p>
 
-<example xml:id="example-GC-quadratic-fit"><statement><p>
+<activity xml:id="example-GC-quadratic-fit"><statement><p>
     <ol marker="a.">
         <li><p>Use your calculator to find a quadratic fit for the data in <xref ref="example-quadratic-fit" text="type-hybrid"/>.</p></li>
         <li><p>How many of the given data points actually lie on the graph of the quadratic approximation?</p></li>
@@ -388,7 +388,7 @@ The graph of this equation, along with the data points, is shown at right.</p></
         <li><p>Next, we will graph the data and the regression equation. We press <kbd>Y=</kbd> and select <em>Plot1</em>, then press <kbd>ZOOM</kbd> <m>9</m> to see the graph shown below. The parabola seems to pass close to all the data points.</p> 
         <p>However, try using either the <em>value</em> feature or a table to find the <m>y</m>-coordinates of points on the regression curve. By comparing these <m>y</m>-coordinates with our original data points, we find that none of the given data points lies precisely on the parabola.</p>
             <image width="70%" source="images/fig-GC-quadratic-regression2" ><description>GC plot and GC table quadratic regression output</description></image></li>
-    </ol></p></solution></example>
+    </ol></p></solution></activity>
 
 <exercise  component="webwork"><title>Practice 3</title>
     <webwork><pg-code>
@@ -478,7 +478,7 @@ The graph of this equation, along with the data points, is shown at right.</p></
 <p>In <xref ref="example-quadratic-fit" text="type-global"/>, suppose Major Motors had collected only the first three data points and fit a line through them, as shown at left. This regression line gives poor predictions for the cost of driving at 60 or 70 miles per hour.</p>
 </sidebyside>
 
-<example xml:id="Example-quadratic-fit-of-minute-hand"><statement><p>Delbert records the height of the tip of the minute hand on the classroom’s clock at different times. The data are shown in the table, where time is measured in minutes since noon. (A negative time indicates a number of minutes before noon.) Find a quadratic regression equation for the data and use it to predict the height of the minute hand's tip at 40 minutes past noon. Do you believe this prediction is valid?</p>
+<activity xml:id="Example-quadratic-fit-of-minute-hand"><statement><p>Delbert records the height of the tip of the minute hand on the classroom’s clock at different times. The data are shown in the table, where time is measured in minutes since noon. (A negative time indicates a number of minutes before noon.) Find a quadratic regression equation for the data and use it to predict the height of the minute hand's tip at 40 minutes past noon. Do you believe this prediction is valid?</p>
         <tabular top="major" halign="center" right="minor" left="minor" bottom="minor">
             <row bottom="minor">
                 <cell><line>Time</line><line>(minutes)</line></cell>
@@ -512,7 +512,7 @@ The graph of this equation, along with the data points, is shown at right.</p></
         <me>y = -0.00297x^2 + 0x + 8.834</me>
 From either the graph of the regression equation or from the table (see figure below), we can see that the fit is not perfect, although the curve certainly fits the data better than any straight line could.</p>
         <image source="images/fig-GC-bad-quadratic-fit"><description>GC screens of graph and tables for quadratic fit</description></image>
-<p>If we scroll down the table, we find that this equation predicts a height of approximately 4.08 feet at time 40 minutes. (See figure (c).) This is a preposterous estimate! The position of the minute hand at 40 minutes after noon should be the same as it was exactly one hour earlier (at 20 minutes before noon), when it was 7.50 feet.</p></solution></example>
+<p>If we scroll down the table, we find that this equation predicts a height of approximately 4.08 feet at time 40 minutes. (See figure (c).) This is a preposterous estimate! The position of the minute hand at 40 minutes after noon should be the same as it was exactly one hour earlier (at 20 minutes before noon), when it was 7.50 feet.</p></solution></activity>
 
 <warning><p>Using the wrong type of function to fit the data is a common error in making predictions. In the <xref ref="Example-quadratic-fit-of-minute-hand" text="custom">Example</xref> above, we know that the minute hand of a clock repeats its position every 60 minutes. The graph of the height of its tip oscillates up and down, repeating the same pattern over and over. We cannot describe such a graph using either a linear or a quadratic function.</p>
 

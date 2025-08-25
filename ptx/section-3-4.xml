@@ -74,7 +74,7 @@ We substitute these values for <m>p^2</m> and <m>p</m> into the equation to find
     <me>x^2 - 16x + \alert{64} = (x \alert{-8})^2</me>
 You can check that in the resulting trinomial, the constant term is equal to <em>the square of one-half the coefficient of</em> <m>x</m>. In other words, we can find the constant term by taking one-half the coefficient of <m>x</m> and then squaring the result. Adding a constant term obtained in this way is called <term>completing the square</term><idx>completing the square</idx>.</p>
  
-<example xml:id="example-completing-the-square"><statement><p>Complete the square by adding an appropriate constant; write the result as the square of a binomial.<ol marker="a." cols="2">
+<activity xml:id="example-completing-the-square"><statement><p>Complete the square by adding an appropriate constant; write the result as the square of a binomial.<ol marker="a." cols="2">
             <li><m>x^2 - 12x + {}<fillin characters="6" /></m></li>
             <li><m>x^2 + 5x + {}<fillin characters="6" /></m></li>
         </ol></p></statement>
@@ -84,7 +84,7 @@ You can check that in the resulting trinomial, the constant term is equal to <em
     <li><p>One-half of <m>5</m> is <m>\dfrac{5}{2}</m>, so the constant term is <m>\left(\dfrac{5}{2}\right)^2</m>, or <m>\dfrac{25}{4}</m>. <m>~\alert{\text{[TK]}}</m></p>
     <p>We add <m>\dfrac{25}{4}</m> to obtain
     <md><mrow>x^2 +5x \alert{{}+{}\frac{25}{4}}=\left(x +\frac{5}{2}\right)^2 \amp\amp\amp {\large \blert{\underset{p^2\, = \,(\frac{5}{2})^2 \,= \,\frac{25}{4}}{\stackrel {p \,= \,\frac{1}{2}(5) \,=\, \frac{5}{2}~~ }{}}}}</mrow></md></p></li></ol></p>
-</solution></example>
+</solution></activity>
 
 <aside><p><m>\alert{\text{[TK]}}~~</m>To review multiplying and adding fractions, see <xref ref="tkMultFrac" text="custom"> Section 3.4.2 </xref> and <xref ref="tkAddFrac" text="custom"> Section 3.4.3 </xref> of the Toolkit.</p></aside>
 
@@ -216,7 +216,7 @@ You can check that in the resulting trinomial, the constant term is equal to <em
 
 <p>We can also solve <m>x^2 - 6x - 7 = 0</m> by factoring instead of completing the square. Of course, we get the same solutions by either method. In the next Example, we solve an equation that cannot be solved by factoring.</p> 
 
-<example xml:id="example-completing-the-square2"><statement><p>Solve <m>x^2 - 4x - 3 = 0</m> by completing the square.</p>
+<activity xml:id="example-completing-the-square2"><statement><p>Solve <m>x^2 - 4x - 3 = 0</m> by completing the square.</p>
 </statement>
 
 <solution><p><ol marker="1.">
@@ -235,7 +235,7 @@ You can check that in the resulting trinomial, the constant term is equal to <em
         <me>2+\sqrt{7}\approx 4.646~~~\text{and}~~~ 2-\sqrt{7}\approx -0.646</me>
     These values are the <m>x</m>-intercepts of the graph of <m>y=x^2-4x-3</m>, as shown below.</p>
         <sidebyside  width="25%"><image source="images/fig-parabola-with-symmetry-line2" ><description>parabola showing x-intercepts and line of symmetry</description></image></sidebyside></li>
-</ol></p></solution></example>
+</ol></p></solution></activity>
 
 <exercise component="webwork"><title>QuickCheck 3</title>
 <webwork><pg-code>
@@ -369,7 +369,7 @@ You can check that in the resulting trinomial, the constant term is equal to <em
 
 <p>Our method for completing the square works only if the coefficient of <m>x^2</m> is 1.  If we want to solve a quadratic equation whose lead coefficient is not 1, we first divide each term of the equation by the lead coefficient.</p> 
 
-<example xml:id="example-general-quadratic"><statement><p>Solve <m>~~2x^2 - 6x - 5 = 0</m>.</p></statement>
+<activity xml:id="example-general-quadratic"><statement><p>Solve <m>~~2x^2 - 6x - 5 = 0</m>.</p></statement>
 
 <solution><p><ol marker="1.">
     <li><p>Because the coefficient of <m>x^2</m> is <m>2</m>, we must divide each term of the equation by <m>2</m>.
@@ -386,7 +386,7 @@ You can check that in the resulting trinomial, the constant term is equal to <em
         <me>x - \frac{3}{2}  =\sqrt{\frac{19}{4}} ~~~\text{ or }~~~ x - \frac{3}{2} = -\sqrt{\frac{19}{4}} </me>
         The solutions are <m>\dfrac{3}{2}+\sqrt{\dfrac{19}{4}}</m> and <m>\dfrac{3}{2}-\sqrt{\dfrac{19}{4}}</m>.</p>
         <p> Using a calculator, we can find decimal approximations for the solutions: <m>3.679</m> and <m>-0.679</m>.</p></li>
-</ol></p></solution></example>
+</ol></p></solution></activity>
 
 <warning><p>In <xref ref="example-general-quadratic" text="type-global"/>, it is essential that we first divide each term of the equation by <m>2</m>, the coefficient of <m>x^2</m>. The following attempt at a solution is <em>incorrect</em>.
         <md><mrow>2x^2 - 6x \amp= 5</mrow>

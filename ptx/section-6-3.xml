@@ -63,12 +63,12 @@ In other words, we can compute <m>x^{3/2}</m> by first taking the square root of
 or
     <me>8^{2/3} = \left(8^2\right)^{1/3} = 64^{1/3} = 4</me></p>
 
-<example xml:id="example-rational-exponent"><statement><p><ol marker="a.">
+<activity xml:id="example-rational-exponent"><statement><p><ol marker="a.">
         <li><m>81^{3/4}  = \left(81^{1/4}\right)^3 = 3^3 = 27</m></li>
         <li><m>-27^{5/3} = -\left(27^{1/3}\right)^5 = -3^5 = -243</m></li>
         <li><m>27^{-2/3} = \frac{1}{\left(27^{1/3}\right)^2} = \frac{1}{3^2}= \frac{1}{9}</m></li>
         <li><m>5^{3/2} = \left(5^{1/2}\right)^3 \approx (2.236)^3 \approx 11.180</m></li>
-    </ol></p></statement></example>
+    </ol></p></statement></activity>
 
 <note><p>You can verify all the calculations in <xref ref="example-rational-exponent" text="type-global"/> on your calculator. For example, to evaluate <m>81^{3/4}</m>, key in</p>
     <p>81 <kbd name="circumflex"/> ( 3 <kbd name="obelus"/> 4 ) <kbd>ENTER</kbd></p>
@@ -117,7 +117,7 @@ or
 
 <aside><p><m>\alert{\text{[TK]}}~~</m>To review converting between common fractions and decimals, see <xref ref="tkFractoDec" text="custom"> Section 6.3.2 </xref> of the Toolkit.</p></aside>
 
-<example xml:id="example-Kleiber-rule"><statement><p>A revised form of Kleiber's Rule <idx>Kleiber's Rule</idx> states that the basal metabolic rate for many groups of animals is given by 
+<activity xml:id="example-Kleiber-rule"><statement><p>A revised form of Kleiber's Rule <idx>Kleiber's Rule</idx> states that the basal metabolic rate for many groups of animals is given by 
     <me>B(m) = 70m^{0.75}</me>
 where <m>m</m> is the mass of the animal in kilograms and the BMR is measured in kilocalories per day.<ol marker="a.">
     <li><p>Calculate the BMR for various animals whose masses are given in the table.</p>
@@ -190,7 +190,7 @@ where <m>m</m> is the mass of the animal in kilograms and the BMR is measured in
     <li><p>We plot the data from the table to obtain the graph below.</p>
     <image width="40%" source="images/fig-bat-to-rhino" ><description>BMR vs mass</description></image></li>
     <li><p>If energy consumption were proportional to body weight, the graph would be a straight line. But this graph is concave down, or bends downward. Larger species eat less than smaller ones, relative to their body weight. For example, a moose weighs 600 times as much as a squirrel, but its energy requirement is only 121 times the squirrel's.</p></li>
-</ol></p></solution></example>
+</ol></p></solution></activity>
 
 <exercise component="webwork"><title>QuickCheck 2</title>
 <webwork>
@@ -412,11 +412,11 @@ where <m>m</m> is the mass of the animal in kilograms and the BMR is measured in
     <p><me>\blert{a^{m/n} = \sqrt[n]{a^m} =\left( \sqrt[n]{a}\right)^m}</me></p>
 </assemblage>
 
-<example xml:id="example-rational-exponent-to-radicals"><statement><p><ol marker="a.">
+<activity xml:id="example-rational-exponent-to-radicals"><statement><p><ol marker="a.">
         <li><p><m>125^{4/3} = \sqrt[3]{125^4} \text{ or } \left(\sqrt[3]{125}\right)^4</m></p></li>
         <li><p><m>x^{0.4} = x^{2/5} = \sqrt[5]{x^2}</m></p></li>
         <li><p><m>6w^{-3/4} = \dfrac{6}{\sqrt[4]{w^3}}</m></p></li></ol></p>
-</statement></example>
+</statement></activity>
 
 <exercise component="webwork"><title>Practice 3</title>
     <webwork><pg-code>
@@ -459,12 +459,12 @@ where <m>m</m> is the mass of the animal in kilograms and the BMR is measured in
 
 <p> Usually, we will want to convert from radical notation to fractional exponents, because exponential notation is easier to use.</p>
 
-<example xml:id="example-radical-to-exponential"><statement><p><ol marker="a." cols="2">
+<activity xml:id="example-radical-to-exponential"><statement><p><ol marker="a." cols="2">
     <li><p><m>\sqrt{x^5} = x^{5/2}</m></p></li>
     <li><p><m> 5 \sqrt[4]{p^3} = 5p^{3/4}</m></p></li>
     <li><p><m> \dfrac{3}{\sqrt[5]{t^2}}= 3t^{-2/5}</m></p></li>
     <li><p><m> \sqrt[3]{2y^2} = \left(2y^2\right)^{1/3} = 2^{1/3} y^{2/3}</m></p></li>
-</ol></p></statement></example>
+</ol></p></statement></activity>
 
 <exercise component="webwork"><title>Practice 4</title>
     <webwork><pg-code>
@@ -536,7 +536,7 @@ where <m>m</m> is the mass of the animal in kilograms and the BMR is measured in
 
 <p>Powers with rational exponents—positive, negative, or zero—obey the laws of exponents, which we discussed in <xref ref="IntegerExponents" text="type-global"/>. You may want to review those laws before studying the following examples.</p>
 
-<example xml:id="example-operations-with-rational-exponents"><statement><p>Use the laws of ecponents to simplify each expression. <m>~\alert{\text{[TK]}}</m>
+<activity xml:id="example-operations-with-rational-exponents"><statement><p>Use the laws of ecponents to simplify each expression. <m>~\alert{\text{[TK]}}</m>
 <ol marker="a.">
     <li><p><md><mrow>\frac{7^{0.75}}{7^{0.5}}\amp= 7^{0.75-0.5} = 7^{0.25}
          \amp\amp \blert{\text{Apply the second law of exponents.}}</mrow></md></p></li>
@@ -549,7 +549,7 @@ where <m>m</m> is the mass of the animal in kilograms and the BMR is measured in
         \amp\amp \blert{\text{Apply the fourth law of exponents.}}</mrow>
             <mrow>\amp = \frac{y^{4-3}}{5^{2-1}}=\frac{y}{5}
         \amp\amp \blert{\text{Apply the second law of exponents.}}</mrow></md></p></li>
-</ol></p></statement></example>
+</ol></p></statement></activity>
 
 <aside><p><m>\alert{\text{[TK]}}~~</m>To review operations on fractions, see <xref ref="tkFracOps" text="custom"> Section 6.3.1 </xref> of the Toolkit.</p></aside>
 
@@ -635,12 +635,12 @@ we raise both sides of the equation to the reciprocal power, <m>3/2</m>. This gi
         <mrow>x \amp = 8</mrow></md>
 The solution is <m>8</m>.</p>
 
-<example xml:id="example-equation-with-rational-exponents"><statement><p>Solve <m>~~(2x + 1)^{3/4} = 27</m></p></statement>
+<activity xml:id="example-equation-with-rational-exponents"><statement><p>Solve <m>~~(2x + 1)^{3/4} = 27</m></p></statement>
 <solution><p>We raise both sides of the equation to the reciprocal power, <m>\dfrac{4}{3}</m>.
     <md><mrow>\left[(2x + 1)^{3/4}\right]^{4/3} \amp= 27^{4/3} 
     \amp\amp  \blert{\text{Apply the third law of exponents.}}</mrow>
         <mrow>2x + 1 \amp = 81 \amp\amp \blert{\text{Solve as usual.}}</mrow>
-        <mrow>x \amp = 40</mrow></md></p></solution></example>
+        <mrow>x \amp = 40</mrow></md></p></solution></activity>
 
 <aside><p><m>\alert{\text{[TK]}}~~</m>For more practice solving equartionss, see <xref ref="tkFracExpEqn" text="custom"> Section 6.3.3 </xref> of the Toolkit.</p></aside>
 

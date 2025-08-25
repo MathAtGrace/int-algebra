@@ -6,16 +6,16 @@
 <subsubsection xml:id="tkVerify"><title>Verify a solution</title>
 <introduction><p>We can always check a solution to an equation by verifying that it makes the equation true.</p></introduction>
 
-<example><statement><p>Verify that <m>x=-5</m> is a solution of the equation <me>~~x^2+2x-15=0</me> </p></statement>
+<activity><statement><p>Verify that <m>x=-5</m> is a solution of the equation <me>~~x^2+2x-15=0</me> </p></statement>
 
 <solution><p>We show that substituting <m>-5</m> for <m>x</m> makes the equation true.  When we substitute a negative number for a variable, we should enclose the number in parentheses.
             <me>\begin{aligned}[t]
                 x^2+2x-15 \amp = (\alert{-5})^2+2(\alert{-5})-15\\
                          \amp = 25-10-15=0
                 \end{aligned}</me>
-Because the expression does equal <m>0</m>, we see that <m>x=-5</m> is a solution.</p></solution></example>
+Because the expression does equal <m>0</m>, we see that <m>x=-5</m> is a solution.</p></solution></activity>
 
-<example><statement><p>Verify that <m>x=-3</m> is not a solution of the equation <me>~~\sqrt{2x+10}-3x=8</me> </p></statement>
+<activity><statement><p>Verify that <m>x=-3</m> is not a solution of the equation <me>~~\sqrt{2x+10}-3x=8</me> </p></statement>
 
 <solution><p>We show that substituting <m>-3</m> for <m>x</m> does not make the equation true.
             <me>\begin{aligned}[t]
@@ -23,7 +23,7 @@ Because the expression does equal <m>0</m>, we see that <m>x=-5</m> is a solutio
                          \amp = \sqrt{4}+9=2+9=11 \not= 8
                 \end{aligned}</me>
 The left side of the equation does not equal 8 when <m>x=-3</m>, so <m>x=-3</m> is not a solution.</p></solution>
-</example>
+</activity>
 
 <exercise><statement><p>Decide whether the given value is a solution of the equation.
     <me>x^3-3x^2-4x+2=10;~~~~x=-2</me></p></statement>
@@ -56,7 +56,7 @@ The left side of the equation does not equal 8 when <m>x=-3</m>, so <m>x=-3</m> 
 </ol></p></assemblage>
 </introduction>
 
-<example><statement><p>Solve <m>~~3(2a-4) \ge 4-(1-3a)</m></p></statement>
+<activity><statement><p>Solve <m>~~3(2a-4) \ge 4-(1-3a)</m></p></statement>
 
 <solution><p>First, we remove parentheses by applying the distributive law.  Then we can combine like terms on each side of the equation.</p>
 <p> Note that the minus sign in front of the parentheses on the right side of the equation applies to both terms inside the parentheses.
@@ -66,9 +66,9 @@ The left side of the equation does not equal 8 when <m>x=-3</m>, so <m>x=-3</m> 
         <mrow>3a-12 \amp \ge 3   \amp \amp \blert{\text{Add 12 to both sides.}}</mrow>
         <mrow>3a \amp \ge 15   \amp \amp \blert{\text{Divide both sides by 3.}}</mrow>
         <mrow>a \amp \ge 5</mrow></md>
-</p></solution></example>
+</p></solution></activity>
 
-<example><statement><p>Solve the inequality <m>~~25-6x \gt 3x-2(4-x)</m></p></statement>
+<activity><statement><p>Solve the inequality <m>~~25-6x \gt 3x-2(4-x)</m></p></statement>
 
 <solution><p>We begin by the same way we solve an equation. For this example, we start by removing the parentheses.
     <md><mrow>25-6x \amp \gt 3x-2(4-x) \amp \amp \blert{\text{Apply the distributive law.}}
@@ -78,7 +78,7 @@ The left side of the equation does not equal 8 when <m>x=-3</m>, so <m>x=-3</m> 
         <mrow>25-11x \amp \gt -8   \amp \amp \blert{\text{Subtract 25 from both sides.}}</mrow>
         <mrow>-11x \amp \gt -33   \amp \amp \blert{\text{Divide both sides by -11.}}</mrow>
         <mrow>x \amp \alert{\lt} 3   \amp \amp  \blert{\text{Don't forget to reverse the inequality symbol.}}</mrow></md>
-    Recall that if we multiply or divide both sides of an inequality by a negative number, we must reverse the direction of the inequality symbol.</p></solution></example>
+    Recall that if we multiply or divide both sides of an inequality by a negative number, we must reverse the direction of the inequality symbol.</p></solution></activity>
 
 <exercise><statement><p>Solve the inequality <m>~~-4(x+2)+3(x-2) \ge -2</m> </p></statement>
     <answer><p><m>x \le -12</m></p></answer></exercise>
@@ -97,13 +97,13 @@ The left side of the equation does not equal 8 when <m>x=-3</m>, so <m>x=-3</m> 
 
 <introduction><p>A solution of an equation in two variables <m>x</m> and <m>y</m> is written as an <term>ordered pair</term>, <m>(x,y)</m>. For example, the solution <m>(-2,5)</m> means that <m>x=-2</m> and <m>y=5</m>.</p></introduction>
 
-<example><statement><p>Is <m>(-3,2)</m> a solution of the equation <m>~~x^2+4y^2=25</m> ?</p></statement>
+<activity><statement><p>Is <m>(-3,2)</m> a solution of the equation <m>~~x^2+4y^2=25</m> ?</p></statement>
 
 <solution><p>We substitute <m>x=\alert{-3}</m> and <m>y=\alert{2}</m> into the equation.
     <me>(\alert{-3})^2+4(\alert{2})^2=9+4(4)=9+16=25</me>
-The ordered pair <m>(-3,2)</m> satisfies the equation, so it is a solution.</p></solution></example>
+The ordered pair <m>(-3,2)</m> satisfies the equation, so it is a solution.</p></solution></activity>
 
-<example><statement><sidebyside widths="65% 30%" margins="0% 0%"><p>Which of the following ordered pairs are solutions of the equation whose graph is shown?
+<activity><statement><sidebyside widths="65% 30%" margins="0% 0%"><p>Which of the following ordered pairs are solutions of the equation whose graph is shown?
     <ol marker="a." cols="2">
         <li><m>(-3,-2)</m></li>
         <li><m>(-5,0)</m></li>
@@ -130,7 +130,7 @@ The ordered pair <m>(-3,2)</m> satisfies the equation, so it is a solution.</p><
 
 <solution><p>The graph of an equation is just a picture of its solutions, so points that lie on the graph are solutions of the equation.</p>
 <p> The points <m>(-3,-2)</m> and <m>(-1,-6)</m> lie on the graph, so they represent solutions of the equation. The points <m>(-5,0)</m> and <m>(1,-4)</m> do not lie on the graph, so they are not solutions of the equation.
-</p></solution></example>
+</p></solution></activity>
 
 <exercise><statement><p>Find a solution of the equation with the given coordinate.
     <me>6x-5y=-3,~~~~(2,?)</me></p></statement>

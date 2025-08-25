@@ -32,10 +32,10 @@
 
 <p>These definitions tell us that if the base <m>a</m> is not zero, then any number raised to the zero power is <m>1</m>, and that a negative exponent denotes a reciprocal.</p>
 
-<example xml:id="example-integer-exponents"><p><ol marker="a." cols="2">
+<activity xml:id="example-integer-exponents"><p><ol marker="a." cols="2">
     <li><p><m>2^{-3} = \dfrac{1}{2^3}= \dfrac{1}{8}</m></p></li>
     <li><p><m>9x^{-2} = 9 \cdot \dfrac{1}{x^2}= \dfrac{9}{x^2}</m></p></li>
-</ol></p></example>
+</ol></p></activity>
 
 <warning><p><ol>
     <li><p>A negative exponent does <em>not</em> mean that the power is negative! For example,
@@ -112,7 +112,7 @@
 
 <p>In the next Example, we see how to evaluate expressions that contain negative exponents and how to solve equations involving negative exponents.</p>
 
-<example xml:id="example-BMI-index"><statement><p>The body mass index, or BMI, is one measure of a person’s physical fitness. Your body mass index is defined by
+<activity xml:id="example-BMI-index"><statement><p>The body mass index, or BMI, is one measure of a person’s physical fitness. Your body mass index is defined by
     <me>\text{BMI} = wh^{-2}</me>
 where <m>w</m> is your weight in kilograms and <m>h</m> is your height in meters. The World Health Organization classifies a person as obese if his or her BMI is 25 or higher.<ol marker="a.">
     <li><p>Calculate the BMI for a woman who is 1.625 meters (64 inches) tall and weighs 54 kilograms (120 pounds).</p></li>
@@ -130,7 +130,7 @@ where <m>w</m> is your weight in kilograms and <m>h</m> is your height in meters
             <mrow>h^2 \amp = 12.76 \amp\amp \blert{\text{Extract square roots.}}</mrow> 
             <mrow>h \amp\approx 3.57</mrow></md>
     To have a BMI under 25, Yarbrough would have to be over 3.75 meters, or 11 feet 8 inches tall. (In fact, he is 6 feet 8 inches tall.)</p></li>
-</ol></p></solution></example>
+</ol></p></solution></activity>
 
 <exercise component="webwork"><title>Practice 2</title>
     <webwork><pg-code>
@@ -179,7 +179,7 @@ which we studied in <xref ref="chap5" text="type-global"/> can be written as
 Their graphs are shown below. Note that power functions with negative exponents are undefined at zero.</p>
     <image width="50%" source="images/fig-basic-reciprocal-functions"  ><description>graphs of the two basic reciprocal functions</description></image>
 
-<example xml:id="example-identify-power-functions"><statement><p>Which of the following are power functions?</p>
+<activity xml:id="example-identify-power-functions"><statement><p>Which of the following are power functions?</p>
 <p><ol marker="a." >
     <li><p><m>f(x) = \dfrac{1}{3}x^4 + 2</m></p></li>
     <li><p><m>g(x) = \dfrac{1}{3x^4}</m></p></li>
@@ -190,7 +190,7 @@ Their graphs are shown below. Note that power functions with negative exponents 
     <li><p>This is not a power function, because of the addition of the constant term.</p></li>
     <li><p>We can write <m>g(x) = \frac{1}{3}x^{-4}</m>, so <m>g</m> is a power function.</p></li>
     <li><p>This is not a power function, but it can be treated as the sum of two power functions, because <m>h(x) = x^{-2} + 6x^{-3}</m>.</p></li>
-</ol></p></solution></example>
+</ol></p></solution></activity>
 
 <exercise component="webwork"><title>QuickCheck 2</title>
 <webwork>
@@ -268,7 +268,7 @@ Their graphs are shown below. Note that power functions with negative exponents 
 
 <p>Most applications are concerned with positive variables only, so many models use only the portion of the graph in the first quadrant.</p>
 
-<example><statement><p>The intensity of the radiation from our Sun varies inversely with distance.</p>
+<activity><statement><p>The intensity of the radiation from our Sun varies inversely with distance.</p>
     <p><ol marker="a.">  
     <li>Use a negative exponent to write a formula for the intensity <m>I</m> as a function of <m>d,~I=f(d)</m>.</li>
     <li>The planet Mercury is 0.387 AU (Astronomical Units <idx><h>astronomical units</h></idx>) distant from the Sun, and the intensity of radiation at its surface is 9147 watts per square meter. Find the constant of proportionality in the formula for <m>I</m>.</li>
@@ -311,7 +311,7 @@ Their graphs are shown below. Note that power functions with negative exponents 
             <mrow>d^2 \amp = \dfrac{1370}{50.63} = 27.059   \amp \amp \blert{\text{Extract roots.}}</mrow>
             <mrow>d = \amp 5.202</mrow></md>
     Jupiter is 5.202 AU from the Sun, or about 484 million miles.</p></li></ol></p></solution>
-</example>
+</activity>
 
 <p>The function <m>I = \dfrac{k}{d^2}</m> is an example of an <term>inverse square law</term><idx>inverse square law</idx>, because <m>I</m> varies inversely with the square of <m>d</m>. Such laws are fairly common in physics and its applications, because gravitational and other forces behave in this way. Here is another example of an inverse square law.</p>
 
@@ -356,14 +356,14 @@ which is consistent with our previous version of the rule,
 </ol></p>
 </assemblage>
 
-<example xml:id="example-laws-of-exponents"><p>
+<activity xml:id="example-laws-of-exponents"><p>
     <md><mrow>\text{a}\amp. ~x^3\cdot x^{-5} = x^{3-5} = x^{-2} 
                     \amp\amp     \blert{\text{Apply the first law: Add exponents.}} </mrow>
         <mrow>\text{b}\amp. ~\frac{8x^{-2}}{4x^{-6}}= \frac{8}{4}x^{-2-(-6)} = 2x^4
                     \amp\amp     \blert{\text{Apply the second law: Subtract exponents.}} </mrow>
         <mrow>\text{c}\amp. ~\left(5x^{-3}\right)^{-2}= 5^{-2}(x^{-3})^{-2}=\frac{x^6}{25}
                     \amp\amp     \blert{\text{Apply laws IV and III.}}</mrow></md>
-</p> </example>
+</p> </activity>
 
 <p>You can check that each of the calculations in <xref ref="example-laws-of-exponents" text="type-global"/> is shorter when we use negative exponents instead of converting the expressions into algebraic fractions.</p>
 
@@ -464,7 +464,7 @@ but <em>we cannot combine terms with different exponents</em> into a single term
         <li>If the original number is greater than 10, the exponent is positive.</li>
         <li>If the original number is less than 1, the exponent is negative.</li></ol></p></li></ol></p></assemblage>
 
-<example><statement><p>Write each number in scientific notation. <m>~\alert{\text{[TK]}}</m>
+<activity><statement><p>Write each number in scientific notation. <m>~\alert{\text{[TK]}}</m>
 <ol marker="a." cols="2">
     <li><m>478,000</m></li>
     <li><m>0.00032</m></li>
@@ -473,7 +473,7 @@ but <em>we cannot combine terms with different exponents</em> into a single term
 <solution><p><ol marker="a.">
     <li><p><md><mrow>478,000 \amp = 4.78000 \times 10^5 \amp \amp \blert{\text{Move the decimal 5 places to the left.}}</mrow>           <mrow>\amp = 4.78 \times 10^5</mrow></md></p></li>
     <li><p><md><mrow>0.00032 \amp = 00003.2 \times 10^{-4} \amp \amp \blert{\text{Move the decimal 4 places to the right.}}</mrow></md></p></li></ol></p></solution>
-</example>
+</activity>
 
 <aside><p><m>\alert{\text{[TK]}}~~</m>For more help practicec with scientific notation, see <xref ref="tkSciNot" text="custom"> Section 6.1.3 </xref> of the Toolkit.</p></aside>
 
@@ -521,7 +521,7 @@ This is how the calculator displays the number <m>1.524157875 \times 10^{16}</m>
 <p>To enter a number in scientific form, we use the key labeled <kbd>EE</kbd>, possibly accessed by pressing <kbd>2nd</kbd> <kbd>,</kbd>. For example, to enter <m>3.26 \times 10^{-18}</m> we enter the keying sequence
     <m>\qquad\qquad 3.26</m> <kbd>EE</kbd> <kbd>(-)</kbd> <m>18</m></p>
 
-<example><statement><p>In 2019, the average American ate 98.6 kilograms of meat.  It takes about 16 kilograms of grain to produce one kilogram of meat, and advanced farming techniques can produce about 6000 kilograms of grain on each hectare of arable land.  (A hectare is 10,000 square meters, or just under two and a half acres.)</p>  
+<activity><statement><p>In 2019, the average American ate 98.6 kilograms of meat.  It takes about 16 kilograms of grain to produce one kilogram of meat, and advanced farming techniques can produce about 6000 kilograms of grain on each hectare of arable land.  (A hectare is 10,000 square meters, or just under two and a half acres.)</p>  
 <p>Now, the total land area of the Earth is about 13 billion hectares, but only about 11% of that land is arable. Is it possible for each of the 7.8 billion people on Earth to eat as much meat as Americans do?</p></statement>
 
 <solution><p>First we'll compute the amount of meat necessary to feed every person on earth 110 kilograms per year.  In scientific notation, the population of Earth is <m>7.8 \times 10^9</m> people. 
@@ -533,7 +533,7 @@ Next we'll see how many hectares of land are needed to produce that much grain.
 Finally, we'll compute the amount of land on Earth suitable for grain production.
     <me>0.11 \times (13 \times 10^9 \text{ hectares}) = 1.43 \times 10^9 \text{ hectares}</me>
 The amount of arable land on Earth is less than the amount needed to produce that much grain. Thus, even if we use every hectare of arable land to produce grain for livestock, we won't have enough to provide every person on Earth with 98.6  kilograms of meat per year.</p></solution>
-</example>
+</activity>
 
 </subsection>
 

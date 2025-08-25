@@ -28,7 +28,7 @@
     describes exponential growth if <m>k \gt 0</m>, and exponential decay if <m>k \lt 0</m>.</p>    
 </assemblage>
                     
-<example><statement><p>A colony of bees grows at a rate of 8% annually. Write its growth law using base <m>e</m>.</p></statement>
+<activity><statement><p>A colony of bees grows at a rate of 8% annually. Write its growth law using base <m>e</m>.</p></statement>
 
 <solution><p>The growth factor is <m>~b = 1+r = 1.08~</m>, so the growth law can be written as
     <me>P(t) = P_0 (1.08)^t</me>
@@ -37,13 +37,13 @@ Using base <m>e</m>, we write <m>~P(t) = P_0 e^{kt},~</m> where <m>e^k = 1.08.</
         <mrow>\ln (e^k) \amp = \ln (1.08) \amp \amp \blert{\text{Simplify both sides.}}</mrow>
         <mrow> k \amp = 0.0770</mrow></md>
 The growth law is <m>~P(t) = P_0 e^{0.077t}</m>.</p>
-</solution></example>
+</solution></activity>
 
-<example><statement><p>A radioactive isotope decays according to the formula <m>~N(t)=N_0 e^{-0.016t},~</m> where <m>t</m> is in hours. Find its percent rate of decay.</p></statement>
+<activity><statement><p>A radioactive isotope decays according to the formula <m>~N(t)=N_0 e^{-0.016t},~</m> where <m>t</m> is in hours. Find its percent rate of decay.</p></statement>
 
 <solution><p>First we write the decay law in the form <m>~N(t)=N_0 b^t,~</m> where <m>~b=e^k.~</m></p> 
 <p>In this case, <m>~k=-0.016,~</m> so <m>~b=e^{-0.016} = 0.9841.~</m>  Now, <m>~b=1-r,~</m> and solving for <m>r</m> we find <m>~r=-0.0159.~</m> The rate of decay is approximately 16% per hour.</p>
-</solution></example>
+</solution></activity>
 
 <exercise><statement><p>A virus spreads in the population at a rate of 19.5% daily. Write its growth law using base <m>e</m>.</p></statement>
 <answer><p><m>P(t) = P_0 e^{0.178t}</m></p></answer></exercise>

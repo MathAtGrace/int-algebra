@@ -31,7 +31,7 @@ In other words, we solved an exponential equation by computing a logarithm. We m
 
 <p>Some logarithms, like some square roots, are easy to evaluate, while others require a calculator. We'll start with the easy ones.</p>
 
-<example xml:id="example-easy-logarithm"><statement><p>Here are some examples of logarithms.
+<activity xml:id="example-easy-logarithm"><statement><p>Here are some examples of logarithms.
 	<ol marker="a.">
 		<li><p><m>\log_3 {(9)} = \alert{2}~~~</m> because <m>~~~3^\alert{2}=9</m></p></li>
 		<li><p><m>\log_5 {(125)} = \alert{3}~~~</m> because <m>~~~5^\alert{3}=125</m></p></li>
@@ -39,7 +39,7 @@ In other words, we solved an exponential equation by computing a logarithm. We m
 		<li><p><m>\log_5 {\left(\sqrt{5}\right)} = \alert{\dfrac{1}{2}}~~~</m> because <m>~~~5^\alert{1/2} = \sqrt{5}</m> 
             <m>~\alert{\text{[TK]}}~~</m></p></li>
 	</ol></p>
-    <p>We see that in each example the logarithm is the exponent we need on the given base.</p></statement></example>
+    <p>We see that in each example the logarithm is the exponent we need on the given base.</p></statement></activity>
 
 <aside><p><m>\alert{\text{[TK]}}~~</m>To review writing radicals with exponents, see <xref ref="tkRadtoPowr" text="custom"> Section 7.3.1 </xref> of the Toolkit.</p></aside>
 
@@ -93,12 +93,12 @@ In other words, we solved an exponential equation by computing a logarithm. We m
 		<mrow>\log_b{(b^x)} \amp = x~~~ \text{ because } ~~~b^x = b^x</mrow></md>
 </p></assemblage>
 
-<example xml:id="example-useful-logarithms"><statement><p>Here are some more examples. Once again, we are looking for the exponent on the given base <m>b</m> to get <m>x</m>.</p>
+<activity xml:id="example-useful-logarithms"><statement><p>Here are some more examples. Once again, we are looking for the exponent on the given base <m>b</m> to get <m>x</m>.</p>
     <p><ol marker="a.">
 		<li><p><m>\log_{2}{(2)} = 1~~</m> because <m>~~2^1=2</m></p></li>
 		<li><p><m>\log_{5}{(1)} = 0~~</m> because <m>~~5^0=1</m></p></li>
 		<li><p><m>\log_{3}{(3^4)} = 4~~</m> because, well, <m>~3^4=3^4</m></p></li>
-	</ol></p></statement></example>
+	</ol></p></statement></activity>
 
 <exercise component="webwork"><title>QuickCheck 1</title>
 <webwork><pg-code>
@@ -147,7 +147,7 @@ are equivalent statements, just as
 	<me>5 = \sqrt{25}~~~~ \text{ and }~~~~ 25 = 5^2</me>
 are equivalent statements. Rewriting an equation in logarithmic form is a basic strategy for finding its solution.</p>
 
-<example xml:id="example-exponential-to-log-form"><statement><p>Rewrite each equation in logarithmic form.<ol marker="a." cols="2">
+<activity xml:id="example-exponential-to-log-form"><statement><p>Rewrite each equation in logarithmic form.<ol marker="a." cols="2">
 		<li><p><m>2^{-1} = \dfrac{1}{2}</m></p></li>
 		<li><p><m>a^{1/5} = 2.8</m></p></li>
 		<li><p><m>6^{1.5} = T</m></p></li>
@@ -159,7 +159,7 @@ are equivalent statements. Rewriting an equation in logarithmic form is a basic 
 		<li><p>The base is <m>\blert{a}</m> and the exponent is <m>\alert{\dfrac{1}{5}}.~~</m> Thus, <m>\log_{\blert{a}}{(2.8)} = \alert{\dfrac{1}{5}}</m>.</p></li>
 		<li><p>The base is <m>\blert{6}</m> and the exponent is <m>\alert{1.5}.~~</m> Thus, <m>\log_{\blert{6}}{(T)} = \alert{1.5}</m>.</p></li>
 		<li><p>The base is <m>\blert{M}</m> and the exponent is <m>\alert{v}.~~</m> Thus, <m>\log_{\blert{M}}{(3K)} = \alert{v}</m>.</p></li>
-	</ol></p></solution></example>
+	</ol></p></solution></activity>
     
 <exercise component="webwork"> <title>Practice 2</title>
     <webwork><pg-code>
@@ -202,7 +202,7 @@ are equivalent statements. Rewriting an equation in logarithmic form is a basic 
 
 <p>We can solve an exponential equation by converting the equation to logarithmic form.</p>
 
-<example><statement><p>Solve each equation by converting to logarithmic form.</p> <m>~\alert{\text{[TK]}}</m>
+<activity><statement><p>Solve each equation by converting to logarithmic form.</p> <m>~\alert{\text{[TK]}}</m>
 <p><ol marker="a." cols="2">
     <li><m>4^x = 64</m></li>
     <li><m>4^x = 60</m></li>
@@ -211,7 +211,7 @@ are equivalent statements. Rewriting an equation in logarithmic form is a basic 
 <solution><p><ol marker="a.">
     <li><p>In this case we can see by inspection that the solution is <m>3</m>, or <m>x = \log_4 {(64)}.</m></p></li>
     <li><p>The log form is <m>x = \log_4 {(60)}</m>, which is not easy to evaluate without a calculator.</p></li>
-</ol></p></solution></example>
+</ol></p></solution></activity>
 
 <aside><p><m>\alert{\text{[TK]}}~~</m>For more help examples of using logs, see <xref ref="tkUseLog" text="custom"> Section 7.3.3 </xref> of the Toolkit.</p></aside>
 
@@ -336,7 +336,7 @@ So <m>\log_{2}{(26)}</m> must be between 4 and 5. We can use trial and error to 
 
 <p>Trial and error can be a time-consuming process. In the next Example we illustrate a graphical method for estimating the value of a logarithm.</p>
 
-<example xml:id="example-approximate-log"><statement>
+<activity xml:id="example-approximate-log"><statement>
 <p>Approximate <m>\log_{3}{(7)}</m> to the nearest hundredth.</p></statement>
 
 <solution><p>If <m>\log_{3}{(7)}=x</m>, then <m>3^x = 7</m>. We will use the graph of <m>y = 3^x</m> to approximate a solution to <m>3^x = 7</m>.</p>
@@ -344,7 +344,7 @@ So <m>\log_{2}{(26)}</m> must be between 4 and 5. We can use trial and error to 
 	<me>3^{1.7712437} \approx 7~~~\text{, or }~~~ \log_{3}{(7)} \approx 1.7712437</me>
 To the nearest hundredth, <m>\log_{3}{(7)} \approx 1.77</m>.</p>
     <image width="40%" source="images/fig-GC-approx-log"><description>GC intersection of expnential curve and horizontal line</description></image>
-</solution></example>
+</solution></activity>
 
 <exercise component="webwork"><title>Practice 4</title>
     <webwork><pg-code>
@@ -417,7 +417,7 @@ Base 10 logarithms are called <term>common logarithms</term><idx>common logarith
 
 <p>To evaluate a base 10 logarithm, we use the <kbd>LOG</kbd> key on a calculator. Many logarithms are irrational numbers, and the calculator gives as many digits as its display allows. We can then round off to the desired accuracy.</p>
 
-<example xml:id="example-calculator-log"><statement><p>Approximate the following logarithms to 2 decimal places.
+<activity xml:id="example-calculator-log"><statement><p>Approximate the following logarithms to 2 decimal places.
 <ol marker="a." cols="2">
 			<li><p><m>\log{(6.5)}</m></p></li>
 			<li><p><m>\log{(256)}</m></p></li>
@@ -425,7 +425,7 @@ Base 10 logarithms are called <term>common logarithms</term><idx>common logarith
 <solution><p><ol marker="a.">
 	<li><p>The keying sequence <kbd>LOG</kbd> <m>6.5</m> <kbd>)</kbd><kbd>ENTER</kbd> yields <m>.812913566</m>, so <m>\log {(6.5)} \approx 0.81</m>.</p></li>
 	<li><p>The keying sequence <kbd>LOG</kbd> <m>256</m> <kbd>)</kbd> <kbd>ENTER</kbd> yields <m>2.408239965</m>, so <m>\log {(256)} \approx 2.41</m>.</p></li>
-	</ol></p></solution></example>
+	</ol></p></solution></activity>
 
 <note><p>We can check the approximations found in <xref ref="example-calculator-log" text="type-global"/> with our conversion equations. Remember that a logarithm is an exponent, and in this example the base is 10. We find that
 	<md><mrow>\amp\amp 10^{0.81} \amp\approx 6.45654229</mrow>
@@ -505,7 +505,7 @@ so our approximations are reasonable, although you can see that rounding a logar
 
 <p>We can now solve any exponential equation with base 10.</p>
 
-<example xml:id="example-solve-exponential"><statement><p>Solve the equation <m>~~38 = 95 - 15 \cdot 10^{0.4x}</m></p>
+<activity xml:id="example-solve-exponential"><statement><p>Solve the equation <m>~~38 = 95 - 15 \cdot 10^{0.4x}</m></p>
 </statement>
 
 <solution><p>First, we isolate the power of 10: We subtract 95 from both sides of the equation and divide by <m>-15</m> to obtain
@@ -519,7 +519,7 @@ We can evaluate this expression on the calculator by entering</p>
 
 <p><kbd>LOG</kbd> <m>3.8</m> <kbd>)</kbd> <kbd name="obelus"/> <m>0.4</m> <kbd>ENTER</kbd></p>
 
-<p>which yields <m>1.449458992</m>. Thus, to four decimal places, <m>x \approx 1.4495</m>.</p></solution></example>
+<p>which yields <m>1.449458992</m>. Thus, to four decimal places, <m>x \approx 1.4495</m>.</p></solution></activity>
 
 <warning><p>Do not omit the parenthesis when entering the expression in <xref ref="example-solve-exponential" text="type-global"/>.  Without the parenthesis, you are calculating <m> \log_{10}{\left(\dfrac{3.8}{0.4}\right)}</m>. You can check that this is not the same as  <m>\dfrac{\log_{10}{(3.8)}}{0.4}</m>.</p></warning>
 
@@ -593,7 +593,7 @@ We can evaluate this expression on the calculator by entering</p>
 	</ol>
 To answer the first question, we evaluate the function <m>P(t)</m> at the appropriate value. To answer the second question, we must solve an exponential equation, and this usually involves logarithms.</p>
 
-<example xml:id="example-tractor-depreciates"><statement><p>The value of a large tractor originally worth $30,000 depreciates exponentially according to the formula 
+<activity xml:id="example-tractor-depreciates"><statement><p>The value of a large tractor originally worth $30,000 depreciates exponentially according to the formula 
     <me>V(t) = 30,000(10)^{-0.04t}</me> 
 where <m>t</m> is in years. When will the tractor be worth half its original value?</p></statement>
 
@@ -608,7 +608,7 @@ Once we have isolated the power, we convert the equation to logarithmic form.
 To evaluate this expression, we key in</p>
 <p><kbd>LOG</kbd> <m>0.5</m> <kbd>)</kbd> <kbd name="obelus"/> <kbd>(-)</kbd> <m>0.04</m> <kbd>ENTER</kbd></p>
 <p>to find <m>t \approx 7.525749892</m>. The tractor will be worth $15,000 in approximately <m>7\frac{1}{2}</m> years.</p>
-</solution></example>
+</solution></activity>
 
 <exercise component="webwork"><title>QuickCheck 6</title>
 <webwork><pg-code>

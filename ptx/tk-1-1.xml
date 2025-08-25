@@ -12,24 +12,24 @@ We say that <m>x</m> is the input variable, and <m>y</m> is the output variable.
     <me>\blert{y = \text{starting value} + \text{rate} \times x}</me></p>
 </introduction>
                     
-<example><statement><p>Steve bought a Blu-Ray player for $269 and a number of discs at $14 each. Write an expression for Steve's total bill, <m>B</m> (before tax), in terms of the number of discs he bought, <m>d</m>.</p></statement>
+<activity><statement><p>Steve bought a Blu-Ray player for $269 and a number of discs at $14 each. Write an expression for Steve's total bill, <m>B</m> (before tax), in terms of the number of discs he bought, <m>d</m>.</p></statement>
                     
 <solution><p>We want an equation of the form
         <me>B = \text{starting value} + \text{rate} \times d</me>
     where Steve's bill started with the Blu-Ray player or $269, and then increased by a number of discs at a rate of $14 each.  Substituting those values, we have
-    <me>B=269+14d</me></p></solution></example>
+    <me>B=269+14d</me></p></solution></activity>
 
-<example><statement><p>At 6 am the temperature was 50<m>\degree</m>, and it has been falling by 4<m>\degree</m> every hour. Write an equation for the temperature, <m>T</m>, after <m>h</m> hours.</p></statement>
+<activity><statement><p>At 6 am the temperature was 50<m>\degree</m>, and it has been falling by 4<m>\degree</m> every hour. Write an equation for the temperature, <m>T</m>, after <m>h</m> hours.</p></statement>
 
 <solution><p>We want an equation of the form
         <me>T = \text{starting value} + \text{rate} \times h</me>
     The temperature started at 50<m>\degree</m>, and then decreased each hour at the rate of 4<m>\degree</m> per hour, so we subtract <m>4h</m> from 50 to get
-    <me>T=50-4h</me></p></solution></example>
+    <me>T=50-4h</me></p></solution></activity>
 
-<example><statement><p>Kyli's electricity company charges her $6 per month plus $0.10 per kilowatt hour (kWh) of energy she uses. Write an equation for Kyli's electric bill, <m>E</m>, if she uses <m>w</m> kWh of electricity.</p></statement>
+<activity><statement><p>Kyli's electricity company charges her $6 per month plus $0.10 per kilowatt hour (kWh) of energy she uses. Write an equation for Kyli's electric bill, <m>E</m>, if she uses <m>w</m> kWh of electricity.</p></statement>
 
 <solution><p>Kyli's bill starts a6 $6 and increases by $0.10 for each kWh, <m>w</m>. Thus,
-    <me>E=6+0.10w</me></p></solution></example>
+    <me>E=6+0.10w</me></p></solution></activity>
 
 <exercise><statement><p>Salewa saved $5000 to go to school full time. She spends $200 per week on living expenses. Write an equation for Salewa's savings, <m>S</m>, after <m>w</m> weeks.</p></statement>
     <answer><p><m>S=5000-200w</m></p></answer></exercise>
@@ -55,7 +55,7 @@ We say that <m>x</m> is the input variable, and <m>y</m> is the output variable.
 
 <introduction><p>The simplest way to graph a line is to make a table and plot points. We will learn more efficient methods shortly.</p></introduction>
 
-<example><statement><p>Make a table of values, plot the points, and graph the equation <m>y=-2x+6</m>.</p></statement>
+<activity><statement><p>Make a table of values, plot the points, and graph the equation <m>y=-2x+6</m>.</p></statement>
 
 <solution><p>Choose both positive and negative values for <m>x</m>. Calculate the <m>y</m>-value for each <m>x</m>-value by substituting the <m>x</m>-value into the equation.</p>
 
@@ -126,9 +126,9 @@ We say that <m>x</m> is the input variable, and <m>y</m> is the output variable.
         \end{tikzpicture}]]>
         </latex-image></image>
     </sidebyside>
-</solution></example>
+</solution></activity>
 
-<example><statement><p>Byron borrowed $6000 from his uncle to help pay for his college education.  Now that he has graduated and has a job, he is paying back the loan at $100 per month.
+<activity><statement><p>Byron borrowed $6000 from his uncle to help pay for his college education.  Now that he has graduated and has a job, he is paying back the loan at $100 per month.
 <ol marker="a.">    
     <li>Write an equation showing the amount of money, <m>y</m>, that Byron still owes his uncle after <m>x</m> months.</li>
     <li>Graph your equation.</li></ol></p></statement>
@@ -176,7 +176,7 @@ We say that <m>x</m> is the input variable, and <m>y</m> is the output variable.
         \end{tikzpicture}]]>
         </latex-image></image>
     </sidebyside>
-</solution></example>
+</solution></activity>
 
 <exercise><statement><p>Graph <m>~y=\dfrac{3}{4}x-3</m>.</p>
 
@@ -476,23 +476,23 @@ We say that <m>x</m> is the input variable, and <m>y</m> is the output variable.
 
 <introduction><p>Recall that to solve an equation we want to "isolate" the variable on one side of the equals sign. We "undo" each operation performed on the variable by performing the opposite operation on both sides of the equation.</p></introduction>
                 
-<example><statement><p>Solve the equation <m>~~\dfrac{2}{3}x-5=7</m> </p></statement>
+<activity><statement><p>Solve the equation <m>~~\dfrac{2}{3}x-5=7</m> </p></statement>
                     
 <solution><p>
     <md><mrow>\dfrac{2}{3}x-5 \amp = 7 \amp \amp \blert{\text{Add 5 to both sides.}}</mrow>
         <mrow>\dfrac{2}{3}x \amp = 12 \amp \amp \blert{\text{To divide both sides by } \dfrac{2}{3}, \text{we:}}</mrow>
         <mrow>\dfrac{3}{2}\left(\dfrac{2}{3}x\right) \amp =\dfrac{3}{2}(12) \amp \amp \blert{\text{Multiply by the reciprocal of }\dfrac{2}{3}.}</mrow>
         <mrow>x \amp = 18 \amp \amp \blert{\text{The solution is 18.}}</mrow></md></p>
-    </solution></example>
+    </solution></activity>
 
-<example><statement><p>Solve the equation <m>~~2x+7=4x-3</m></p></statement>
+<activity><statement><p>Solve the equation <m>~~2x+7=4x-3</m></p></statement>
 
 <solution><p>To begin, we must get both variable terms on the same side of the equation.
     <md><mrow>2x+7 \amp = 4x-3 \amp \amp \blert{\text{Subtract}~2x~\text{from both sides.}}</mrow>
         <mrow>7 \amp = 2x-3 \amp \amp \blert{\text{Add 3 to both sides.}}</mrow>
         <mrow>10 \amp =2x   \amp \amp \blert{\text{Divide both sides by 2.}}</mrow>
         <mrow>5 \amp = x \amp \amp \blert{\text{The solution is 5.}}</mrow>
-    </md></p></solution></example>
+    </md></p></solution></activity>
 
 <exercise><statement><p>Solve the equation <m>~~10=1-\dfrac{3x}{7}</m></p></statement>
     <answer><p><m>-21</m></p></answer></exercise>
@@ -517,7 +517,7 @@ We say that <m>x</m> is the input variable, and <m>y</m> is the output variable.
 <assemblage> <title>Solving a Linear Inequality</title>
 <p>If we multiply or divide both sides of a linear inequality by a negative number, we must reverse the direction of the inequality symbol.</p></assemblage></introduction>
 
-<example><statement><p>Solve <m>~~-3x+1 \gt 7~~</m> and graph the solutions on a number line.</p></statement>
+<activity><statement><p>Solve <m>~~-3x+1 \gt 7~~</m> and graph the solutions on a number line.</p></statement>
 <solution><p>
         <md><mrow>-3x+1 \amp \gt 7 \amp \amp ~\blert{\text{ Subtract 1 from both sides.}}</mrow>
             <mrow>-3x \amp \gt 6 \amp \amp\ 
@@ -529,9 +529,9 @@ We say that <m>x</m> is the input variable, and <m>y</m> is the output variable.
     The solutions are all the numbers less than <m>-2</m>.
     The graph of the solutions is shown below.</p>
     <image width="70%" source="images/fig-wu-1.png"><description>line graph</description></image>
-</solution></example>
+</solution></activity>
 
-<example><statement><p>Solve <m>~~-3 \lt 2x-5 \le 6~~</m> and graph the solutions on a number line.</p></statement>
+<activity><statement><p>Solve <m>~~-3 \lt 2x-5 \le 6~~</m> and graph the solutions on a number line.</p></statement>
 
 <solution><p>
     <md><mrow>-3 \amp \lt 2x-5 \le 6 \amp \amp \blert{\text{Add 5 on all three sides of the inequality.}}</mrow>
@@ -556,7 +556,7 @@ We say that <m>x</m> is the input variable, and <m>y</m> is the output variable.
 
         \end{tikzpicture}]]>
         </latex-image></image>
-</solution></example>
+</solution></activity>
 
 <p>Recall that a solid dot on a number line indicates that the number is part of the solution; an open dot means that the number is not part of the solution.</p>
 

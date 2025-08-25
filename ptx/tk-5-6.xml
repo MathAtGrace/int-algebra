@@ -10,13 +10,13 @@
     <md><mrow>f(x) \amp = x \amp   f(x) \amp = \abs{x}  \amp  f(x) \amp = x^2  \amp  f(x) \amp = x^3</mrow>
         <mrow>f(x) \amp = \sqrt{x}  \amp  f(x) \amp = \sqrt[3]{x}  \amp  f(x) \amp = \dfrac{1}{x} \amp   f(x) \amp = \dfrac{1}{x^2}</mrow></md></p>
 
-<example><statement><p>Which of the eight basic functions are always increasing?</p></statement>
+<activity><statement><p>Which of the eight basic functions are always increasing?</p></statement>
 
-<solution><p><m>f(x)=x,~~~f(x)=x^3,~~~f(x)=\sqrt{x},~~~f(x)=\sqrt[3]{x}</m></p></solution></example>
+<solution><p><m>f(x)=x,~~~f(x)=x^3,~~~f(x)=\sqrt{x},~~~f(x)=\sqrt[3]{x}</m></p></solution></activity>
 
-<example><statement><p>Which of the eight basic functions are concave up for positive <m>x</m>?</p></statement>
+<activity><statement><p>Which of the eight basic functions are concave up for positive <m>x</m>?</p></statement>
 
-<solution><p><m>f(x)=x^2,~~~f(x)=x^3,~~~f(x)=\dfrac{1}{x},~~~f(x)=\dfrac{1}{x^2}</m></p></solution></example>
+<solution><p><m>f(x)=x^2,~~~f(x)=x^3,~~~f(x)=\dfrac{1}{x},~~~f(x)=\dfrac{1}{x^2}</m></p></solution></activity>
 
 <exercise><statement><p>Which of the eight basic functions are undefined at <m>x=0</m>?</p></statement>
 <answer><p><m>f(x)=\dfrac{1}{x},~~~f(x)=\dfrac{1}{x^2}</m></p></answer></exercise>
@@ -35,7 +35,7 @@
         \end{cases}</me>
 To write the absolute value of some other algebraic expression, we replace <m>x</m> by the expression wherever <m>x</m> appears.</p>
 
-<example><statement><p>Simplify the function <m>~f(x)=|2x-8|~</m> as a piecewise defined function.</p></statement>
+<activity><statement><p>Simplify the function <m>~f(x)=|2x-8|~</m> as a piecewise defined function.</p></statement>
 
 <solution><p>We use the definition of absolute value and replace <m>x</m> by <m>2x-8</m>.
     <me>f(x) =
@@ -49,7 +49,7 @@ To write the absolute value of some other algebraic expression, we replace <m>x<
         2x-8 \amp  \text{if} ~~x\ge 4\\
         8-2x  \amp  \text{if} ~~x\lt 4
         \end{cases}</me>
-</p></solution></example>
+</p></solution></activity>
 
 <exercise><statement><p>Simplify the function <m>~f(x)=|6-3x|~</m> as a piecewise defined function.</p></statement>
     <answer><p><me>f(x) =
@@ -72,7 +72,7 @@ To write the absolute value of some other algebraic expression, we replace <m>x<
 
 <p>Recall that square brackets on an interval mean that the endpoints are included, and round brackets mean that the endpoints are not included.</p>
 
-<example><statement><p>Write each set with interval notation, and graph the set on a number line.
+<activity><statement><p>Write each set with interval notation, and graph the set on a number line.
 <ol marker="a." cols="2">
     <li><m>3 \le x \lt 6</m></li>
     <li><m>x \ge -9</m></li>
@@ -89,7 +89,7 @@ To write the absolute value of some other algebraic expression, we replace <m>x<
     <image width="70%" source="images/fig-2-5-3.png"><description>interval</description></image></li>
     <li><p><m>(-8,-5] \cup [-1,3).</m></p>
     <image width="70%" source="images/fig-2-5-4.png"><description>interval</description></image></li>
-</ol></p></solution></example>
+</ol></p></solution></activity>
 
 <exercise><statement><p>Write each set with interval notation, and graph the set on a number line.
 <ol marker="a." cols="2">
@@ -121,15 +121,15 @@ To write the absolute value of some other algebraic expression, we replace <m>x<
 
 <p>Here are some useful formulas often used in models.</p>
 
-<example><statement><p>Write a formula for the volume of a rectangular box, and identify the variables.</p></statement>
+<activity><statement><p>Write a formula for the volume of a rectangular box, and identify the variables.</p></statement>
  
 <solution><p><m>V=lwh~~</m></p>
-<p> <m>V</m> stands for volume, and <m>l,~w,</m> and <m>h</m> stand for, respectively, the length, width, and height of the box.</p></solution></example>
+<p> <m>V</m> stands for volume, and <m>l,~w,</m> and <m>h</m> stand for, respectively, the length, width, and height of the box.</p></solution></activity>
 
-<example><statement><p>Write a formula for the average of a number of scores, and identify the variables.</p></statement>
+<activity><statement><p>Write a formula for the average of a number of scores, and identify the variables.</p></statement>
  
 <solution><p><m>A=\dfrac{S}{n}~~</m></p>
-<p> <m>A</m> stands for the average, <m>S</m> stands for the sum of the scores, and <m>n</m> stands for the number of scores.</p></solution></example>
+<p> <m>A</m> stands for the average, <m>S</m> stands for the sum of the scores, and <m>n</m> stands for the number of scores.</p></solution></activity>
 
 <exercise><statement><p>Choose the correct formula from the list below, and identify the variables.<ul cols="2">
     <li><m>I=Prt</m></li>

@@ -189,7 +189,7 @@ So the two equations are
 
 <p>We can use a calculator or graphing utility to graph the equations in a system.</p>
 
-<example><statement><p>Use your grapher to solve the system by graphing. <m>~~\alert{\text{[TK]}}</m>
+<activity><statement><p>Use your grapher to solve the system by graphing. <m>~~\alert{\text{[TK]}}</m>
             <md><mrow>y \amp= 1.7x + 0.4</mrow>
                 <mrow>y \amp= 4.1x + 5.2</mrow></md></p></statement>
 
@@ -202,7 +202,7 @@ So the two equations are
         </tabular>
 <p>and enter the two equations. We can see in the figure that the two lines intersect in the third quadrant. We use the <kbd>TRACE</kbd> feature to find the coordinates of the intersection point, <m>(-2,-3)</m>. The solution to the system is <m>x=-2</m>, <m>y=-3</m>.</p>
     <image width="38%" source="images/fig-GC-2x2-system"><description>GC display of 2 lines intersecting in 3rd quadrant</description></image></solution>
-</example>
+</activity>
 
 <aside><p><m>\alert{\text{[TK]}}~~</m>To learn about graphing equations with GeoGebra, see Appendix B.</p></aside>
 
@@ -252,7 +252,7 @@ So the two equations are
 
 <p>Because the <kbd>TRACE</kbd> feature does not show every point on a graph, we may not find the exact solution to a system by tracing the graphs.</p>
 
-<example><statement><p>Solve the system
+<activity><statement><p>Solve the system
             <md><mrow>3x - 2.8y \amp= 21.06</mrow>
                 <mrow>2x + 1.2y \amp= 5.3</mrow></md></p></statement>
 
@@ -265,7 +265,7 @@ and use the standard window. If we trace along the graph to the intersection poi
 <p> We can substitute these values into the original system to check that they satisfy both equations.
         <md><mrow>3(\alert{4.36}) - 2.8(\alert{-2.85}) \amp = 21.06 \amp\amp \blert{\text{True}}</mrow>
             <mrow>2(\alert{4.36}) + 1.2(\alert{-2.85}) \amp = 5.3 \amp\amp \blert{\text{True}}</mrow></md></p>
-</solution></example>
+</solution></activity>
 
 <exercise component="webwork"><title>Practice 2</title>
     <webwork><pg-code>
@@ -333,7 +333,7 @@ and use the standard window. If we trace along the graph to the intersection poi
     <li><p><term>Dependent system</term><idx>dependent</idx>. All the solutions of one equation are also solutions to the second equation, and hence are solutions of the system. The graphs of the two equations are the same line. A dependent system has infinitely many solutions.</p></li></ol></p></statement>
 </definition>
 
-<example xml:id="example-inconsistent-system"><statement><p>Solve each system.<ol marker="a." cols="2">
+<activity xml:id="example-inconsistent-system"><statement><p>Solve each system.<ol marker="a." cols="2">
     <li><p><md><mrow>y = -x + 5</mrow>
                 <mrow>2x + 2y = 3</mrow></md></p></li>
     <li><p><md><mrow>x = \frac{2}{3}y + 3</mrow>
@@ -358,7 +358,7 @@ and use the standard window. If we trace along the graph to the intersection poi
                 <mrow>-2y \amp = -3x + 9  \amp\amp \blert{\text{Divide by } -2.}</mrow>
                 <mrow>y \amp = \frac{3}{2}x - \frac{9}{2}</mrow></md></p>
             <image source="images/fig-coincident-lines"  width="25%"><description>one line with two equations</description></image></sidebyside>
-    <p>The two equations are actually different forms of the same equation. They are equivalent, so they share the same line as a graph. Every point on the first line is also a point on the second line, and hence a solution of the system. The system has infinitely many solutions.</p></li></ol></p></solution></example>
+    <p>The two equations are actually different forms of the same equation. They are equivalent, so they share the same line as a graph. Every point on the first line is also a point on the second line, and hence a solution of the system. The system has infinitely many solutions.</p></li></ol></p></solution></activity>
 
 <exercise component="webwork"><title>QuickCheck 3</title>
 <webwork><pg-code>
@@ -494,7 +494,7 @@ Cost is usually calculated as the sum of fixed costs, or overhead, and variable 
 
 <p>The <term>demand equation</term><idx>demand equation</idx><idx><h>equation</h><h>demand</h></idx> gives the number of units of the product that consumers will buy at a given price. The <term>supply equation</term><idx>supply equation</idx><idx><h>equation</h><h>supply</h></idx> gives the number of units that the producer will supply at that price. The price at which the supply and demand are equal is called the <term>equilibrium price</term><idx>equilibrium price</idx>. This is the price at which the consumer and the producer agree to do business.</p>
 
-<example><statement><p>A woolens mill can produce <m>400x</m> yards of fine suit fabric if it can charge <m>x</m> dollars per yard. The mill's clients in the garment industry will buy <m>6000 - 100x</m> yards of wool fabric at a price of <m>x</m> dollars per yard. Find the equilibrium price and the amount of fabric that will change hands at that price.</p></statement>
+<activity><statement><p>A woolens mill can produce <m>400x</m> yards of fine suit fabric if it can charge <m>x</m> dollars per yard. The mill's clients in the garment industry will buy <m>6000 - 100x</m> yards of wool fabric at a price of <m>x</m> dollars per yard. Find the equilibrium price and the amount of fabric that will change hands at that price.</p></statement>
     
 <solution><p><ul>
     <li><title>Step 1</title>
@@ -518,7 +518,7 @@ Cost is usually calculated as the sum of fixed costs, or overhead, and variable 
                 <image width="40%" source="images/fig-GC-equilibrium.png"><description>GC graph of supply and demand of wool fabric</description></image></li>
     <li><title>Step 4</title>
         <p>The equilibrium price is $12 per yard, and the mill will sell 4800 yards of fabric at that price.</p></li>
-    </ul></p></solution></example>
+    </ul></p></solution></activity>
 
 </subsection>
 

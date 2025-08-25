@@ -6,17 +6,17 @@
 
 <introduction><p>To calculate an increase of <m>r</m>%, we write the percent as a decimal and multiply the old amount by <m>1+r</m>.  To calculate a decrease we multiply the old amount by <m>1-r</m>.</p></introduction>  
 
-<example><statement><p>A loaf of bread cost $3.00 last month, but this year the price rose by 6%. What should you multiply by to find the new price? What is the new price?</p></statement>
+<activity><statement><p>A loaf of bread cost $3.00 last month, but this year the price rose by 6%. What should you multiply by to find the new price? What is the new price?</p></statement>
  
 <solution><p>To get the new price, we multiply by 1.06 to get 
     <me>1.06(3.00)=3.18</me> 
-    The new price is $3.18.</p></solution></example>
+    The new price is $3.18.</p></solution></activity>
 
-<example><statement><p>Priceco is offering a 15% discount off the regular price of $180 for a ceiling fan. What should you multiply by to find the new price? What is the new price.</p></statement>
+<activity><statement><p>Priceco is offering a 15% discount off the regular price of $180 for a ceiling fan. What should you multiply by to find the new price? What is the new price.</p></statement>
  
 <solution><p>To get the new price, we multiply by <m>1-0.15</m>, or 0.85, to get 
 <me>0.85(180)=153</me> 
-so the new price is $153.</p></solution></example>
+so the new price is $153.</p></solution></activity>
 
 <exercise><statement><p>Muriel's rent was increased by 8% from $650 per month. What should you multiply by to find her new rent?  What is her new rent? </p></statement>
     <answer><p><m>1.08</m>, $702</p></answer></exercise>
@@ -29,7 +29,7 @@ so the new price is $153.</p></solution></example>
 
 <introduction><p>Recall that evaluating powers comes before multiplication in the order of operations.</p></introduction>
 
-<example><statement><p>Simplify.
+<activity><statement><p>Simplify.
 <ol marker="a." cols="3">
     <li><m>-4-2^3</m></li>
     <li><m>-4(-2)^3</m></li>
@@ -43,9 +43,9 @@ so the new price is $153.</p></solution></example>
         <me>-4(-2)^3=-4(-8)=32</me></li>
     <li>Compute <m>(-4-2)</m> first, then cube the result:
         <me>(-4-2)^3=(-6)^3=-216</me></li>
-</ol></p></solution></example>
+</ol></p></solution></activity>
 
-<example><statement><p> Evaluate for<m>x=6</m>. Round your answers to hundredths.
+<activity><statement><p> Evaluate for<m>x=6</m>. Round your answers to hundredths.
 <ol marker="a." cols="2">
     <li><m>12(1.05)^x</m></li>
     <li><m>12(1+x/100)^5</m></li>
@@ -56,7 +56,7 @@ so the new price is $153.</p></solution></example>
         <me>12(1.05)^{\alert{6}} = 12(1.3400956...) = 16.08</me></p></li>
     <li><p>Follow the order of operations. Compute the power first:
         <me>12(1+\alert{6}/100)^5 = 12(1.06)^5 = 12(1.3382255...) = 16.06</me></p></li>
-</ol></p></solution></example>
+</ol></p></solution></activity>
 
 <exercise><statement><p>Simplify. Round your answers to the nearest whole number.
 <ol marker="a." cols="2">
@@ -83,7 +83,7 @@ so the new price is $153.</p></solution></example>
 
 <p>Be careful to avoid tempting but false operations with exponents.</p>
 
-<example><statement><p>Which equation is a correct application of the laws of exponents?
+<activity><statement><p>Which equation is a correct application of the laws of exponents?
 <ol marker="a.">
     <li><m>20(1+r)^4 = 20+20r^4~~~~~</m> or <m>~~~~~(ab^t)^3 = a^3b^{3t}</m></li>
     <li><m>2^{t/5} = (2^{1/5})^t~~~~~</m> or <m>~~~~~6.8(10)^t = 68^t</m></li>
@@ -96,7 +96,7 @@ so the new price is $153.</p></solution></example>
     <li><p>The first statement is correct. If we start with <m>(2^{1/5})^t</m>, we can apply the third law, <m>(a^m)^n = a^{mn}</m>, to find 
         <me>(2^{1/5})^t = 2^{(1/5)t} = 2^{t/5}</me>.</p>
     <p> In the second statement, 6.8 is not raised to power <m>t</m>, so we cannot multiply 6.8 times 10.</p></li>
-</ol></p></solution></example>
+</ol></p></solution></activity>
 
 <p>Decide whether each simplification is a correct application of the laws of exponents. Write a correct statement if possible.</p>
 
@@ -115,7 +115,7 @@ so the new price is $153.</p></solution></example>
 
 <!--<subsubsection xml:id="tkFracPowr"><title>3. Raise fractions to powers</title>
 
-<example><statement><p>Complete the table of powers. As the exponent increases, do the powers increase or decrease?
+<activity><statement><p>Complete the table of powers. As the exponent increases, do the powers increase or decrease?
 <ol marker="a." cols="2">
     <li><tabular top="major" halign="center" right="minor" left="minor" bottom="minor">              
                     <row bottom="minor">
@@ -180,9 +180,9 @@ so the new price is $153.</p></solution></example>
                     </tabular></sidebyside>
         <p>When we multiply a number by <m>\dfrac{5}{4}</m>, the product is larger than the original number, so the powers of <m>\dfrac{5}{4}</m> increase as the exponent increases. We can compare the powers more easily by converting the fractions to decimals, rounded to three places: 
         <me>\dfrac{5}{4} = 1.25,~\dfrac{25}{16} = 1.563,~\dfrac{125}{64} = 1.953,~\dfrac{625}{256} = 2.441</me></p></li>
-    </ol></p></solution></example>
+    </ol></p></solution></activity>
 
-<example><statement><p>Complete the table of powers. As the exponent increases, do the powers increase or decrease?
+<activity><statement><p>Complete the table of powers. As the exponent increases, do the powers increase or decrease?
 <ol marker="a." cols="2">
     <li><tabular top="major" halign="center" right="minor" left="minor" bottom="minor">              
                     <row bottom="minor">
@@ -246,7 +246,7 @@ so the new price is $153.</p></solution></example>
                         <cell><m>2.0736</m></cell></row>
                     </tabular></sidebyside>
             <p>The powers increase.</p></li>
-</ol></p></solution></example>
+</ol></p></solution></activity>
 
 <exercise><statement><p>Complete the table of powers. As the exponent increases, do the powers increase or decrease?
 <ol marker="a." cols="2">

@@ -6,7 +6,7 @@
 
 <introduction><p>To reduce an algebraic fraction, we must factor its numerator and denominator.</p></introduction>
                    
-<example><statement><p>Factor.
+<activity><statement><p>Factor.
 <ol marker="a." cols="3">
 	<li><m>4x^2-4x</m></li>
 	<li><m>4x^2-1</m></li>
@@ -17,9 +17,9 @@
 	<li><p>We factor out  a common factor of <m>4x</m> to get <m>4x(x-1)</m>.</p></li>
 	<li><p>This is a difference of two squares that factors as <m>(2x-1)(2x+1)</m>.</p></li> 
 	<li><p>This is the square of a binomial, <m>(2x-1)^2</m>.</p></li>
-</ol></p></solution></example>
+</ol></p></solution></activity>
 
-<example><statement><p>Factor.
+<activity><statement><p>Factor.
 <ol marker="a." cols="3">
 	<li><m>27a^2-3</m></li>
 	<li><m>27a^3-1</m></li>
@@ -30,7 +30,7 @@
 	<li><p>We first factor out 3 to find <m>3(9a^2-1)</m>, then factor the difference of two squares to get <m>3(3a-1)(3a+1)</m>.</p></li>
 	<li><p>This is a differece of two cubes, which factors as <m>(3a-1)(9a^2+3a+1)</m>.</p></li>
 	<li><p>We first factor out <m>a</m> to get <m>a(81a^2-1)</m>, then factor the difference of two squares to get <m>a(9a-1)(9a+1)</m> .</p></li>
-</ol></p></solution></example>
+</ol></p></solution></activity>
 
 <exercise><statement><p>Factor completely  <m>2x^3+16y^3</m></p></statement>
 <answer><p><m>2(x+2y)(x^2-2xy+4y^2)</m></p></answer></exercise>
@@ -49,23 +49,23 @@
 
 <introduction><p>To find the opposite or negative of a binomial we multiply by <m>-1</m>.</p></introduction>
                    
-<example><statement><p>Which of these is the opposite of <m>m^2-p~</m>?
+<activity><statement><p>Which of these is the opposite of <m>m^2-p~</m>?
 <ol marker="a." cols="3">
 	<li><m>m^2+p</m></li>
 	<li><m>m-p^2</m></li>
 	<li><m>p-m^2</m></li>
 </ol></p></statement>
 
-<solution><p>The opposite of <m>m^2-p</m> is <m>-(m^2-p) = -m^2+p</m>, or <m>p-m^2</m>.</p></solution></example>
+<solution><p>The opposite of <m>m^2-p</m> is <m>-(m^2-p) = -m^2+p</m>, or <m>p-m^2</m>.</p></solution></activity>
 
-<example><statement><p>Which of these pairs of binomials are opposites?
+<activity><statement><p>Which of these pairs of binomials are opposites?
 <ol markerl="a.">
 	<li><m>3c-5</m> and <m>5+3c</m></li>
 	<li><m>5-3c</m> and <m>3-5c</m></li>
 	<li><m>5c-3</m> and <m>3-5c</m></li>
 </ol></p></statement>
 
-<solution><p>The opposite of <m>5c-3</m> is <m>-(5c-3)=-5c+3</m>, or <m>3-5c</m>, so (c) is correct.</p></solution></example>
+<solution><p>The opposite of <m>5c-3</m> is <m>-(5c-3)=-5c+3</m>, or <m>3-5c</m>, so (c) is correct.</p></solution></activity>
 
 <exercise><statement><p>Find the opposite of the binomial <m>~2x+1</m></p></statement>
 <answer><p><m>-2x-1</m></p></answer></exercise>
@@ -84,7 +84,7 @@
 
 <introduction><p>The asymptotes of rational functions are horizontal and vertical lines.</p></introduction>
                    
-<example><statement><p>Give the equation and slope of the line.</p>
+<activity><statement><p>Give the equation and slope of the line.</p>
 	<image width="30%" xml:id="fig-x-eq-neg15"><description>vertical line</description><latex-image>
         <!-- CDATA prevents certain LaTeX code from being interpreted as xml -->
         <![CDATA[\tikzset{%
@@ -101,9 +101,9 @@
         \end{tikzpicture}]]>
         </latex-image></image></statement>
 
-<solution><p>This line is a vertical line. All the points on the line have <m>x</m>-coordinate <m>-15</m>, so the equation of the line is <m>x=-15</m>. Because <m>\Delta x=0</m> between any two points on the line, its slope is undefined.</p></solution></example>
+<solution><p>This line is a vertical line. All the points on the line have <m>x</m>-coordinate <m>-15</m>, so the equation of the line is <m>x=-15</m>. Because <m>\Delta x=0</m> between any two points on the line, its slope is undefined.</p></solution></activity>
 
-<example><statement><p>Give the equation and slope of the line.</p>
+<activity><statement><p>Give the equation and slope of the line.</p>
 	<image width="30%" xml:id="fig-y-eq-40"><description>horizontal line</description><latex-image>
         <!-- CDATA prevents certain LaTeX code from being interpreted as xml -->
         <![CDATA[\tikzset{%
@@ -120,7 +120,7 @@
         \end{tikzpicture}]]>
         </latex-image></image></statement>
 
-<solution><p>This line is a horizontal line. All the points on the line have <m>y</m>-coordinate <m>04</m>, so the equation of the line is <m>y=40</m>.  Because <m>\Delta y=0</m> between any two points on the line, its slope is <m>0</m>.</p></solution></example>
+<solution><p>This line is a horizontal line. All the points on the line have <m>y</m>-coordinate <m>04</m>, so the equation of the line is <m>y=40</m>.  Because <m>\Delta y=0</m> between any two points on the line, its slope is <m>0</m>.</p></solution></activity>
 
 <exercise><statement><p>Give the equation and slope of the line.</p>
 	<image width="30%" xml:id="fig-y-eq-neg16"><description>horizontal line</description><latex-image>

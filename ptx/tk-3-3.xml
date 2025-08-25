@@ -7,14 +7,14 @@
 <introduction><p>The average of two numbers lies half-way between them on a number line. To find their average, we take one-half of their sum. That is, the average of <m>p</m> and <m>q</m> is 
     <me>\dfrac{1}{2}(p+q)~~~~\text{or}~~~~\dfrac{p+q}{2}</me></p></introduction>
 
-<example><statement><p>The average of 4 and 9 is
-    <me>\dfrac{1}{2}(4+9) = \dfrac{1}{2}(13) = \dfrac{13}{2},~~\text{or}~~6\dfrac{1}{2}</me></p></statement></example>
+<activity><statement><p>The average of 4 and 9 is
+    <me>\dfrac{1}{2}(4+9) = \dfrac{1}{2}(13) = \dfrac{13}{2},~~\text{or}~~6\dfrac{1}{2}</me></p></statement></activity>
 
-<example><statement><p>The average of <m>-8</m> and <m>4</m> is
-    <me>\dfrac{1}{2}(-8+4) = \dfrac{1}{2}(-4) = -2</me></p></statement></example>
+<activity><statement><p>The average of <m>-8</m> and <m>4</m> is
+    <me>\dfrac{1}{2}(-8+4) = \dfrac{1}{2}(-4) = -2</me></p></statement></activity>
 
-<example><statement><p>The average of <m>\dfrac{5}{2}</m> and <m>\dfrac{-3}{4}</m> is
-    <me>\dfrac{1}{2}\left(\dfrac{5}{2}-\dfrac{3}{4}\right) = \dfrac{1}{2}\left(\dfrac{10}{4}-\dfrac{3}{4}\right) = \dfrac{1}{2}\left(\dfrac{10}{4}\right) = \dfrac{7}{8}</me></p></statement></example>
+<activity><statement><p>The average of <m>\dfrac{5}{2}</m> and <m>\dfrac{-3}{4}</m> is
+    <me>\dfrac{1}{2}\left(\dfrac{5}{2}-\dfrac{3}{4}\right) = \dfrac{1}{2}\left(\dfrac{10}{4}-\dfrac{3}{4}\right) = \dfrac{1}{2}\left(\dfrac{10}{4}\right) = \dfrac{7}{8}</me></p></statement></activity>
 
 <exercise><statement><p>Find the average of <m>-12</m> and <m>-7</m>.</p></statement>
     <answer><p><m>\dfrac{-19}{2}</m></p></answer></exercise>
@@ -31,28 +31,28 @@
 
 <subsubsection xml:id="tkSolvQuadEqn"><title>Solve quadratic equations</title>
 
-<example><statement><p>Solve <m>~3x^2=48</m></p></statement>
+<activity><statement><p>Solve <m>~3x^2=48</m></p></statement>
  
 <solution><p>We use extraction of roots. We first divide by 3 to isolate the squared expression.
     <md><mrow>x^2 \amp = 16  \amp \amp \blert{\text{Take square roots.}}</mrow>
         <mrow>x \amp = \pm 4</mrow></md>
- The solutions are <m>x=4</m> and <m>x=-4</m>.  </p></solution></example>
+ The solutions are <m>x=4</m> and <m>x=-4</m>.  </p></solution></activity>
 
-<example><statement><p>Solve <m>~3x^2=12x</m></p></statement>
+<activity><statement><p>Solve <m>~3x^2=12x</m></p></statement>
 
 <solution><p>We solve by factoring. First, we get zero on one side of the equation.
         <md><mrow>3x^2-12x \amp = 0  \amp \amp \blert{\text{Factor the left side.}}</mrow>
             <mrow>3x(x-4) \amp = 0  \amp \amp \blert{\text{Set each factor equal to zero.}}</mrow>
              <mrow>3x=0,~~~~x-4 \amp = 0</mrow></md>
-The solutions are <m>x=0</m> and <m>x=4</m>.  </p></solution></example> 
+The solutions are <m>x=0</m> and <m>x=4</m>.  </p></solution></activity> 
 
-<example><statement><p>Solve <m>~3x^2-10x-8=0</m></p></statement>
+<activity><statement><p>Solve <m>~3x^2-10x-8=0</m></p></statement>
 
 <solution><p>We solve by factoring. We factor the left side.
         <md><mrow>(x-4)(3x+2) \amp = 0  \amp \amp \blert{\text{Set each factor equal to zero.}}</mrow>
             <mrow>x-4=0,~~~~3x+2 \amp = 0  \amp \amp \blert{\text{Solve each equation.}}</mrow>
             <mrow>x=4,~~~~x\amp = \dfrac{-2}{3}</mrow></md>
-The solutions are <m>x=0</m> and <m>x=\dfrac{-2}{3}</m>.  </p></solution></example>
+The solutions are <m>x=0</m> and <m>x=\dfrac{-2}{3}</m>.  </p></solution></activity>
 
 <exercise><statement><p>Solve <m>~5x^2-30=0</m></p></statement>
 <answer><p><m>x=\pm \sqrt{6}</m></p></answer></exercise> 
@@ -71,20 +71,20 @@ The solutions are <m>x=0</m> and <m>x=\dfrac{-2}{3}</m>.  </p></solution></examp
 
 <introduction><p>To find the <m>x</m>-coordinate of a point on a parabola, we usually need to solve a quadratic equation.</p></introduction>
 
-<example><statement><p>Find the <m>y</m>-coordinate of the point on the graph of <m>~y=2x^2-3x+5~</m> with <m>x</m>-coordinate <m>-3</m>.</p></statement>
+<activity><statement><p>Find the <m>y</m>-coordinate of the point on the graph of <m>~y=2x^2-3x+5~</m> with <m>x</m>-coordinate <m>-3</m>.</p></statement>
  
 <solution><p>Substitute <m>x=\alert{-3}</m> into the equation, and evaluate.
     <me>y=2(\alert{-3})^2-3(\alert{-3})+5 = 18+9+5 = 32</me>
-The <m>y</m>-coordinate is 32, and the point is <m>(-3,32)</m>.</p></solution></example>
+The <m>y</m>-coordinate is 32, and the point is <m>(-3,32)</m>.</p></solution></activity>
 
-<example><statement><p>Find the <m>x</m>-coordinates of all points on the graph of <m>~y=20-3x^2~</m> with <m>y</m>-coordinate <m>-28</m>.</p></statement>
+<activity><statement><p>Find the <m>x</m>-coordinates of all points on the graph of <m>~y=20-3x^2~</m> with <m>y</m>-coordinate <m>-28</m>.</p></statement>
  
 <solution><p>Substitute <m>y=\alert{-28}</m> into the equation, and solve.
     <md><mrow>\alert{-28} \amp = 20-3x^2 \amp \amp \blert{\text{Subtract 20 from both sides.}}</mrow>
         <mrow>-48 \amp =-3x^2 \amp \amp \blert{\text{Divide both sides by}~-3.}</mrow>
         <mrow>16 \amp = x^2 \amp \amp \blert{\text{Extract roots.}}</mrow>
         <mrow> \pm 4 \amp = x</mrow></md>
-    The points are <m>(4, -28)</m> and <m>(-4,-28)</m>.</p></solution></example>
+    The points are <m>(4, -28)</m> and <m>(-4,-28)</m>.</p></solution></activity>
 
 <exercise><statement><p>Find the <m>y</m>-coordinate of the point on the graph of <m>~y=-x^2+6x+2~</m> with <m>x</m>-coordinate <m>-2</m>.</p> </statement>
 <answer><p><m>-14</m></p></answer></exercise>

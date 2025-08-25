@@ -6,7 +6,7 @@
 
 <p>To simplify a radical, we factor out the largest perfect square.</p>
 
-<example><statement><p>Find the missiing factor.
+<activity><statement><p>Find the missiing factor.
 <ol marker="a." cols="2">
 	<li><m>60x^9 = 3x^3 \cdot~</m> ?</li>
 	<li><m>9x^3 - 3x^9 \cdot~</m> ?</li>
@@ -15,9 +15,9 @@
 <solution><p><ol marker="a.">
 	<li>We mentally divide <m>60x^9</m> by <m>3x^3</m> to find <m>\dfrac{60x^9}{3x^3} = 20x^6</m>. The missing factor is <m>20x^6</m>.</li>
 	<li>We mentally divide each term by <m>3x^3</m> to find <m>\dfrac{9x^3}{3x^3} = 3</m> and <m>\dfrac{3x^9}{3x^3}=x^6</m>.  The missing factor is <m>3-x^6</m>.</li>
-</ol></p></solution></example>
+</ol></p></solution></activity>
 
-<example><statement><p>Factor out the largest perfect square.<ol marker="a." cols="2">
+<activity><statement><p>Factor out the largest perfect square.<ol marker="a." cols="2">
 	<li><m>108a^5b^2</m></li>
 	<li><m>\dfrac{a^2+4a^4}{8}</m></li></ol></p></statement>
 
@@ -27,7 +27,7 @@
  		<me>a^2+a^4=a^2(1+4a^2)</me>
  	The largest perfect square that divides into the denominator is 4. Thus, we factor out <m>\dfrac{a^2}{4}</m> from the fraction to find  	
  		<me>\dfrac{a^2+4a^4}{8} = \dfrac{a^2}{4} \cdot \dfrac{1+4a^2}{2}</me></li>
- </ol></p></solution></example>
+ </ol></p></solution></activity>
  
 <exercise><statement><p>Find the missiing factor.
 <ol marker="a." cols="2">
@@ -59,7 +59,7 @@
 	<li><m>\sqrt{\dfrac{a}{b}} =\dfrac{\sqrt{a}}{\sqrt{b}}~~~~~~\text{if}~a \ge 0,~b \gt 0</m></li>
 </ul></p></assemblage>
 
-<example><statement><p>Decide whether each statement is true or false.  Then use a calculator to verify your answer.
+<activity><statement><p>Decide whether each statement is true or false.  Then use a calculator to verify your answer.
 <ol marker="a." cols="2">
 	<li><m>\sqrt{6} = \sqrt{2}~\sqrt{3}</m></li>
 	<li><m>\sqrt{6} = \sqrt{2}+\sqrt{4}</m></li>
@@ -70,9 +70,9 @@
 		<me>\sqrt{2}~\sqrt{3} \approx (1.4142)(1.7321) = 2.4495</me> 
 	rounded to four decimal places.</li>
 	<li>No:  we cannot combine radicals with addition or subtraction. You can check that <m>\sqrt{6} \approx 2.4495</m>, but <m>\sqrt{2}+\sqrt{4} \approx 1.4142+2=3.4142</m>.</li>
-</ol></p></solution></example>
+</ol></p></solution></activity>
 
-<example><statement><p>Find and correct the error in each calculation.
+<activity><statement><p>Find and correct the error in each calculation.
 <ol marker="a." cols="2">
 	<li><m>\sqrt{36+64} \rightarrow 6+8</m></li>
 	<li><m>\sqrt{3}+\sqrt{3} \rightarrow \sqrt{6}</m></li>
@@ -83,7 +83,7 @@
 		<me> = \sqrt{36+64} = \sqrt{100} = 10</me></p></li>	
 	<li><p>We cannot combine radicals with addition or subtraction. However, we can add like terms:
 		<me>\sqrt{3}+\sqrt{3} = 2\sqrt{3}</me></p></li>
-</ol></p></solution></example>
+</ol></p></solution></activity>
 
 <exercise><statement><p>Decide whether each statement is true or false. Then use a calculator to verify your answer.
 <ol marker="a." cols="2">
@@ -118,21 +118,21 @@
 
 <p>We simplify square roots by factoring out any perfect squares.</p>
 
-<example><statement><p>Simplify <m>~\sqrt{45}</m></p></statement>
+<activity><statement><p>Simplify <m>~\sqrt{45}</m></p></statement>
 
 <solution><p>The largest perfect square that divides evenly into 45 is 9, so we factor 45 as <m>9 \cdot 5</m>. We use the product rule to write
 	<me>\sqrt{45} = \sqrt{9 \cdot 5} = \sqrt{9}~\sqrt{5}</me>
 Finally, we simplify  to get
-	<me>\sqrt{45} = \sqrt{9}~\sqrt{5} = 3\sqrt{5}</me></p></solution></example>
+	<me>\sqrt{45} = \sqrt{9}~\sqrt{5} = 3\sqrt{5}</me></p></solution></activity>
 
-<example><statement><p>Simplify <m>~\sqrt{20x^2y^3}</m></p></statement>
+<activity><statement><p>Simplify <m>~\sqrt{20x^2y^3}</m></p></statement>
 
 <solution><p>The largest perfect square that divides 20 is 4.  We write the radicand as the product of two factors, one containing the perfect square and the largest possible even powers of the variables.  That is,
 	<me>20x^2y^3 = 4x^2y^2 \cdot 5y</me>
 Then we write the radical as a product.
 	<me>\sqrt{20x^2y^3} = \sqrt{4x^2y^2 \cdot 5y} = \sqrt{4x^2y^2}~\sqrt{5y}</me>
 Finally, we simplify the first of the two factors to find
-	<me>\sqrt{20x^2y^3}=\blert{\sqrt{4x^2y^2}}~\sqrt{5y} = \blert{2xy}~\sqrt{5y}</me></p></solution></example>
+	<me>\sqrt{20x^2y^3}=\blert{\sqrt{4x^2y^2}}~\sqrt{5y} = \blert{2xy}~\sqrt{5y}</me></p></solution></activity>
 
 <exercise><statement><p>Simplify <m>~\sqrt{75}</m></p></statement>
 <answer><p><m>3\sqrt{5}</m></p></answer></exercise>
@@ -146,20 +146,20 @@ Finally, we simplify the first of the two factors to find
 
 <introduction><p>Rationalizing the denominator of a fraction helps maintain accuracy.</p></introduction>
                     
-<example><statement><p>Simplify  <m>~\dfrac{3\sqrt{2}}{\sqrt{3}}</m></p></statement>
+<activity><statement><p>Simplify  <m>~\dfrac{3\sqrt{2}}{\sqrt{3}}</m></p></statement>
 
 <solution><p>We can rationalize the denominator by multiplying mumerator and denominator by <m>\blert{\sqrt{3}}</m>:
 	<me>\dfrac{3\sqrt{2}}{\sqrt{3}} \cdot \blert{\dfrac{\sqrt{3}}{\sqrt{3}}} = \dfrac{3\sqrt{6}}{3} = \sqrt{6}</me>
 or we can divide 3 by <m>\sqrt{3}</m> to get <m>\sqrt{3}</m>.  (Remember that <m>\sqrt{3}~\sqrt{3} = 3</m>.)
 	<me>\dfrac{\blert{3}\sqrt{2}}{\blert{\sqrt{3}}} = \blert{\sqrt{3}}~\sqrt{2} = \sqrt{6}</me></p>
-</solution></example>
+</solution></activity>
 
-<example><statement><p>Combine <m>~\dfrac{3}{\sqrt{2}} + \dfrac{5}{2}</m></p></statement>
+<activity><statement><p>Combine <m>~\dfrac{3}{\sqrt{2}} + \dfrac{5}{2}</m></p></statement>
 
 <solution><p>The LCD for the two fractions is 2, and the building factor for the first fraction is <m>\blert{\sqrt{2}}</m>.
 	<md><mrow>\dfrac{3}{\sqrt{2}} + \dfrac{5}{2} \amp = \dfrac{3}{\sqrt{2}} \cdot \blert{\dfrac{\sqrt{2}}{\sqrt{2}}} + \dfrac{5}{2}</mrow>
 		<mrow> \amp = \dfrac{3\sqrt{2}}{2} + \dfrac{5}{2} = \dfrac{3\sqrt{2}+5}{2}</mrow></md></p>
-	</solution></example>
+	</solution></activity>
                  
 <exercise><statement><p>Simplify  <m>~\dfrac{8}{2\sqrt{2}}</m></p></statement>
 <answer><p><m>2\sqrt{2}</m></p></answer></exercise>

@@ -6,7 +6,7 @@
 
 <p>Because <m>\log {(x)}</m> grows very slowly, we can use logs to compare quantities that vary greatly in magnitude.</p>
 
-<example><statement><p><ol marker="a.">
+<activity><statement><p><ol marker="a.">
     <li><p> Complete the table.  Round the values to one decimal place.</p>
         <tabular top="major" halign="center" right="minor" left="minor" bottom="minor">              
                     <row bottom="minor">
@@ -49,7 +49,7 @@
     <li><image width="75%" source="images/fig-5-4-1.png"><description>log scale</description></image></li>
     <li> Each time we multiply <m>x</m> by 5, the log of <m>x</m> increases by 0.7, because <m>\log {(5)} = 0.7</m>. This is an application of the log properties: 
         <me>\log {(5x)} = \log {(x)} + \log {(5)} = \log {(x)} + 0.7</me></li>
-</ol></p></solution></example>
+</ol></p></solution></activity>
 
 <exercise><statement><p><ol marker="a.">
     <li><p> Complete the table.  Round the values to one decimal place.</p>
@@ -146,11 +146,11 @@
 
 <introduction><p>There is often more than one way to express a comparison with mathematical notation.</p></introduction>
 
-<example><statement><p>When we say that "<m>A</m> is 3 times larger than <m>B</m>," we mean that <m>A=3B</m>.</p>
-</statement></example>
+<activity><statement><p>When we say that "<m>A</m> is 3 times larger than <m>B</m>," we mean that <m>A=3B</m>.</p>
+</statement></activity>
 
-<example><statement><p>When we say that "<m>A</m> is 3 more than <m>B</m>," we mean that <m>A=B+3</m>.</p>
-</statement></example>
+<activity><statement><p>When we say that "<m>A</m> is 3 more than <m>B</m>," we mean that <m>A=B+3</m>.</p>
+</statement></activity>
 
 <p>Use these equations for the following Checkpoints.<ol marker="a." cols="3">
     <li><m>x=5H</m></li>

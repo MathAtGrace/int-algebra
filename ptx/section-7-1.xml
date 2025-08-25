@@ -150,7 +150,7 @@ describes <term>exponential growth</term>, where <m>P_0=P(0)</m> is the <term>in
     <md><mrow>P(t)=1 \cdot 2^t</mrow></md>
 There is a sort of similarity between the formula for exponential functions and the formula for linear functions. Each has an initial value and a constant that describes change. But compare the graph of exponential growth, described by a constant growth factor, with linear growth. You can see that the graph of the fruit fly population is not a straight line with a constant slope, as a linear function would be.</p>
 
-<example xml:id="example-cellphone"><statement><p>In 1985, there were about 1.2 million cell phone users world-wide. For some years after that time, the number grew by a factor of 1.5 each year.<ol marker="a.">
+<activity xml:id="example-cellphone"><statement><p>In 1985, there were about 1.2 million cell phone users world-wide. For some years after that time, the number grew by a factor of 1.5 each year.<ol marker="a.">
     <li>Let <m>C(t)</m> be the number of cell phone users <m>t</m> years after 1985 according to this model. Make a table of values and graph <m>C(t)</m>.</li>
     <li>Write a formula for <m>C(t).</m></li>
     <li>How many cell phone users does this model predict for the year 2000?</li>
@@ -212,7 +212,7 @@ There is a sort of similarity between the formula for exponential functions and 
             <me>C(\alert{15}) = 1.2(1.5)^{\alert{15}} = 525.47</me>
         The formula predicts that over 525 million people used cell phones in 2000.</li>
         <li>It is unlikely that the model will be valid indefinitely, because <m>C(t)</m> will eventually exceed the population of Earth.</li>
-    </ol></p></solution></example>
+    </ol></p></solution></activity>
 
 <p>Once again, in the examples above, you can see that the graphs of these exponential functions are not linear. In each case, the function grows slowly at first, but eventually grows faster and faster.</p>
 
@@ -543,7 +543,7 @@ whose graphs are shown below.</p>
     
 <p> However, for each unit increase in <m>t</m>, 2 units are <em>added</em> to the value of <m>L(t)</m>, whereas the value of <m>E(t)</m> is <em>multiplied</em> by 2. An exponential function with growth factor 2 eventually grows much more rapidly than a linear function with slope 2, as you can see by comparing the graphs or the function values in the tables.</p>
 
-<example xml:id="example-compare-linear-vs-exponential"><statement>
+<activity xml:id="example-compare-linear-vs-exponential"><statement>
 <p>A solar energy company sold $80,000 worth of solar collectors last year, its first year of operation. This year its sales rose to $88,000. The marketing department must estimate its projected sales for the next 3 years.</p>
 <p><ol marker="a.">
     <li>If the marketing department predicts that sales will grow linearly, what sales total should it expect next year? Graph the projected sales figures over the next 3 years, assuming that sales will grow linearly.</li>
@@ -590,7 +590,7 @@ whose graphs are shown below.</p>
                     <cell><m>117,128</m></cell></row>
             </tabular>
         <image source="images/fig-linear-vs-exponential2"><description>linear and exponential growth</description></image></sidebyside>
-</solution></example>
+</solution></activity>
 </subsection>
 
 <subsection><title>Exponential Decay</title>
@@ -682,7 +682,7 @@ whose graphs are shown below.</p>
             </latex-image></image></sidebyside>
 </investigation>
 
-<example><statement><p>Before the introduction of disposable containers, soft drinks and draught beer were sold in refillable glass botles.  During the second half of the last century, the percent of beer volume sold in refillable glass bottles declined to 0.942 of its previous value each year.</p>
+<activity><statement><p>Before the introduction of disposable containers, soft drinks and draught beer were sold in refillable glass botles.  During the second half of the last century, the percent of beer volume sold in refillable glass bottles declined to 0.942 of its previous value each year.</p>
 <p><ol marker="a.">
     <li><p>In 1944, 98% of beer was sold in refillable bottles. Write a formula for the percent of beer sold in refillable bottles as a function of <m>t</m>, the number of years after 1944.</p></li>
     <li><p>Graph the function from 1944 to 2000.</p></li>
@@ -732,7 +732,7 @@ whose graphs are shown below.</p>
     <li><p>In 1998, <m>t=54</m>, and
             <me>P(54) = 98(0.942)^{54} = 3.89</me>
         The model predicts that 3.89% of beer was sold in refillable bottles in 1998, just slightly above the actual figure.</p></li></ol></p>
-</solution></example>
+</solution></activity>
 
 <exercise component="webwork"><title>Practice 2</title>
 <webwork><pg-code>
@@ -958,7 +958,7 @@ This formula describes exponential growth with a growth factor of <m>b=1.05</m>.
 
 <p>Many quantities besides population can grow by a fixed percent. For example, an inflation rate gives the percent rate at which prices are rising.</p>
 
-<example><statement><p>During a period of rapid inflation, prices rose by 12% each year. At the beginning of this time, a loaf of bread cost $2.<ol marker="a.">
+<activity><statement><p>During a period of rapid inflation, prices rose by 12% each year. At the beginning of this time, a loaf of bread cost $2.<ol marker="a.">
     <li>Make a table showing the cost of bread over the next four years.</li>
     <li>Write a function that gives the price of a loaf of bread <m>t</m> years after inflation began.</li>
     <li>How much did a loaf of bread cost after 6 years? After 30 months? <m>~\alert{\text{[TK]}}</m> </li>
@@ -1031,7 +1031,7 @@ This formula describes exponential growth with a growth factor of <m>b=1.05</m>.
             \draw[samples=65,domain={0:10},smooth,variable=\x,red,very thick, ->,>=stealth'] plot (\x, {4*1.12^(\x)});
             \end{tikzpicture}]]>
             </latex-image></image></sidebyside></li>
-    </ol></p></solution></example>
+    </ol></p></solution></activity>
 
 <aside><p><m>\alert{\text{[TK]}}~~</m>For some hints on evaluating expponential expressions, see <xref ref="tkSimpExp" text="custom"> Section 7.1.3 </xref> of the Toolkit.</p></aside>
 
@@ -1283,7 +1283,7 @@ and <m>P(t) = P_0 (0.75)^t</m>.  Remember that multiplying by <m>b</m> gives us 
 
 <aside><p><m>\alert{\text{[TK]}}~~</m>To review percent increase and decrease, see <xref ref="tkSolveLinIneq" text="custom"> Section 7.1.1 </xref> of the Toolkit.</p></aside>
 
-<example xml:id="Example-computing-prices"><statement><p>According to <em>Context</em> magazine: "Computing prices have been falling exponentially for the past 30 years and will probably stay on that curve for another couple of decades." In fact, prices have been falling at a rate of 37% every year. Suppose an accounting firm invests $50,000 this year in new computer equipment.</p>
+<activity xml:id="Example-computing-prices"><statement><p>According to <em>Context</em> magazine: "Computing prices have been falling exponentially for the past 30 years and will probably stay on that curve for another couple of decades." In fact, prices have been falling at a rate of 37% every year. Suppose an accounting firm invests $50,000 this year in new computer equipment.</p>
 <p><ol marker="a.">
     <li>Write a formula for the cost <m>C(t)</m> of similar equipment <m>t</m> years from now.</li>
     <li>What would the same equipment cost 5 years from now?</li>
@@ -1333,7 +1333,7 @@ and <m>P(t) = P_0 (0.75)^t</m>.  Remember that multiplying by <m>b</m> gives us 
         \end{tikzpicture}]]>
         </latex-image></image></sidebyside></li>
     </ol></p></solution>
-</example>
+</activity>
 
 <note><p>In the preceding Example, the cost of computer equipment decreases by 37% each year, so 63% of the value remains, and the decay factor for the value function is 0.63, not 0.37.  The function <m>C(t)</m> gives the cost remaining, not the amount that has declined.</p></note>
 

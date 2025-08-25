@@ -10,7 +10,7 @@
 
 <subsubsubsection><title>Examples</title>
 
-<example><statement><p>Solve <m>~3\sqrt{x-4}=15</m>.</p></statement>
+<activity><statement><p>Solve <m>~3\sqrt{x-4}=15</m>.</p></statement>
  
 <solution><p>Isolate <m>x</m> by "undoing" each operation in order: perform the opposite operations.
     <md>
@@ -29,9 +29,9 @@
     </md>
 When we square both sides of an equation, we should check for extraneous solutions.
     <me>3\sqrt{\alert{29}-4} = 3\sqrt{25} = 3(5)=15</me>
-Because setting <m>x=29</m> does not cause us to take the square root of a negative number, the solution is 29.</p></solution></example>
+Because setting <m>x=29</m> does not cause us to take the square root of a negative number, the solution is 29.</p></solution></activity>
 
-<example><statement><p>Let <m>~f(x)=\dfrac{24}{x-1}</m>. Find <m>a</m> so that <m>f(a) = 4</m>.</p></statement>
+<activity><statement><p>Let <m>~f(x)=\dfrac{24}{x-1}</m>. Find <m>a</m> so that <m>f(a) = 4</m>.</p></statement>
  
 <solution><p>Clear the fraction by multiplying both sides by <m>(x-1)</m>.
     <md>
@@ -48,7 +48,7 @@ Because setting <m>x=29</m> does not cause us to take the square root of a negat
             7 \amp = x 
         </mrow>
     </md>
-Substituting 7 into <m>x-1</m>, we see that 7 does not cause the denominator to be 0, so 7 is the solution.</p></solution></example>
+Substituting 7 into <m>x-1</m>, we see that 7 does not cause the denominator to be 0, so 7 is the solution.</p></solution></activity>
 </subsubsubsection>
 
 <subsubsubsection><title>Exercises</title>
@@ -77,7 +77,7 @@ Substituting 7 into <m>x-1</m>, we see that 7 does not cause the denominator to 
 
 <subsubsubsection><title>Example</title>
 
-<example><statement><p><ol marker="a.">
+<activity><statement><p><ol marker="a.">
     <li>Solve the equation <m>~x^2+y^2=9~</m> for <m>y</m> to get two functions.</li>
     <li>Find two points on the circle that have <m>x</m>-coordinate <m>1</m>.</li></ol>
 </p></statement>
@@ -99,7 +99,7 @@ The two functions are <m>~y = \sqrt{9-x^2}~</m> and <m>~y = -\sqrt{9-x^2}~</m>.<
     <li><p>Substitute <m>x=1</m> into each equation.
         <me>y = \sqrt{9-(\alert{1})^2} = \sqrt{9-1} = \sqrt{8} = 2\sqrt{2}</me>
         One point is <m>(1,2\sqrt{2}).</m>  Similarly, the other point is <m>(1,-2\sqrt{2}).</m></p></li></ol>
-</p></solution></example>
+</p></solution></activity>
 </subsubsubsection>
 
 <subsubsubsection><title>Exercise</title>

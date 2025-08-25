@@ -112,7 +112,7 @@ where <m>k</m> is a positive constant.</p></assemblage>
 
 <p>If we know that two variables vary inversely and we can find one pair of corresponding values for the variables, we can determine <m>k</m>, the constant of variation.<idx>constant of variation</idx></p>
 
-<example><statement><p>The amount of current, <m>I</m>, that flows through a circuit varies inversely with the resistance, <m>R</m>, on the circuit. An iron with a resistance of 12 ohms draws 10 amps of current.
+<activity><statement><p>The amount of current, <m>I</m>, that flows through a circuit varies inversely with the resistance, <m>R</m>, on the circuit. An iron with a resistance of 12 ohms draws 10 amps of current.
 <ol marker="a.">
         <li><p>Write a formula that gives current as a function of the resistance. <m>~\alert{\text{[TK]}}</m></p></li>
         <li><p> Complete the table and graph your function in a suitable window.</p>
@@ -179,7 +179,7 @@ where <m>k</m> is a positive constant.</p></assemblage>
             <md><mrow>\alert{12.5} \amp =\dfrac{120}{R} \amp \amp \blert{\text{Solve for}~R.}</mrow>
                 <mrow>R \amp = \dfrac{120}{12.5} = 9.6</mrow></md>
         The toaster has a resistance of 9.6 ohms.</li></ol>
-</p></solution></example>
+</p></solution></activity>
 
 <aside><p><m>\alert{\text{[TK]}}~~</m>For more examples of inverse variation, see <xref ref="tkInvVar" text="custom"> Section 5.5.1 </xref> and <xref ref="tkFindCon" text="custom"> Section 5.5.3 </xref> of the Toolkit.</p></aside>
 
@@ -286,7 +286,7 @@ where <m>k</m> is a positive constant.</p></assemblage>
 
 <p>We may also say that <m>y</m> is <term>inversely proportional</term><idx>inversely proportional</idx><idx><h>proportional</h><h>inversely</h></idx><idx><h>proportional</h><h>inversely</h><seealso>inverse variation</seealso></idx> to <m>x^n</m>.</p>
 
-<example xml:id="example-EMR-vs-distance"><statement><p>The intensity of electromagnetic radiation, such as light or radio waves, varies inversely with the square of the distance from its source. Radio station KPCC broadcasts a signal that is measured at 0.016 watt per square meter by a receiver 1 kilometer away.
+<activity xml:id="example-EMR-vs-distance"><statement><p>The intensity of electromagnetic radiation, such as light or radio waves, varies inversely with the square of the distance from its source. Radio station KPCC broadcasts a signal that is measured at 0.016 watt per square meter by a receiver 1 kilometer away.
 <ol marker="a.">
     <li>Write a formula that gives signal strength as a function of distance.</li>
     <li>If you live 5 kilometers from the station, what is the strength of the signal you will receive?</li>
@@ -325,7 +325,7 @@ where <m>k</m> is a positive constant.</p></assemblage>
                 \node[black,fill=white, inner sep=2] at (4,6) {$I=\Large \frac{0.016}{d^2}$};
                 \end{tikzpicture}]]>
                 </latex-image></image></li></ol></p>
-</solution></example>
+</solution></activity>
 
 <p>To summarize, an inverse variation is an example of a decreasing function, but not every decreasing function describes an inverse variation.<idx>decreasing function</idx></p> 
 
@@ -388,14 +388,14 @@ where <m>k</m> is a positive constant.</p></assemblage>
 
 <p>What happens when you double the input of an inverse variation?</p>
 
-<example xml:id="example-weight-vs-distance-from-earth"><statement><p>The weight, <m>w</m>, of an object varies inversely with the square of its distance, <m>d</m>, from the center of the Earth. Thus,
+<activity xml:id="example-weight-vs-distance-from-earth"><statement><p>The weight, <m>w</m>, of an object varies inversely with the square of its distance, <m>d</m>, from the center of the Earth. Thus,
         <me>w = \dfrac{k}{d^2}</me>
 If you double your distance from the center of the Earth, what happens to your weight? What if you triple the distance?</p></statement>
 
 <solution><p>Suppose you weigh <m>W</m> pounds at distance <m>D</m> from the center of the Earth. Then  <m>W = \dfrac{k}{D^2}</m>. At distance <m>2D</m>, your weight will be
     <me>w = \frac{k}{(2D)^2}= \frac{k}{4D^2}= \frac{1}{4}\cdot\frac{k}{D^2}
         = \frac{1}{4}W</me>
-Your new weight will be <m>\dfrac{1}{4}</m> of your old weight. By a similar calculation, you can check that by tripling the distance, your weight will be reduced to <m>\dfrac{1}{9}</m> of its original value.</p></solution></example>
+Your new weight will be <m>\dfrac{1}{4}</m> of your old weight. By a similar calculation, you can check that by tripling the distance, your weight will be reduced to <m>\dfrac{1}{9}</m> of its original value.</p></solution></activity>
 
 <exercise component="webwork" xml:id="exercise-rusty-boltw"><title>Practice 2</title>
     <webwork><pg-code>

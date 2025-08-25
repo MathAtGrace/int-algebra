@@ -48,7 +48,7 @@
 </subsection>
 <subsection><title>Numbers and Operations</title>
 
-<example>
+<activity>
     <p>
         Compute <m>5 - 8</m>. 
     </p>
@@ -72,8 +72,8 @@
     <p>
         in an output history region above the input box. There is a scroll bar to the right of the output history and the input box.
     </p>
-</example>
-<example>
+</activity>
+<activity>
     <p>
         Compute <m>-5 + 8</m>.
     </p>
@@ -83,7 +83,7 @@
     <p>
         to see the result <m>3</m>
     </p>
-</example>
+</activity>
 
 <p>
     We press <kbd name="enter"/> to tell the calculator to store the computation. We can use the scroll bar to see the input box or the output history of previous computations.
@@ -91,7 +91,7 @@
 <p>
     The calculator has a key for the value of <m>\pi</m>.
 </p>
-<example>
+<activity>
     <p>
         Compute <m>2\pi</m>.
     </p>
@@ -101,7 +101,7 @@
     <p>
         to get the approximation <m>6.2831853071796</m>
     </p>
-</example>
+</activity>
 </subsection>
 <subsection><title>Delete and Undo</title>
 <p>
@@ -121,7 +121,7 @@
 <p>
     <term>Order of Operations</term>: The calculator follows the standard order of operations.
 </p>
-<example>
+<activity>
     <p>
         Compute <m>2+3\cdot 4</m>.
     </p>
@@ -133,8 +133,8 @@
         Ans. <m>14</m>
     </p>        
     </sidebyside>
-</example>
-<example>
+</activity>
+<activity>
     <p>
         Compute <m>(2+3)\cdot4</m>.
     </p>
@@ -146,11 +146,11 @@
         Ans. <m>20</m>
     </p>        
     </sidebyside>
-</example>
+</activity>
 </subsection>
 <subsection><title>Fractions</title>
 
-<example>
+<activity>
     <p>
         Compute <m>\dfrac{1+3}{2}</m>.
     </p>
@@ -162,7 +162,7 @@
         Ans. <m>2</m>
     </p>        
     </sidebyside>
-</example>    
+</activity>    
 
 <warning>
     <p>
@@ -170,7 +170,7 @@
     </p>
 </warning>
 
-<example xml:id="example-approximate">
+<activity xml:id="example-approximate">
     <p>
         Compute <m>\dfrac{1}{2\cdot 3} </m>.
     </p>
@@ -188,9 +188,9 @@
     <p>
         Ans. <m>0.1666666666667</m>
     </p>
-</example>
+</activity>
 
-<example>
+<activity>
     <p>
         Compute <m>\dfrac{1}{2}\cdot 3 </m>.
     </p>
@@ -202,7 +202,7 @@
         Ans. <m>\dfrac{3}{2} </m>
     </p>        
     </sidebyside>
-</example>
+</activity>
 
 
 </subsection>
@@ -212,7 +212,7 @@
     The key for exponents and the key for squaring are shown in the <xref ref="fig-GGB-keyboard" text="custom">keyboard image</xref>.
 </p>
 
-<example>
+<activity>
     <p>
         Evaluate <m>57^{2}</m>. 
     </p>
@@ -226,10 +226,10 @@
     <p>
         Ans. <m>3249</m>
     </p>        
-</example>  
+</activity>  
 
 
-<example>
+<activity>
     <p>
         Evaluate <m>2^{10}</m>. 
     </p>
@@ -241,7 +241,7 @@
         Ans. <m>1024</m>
     </p>        
     </sidebyside>
-</example>  
+</activity>  
 
 <warning>
     <p>
@@ -249,7 +249,7 @@
     </p>
 </warning>
 
-<example>
+<activity>
     <p>
         Evaluate <m>8^{2/3}</m>. 
     </p>
@@ -259,9 +259,9 @@
     <p>
         Ans. <m>4</m>
     </p>        
-</example> 
+</activity> 
 
-<example>
+<activity>
     <p>
         Evaluate <m>\dfrac{8^2}{3}</m>. 
     </p>
@@ -271,7 +271,7 @@
     <p>
         Ans. <m>\dfrac{64}{3} </m>
     </p>        
-</example> 
+</activity> 
 
 </subsection>
 
@@ -279,7 +279,7 @@
 <p>
     The key for square roots is shown in the <xref ref="fig-GGB-keyboard" type="custom">keyboard image</xref>.
 </p>
-<example>
+<activity>
     <p>
         Evaluate <m>\sqrt{2} </m>. 
     </p>
@@ -291,7 +291,7 @@
         Ans. <m>1.414213562</m>
     </p>        
     </sidebyside>
-</example> 
+</activity> 
 
 <warning>
     <p>
@@ -299,7 +299,7 @@
     </p>
 </warning>
 
-<example>
+<activity>
     <p>
         Evaluate <m>\sqrt{9+16} </m>. 
     </p>
@@ -309,9 +309,9 @@
     <p>
         Ans. <m>5</m>
     </p>        
-</example> 
+</activity> 
 
-<example>
+<activity>
     <p>
         Evaluate <m>\sqrt{9}+16 </m>. 
     </p>
@@ -321,7 +321,7 @@
     <p>
         Ans. <m>19</m>
     </p>        
-</example> 
+</activity> 
 </subsection>
 <subsection><title>Other Roots</title>
 <p>
@@ -335,7 +335,7 @@
     </image>
 </figure>
 
-<example>
+<activity>
     <p>
         Compute <m>\sqrt[3]{1728} </m>. 
     </p>
@@ -345,9 +345,9 @@
     <p>
         Ans. <m>12</m>
     </p>        
-</example> 
+</activity> 
 
-<example>
+<activity>
     <p>
         Compute <m>\sqrt[10]{2\cdot 512} </m>. 
     </p>
@@ -357,7 +357,7 @@
     <p>
         Ans. <m>2</m>
     </p>        
-</example> 
+</activity> 
 
 </subsection>
 
@@ -367,7 +367,7 @@
     GeoGebra nicely displays the vertical bars of the standard absolute value notation, such as in the expression <m>\abs{21\cdot 54 - 81} </m>. Once we select the absolute value key, the cursor is in between the vertical bars and will stay there until we use the arrow keys to move the cursor outside, or until we press <kbd name="enter"/>. The arrow keys on the virtual keyboard are shown in the <xref ref="fig-GGB-keyboard" text="custom">keyboard image</xref>.
 </p>
 
-<example>
+<activity>
     <p>
         Evaluate <m>\dfrac{\abs{21\cdot 54 - 81}}{-9} </m>. 
     </p>
@@ -377,7 +377,7 @@
     <p>
         Ans. <m>-117</m>
     </p>        
-</example> 
+</activity> 
 </subsection>
 
 <subsection><title>Scientific Notation</title>
@@ -385,7 +385,7 @@
     The GeoGebra calculator does not display scientific notation by default. The calculator can display scientific notation in the Grahics View by using a ScientificText command.
 </p>
 
-<example>
+<activity>
     <p>
         Compute <m>123,456,789^2 </m>. 
     </p>
@@ -415,7 +415,7 @@
     <p>
         We could also type in the entire command scientifictext using the ABC keyboard, then use the 123 keyboard to enter the parentheses and numbers.
     </p>   
- </example>
+ </activity>
 
 </subsection>
 
@@ -440,7 +440,7 @@
 <p>
     If we just want to use the most recent result in the current command, we use the <kbd>ans</kbd> key.
 </p>
-<example>
+<activity>
     <p>
         Evaluate <m>5^2 + 12^2</m> and then take the square root of the sum.
     </p>
@@ -456,7 +456,7 @@
     <p>
         Ans. <m>13</m>
     </p>
-</example>
+</activity>
 </subsection>
 </section>
 
@@ -474,7 +474,7 @@
     </ol>
 </p></introduction>
 <subsection><title>A Basic Graph with intercepts</title>
-<example xml:id="example-GGB-basic-graph">
+<activity xml:id="example-GGB-basic-graph">
     <sidebyside widths="50% 45%" margins="0% 0%" valigns="middle middle">
         <stack>
             <p>
@@ -493,7 +493,7 @@
             <description>x+y=2 on Geogebra calculator</description>
         </image>
     </sidebyside>
-</example>
+</activity>
 <assemblage><title>Special Points on a Graph</title>
    <p>
        GeoGebra automatically highlights "Special Points" with  heavy dots on the graph of an equation. GeoGebra will show a label and the coordinates of any Special Point when we clicking on it.
@@ -511,7 +511,7 @@
 <p>
     We can adjust "graphing window", called the "Graphics View" in GeoGebra, without entering numerical values.
 </p>
-<example>
+<activity>
     <p>
         Continuing from <xref ref="example-GGB-basic-graph" text="type-hybrid"/>, drag within the Graphics View so that you can see the point on the graph where <m>y=15</m>. Then zoom out until you can see both that point and the origin.
     </p>
@@ -541,7 +541,7 @@
             <description>x+y=2 translated</description>
         </image>
     </sidebyside>
-</example>
+</activity>
 
 <note xml:id="note-no-algebra-view"><title>Retrieving the Algebra View</title>
     <p>
@@ -555,7 +555,7 @@
 <p>
     To graph an equation of the form <m>y=(\text{expression in }x)</m>, we only need enter the expression in <m>x</m>.
 </p>
-<example>
+<activity>
     <p>
         Graph the equation <m>y=x^2-5</m> for <m>x</m>-values between <m>-5</m> and <m>5</m>.
     </p>
@@ -607,7 +607,7 @@
             <description>y-axis zoomed on Geogebra calculator</description>
         </image>
     </sidebyside>
-</example>
+</activity>
 
 <p>
     We can also zoom on just the <m>x</m>-axis.
@@ -629,7 +629,7 @@
 <p>
     Sometimes the graph of an equation is not visible in the Standard view. The simplest way to modify the graphing window so that at least a part of the graph is visible is to use the Zoom fit option.
 </p>
-<example xml:id="example-zoom-fit">
+<activity xml:id="example-zoom-fit">
     <sidebyside widths="55% 40%" margins="0% 0%" valigns="middle middle">
         <stack>
             <p>
@@ -663,7 +663,7 @@
     <p>
         Once you can see part of the graph, you can further adjust the Graphics View by dragging and/or zooming.
     </p>
-</example>
+</activity>
 </subsection>
 
 
@@ -678,7 +678,7 @@
     To turn off a graph without deleting its equation, we tap in the colored disk to the left of the equation in the output history. We tap the disk again to turn the graph back on.
 </p>
 
-<example>
+<activity>
     <p>
         Find all the intersection points between the graphs of <m>y=x+6</m> and <m>y=x^2</m>.
     </p>
@@ -695,7 +695,7 @@
             <description>Intersection of line and parabola</description>
         </image>
     </sidebyside>
-</example>
+</activity>
 
 </subsection>
 
@@ -715,7 +715,7 @@
 <p>
     We use GeoGebra's FitLine command to produce a regression line.
 </p>
-<example>
+<activity>
     <p>
         Make a scatterplot for the points <m>(10,12)</m>, <m>(11,14)</m>, <m>(12,14)</m>, <m>(12,16)</m>, <m>(14,20)</m>. Then find the equation of the lease-squares regression line and plot it on top of the scatterplot.
     </p>
@@ -740,7 +740,7 @@
             <description>Scatterplot and best fit line</description>
         </image>
     </sidebyside>
-</example>
+</activity>
 </subsection>
 
 </section>

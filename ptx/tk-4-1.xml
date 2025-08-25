@@ -6,7 +6,7 @@
 
 <p>Be careful when simplifying radicals.</p>
 
-<example><statement><p>Can you simplify the first expression into the second expression? 
+<activity><statement><p>Can you simplify the first expression into the second expression? 
     (Decide whether the expressions are equivalent.) <ol marker="a.">
     <li>Is <m>~~\sqrt{4+x^2}~~</m> equivalent to <m>~~2+x</m>?</li>
     <li>Is <m>~~\sqrt{\dfrac{x^2}{9}}~~</m> equivalent to <m>~~\dfrac{x}{3}~~</m> for <m>~x \ge 0</m>?</li>
@@ -23,7 +23,7 @@
         <md><mrow>\sqrt{w-3} \amp = \sqrt{16-3} = \sqrt{13} \approx 3.6</mrow>
             <mrow> \text{but}~~~ \sqrt{w}-\sqrt{3} \amp = \sqrt{16}-\sqrt{3} \approx 4-1.7 = 2.3</mrow></md> 
         No, the expressions are not equivalent.</p></li></ol>
- </p></solution></example>
+ </p></solution></activity>
 
 <p>Decide whether the expressions are equivalent. Assume all variables are positive.</p>
 
@@ -44,7 +44,7 @@
 
 <p>In the order of operations, simplifying radicals comes after what's inside parentheses (or fraction bars) and before products and quotients.</p>
 
-<example><statement><p>Simplify each expression. Do not use a calculator!
+<activity><statement><p>Simplify each expression. Do not use a calculator!
 <ol marker="a.">
     <li><m>\dfrac{4-\sqrt{64}}{2}</m></li>
     <li><m>-2\left(3\sqrt{16}-\sqrt{3(27)}\right)</m></li>
@@ -64,9 +64,9 @@
         </mrow>
         <mrow>\amp = 6-3\sqrt[3]{-8}  \amp\amp \blert{\text{Evaluate the radical.}}</mrow>
         <mrow>\amp =6-3(-2)=12</mrow></md></p></li>
-</ol></p></solution></example>
+</ol></p></solution></activity>
 
-<example><statement><p>Simplify each expression. Round your answer to hundredths.
+<activity><statement><p>Simplify each expression. Round your answer to hundredths.
 <ol marker="a." cols="2">
     <li><m>\dfrac{8-2\sqrt{2}}{4}</m></li>
     <li><m>2+6\sqrt[3]{-25}</m></li>
@@ -81,7 +81,7 @@
         <p>On a calculator, enter</p>
         <p><m>\qquad\qquad 2</m> <kbd name="plus"/> <m>6</m> <kbd>MATH</kbd> <kbd>4</kbd> <kbd name="minus"/> <m>25</m> <kbd>ENTER</kbd></p>
         <p>and round to two decimal places:  <m>~{-15.54}</m></p></li>
-</ol></p></solution></example>
+</ol></p></solution></activity>
 
 <exercise><statement><p>Simplify each expression. Do not use a calculator!
 <ol marker="a.">
@@ -108,7 +108,7 @@
 
 <subsubsection xml:id="tkQuadForm"><title>Use the quadratic formula</title>
 
-<example><statement><p><ol marker="a.">
+<activity><statement><p><ol marker="a.">
     <li><p>Use the quadratic formula to solve the equation <m>~x = \dfrac{2}{3} - \dfrac{x^2}{6}</m></p></li>
     <li><p>Give decimal approximations to two decimal places for the solutions.</p></li>
 </ol></p></statement>
@@ -128,7 +128,7 @@
         <md><mrow>\dfrac{-6 + \sqrt{52}}{2} \approx \dfrac{-6 + 7.21}{2} = 0.605</mrow>
             <mrow>\dfrac{-6 - \sqrt{52}}{2} \approx \dfrac{-6 - 7.21}{2} = -6.605</mrow></md>
         To two decimal places, the solutions are <m>0.61</m> and <m>-6.61</m>.</p></li>
-    </ol></p></solution></example>
+    </ol></p></solution></activity>
 
 <exercise><statement><p>Use the quadratic formula to solve the equation <m>x^2 + 2x = 5</m></p></statement>
 

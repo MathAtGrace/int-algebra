@@ -90,7 +90,7 @@
 
 <p>The branches of the hyperbola approach two straight lines that intersect at its center. These lines are <term>asymptotes</term><idx><h>asymptote</h><h>of hyperbola</h></idx><idx><h>hyperbola</h><h>asymptotes</h></idx> of the graph, and they are useful as guidelines for sketching the hyperbola. We first sketch a rectangle (called the <term>central rectangle</term><idx>central rectangle</idx>) whose sides are parallel to the axes and whose dimensions are <m>2a</m> and <m>2b</m>. The asymptotes are the diagonals of this rectangle.</p>
 
-<example><statement><p>Graph <m> \dfrac{y^2}{9} - \dfrac{x^2}{4} = 1</m></p></statement>
+<activity><statement><p>Graph <m> \dfrac{y^2}{9} - \dfrac{x^2}{4} = 1</m></p></statement>
 
 <solution><p>The graph is a hyperbola with center at the origin. The <m>y^2</m>-term is positive, so the branches of the hyperbola open upward and downward. Because <m>a^2=4</m> and <m>b^2=9</m>, we have <m>a=2</m> and <m>b=3</m>, and the vertices are <m>(0,3)</m> and <m>(0,-3)</m>. There are no <m>x</m>-intercepts.</p>
         <sidebyside widths="50% 40%" margins="0% 5%" valigns="middle middle">
@@ -119,7 +119,7 @@
                 \draw [green!80!black,->, >=stealth'] (2.6,-1.8) to [out=170,in=295] (1.1,-.5);
                 \node at (4.5,1.9) {\Large${\frac{y^2}{9} - \frac{x^2}{4}={} }$\normalsize 1};
                 \end{tikzpicture}]]>
-            </latex-image></image></sidebyside></solution></example>
+            </latex-image></image></sidebyside></solution></activity>
 
 <exercise component="webwork"><title>Practice 1</title>
 <webwork><pg-code>
@@ -245,7 +245,7 @@
     <me>Ax^2 + By^2 = C</me>
 where <m>A</m> and <m>B</m> have <em>opposite</em> signs and <m>C \ne 0</m>. As with ellipses, it is best to rewrite the equation in standard form in order to graph it.</p>
 
-<example><statement><p>Write the equation <m>~4y^2-x^2=16~</m> in standard form and describe the important features of its graph. <m>~\alert{\text{[TK]}}</m></p></statement>
+<activity><statement><p>Write the equation <m>~4y^2-x^2=16~</m> in standard form and describe the important features of its graph. <m>~\alert{\text{[TK]}}</m></p></statement>
     
 <solution><p>We first divide each side by 16 to obtain
         <me>\frac{y^2}{4} - \dfrac{x^2}{16} = 1\quad\text{ or } \quad \frac{y^2}{2^2} - \dfrac{x^2}{4^2} = 1</me></p>
@@ -273,7 +273,7 @@ where <m>A</m> and <m>B</m> have <em>opposite</em> signs and <m>C \ne 0</m>. As 
                 \draw[samples=65,domain={-1.3:1.3},smooth,variable=\x,red,very thick, <->,>=stealth'] plot ( {\a*sinh(\x)}, {-\b*cosh(\x)});
                 \node at (3.3,4.9) {$4y^2-x^2=16$};
                 \end{tikzpicture}]]>
-            </latex-image></image></sidebyside></solution></example>
+            </latex-image></image></sidebyside></solution></activity>
 
 <aside><p><m>\alert{\text{[TK]}}~~</m>For more examples of writing in standard form, see <xref ref="tkQuadStdForm" text="custom"> Section 9.4.1 </xref> of the Toolkit.</p></aside>
 
@@ -371,7 +371,7 @@ where <m>A</m> and <m>B</m> have <em>opposite</em> signs and <m>C \ne 0</m>. As 
 
 <p>We can find exact coordinates of points on a hyperbola by substituting a value for one variable and solving for the other variable.</p>
     
-<example><statement><p>Find the exact coordinates of any points with <m>x</m>-coordinate <m>x=2</m> on the hyperbola with equation <m>4x^2-y^2=16</m>. Plot and label those points on the hyperbola.</p></statement>
+<activity><statement><p>Find the exact coordinates of any points with <m>x</m>-coordinate <m>x=2</m> on the hyperbola with equation <m>4x^2-y^2=16</m>. Plot and label those points on the hyperbola.</p></statement>
 
 <solution><sidebyside widths="53% 45%" margins="0% 0%" valigns="middle middle">
     <p>We substitute <m>x=2</m> in the given equation.
@@ -399,7 +399,7 @@ There are two points with <m>x=2</m>, namely <m>\left(2, \sqrt{5}\right)</m> and
                 \filldraw[red] (2,{sqrt(5)}) circle (.15) node[above, yshift=.2cm, fill=white, inner sep=1]{$ \left(2,\sqrt{5}\right)$};
                 \filldraw[red] (2,{-sqrt(5)}) circle (.15) node[below, yshift=-.2cm, fill=white, inner sep=1]{$ \left(2,-\sqrt{5}\right)$};
                 \end{tikzpicture}]]>
-            </latex-image></image></sidebyside> </solution></example>
+            </latex-image></image></sidebyside> </solution></activity>
 
 <exercise component="webwork"><title>Practice 3</title>
 <webwork><pg-code>
@@ -552,7 +552,7 @@ There are two points with <m>x=2</m>, namely <m>\left(2, \sqrt{5}\right)</m> and
     </tabular>
 </figure> -->
 
-<example><statement><p>Write each equation in standard form and describe its graph.</p>
+<activity><statement><p>Write each equation in standard form and describe its graph.</p>
     <p><ol marker="a." cols="2">
             <li><p><m>x^2=6y^2+8</m></p></li>
             <li><p><m>x^2=\dfrac{4-y^2}{2}</m></p></li></ol></p></statement>
@@ -564,7 +564,7 @@ There are two points with <m>x=2</m>, namely <m>\left(2, \sqrt{5}\right)</m> and
     <li><p>The equation <m>x^2=\dfrac{4-y^2}{2}</m> is equivalent to
             <me>2x^2+y^2=4\qquad \text{ or }\qquad \frac{x^2}{\left( \sqrt{2} \right)^2} + \frac{y^2}{2^2}=1</me>
     The graph is an ellipse with major axis on the <m>y</m>-axis because <m>2\gt\sqrt{2} </m>.</p></li>
-</ol></p></solution></example>
+</ol></p></solution></activity>
 
 <exercise component="webwork"><title>Practice 4</title>
 <webwork><pg-code>
@@ -687,7 +687,7 @@ There are two points with <m>x=2</m>, namely <m>\left(2, \sqrt{5}\right)</m> and
         \end{tikzpicture}]]>
         </latex-image></image></sidebyside>
 
-<example><statement><p><ol marker="a.">
+<activity><statement><p><ol marker="a.">
         <li><p>Graph <m>~\dfrac{(x-3)^2}{8} - \dfrac{(y+2)^2}{10} = 1</m></p></li>
         <li><p>Find the equations of the asymptotes. <m>~\alert{\text{[TK]}}</m></p></li>
     </ol></p></statement>
@@ -725,7 +725,7 @@ There are two points with <m>x=2</m>, namely <m>\left(2, \sqrt{5}\right)</m> and
             <me>\frac{\sqrt{10}}{\sqrt{8}} = \frac{\sqrt{5}}{2}\quad \text{ and } \dfrac{-\sqrt{5}}{2}</me>
         We substitute these values into the point-slope formula to find the equations
             <me>y + 2 = \frac{\sqrt{5}}{2}(x-3)\quad \text{ and } \quad y + 2 = \frac{-\sqrt{5}}{2}(x-3)</me></p></li>
-    </ol></p></solution></example>
+    </ol></p></solution></activity>
 
 <aside><p><m>\alert{\text{[TK]}}~~</m>For more help finding the equations of the asyptotes, see <xref ref="tkSolveLinIneq" text="custom"> Section 9.4.3 </xref> of the Toolkit.</p></aside>
 
@@ -919,7 +919,7 @@ There are two points with <m>x=2</m>, namely <m>\left(2, \sqrt{5}\right)</m> and
 
 <p>We can write the equation of a hyperbola in standard form by completing the squares <idx>completing the square</idx> in <m>x</m> and <m>y</m>.</p>
 
-<example><statement><p><ol marker="a.">
+<activity><statement><p><ol marker="a.">
     <li><p>Write the equation in standard form.
                 <me>y^2-4x^2+4y-8x-9=0</me></p></li>
     <li><p>Graph the equation.</p></li>
@@ -966,7 +966,7 @@ There are two points with <m>x=2</m>, namely <m>\left(2, \sqrt{5}\right)</m> and
             \end{tikzpicture}]]>
         </latex-image></image></sidebyside>
     <p>The central rectangle is centered at <m>(-1,-2)</m>, as shown in the figure. We draw the asymptotes through the corners of the rectangle, then sketch the hyperbola by starting at the vertices and approaching the asymptotes.</p></li>
-    </ol></p></solution></example>
+    </ol></p></solution></activity>
 
 <exercise component="webwork"><title>Practice 6</title>
 <webwork><pg-code>
@@ -1169,7 +1169,7 @@ we can determine the nature of the graph from the coefficients of the quadratic 
             <li><p>a hyperbola if <m>A</m> and <m>C</m> have opposite signs.</p></li></ol></p>
 </assemblage>
 
-<example><statement><p>Name the graph of each equation, assuming that the graph is not degenerate.<ol marker="a.">
+<activity><statement><p>Name the graph of each equation, assuming that the graph is not degenerate.<ol marker="a.">
                 <li><p><m>3x^2+3y^2-2x+4y-6=0</m></p></li>
                 <li><p><m>4y^2+8x^2-3y=0</m></p></li>
                 <li><p><m>4x^2-6y^2+x-2y=0</m></p></li>
@@ -1180,7 +1180,7 @@ we can determine the nature of the graph from the coefficients of the quadratic 
     <li><p>The graph is an ellipse because the coefficients of <m>x^2</m> and <m>y^2</m> are both positive.</p></li>
     <li><p>The graph is a hyperbola because the coefficients of <m>x^2</m> and <m>y^2</m> have opposite signs.</p></li>
     <li><p>The graph is a parabola because <m>y</m> is of first degree and <m>x</m> is of second degree.</p></li>
-        </ol></p></solution></example> 
+        </ol></p></solution></activity> 
 
 <p>The standard forms for the conic sections <idx><h>conic section</h><h>standard form</h></idx> are summarized in the table below. For the parabola, <m>(h, k)</m> is the vertex of the graph, and for the other conics, <m>(h, k)</m> is the center.<idx><h>circle</h></idx><idx><h>ellipse</h></idx><idx><h>hyperbola</h></idx><idx><h>parabola</h></idx></p>
 

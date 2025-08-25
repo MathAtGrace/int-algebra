@@ -6,7 +6,7 @@
 
 <p>We can sketch the graph of a parabola with the vertex, the <m>y</m>-intercept, and its symmetric point.</p>
 
-<example><statement><p>Graph the equation <m>~y=2(x-15)^2-72</m></p></statement>
+<activity><statement><p>Graph the equation <m>~y=2(x-15)^2-72</m></p></statement>
     
 <solution><p>The vertex is <m>(15,-72)</m>. We find the <m>y</m>-intercept by setting <m>x=0</m>:
             <me>y=2(\alert{0}-15)^2-72=378</me>
@@ -35,7 +35,7 @@ The <m>x</m>-intercepts are <m>(9,0)</m> and <m>(21,0)</m>. We plot these three 
             \filldraw[magenta!90!black] (21/5,0) circle (.15);
             \draw[samples=65,domain={-sqrt(286)/5+3:sqrt(286)/5+3},smooth,variable=\x,red,very thick, <->,>=stealth'] plot ( {\x}, { (2*(5*\x-15)^2-72)/50 });
             \end{tikzpicture}]]>
-            </latex-image></image></solution></example>
+            </latex-image></image></solution></activity>
 
 <exercise><statement><p>Find the vertex, the <m>y</m>-intercept, and the <m>x</m>-intercepts of <m>~y=-2(x+1)^2+3</m>, and sketch its graph.</p></statement>
     
@@ -66,18 +66,18 @@ The <m>x</m>-intercepts are <m>(9,0)</m> and <m>(21,0)</m>. We plot these three 
 
 <introduction><p>With practice, you will be able to multiply binomials mentally.</p></introduction>
 
-<example><statement><p>Multiply <m>~(x-6)(x+3)</m>.</p></statement>
+<activity><statement><p>Multiply <m>~(x-6)(x+3)</m>.</p></statement>
 
 <solution><p>We apply the distributive law to multiply each term of the first factor by each term of the second factor. (The "FOIL" method.)
     <md><mrow>(x-6)(x+3) \amp = x \cdot x + 3 \cdot x - 6 \cdot x - 6 \cdot 3</mrow>
         <mrow> \amp = x^2+3x-6x-18 \amp \amp \blert{\text{Combine like terms.}}</mrow>
-        <mrow> \amp = x^2-3x-18 </mrow></md></p></solution></example>
+        <mrow> \amp = x^2-3x-18 </mrow></md></p></solution></activity>
 
-<example><statement><p>Expand <m>~(2t-5)^2</m>.</p></statement>
+<activity><statement><p>Expand <m>~(2t-5)^2</m>.</p></statement>
 
 <solution><p>Multiply <m>~(2t-5)(2t-5)</m>
     <md><mrow>(2t-5)(2t-5) \amp = 4t^2-10t-10t+25 \amp \amp \blert{\text{Combine like terms.}}</mrow>
-        <mrow> \amp = 4t^2-20t+25</mrow></md></p></solution></example>
+        <mrow> \amp = 4t^2-20t+25</mrow></md></p></solution></activity>
 
 <exercise><statement><p>Multiply <m>~(4a-7)(3a+8)</m>.</p></statement>
 <answer><p><m>12a^2+11a-56</m></p></answer></exercise> 
@@ -90,21 +90,21 @@ The <m>x</m>-intercepts are <m>(9,0)</m> and <m>(21,0)</m>. We plot these three 
 
 <p>We can find the equation for a parabola if we know, for example, the vertex and one other point.</p>
 
-<example><statement><p>The point <m>(6,2)</m> lies on the graph of <m>~y=a(x-4)^2+1.~</m> Solve for <m>a</m>.</p></statement>
+<activity><statement><p>The point <m>(6,2)</m> lies on the graph of <m>~y=a(x-4)^2+1.~</m> Solve for <m>a</m>.</p></statement>
 
 <solution><p>Substitute 6 for <m>x</m> and 2 for <m>y</m>, then solve for  <m>a</m>.
     <md><mrow>\alert{2} \amp = a(\alert{6}-4)^2+1</mrow>
         <mrow>2 \amp = a(4) + 1</mrow>
         <mrow>1 \amp = 4a</mrow></md>
-The solution is <m>a = \dfrac{1}{4}</m>.</p></solution></example>
+The solution is <m>a = \dfrac{1}{4}</m>.</p></solution></activity>
 
-<example><statement><p>The point <m>(-2,11)</m> lies on the graph of <m>~y=x^2+bx-3.~</m> Solve for <m>b</m>.</p></statement>
+<activity><statement><p>The point <m>(-2,11)</m> lies on the graph of <m>~y=x^2+bx-3.~</m> Solve for <m>b</m>.</p></statement>
 
 <solution><p>Substitute -2 for <m>x</m> and 11 for <m>y</m>, then solve for  <m>b</m>.
     <md><mrow>(\alert{-2})^2 +b(\alert{-2}) -3 \amp = 11</mrow>
         <mrow>4-2b-3 \amp = 11</mrow>
         <mrow>-2b \amp = 10</mrow></md>
-The solution is <m>b = -5</m>.</p></solution></example>
+The solution is <m>b = -5</m>.</p></solution></activity>
 
 <exercise><statement><p>The point <m>(-6,10)</m> lies on the graph of <m>~y=a(x+3)^2-2.~</m> Solve for <m>a</m>.</p></statement>
     <answer><p><m>a=\dfrac{4}{3}</m></p></answer></exercise>

@@ -114,12 +114,12 @@ Taking the (positive) square root of each side of this equation gives us the <te
         <li><p>The distance between two points is always a positive number (or zero).</p></li>
     </ol></p></statement></exercise>
 
-<example xml:id="example-distance-betw-points"><statement><p>Find the distance between <m>(2,-1)</m> and <m>(4,3)</m>. <m>~\alert{\text{[TK]}}</m></p></statement>
+<activity xml:id="example-distance-betw-points"><statement><p>Find the distance between <m>(2,-1)</m> and <m>(4,3)</m>. <m>~\alert{\text{[TK]}}</m></p></statement>
     
 <solution><p>Substitute <m>(2,-1)</m> for <m>(x_1,y_1)</m> and <m>(4,3)</m> for <m>(x_2,y_2)</m> in the distance formula to obtain
             <md><mrow>d \amp = \sqrt{(x_2-x_1)^2+(y_2-y_1)^2}</mrow>
                 <mrow>\amp = \sqrt{(4-2)^2+\left[3-(-1)\right]^2}</mrow>
-                <mrow>\amp = \sqrt{4+16} =\sqrt{20} \approx 4.47 </mrow></md></p></solution></example>
+                <mrow>\amp = \sqrt{4+16} =\sqrt{20} \approx 4.47 </mrow></md></p></solution></activity>
 
 <aside><p><m>\alert{\text{[TK]}}~~</m>To review working with radicals, see <xref ref="tkRadDist" text="custom"> Section 9.2.1 </xref> of the Toolkit.</p></aside>
 
@@ -237,12 +237,12 @@ so it cannot be true that <m>\sqrt{3^2+4^2} </m> equals <m>3+4</m>, or 7. For th
     <li><p>The midpoint of a segment is the same <fillin/> from each endpoint of the segment.</p></li>
 </ol></p></statement></exercise>
 
-<example><statement><p>Find the midpoint of the line segment joining the points <m>(-2,1)</m> and <m>(4,3)</m>.</p></statement>
+<activity><statement><p>Find the midpoint of the line segment joining the points <m>(-2,1)</m> and <m>(4,3)</m>.</p></statement>
 
 <solution><p>We substitute <m>(-2,1)</m> for <m>(x_1,y_1)</m> and <m>(4,3)</m> for <m>(x_2,y_2)</m> in the midpoint formula to obtain 
     <md><mrow>\overline{x}\amp=\dfrac{x_1+x_2}{2}=\dfrac{-2+4}{2}=1</mrow>
         <mrow>\overline{y}\amp=\dfrac{y_1+y_2}{2}=\dfrac{1+3}{2}=2</mrow></md>
-The midpoint of the segment is the point <m>(\overline{x},\overline{y})=(1,2)</m>.</p></solution></example>
+The midpoint of the segment is the point <m>(\overline{x},\overline{y})=(1,2)</m>.</p></solution></activity>
 
 <exercise component="webwork"><title>Practice 2</title>
 <webwork><pg-code>
@@ -328,7 +328,7 @@ Thus, the equation for a circle of radius <m>r</m> centered at the origin is
         <me>\blert{(x-h)^2+(y-k)^2=r^2}</me></p>
 </assemblage>
 
-<example><statement><p>Find a point with <m>x</m>-coordinate <m>-3</m> that lies on the circle <m>(x+2)^2+(y-4)^2=5</m>. <m>~\alert{\text{[TK]}}</m>
+<activity><statement><p>Find a point with <m>x</m>-coordinate <m>-3</m> that lies on the circle <m>(x+2)^2+(y-4)^2=5</m>. <m>~\alert{\text{[TK]}}</m>
 </p></statement>
 
 <solution><p>We substitute <m>x=\alert{-3}</m> into the equation, and solve for <m>y</m>.
@@ -336,7 +336,7 @@ Thus, the equation for a circle of radius <m>r</m> centered at the origin is
         <mrow>(-1)^2 +(y-4)^2 \amp = 5 \amp \amp \blert{\text{Solve by extracting roots.}}</mrow>
         <mrow>(y-4)^2 \amp = 4 \amp \amp \blert{\text{Take square roots.}}</mrow>
         <mrow>y-4 \amp = \pm 2</mrow></md>
-We see that the solutions are <m>y=6</m> and <m>y=2</m>. Thus, the points <m>(-3,6)</m> and <m>(-3,2)</m> lie on the circle.</p></solution></example>
+We see that the solutions are <m>y=6</m> and <m>y=2</m>. Thus, the points <m>(-3,6)</m> and <m>(-3,2)</m> lie on the circle.</p></solution></activity>
 
 <aside><p><m>\alert{\text{[TK]}}~~</m>For more examples using the equation of a circle, see <xref ref="tkCircEqn" text="custom"> Section 9.2.2 </xref> of the Toolkit.</p></aside>
 
@@ -378,7 +378,7 @@ We see that the solutions are <m>y=6</m> and <m>y=2</m>. Thus, the points <m>(-3
 
 <p>It is easy to graph a circle if its equation is given in standard form.</p>
 
-<example xml:id="example-two-circles"><statement><p>Graph the circles.</p>
+<activity xml:id="example-two-circles"><statement><p>Graph the circles.</p>
 <p><ol marker="a.">
     <li><m>(x-2)^2+(y+3)^2=16</m></li>
     <li><m>x^2+(y-4)^2=7</m></li></ol></p></statement>
@@ -390,7 +390,7 @@ We see that the solutions are <m>y=6</m> and <m>y=2</m>. Thus, the points <m>(-3
     <image width="80%" source="images/fig-circles2"><description>circles</description></image></li>
 
     <li><p>The graph of <m>x^2+(y-4)^2=7</m> is a circle with radius <m>\sqrt{7}</m> and center at <m>(0,4)</m>. From the center, we move approximately <m>\sqrt{7}</m>, or 2.6 units in each of the four coordinate directions to obtain the points <m>(0,6.6)</m>, <m>(0,1.4)</m>, <m>(-2.6,4)</m>, and <m>(2.6,4)</m>. We sketch the circle through these four points.</p></li>
-</ol></p></solution></example>
+</ol></p></solution></activity>
 
 <exercise component="webwork"><title>Practice 4</title>
 <webwork><pg-code>
@@ -451,7 +451,7 @@ We see that the solutions are <m>y=6</m> and <m>y=2</m>. Thus, the points <m>(-3
 
 <p>We can write an equation for any circle if we can find its center and radius.</p>
 
-<example><statement><p>Find an equation for the circle whose diameter has endpoints <m>(7,5)</m> and <m>(1,-1)</m>.</p>
+<activity><statement><p>Find an equation for the circle whose diameter has endpoints <m>(7,5)</m> and <m>(1,-1)</m>.</p>
 </statement> 
 
 <solution><sidebyside widths="60% 32%" valigns="middle middle">
@@ -485,7 +485,7 @@ Thus, the center is the point <m>(h,k)=(4,2)</m>.  </p>
 Finally, we substitute 4 for<m>h</m> and 2 for <m>k</m> (the coordinates of the center) and <m>\sqrt{18}</m> for <m>r</m> (the radius) into the standard form 
             <me>(x-h)^2+(y-k)^2=r^2</me>
 to obtain 
-            <me>(x-4)^2+(y-2)^2=18</me></p></solution></example>
+            <me>(x-4)^2+(y-2)^2=18</me></p></solution></activity>
 
 <exercise component="webwork"><title>Practice 5</title>
 <webwork><pg-code>
@@ -531,7 +531,7 @@ or
 
 <p>Conversely, an equation of the form <m>x^2+y^2+ax+by+c=0</m> can be converted to standard form by completing the square <idx>completing the square</idx> in both variables.  Once this is done, the center and radius of the circle can be determined directly from the equation.</p>
 
-<example><statement><p>Write the equation of the circle
+<activity><statement><p>Write the equation of the circle
             <md><mrow>x^2+y^2+8x-2y+6=0</mrow></md>
 in standard form, and graph the equation.  <m>~\alert{\text{[TK]}}</m></p></statement>
     
@@ -561,7 +561,7 @@ Thus, the circle has its center at <m>(-4,1)</m>, and its radius is <m>\sqrt{11}
             \filldraw[red] ({-4-sqrt(7)},3) circle (.15) node[above left, yshift=3, fill=white, inner sep=1]{$P(x,y)$};
             \end{tikzpicture}]]>
             </latex-image></image></sidebyside>
-</solution></example>
+</solution></activity>
 
 <aside><p><m>\alert{\text{[TK]}}~~</m>To review completing the square, see <xref ref="tkCompSq" text="custom"> Section 9.2.3 </xref> of the Toolkit.</p></aside>
 

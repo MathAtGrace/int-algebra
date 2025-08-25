@@ -157,7 +157,7 @@ Values for <m>e^x</m> can be obtained with a calculator using the <m>\boxed{e^x}
 
 <image width="70%" source="images/height.png"><description>male height</description></image>
 
-<example><statement><p>The normal distribution above shows the heights of men in the US. <m>\alert{\text{[TK]}}~~</m> The average or mean height for men is 70 inches, and the formula for the graph is
+<activity><statement><p>The normal distribution above shows the heights of men in the US. <m>\alert{\text{[TK]}}~~</m> The average or mean height for men is 70 inches, and the formula for the graph is
 <me>f(x) = 0.13~ e^{-(x-70)^2/18}</me>
 Evaluate the function for <m>x=70</m> and for <m>x=67</m>.</p>
 
@@ -168,7 +168,7 @@ Evaluate the function for <m>x=70</m> and for <m>x=67</m>.</p>
         <mrow> \amp = 0.13~ e^0 = 0.13</mrow></md></p>
 <p>For <m>x=67</m> we have
     <md><mrow>f(67) \amp = 0.13~ e^{-(67-70)^2/18} \amp \amp \blert{-(67-70)^2/18 = -0.5} </mrow>
-        <mrow> \amp = 0.13~ e^{-0.5} = 0.079</mrow></md></p></solution></example>
+        <mrow> \amp = 0.13~ e^{-0.5} = 0.079</mrow></md></p></solution></activity>
 
 <p>This next graph is an example of a <term>logistic function</term>, which models population growth with an upper bound.</p>
 
@@ -182,7 +182,7 @@ According to the model, how many cases of Covid were reported on February 20 (da
 
 <p>To use the natural base for exponential growth and decay, we will need to look at functions of the form <m>~y=e^{kx}~</m> for various values of <m>k</m>. Here are some examples.</p>
 
-<example xml:id="example-translate-exponential"><statement><p>Use technology to graph each function. How does the coefficient of <m>x</m> make each graph different from the graph of <m>y = e^x</m>?<ol marker="a." cols="2">
+<activity xml:id="example-translate-exponential"><statement><p>Use technology to graph each function. How does the coefficient of <m>x</m> make each graph different from the graph of <m>y = e^x</m>?<ol marker="a." cols="2">
             <li><m>g(x) = e^{0.5x}</m></li>
             <li><m>h(x) = e^{-0.5x}</m></li>
         </ol></p></statement>
@@ -208,7 +208,7 @@ According to the model, how many cases of Covid were reported on February 20 (da
 <p><ol marker="a.">
     <li><p>The graph of <m>y = e^x</m> is shown in red. For positive <m>x</m>, the coefficient <m>0.5</m> makes the graph of <m>g</m> grow more slowly than <m>y = e^x</m>, because <m>e^{0.5x}</m> is smaller than <m>e^x</m>. So for positive <m>x</m> the graph of <m>g</m> lies below the graph of <m>y = e^x</m>.</p></li>
     <li><p>Because <m>e^{-0.5x} = \dfrac{1}{e^{0.5x}}</m>, the graph of <m>h</m> is decreasing, and in fact it is the reflection of the graph of <m>g</m> about the <m>y</m>-axis.</p></li>
-</ol></p></solution></example>
+</ol></p></solution></activity>
 </subsection>
 
 <subsection><title>The Natural Logarithmic Function</title>
@@ -278,7 +278,7 @@ You can verify on your calculator that
 
 <p>As usual, we can gain a better understanding of a new function by looking at its graph.</p>
 
-<example xml:id="example-ln-and-exponential"><statement><p>Graph <m>~f(x) = e^x~</m> and <m>~g(x) = \ln {(x)}~</m> on the same grid. </p></statement>
+<activity xml:id="example-ln-and-exponential"><statement><p>Graph <m>~f(x) = e^x~</m> and <m>~g(x) = \ln {(x)}~</m> on the same grid. </p></statement>
 
 <solution><p>Earlier we made a table of values to graph the fuction <m>f(x) = e^x</m>, and we can make a table of values for <m>g(x) = \ln {(x)}</m> by interchanging the columns in that table. Plotting the points gives us the graph below. </p>
         <sidebyside widths="35% 65%" valigns="middle middle">
@@ -326,7 +326,7 @@ You can verify on your calculator that
         \draw[samples=65,domain={e^(-4):10},smooth,variable=\x,red, thick, <->, >=stealth'] plot ({(\x)},{ln(\x)}) node[below, xshift=7, yshift=-4, fill=white, inner sep=2] {$y=\ln(x)$};
         \end{tikzpicture}]]>
         </latex-image></image></sidebyside>
-    <p>You can see that the graph of <m>g(x) = \ln {(x)}</m> is the reflection of the graph of <m>f(x) = e^x</m> about the line <m>y=x</m>. In particular, notice that while the graph of <m>f(x) = e^x</m> has no points with negative <m>y</m>-values, the graph of <m>g(x) = \ln {(x)}</m> has no points with negative <m>x</m>-values.</p></solution></example>
+    <p>You can see that the graph of <m>g(x) = \ln {(x)}</m> is the reflection of the graph of <m>f(x) = e^x</m> about the line <m>y=x</m>. In particular, notice that while the graph of <m>f(x) = e^x</m> has no points with negative <m>y</m>-values, the graph of <m>g(x) = \ln {(x)}</m> has no points with negative <m>x</m>-values.</p></solution></activity>
 
 <p>From the graph of <m>g(x) = \ln {(x)}</m> you can make the following observations. <m>~\alert{\text{[TK]}}~~</m>
 <ul>
@@ -392,7 +392,7 @@ You can verify on your calculator that
 <assemblage><title>The Natural Log and <m>e^x</m></title>
     <p><me>\blert{\ln {(e^x)} =x}~~~~~~\text{and}~~~~~~\blert{e^{\ln {(x)}} = x}</me></p></assemblage>
 
-<example xml:id="example-simplify-ln-and-exp"><statement><p>Simplify each expression.
+<activity xml:id="example-simplify-ln-and-exp"><statement><p>Simplify each expression.
 		<ol marker="a." cols="2">
 			<li><m>\ln {(e^{0.3x})}</m></li>
 			<li><m>e^{2 \ln{(x+3)}}</m></li>
@@ -403,7 +403,7 @@ You can verify on your calculator that
 		<li><p>First, we simplify the exponent using the third property of logs to get
 			<me>2 \ln{(x + 3)} = \ln{((x + 3)^2)}</me>
 		Then <m>e^{2 \ln{(x+3)}} = e^{\ln{((x+3)^2)}} = (x + 3)^2</m>.</p></li>
-	</ol></p></solution></example>
+	</ol></p></solution></activity>
 
 <exercise component="webwork"><title>Practice 4</title>
     <webwork><pg-code>
@@ -446,7 +446,7 @@ You can verify on your calculator that
 
 <aside><p><m>\alert{\text{[TK]}}~~</m>To review solving exponential equations, see <xref ref="tkSolveExpEqn" text="custom"> Section 7.4.3 </xref> of the textbook.</p></aside>
 
-<example xml:id="example-solve-ln-equation"><statement><p>Solve each equation for <m>x</m>.<ol marker="a." cols="2">
+<activity xml:id="example-solve-ln-equation"><statement><p>Solve each equation for <m>x</m>.<ol marker="a." cols="2">
 			<li><m>e^x = 0.24</m></li>
 			<li><m>\ln {(x)} = 3.5</m></li>
 		</ol></p></statement>
@@ -456,7 +456,7 @@ You can verify on your calculator that
 			<me>x = \ln {(0.24)} \approx -1.427</me></p></li>
 		<li><p>We convert the equation to exponential form and evaluate.
 			<me>x = e^{3.5} \approx 33.1155</me></p></li>
-	</ol></p></solution></example>
+	</ol></p></solution></activity>
 
 <exercise component="webwork"><title>Practice 5</title>
     <webwork><pg-code>
@@ -528,7 +528,7 @@ You can verify on your calculator that
 
 <p>To solve more complicated exponential equations, we isolate the power on one side of the equation before converting to logarithmic form.<idx><h>exponential equation</h><h>solving</h></idx></p>
 
-<example xml:id="example-solve-natural-exponential"><statement><p>Solve <m>~200 = 60 + 20 e^{0.4x}</m></p></statement>
+<activity xml:id="example-solve-natural-exponential"><statement><p>Solve <m>~200 = 60 + 20 e^{0.4x}</m></p></statement>
 
 <solution><p>First, we isolate the power.
 		<md><mrow>200 \amp = 60 + 20 e^{0.4x} \amp \amp \blert{\text{Subtract 60 from both sides.}}</mrow>
@@ -537,7 +537,7 @@ You can verify on your calculator that
 	Then we convert the equation to logarithmic form.
 		<md><mrow>0.4x \amp = \ln {(7)} \amp\amp \blert{\text{Divide both sides by 0.4.}}</mrow>
 		    <mrow>x \amp= \frac{\ln {(7)}}{0.4}</mrow></md>
-	Rounded to four decimal places, <m>x \approx 4.8648</m>.</p></solution></example>
+	Rounded to four decimal places, <m>x \approx 4.8648</m>.</p></solution></activity>
 
 <note><p>When solving the equation <m>7 = e^{0.4x}</m> in the <xref ref="example-solve-natural-exponential" text="custom">Example</xref> above, we can think of taking the natural logarithm of both sides. This gives us
 	<md><mrow>\ln {(7)} \amp = \ln {(e^{0.4x})}\amp\amp \blert{\text{Simplify the right side.}}</mrow>
@@ -561,7 +561,7 @@ because <m>\ln{(e^a)} = a</m> for any number <m>a</m>. We then proceed with the 
 <statement><p>Solve <me>~80 -16e^{-0.2x} = 70.3</me></p></statement>
 <answer><p><m>x = -5 \ln \left(\dfrac{9.7}{16} \right)\approx 2.5023</m></p></answer></exercise>
 
-<!--<example xml:id="example-solve-logistic"><statement><p>Solve <m>P = \dfrac{a}{1 + be^{-kt}}</m> for <m>t</m>.</p></statement>
+<!--<activity xml:id="example-solve-logistic"><statement><p>Solve <m>P = \dfrac{a}{1 + be^{-kt}}</m> for <m>t</m>.</p></statement>
 
 <solution><p>We multiply both sides of the equation by the denominator, <m>1 + be^{-kt}</m>, to get
 		<me>P(1 + be^{-kt} ) = a</me>
@@ -576,9 +576,9 @@ Then we isolate the power, <m>e^{-kt}</m>, as follows:
 	and recall that <m>\ln {(e^x)} = x</m> to simplify the left side.
 		<me>-kt = \ln{\left(\dfrac{a - P}{bP}\right)}</me>
 	Finally, we divide both sides by <m>-k</m> to solve for <m>t</m>.
-		<me>t =\frac{-1}{k}\ln{\left(\dfrac{a-P}{bP}\right)}</me></p></solution></example> -->
+		<me>t =\frac{-1}{k}\ln{\left(\dfrac{a-P}{bP}\right)}</me></p></solution></activity> -->
 
-<example xml:id="example-solve-logistic"><statement><p>The logistic function 
+<activity xml:id="example-solve-logistic"><statement><p>The logistic function 
     <me>P = \dfrac{20}{1 + 5e^{-0.4t}}</me> 
 has its upper bound at <m>~P=20</m>. Find the value of <m>t</m> for which <m>~P=10</m>.</p></statement>
 
@@ -592,7 +592,7 @@ Next, we take the natural logarithm of both sides to get
 and recall that <m>\ln {(e^x)} = x</m> to simplify the left side.
         <me>-0.4t = \ln{(0.2)}</me>
 Finally, we divide both sides by <m>-0.4</m> to solve for <m>t</m>.
-        <me>t =\frac{-\ln{(0.2)}}{0.4} \approx 4.02</me></p></solution></example>
+        <me>t =\frac{-\ln{(0.2)}}{0.4} \approx 4.02</me></p></solution></activity>
 
 <exercise component="webwork"><title>Practice 7</title>
     <webwork><pg-code>
@@ -673,7 +673,7 @@ Thus, the growth law for the colony of bacteria can be written
 
 <aside><p><m>\alert{\text{[TK]}}~~</m>To review percent increase, see <xref ref="PercentIncrease" text="custom"> Section 7.1.5 </xref> of the textbook.</p></aside>
 
-<example xml:id="example-population-growth-e"><statement><p>From 1990 to 2000, the population of Clark County, Nevada, grew by <m>6.4\%</m> per year. <m>~\alert{\text{[TK]}}~~</m> </p>
+<activity xml:id="example-population-growth-e"><statement><p>From 1990 to 2000, the population of Clark County, Nevada, grew by <m>6.4\%</m> per year. <m>~\alert{\text{[TK]}}~~</m> </p>
 <p><ol marker="a.">
 	<li>What was the growth factor for the population of Clark County from 1990 to 2000? If the population of Clark County was 768,000 in 1990, write a formula for the population <m>t</m> years later.</li>
 	<li>Write a growth formula for Clark County using base <m>e</m>.</li>
@@ -684,7 +684,7 @@ Thus, the growth law for the colony of bacteria can be written
 		<li><p>We use the formula <m>P(t) = P_0 \cdot e^{kt}</m>, where <m>e^k = 1.064</m>. Solving for <m>k</m>, we find
 			<me>k = \ln {(1.064)} = 0.062</me>
 			so <m>P(t) = 768,000 e^{0.062t}</m>.</p></li>
-	</ol></p></solution></example>
+	</ol></p></solution></activity>
 
 <aside><p><m>\alert{\text{[TK]}}~~</m>To see more examples using the natural exponential function, see <xref ref="tkUseBaseE" text="custom"> Section 10.3.2 </xref> of the Toolkit.</p></aside>
 
@@ -767,14 +767,14 @@ Thus, for negative values of <m>k</m>, the function <m>P(t) = P_0 e^{kt}</m> des
             <li><p>between <m>e^0</m> and <m>e^1</m>.</p></li>
         </ol></p> </statement></exercise>      
 
-<example xml:id="example-write-decay-with-e"><statement><p>Express the decay law <m>~N(t) = 60 (0.8)^t~</m> in the form <m>~N(t) = N_0 e^{kt}</m>.</p></statement>
+<activity xml:id="example-write-decay-with-e"><statement><p>Express the decay law <m>~N(t) = 60 (0.8)^t~</m> in the form <m>~N(t) = N_0 e^{kt}</m>.</p></statement>
 
 <solution><p>For this decay law, <m>N_0 = 60</m> and <m>b = 0.8</m>. We would like to find a value for <m>k</m> so that <m>e^k = b = 0.8</m>, that is, we must solve the equation
 		<md><mrow>e^k \amp = 0.8\amp\amp \blert{\text{Take natural log of both sides.}}</mrow>
 		  <mrow>\ln {(e^k)}\amp = \ln {(0.8)}\amp\amp \blert{\text{Simplify.}}</mrow>
 		  <mrow>k\amp = \ln {(0.8)} \approx -0.2231</mrow></md>
 Replacing <m>b</m> with <m>e^k</m>, we find that the decay law is
-		<me>N(t) \approx 60e^{-0.2231t}</me></p></solution></example>
+		<me>N(t) \approx 60e^{-0.2231t}</me></p></solution></activity>
 
 <exercise component="webwork"><title>Practice 9</title>
     <webwork><pg-code>
@@ -954,7 +954,7 @@ where <m>P</m> is the principal invested and <m>r</m> is the interest rate.  <m>
 
 <aside><p><m>\alert{\text{[TK]}}~~</m>For an explanation of this formula, see <xref ref="CompCont" text="custom"> Investigation 10.3.7 </xref> below.</p></aside>
 
-<example xml:id="example-continuous-compounding"><statement><p>Suppose you invest $500 in an account that pays 8% interest compounded continuously. You leave the money in the account without making any additional deposits or withdrawals.
+<activity xml:id="example-continuous-compounding"><statement><p>Suppose you invest $500 in an account that pays 8% interest compounded continuously. You leave the money in the account without making any additional deposits or withdrawals.
 	<ol marker="a.">
 		<li>Write a formula that gives the value of your account <m>A(t)</m> after <m>t</m> years.</li>
 		<li>Make a table of values showing <m>A(t)</m> for the first 5 years.</li>
@@ -1004,7 +1004,7 @@ where <m>P</m> is the principal invested and <m>r</m> is the interest rate.  <m>
 			     <mrow>\ln {(2)} \amp= \ln {(e^{0.08t})} = 0.08t\amp\amp \blert{\text{Divide both sides by 0.08.}}</mrow>
 			     <mrow>t \amp= \frac{\ln {(2)}}{0.08}\approx 8.6643</mrow></md>
 		The account will be worth $1000 after approximately 8.7 years.</li>
-	</ol></p></solution></example>
+	</ol></p></solution></activity>
 
 <exercise component="webwork"><title>Practice 10</title>
     <webwork><pg-code>

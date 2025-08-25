@@ -134,7 +134,7 @@
 
 <p>In the examples that follow, observe the interplay among the three modeling tools and how each contributes to the model.</p>
 
-<example xml:id="example-bicycle"><statement><p>In May 2005, the city of Lyons, France, started a bicycle rental program. Over 3,000 bicycles are available at 350 computerized stations around the city. Each of the 52,000 subscribers pays an annual 5 euro fee (about $7.20) and gets a PIN to access the bicycles. The bicycles rent for 1 euro per hour and can be returned to any station.</p>
+<activity xml:id="example-bicycle"><statement><p>In May 2005, the city of Lyons, France, started a bicycle rental program. Over 3,000 bicycles are available at 350 computerized stations around the city. Each of the 52,000 subscribers pays an annual 5 euro fee (about $7.20) and gets a PIN to access the bicycles. The bicycles rent for 1 euro per hour and can be returned to any station.</p>
 <p>Your community decides to set up a similar program, charging a $5 subscription fee and $3 an hour for rental. (A fraction of an hour is charged as the corresponding fraction of $3).</p>
     <p><ol marker="a.">
         <li><p>Make a table of values showing the cost, <m>C</m>, of renting a bike for various lengths of time, <m>t</m>.</p></li>
@@ -179,7 +179,7 @@
     <li><p>To write an equation, we let <m>C</m> represent the cost of the rental, and we use <m>t</m> for the number of hours:</p>
         <p><md><mrow>\text{Cost}\amp=(\$5\text{ subscription})+\$3\cdot\text{(number of hours)}</mrow>
                 <mrow>C\amp=5+3\cdot t</mrow></md> </p></li>
-    </ol></p></solution></example>
+    </ol></p></solution></activity>
 
     <aside><p><m>\alert{\text{[TK]}}~~</m>For more help on plotting points, see <xref ref="tkPlotPoints" text="custom"> Section 1.1.2 </xref> of the Toolkit.</p></aside>
 
@@ -246,7 +246,7 @@
 
 <p>The connections between an equation and its graph can give us useful information about a model. In the next Example we see how to use this idea.</p>
 
-<example xml:id="example-6hrbike"><statement>
+<activity xml:id="example-6hrbike"><statement>
     <p>Use the equation <m>~ C=5+3\cdot t ~</m> you found in <xref ref="example-bicycle" text="type-global"/> to answer the following questions. Then show how to find the answers by using the graph.</p><p>
     <ol marker="a.">
         <li><p>How much will it cost to rent a bicycle for 6 hours?</p></li>
@@ -265,7 +265,7 @@
     For $18.50 you can bicycle for <m>4\frac{1}{2} </m> hours. The point <m>Q</m> on the graph represents an $18.50 bike ride. The value on the <m>t</m>-axis below point <m>Q</m> is 4.5, so $18.50 will buy a 4.5 hour bike ride.</p>
             <image source="images/fig1-2"><description>line though points</description></image></sidebyside></li>
     </ol></p>
-</solution></example>
+</solution></activity>
 
 <aside><p><m>\alert{\text{[TK]}}~~</m>For more help on solving linear equations, see <xref ref="tkSolveLinEq" text="custom"> Section 1.1.3 </xref> of the Toolkit.</p></aside>
 
@@ -326,7 +326,7 @@
 
 <p>In the examples above, the graph is <term>increasing</term><idx>increasing graph</idx><idx><h>graph</h><h>increasing</h></idx> as <m>t</m> increases. In the next Example we consider a <term>decreasing graph</term><idx><h>decreasing graph</h></idx><idx><h>decreasing graph</h><seealso>decreasing function</seealso></idx><idx><h>graph</h><h>decreasing</h></idx><idx><h>graph</h><h>decreasing</h><seealso>decreasing function</seealso></idx>.</p>
 
-<example xml:id="Leon-camper"><statement><p>Leon's camper has a 20-gallon gas tank, and he gets 12 miles to the gallon. (Note that getting 12 miles to the gallon is the same as using <m>\frac{1}{12}</m> gallon of gas per mile.)</p>
+<activity xml:id="Leon-camper"><statement><p>Leon's camper has a 20-gallon gas tank, and he gets 12 miles to the gallon. (Note that getting 12 miles to the gallon is the same as using <m>\frac{1}{12}</m> gallon of gas per mile.)</p>
     <p><ol marker="a.">
         <li><p>Write an equation for the amount of gasoline, <m>g</m>, left in Leon's tank after he has driven for <m>d</m> miles.</p></li>
         <li><p>Make a table of values for the equation.</p></li>
@@ -391,7 +391,7 @@
         \draw[cyan, fill=white] (18/5,0) ellipse (.10125 and .2) node[below, yshift=-1.5, text=blue]{$180$};
         \end{tikzpicture}]]>
         </latex-image></image>
-</solution></example>
+</solution></activity>
 
 <aside><p><m>\alert{\text{[TK]}}~~</m>For more help on solving linear inequalities, see <xref ref="tkSolveLinIneq" text="custom"> Section 1.1.4 </xref> of the Toolkit.</p></aside>
 

@@ -215,7 +215,7 @@ rectangle? What is its height?</p></li>
     <li>The vertex, the <m>x</m>-intercepts, and the <m>y</m>-intercept all coincide at the origin.</li>
 </ul></p></assemblage> 
  
-<example><statement><p>Sketch by hand a graph of each quadratic equation.<ol marker="a." cols="2">
+<activity><statement><p>Sketch by hand a graph of each quadratic equation.<ol marker="a." cols="2">
 			<li><m>y = 2x^2</m></li>
 			<li><m>y = -\dfrac{1}{2}x^2</m></li></ol></p>
 </statement>
@@ -245,7 +245,7 @@ rectangle? What is its height?</p></li>
             <cell><m>-\dfrac{1}{2}</m></cell></row>
     </tabular>
 <p>We sketch parabolas through each set of guidepoints, as shown at left.</p></stack></sidebyside></solution>
-</example>
+</activity>
 
 <exercise component="webwork"><title>QuickCheck 2</title>
 <webwork><pg-code>
@@ -397,7 +397,7 @@ rectangle? What is its height?</p></li>
     <li>is shifted downward by <m>c</m> units if <m>c \lt 0</m>.</li>
 </ul></p></assemblage> 
 
-<example xml:id="example-parabolas-vertically-shifted"><statement><p>Sketch graphs for the following quadratic equations.
+<activity xml:id="example-parabolas-vertically-shifted"><statement><p>Sketch graphs for the following quadratic equations.
 		<ol marker="a." cols="2">
 			<li><m>y = x^2 - 2</m></li>
 			<li><m>y = -x^2 + 4</m></li>
@@ -411,7 +411,7 @@ rectangle? What is its height?</p></li>
 	<li><p>The graph of <m>y = -x^2 + 4</m> opens downward and is shifted <m>4</m> units up, compared to the basic parabola. Its vertex is the point <m>(0, 4)</m>. Its <m>x</m>-intercepts are the solutions of the equation 
 				<me>0 = -x^2 + 4</me>
 	or <m>2</m> and <m>-2</m>. You can verify both graphs with your graphing calculator.</p></li>
-		</ol></p></solution></example>
+		</ol></p></solution></activity>
 
 <exercise component="webwork"><title>QuickCheck 3</title>
     <webwork><pg-code>
@@ -521,14 +521,14 @@ rectangle? What is its height?</p></li>
 
 <p>How does the linear term, <m>bx</m>, affect the graph?</p> 
 
- <example><statement><p>Describe the graph of the equation
+ <activity><statement><p>Describe the graph of the equation
 	<me>y = 2x^2 + 8x</me></p></statement>
 
 <solution><p>The graph in the standard window is shown below. We see that the axis of symmetry for this parabola is not the <m>y</m>-axis: the graph is shifted to the left, compared to the basic parabola. We find the <m>y</m>-intercepts of the graph by setting <m>y</m> equal to zero: <m>~\alert{\text{[TK]}}</m> 
     <md><mrow>0 \amp= 2x^2 + 8x</mrow>
         <mrow>\amp= 2x(x + 4)</mrow></md>
 The solutions of this equation are <m>0</m> and <m>-4</m>, so the <m>x</m>-intercepts are the points <m>(0, 0)</m> and <m>(-4, 0)</m>.</p>
-<image width="35%" source="images/fig-GC-horizontally-shifted-parabola"  ><description>shifted parabola</description></image></solution></example>
+<image width="35%" source="images/fig-GC-horizontally-shifted-parabola"  ><description>shifted parabola</description></image></solution></activity>
 
 <aside><p><m>\alert{\text{[TK]}}~~</m>To review solving quadratic equations, see <xref ref="tkSolvQuadEqn" text="custom"> Section 3.3.2 </xref> of the Toolkit.</p></aside>
 
@@ -638,7 +638,7 @@ Now we have a formula for the <m>x</m>-coordinate of the vertex.</p>
 
 <aside><p><m>\alert{\text{[TK]}}~~</m>For more examples of finding points on a parabola, see <xref ref="tkParabPts" text="custom"> Section 3.3.3 </xref> of the Toolkit.</p></aside>
 
-<example xml:id="example-parabola-vertex"><statement><p><ol marker="a.">
+<activity xml:id="example-parabola-vertex"><statement><p><ol marker="a.">
 	<li>Find the vertex of the graph of <m>f(x) = -1.8x^2 - 16.2x</m>.</li>
 	<li>Find the <m>x</m>-intercepts of the graph.</li>
 	</ol></p></statement>
@@ -655,7 +655,7 @@ Now we have a formula for the <m>x</m>-coordinate of the vertex.</p>
 				<mrow>x = 0 \hphantom{blankblankblan} x  \amp= -9</mrow></md>
 		The <m>x</m>-intercepts of the graph are <m>(0, 0)</m> and <m>(-9, 0)</m>. The graph is shown below.</li>
 	</ol></p>
-		<image width="40%" source="images/fig-parabola-vertex2" ><description>downward opening parabola</description></image></solution></example>
+		<image width="40%" source="images/fig-parabola-vertex2" ><description>downward opening parabola</description></image></solution></activity>
 
 <exercise component="webwork"><title>QuickCheck 5</title>
 <introduction>

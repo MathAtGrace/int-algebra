@@ -16,11 +16,11 @@ and
         \dfrac{x+\dfrac{3}{4}}{x-\dfrac{1}{2}} = \left(x+\dfrac{3}{4}\right) \div \left(x-\dfrac{1}{2}\right)</me>
 We can always simplify a complex fraction into a standard algebraic fraction. One way to do this is to treat the fraction as a division.</p>
 
-<example><statement><p>Simplify  <m>~~\dfrac{\dfrac{2}{3}}{\dfrac{5}{6}}</m></p></statement>
+<activity><statement><p>Simplify  <m>~~\dfrac{\dfrac{2}{3}}{\dfrac{5}{6}}</m></p></statement>
 
 <solution><p>First, Write the complex fraction as a quotient. Invert the divisor and multiply.
     <me>\dfrac{\dfrac{2}{3}}{\dfrac{5}{6}} = \dfrac{2}{3} \div \dfrac{5}{6} = \dfrac{2}{3} \cdot \dfrac{6}{5} = \dfrac{12}{15} = \dfrac{4}{5}</me></p>
-</solution></example>
+</solution></activity>
 
 <exercise component="webwork"><title>Practice 1</title>
 <webwork><pg-code>
@@ -70,7 +70,7 @@ We can always simplify a complex fraction into a standard algebraic fraction. On
 
 <p>If the numerator or denominator of the complex fraction contains more than one term, there is an easier way to simplify the fraction. This method takes advantage of the fundamental principle of fractions.</p>
 
-<example><statement><p>Simplify  <m>~~\dfrac{\dfrac{1}{2x} - \dfrac{1}{x^2}}{\dfrac{1}{4} - \dfrac{1}{2x}}</m></p></statement>
+<activity><statement><p>Simplify  <m>~~\dfrac{\dfrac{1}{2x} - \dfrac{1}{x^2}}{\dfrac{1}{4} - \dfrac{1}{2x}}</m></p></statement>
 
 <solution><p>This complex fraction contains the simple fractions <m>\dfrac{1}{2x},~ \dfrac{1}{x^2},~ \dfrac{1}{4}</m> and <m>\dfrac{1}{2x}</m>. The LCD of these fractions is <m>4x^2</m>.  We multiply the numerator and denominator of the complex fraction by <m>4x^2</m>.  Doing this will not change the value of the fraction, but will clear all the "smaller" fractions inside.
 
@@ -83,7 +83,7 @@ Then we apply the distributive law, so that we multiply each term of the numerat
 
 Finally, we reduce the result to obtain
     <me>\dfrac{2x-4}{x^2-2x} = \dfrac{2\cancel{(x-2)}}{x\cancel{(x-2)}} = \dfrac{2}{x}</me></p></solution>
-</example>
+</activity>
 
  <p> We summarize the procedure for simplifying complex fractions as follows.</p>
 
@@ -145,7 +145,7 @@ Finally, we reduce the result to obtain
 
 <p>Algebraic fractions are sometimes written using negative exponents. </p>
 
-<example xml:id="Example-negarive-exponents-for-algebraic-fractions" ><statement><p>Write each expression as a single algebraic fraction. <m>~\alert{\text{[TK]}}</m>
+<activity xml:id="Example-negarive-exponents-for-algebraic-fractions" ><statement><p>Write each expression as a single algebraic fraction. <m>~\alert{\text{[TK]}}</m>
 <ol marker="a." cols="2">
     <li><m>x^{-1}-y^{-1}</m></li>
     <li><m>(x^{-2}+y^{-2})^{-1}</m></li>
@@ -160,7 +160,7 @@ Finally, we reduce the result to obtain
         <md><mrow>\left(x^{-2}+y^{-2}\right)^{-1} \amp = \left(\dfrac{1}{x^2} + \dfrac{1}{y^2}\right)^{-1} \amp \amp \blert{\text{Add fractions.}}</mrow>
             <mrow> \amp = \left(\dfrac{y^2+x^2}{x^2y^2}\right)^{-1} = \dfrac{x^2y^2}{x^2+y^2}</mrow></md>
     For the last step, remember that a negative exponent indicates the reciprocal of its base.</p></li>
-</ol></p></solution></example>
+</ol></p></solution></activity>
 
 <aside><p><m>\alert{\text{[TK]}}~~</m>To review negative exponents, see <xref ref="tkUseNegExp" text="custom"> Section 8.4.1 </xref> of the Toolkit.</p></aside>
 
@@ -261,7 +261,7 @@ Finally, we reduce the result to obtain
 
 <p>Sometimes mathematics can help us solve problems when our intuition fails us or leads us astray.</p>
 
-<example><statement><p>On a weekday afternoon, when traffic is always horrible, Kathy left her home north of Los Angeles and drove south 120 miles along the San Diego Freeway to San Juan Capistrano. Her average speed was 40 miles per hour.  She returned home on Saturday, at an average speed of 60 miles per hour. What was her average speed for the round trip?
+<activity><statement><p>On a weekday afternoon, when traffic is always horrible, Kathy left her home north of Los Angeles and drove south 120 miles along the San Diego Freeway to San Juan Capistrano. Her average speed was 40 miles per hour.  She returned home on Saturday, at an average speed of 60 miles per hour. What was her average speed for the round trip?
 </p></statement>
 
 <solution><p>If you said that the average speed is 50 miles per hour, you would be wrong! Let's do some calculations. Kathy's average speed for the round trip is given by
@@ -288,7 +288,7 @@ The total distance she drove is 240 miles, but to find the total time we must co
 
 <p>The total time for the round trip was <m>3+2 = 5</m> hours, so Kathy's average speed was
     <me>\dfrac{240}{5} = 48~ \text{miles per hour}</me></p>
-</solution></example>
+</solution></activity>
 
 <p>Why does the average speed turn out to be less than 50 miles per hour? Because Kathy spent more time driving at 40 miles per hour (3 hours) than she did driving at 60 miles per hour (2 hours).</p>
 
@@ -353,11 +353,11 @@ Thus, the average speed for the entire trip is
 
 <p>If the divisor is a monomial, we can simply divide the monomial into each term of the numerator.</p>
 
-<example><statement><p>Divide <m>\dfrac{9x^3 - 6x^2 + 4}{3x}</m></p></statement>
+<activity><statement><p>Divide <m>\dfrac{9x^3 - 6x^2 + 4}{3x}</m></p></statement>
 <solution><p>We divide <m>3x</m> into each term of the numerator.
         <md><mrow>\frac{9x^3 - 6x^2 + 4}{3x} \amp = \frac{9x^3}{3x}- \frac{6x^2}{3x}+ \frac{4}{3x}</mrow>
             <mrow>\amp = 3x^2 - 2x + \frac{4}{3x}</mrow></md>
-Note that the quotient is the sum of a polynomial, <m>3x^2 - 2x</m>, and an algebraic fraction, <m>\dfrac{4}{3x}</m>.</p></solution></example>
+Note that the quotient is the sum of a polynomial, <m>3x^2 - 2x</m>, and an algebraic fraction, <m>\dfrac{4}{3x}</m>.</p></solution></activity>
 
 <exercise component="webwork"><title>Practice 5</title>
 <webwork><pg-code>
@@ -378,7 +378,7 @@ Note that the quotient is the sum of a polynomial, <m>3x^2 - 2x</m>, and an alge
 
 <p>If the denominator is not a monomial, we use a method similar to the long division algorithm used in arithmetic.</p>
 
-<example xml:id="example-long-division"><statement><p>Divide <m>~~\dfrac{2x^2+x-7}{x+3}</m> <m>~\alert{\text{[TK]}}</m></p></statement>
+<activity xml:id="example-long-division"><statement><p>Divide <m>~~\dfrac{2x^2+x-7}{x+3}</m> <m>~\alert{\text{[TK]}}</m></p></statement>
 
 <solution><p>We first write the quotient as a division problem:
     <md><mrow>\require{enclose}x+3 \enclose{longdiv}{2x^2+x-7}\kern-.2ex </mrow></md>
@@ -407,7 +407,7 @@ Repeating the process, we divide <m>-5x</m> by <m>x</m> to obtain <m>-5</m>. We 
 </mrow></md>
 Because the degree of the remainder, 8, is less than the degree of <m>x + 3</m>, the division is finished. The quotient is <m>2x - 5</m>, with a remainder of <m>8</m>. We write the remainder as a fraction to obtain
         <me>\dfrac{2x^2 + x - 7}{x + 3} = 2x - 5 + \dfrac{8}{x + 3}</me>
-</p></solution></example>
+</p></solution></activity>
 
 <aside><p><m>\alert{\text{[TK]}}~~</m>To check a polynomial division, see <xref ref="tkCheckDiv" text="custom"> Section 8.4.3 </xref> of the Toolkit.</p></aside>
 

@@ -6,12 +6,12 @@
 
 <p>Points on the graph of a conic subsection satisfy a quadratic equation in two variables.</p>
 
-<example><statement><p>Find all points on the graph of <m>x^2+y^2 = 12</m> with <m>x</m>-coordinate 2.</p></statement>
+<activity><statement><p>Find all points on the graph of <m>x^2+y^2 = 12</m> with <m>x</m>-coordinate 2.</p></statement>
 
 <solution><p>We substitute <m>x=2</m> into the equation to obtain   
     <me>2^2+y^2=12</me>
 and simplify to <m>y^2=8</m>. Solving for <m>y</m>, we find <m>y=\pm \sqrt{8} = \pm 2\sqrt{2}</m>. Thus, the points on the graph of <m>x^2+y^2 = 12</m> with <m>x</m>-coordinate 2 are <m>(2, 2\sqrt{2})</m>  and <m>(2, -2\sqrt{2})</m>.</p>
-</solution></example>
+</solution></activity>
 
 <exercise><statement><p>Find all points on the graph of <m>y=2x^2-4x+3</m> with <m>y</m>-coordinate 3.</p></statement>
 <answer><p><m>(0,3),~(2,3)</m></p></answer></exercise>
@@ -27,7 +27,7 @@ and simplify to <m>y^2=8</m>. Solving for <m>y</m>, we find <m>y=\pm \sqrt{8} = 
 
 <p>To graph a conic subsection, we complete the square in each variable to put the equation in standard form.</p>
 
-<example><statement><p>Solve  <m>~2x^2+3 = 8x~</m> by completing the square.</p></statement>
+<activity><statement><p>Solve  <m>~2x^2+3 = 8x~</m> by completing the square.</p></statement>
 
 <solution><p>We begin by isolating the constant term on the right side of the equation.  
     <md><mrow>2x^2 - 8x \amp =-3   \amp \amp \blert{\text{Factor out the coefficient of} ~x^2.}</mrow>
@@ -37,7 +37,7 @@ and simplify to <m>y^2=8</m>. Solving for <m>y</m>, we find <m>y=\pm \sqrt{8} = 
         <mrow>(x-2)^2 \amp = \dfrac{5}{2}  \amp \amp \blert{\text{Extract roots.}}</mrow>
         <mrow>x-2 \amp = \pm \sqrt{\dfrac{5}{2}}   \amp \amp \blert{\text{Sovle for}~x.}</mrow>
         <mrow>x \amp = 2 \pm  \sqrt{\dfrac{5}{2}}</mrow></md></p>
-</solution></example>
+</solution></activity>
 
 <exercise><statement><p>Solve  <m>~x^2-7x=4~</m> by completing the square.</p></statement>
 <answer><p><m>\dfrac{7 \pm \sqrt{65}}{2}</m></p></answer></exercise>
@@ -53,13 +53,13 @@ and simplify to <m>y^2=8</m>. Solving for <m>y</m>, we find <m>y=\pm \sqrt{8} = 
 
 <p>We may encounter coefficients that are fractions when putting an equation in standard form.</p>
 
-<example><statement><p>Solve for <m>y</m>:  <m>~\dfrac{6}{5}y = \dfrac{2}{3}x^2-8x+12</m></p></statement>
+<activity><statement><p>Solve for <m>y</m>:  <m>~\dfrac{6}{5}y = \dfrac{2}{3}x^2-8x+12</m></p></statement>
 
 <solution><p>We divide both sides of the equation by <m>~\dfrac{6}{5}</m>, or equivalently, we multiply both sides by <m>~\dfrac{5}{6}</m>.
     <md><mrow> \blert{\dfrac{5}{6}} \left(\dfrac{6}{5}y\right) \amp = \blert{\dfrac{5}{6}} \left(\dfrac{2}{3}x^2-8x+12\right) \amp \amp \blert{\text{Apply the distributive law.}}</mrow>
         <mrow>y \amp = \blert{\dfrac{5}{6}} \left(\dfrac{2}{3}x^2\right)-\blert{\dfrac{5}{6}}(8x) + \blert{\dfrac{5}{6}}(12)  \amp \amp \blert{\text{Simplify each term.}}</mrow> 
         <mrow>y \amp = \dfrac{5}{9}x^2-\dfrac{20}{3}x+10</mrow></md></p>
-</solution></example>
+</solution></activity>
 
 <exercise><statement><p>Solve for <m>y</m>:  <m>~\dfrac{2}{3}y - (x+5)^2 = 1</m></p></statement>
 <answer><p><m>y = \dfrac{3}{2}(x+5)^2 + \dfrac{3}{2}</m></p></answer></exercise>

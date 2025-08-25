@@ -8,17 +8,17 @@
 
 <subsubsubsection><title>Examples</title>
 
-<example><statement><p>Evaluate <m>~f(x,y) = 1.6x^2 + 2.4y~</m> for <m>x=24</m> and <m>y=300</m>.</p></statement>
+<activity><statement><p>Evaluate <m>~f(x,y) = 1.6x^2 + 2.4y~</m> for <m>x=24</m> and <m>y=300</m>.</p></statement>
 
 <solution><p>We substitute <m>\alert{240}</m> for <m>x</m> and <m>\alert{300}</m> for <m>y</m>.
     <md><mrow>f(\alert{24}, \alert{300}) \amp = 1.6(\alert{24}^2) + 2.4(\alert{300})</mrow>
-        <mrow> \amp = 1.6(576) + 2.4(300) = 921.6 + 720 = 1641.6</mrow></md></p></solution></example>
+        <mrow> \amp = 1.6(576) + 2.4(300) = 921.6 + 720 = 1641.6</mrow></md></p></solution></activity>
 
-<example><statement><p><m>h(s,t) = 12s^{2/3}t^{1/4}</m>.  Evaluate <m>h(35,60).</m> Round your answer to thousandths.</p></statement>
+<activity><statement><p><m>h(s,t) = 12s^{2/3}t^{1/4}</m>.  Evaluate <m>h(35,60).</m> Round your answer to thousandths.</p></statement>
 
 <solution><p>We substitute <m>\alert{35}</m> for <m>s</m> and <m>\alert{60}</m> for <m>t</m>.
     <md><mrow>h(\alert{35}, \alert{60}) \amp = 12(\alert{35}^{2/3})(\alert{60}^{1/4})</mrow>
-        <mrow>\amp = 12(10.700)(2.783) = 357.353</mrow></md></p></solution></example>
+        <mrow>\amp = 12(10.700)(2.783) = 357.353</mrow></md></p></solution></activity>
 </subsubsubsection>
 
 <subsubsubsection><title>Exercises</title>
@@ -38,7 +38,7 @@
 
 <subsubsubsection><title>Example</title>
 
-<example><statement><p>The table shows values for <m>~z=f(x,y)</m>.
+<activity><statement><p>The table shows values for <m>~z=f(x,y)</m>.
 
     <sidebyside><tabular top="minor" halign="center"  right="minor" left="minor" bottom="minor">
         <col right="major" /><col/><col/><col/><col/><col/>
@@ -95,7 +95,7 @@
     <li>The inputs are <m>x=3</m> and <m>y=5</m>. We look in the third row and fifth column to find <m>~f(3,5) = 75.</m></li>
     <li>We see the entry 16 in the fourth row and the second column, so <m>x=4</m> and <m>y=2</m>.  The solution is <m>(4,2).</m></li>
     <li>The entries in the second row are increasing as <m>y</m> increases, so <m>~f(2,y)~</m> is increasing.</li>
-</ol></p></solution></example>
+</ol></p></solution></activity>
  </subsubsubsection>
 
  <subsubsubsection><title>Exercise</title>       
@@ -165,7 +165,7 @@
 
 <subsubsubsection><title>Example</title>
 
-<example><statement><p>The table shows values for <m>~z=f(x,y)</m>, where <m>z</m> varies directly with <m>x</m> and inversely with the square of <m>y</m>. Find the constant of variation.
+<activity><statement><p>The table shows values for <m>~z=f(x,y)</m>, where <m>z</m> varies directly with <m>x</m> and inversely with the square of <m>y</m>. Find the constant of variation.
 
     <sidebyside><tabular top="minor" halign="center"  right="minor" left="minor" bottom="minor">
         <col right="major" /><col/><col/><col/><col/><col/>
@@ -204,7 +204,7 @@
 
 <solution><p>The function <m>f</m> has the form <m>z=\dfrac{kx}{y^2}</m>.  To find <m>k</m> we substitue values for the variables.  For example, <m>x=60</m> when <m>x=1</m> and <m>y=1</m>, so
     <me>60=\dfrac{k(1)}{1^2}</me>
-and <m>k=60</m>.  Thus, <m>z=\dfrac{60x}{y^2}</m>.</p></solution></example>
+and <m>k=60</m>.  Thus, <m>z=\dfrac{60x}{y^2}</m>.</p></solution></activity>
 </subsubsubsection>
 
 <subsubsubsection><title>Exercise</title>       

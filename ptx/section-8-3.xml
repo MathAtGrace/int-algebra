@@ -106,12 +106,12 @@ We express this rule in symbols as follows.</p>
 
 <p>It is usually easier to cancel any common factors before multiplying. But be careful: if the numerators or denominators have more than one term, we'll need to factor them before looking for common factors!</p>
 
-<example><statement><p>Multiply  <m>~\dfrac{2x-4}{3x+6} \cdot \dfrac{6x+9}{x-2}</m></p></statement>
+<activity><statement><p>Multiply  <m>~\dfrac{2x-4}{3x+6} \cdot \dfrac{6x+9}{x-2}</m></p></statement>
 
 <solution><p>First, we factor each numerator and denominator. Then we divide numerator and denominator by any common factors.
     <md><mrow>\dfrac{2x-4}{3x+6} \cdot \dfrac{6x+9}{x-2} \amp = \dfrac{2\cancel{(x-2)}}{\cancel{3}(x+2)} \cdot \dfrac{\cancel{3}(2x+3)}{\cancel{x-2}}</mrow>
         <mrow>\amp = \dfrac{2(2x+3)}{x+2}~~~~\text{or}~~~~\dfrac{4x+6}{x+2}</mrow></md></p>
-</solution></example>
+</solution></activity>
 
 <warning><idx><h>canceling to reduce a fraction</h></idx>
 <p>In the previous Example, it would be incorrect to try to cancel any <em>terms</em> of numerators and denominators before factoring each binomial. For example, we cannot cancel <m>3x</m> into <m>6x</m>, because they are not factors of the fractions.</p></warning>
@@ -173,14 +173,14 @@ We express this rule in symbols as follows.</p>
 
 <p>The procedure for dividing fractions still applies: take the reciprocal of the second fraction, then follow the rules for multiplication.</p>
 
-<example><statement><p>Divide:  <m>~\dfrac{a-2}{6a^2} \div \dfrac{4-a^2}{4a^2-2a}</m></p></statement>
+<activity><statement><p>Divide:  <m>~\dfrac{a-2}{6a^2} \div \dfrac{4-a^2}{4a^2-2a}</m></p></statement>
 
 <solution><p>First, we change the operation to multiplication by taking the reciprocal of the second fraction.
     <me>\dfrac{a-2}{6a^2} \div \dfrac{4-a^2}{4a^2-2a} = \dfrac{a-2}{6a^2} \cdot \dfrac{4a^2-2a}{4-a^2}</me>
 Now we follow the rules for multiplication:  First, we factor each numerator and denominator.
     <md><mrow>\amp = \dfrac{a-2}{3 \cdot 2 \cdot a \cdot a} \cdot \dfrac{2a(2a-1)}{(2-a)(2+a)} \amp \amp \blert{\text{Divide out common factors.}}</mrow>
         <mrow>\amp = \dfrac{-1 \cancel{(2-a)}}{3 \cdot \cancel{2} \cdot \cancel{a} \cdot a} \cdot \dfrac{\cancel{2}a(2a-1)}{\cancel{(2-a)}(2+a)} \amp \amp \blert{\text{Note}~a-2 = -1(2-a).}</mrow>
-        <mrow> \amp = \dfrac{-1(2a-1)}{3a(2+a)} = \dfrac{1-2a}{3a(2+a)}</mrow></md></p></solution></example>
+        <mrow> \amp = \dfrac{-1(2a-1)}{3a(2+a)} = \dfrac{1-2a}{3a(2+a)}</mrow></md></p></solution></activity>
 
 <p>We summarize the procedure for dividing algebraic fractions as follows.</p>
 
@@ -304,7 +304,7 @@ The same holds true for all algebraic fractions.</p>
     <md><mrow>\blert{\dfrac{a}{c}+\dfrac{b}{c}} \amp = \blert{\dfrac{a+b}{c}}</mrow>
         <mrow>\blert{\dfrac{a}{c}-\dfrac{b}{c}} \amp = \blert{\dfrac{a-b}{c}}</mrow></md></p></assemblage>
 
-<example><statement><p>Add. <ol marker="a." cols="2">
+<activity><statement><p>Add. <ol marker="a." cols="2">
         <li><m>\dfrac{2x}{9z^2}+\dfrac{5x}{9z^2}</m></li>
         <li><m>\dfrac{2x-5}{x+2}+\dfrac{x+4}{x+2}</m></li></ol></p></statement>
 
@@ -314,7 +314,7 @@ The same holds true for all algebraic fractions.</p>
     <li><p> We combine the numerators over a single denominator.
         <md><mrow>\dfrac{2x-5}{x+2}+\dfrac{x+4}{x+2} \amp = \dfrac{(2x-5)+(x+4)}{x+2} \amp \amp \blert{\text{Add like terms in the numerator.}}</mrow>
             <mrow> \amp = \dfrac{3x-1}{x+2}</mrow></md></p></li></ol></p>
-</solution></example>
+</solution></activity>
 
 <p>We summarize our procedure for adding or subtracting like fractions as follows.</p>
 
@@ -372,7 +372,7 @@ The same holds true for all algebraic fractions.</p>
 
 <p>We must be careful when subtracting algebraic fractions: A subtraction sign in front of a fraction applies to the <em>entire</em> numerator.</p>
 
-<example xml:id="example-subtract-linear-fractionals"><statement><p>Subtract: <m>~\dfrac{x-3}{x-1}-\dfrac{3x-5}{x-1}</m></p></statement>
+<activity xml:id="example-subtract-linear-fractionals"><statement><p>Subtract: <m>~\dfrac{x-3}{x-1}-\dfrac{3x-5}{x-1}</m></p></statement>
     
   <solution><p>We combine the numerators over a single denominator.  We use parentheses around <m>3x-5</m> to show that the subtraction applies to the entire numerator.
             <md><mrow>\dfrac{x-3}{x-1}-\dfrac{3x-5}{x-1} \amp = \dfrac{(x-3)-(3x-5)}{x-1} \amp \amp \blert{\stackrel{{\Large\text{Remove parentheses; }}}{\text{distribute negative sign.}}}</mrow>
@@ -380,7 +380,7 @@ The same holds true for all algebraic fractions.</p>
                 <mrow>\amp = \dfrac{-2x+2}{x-1}</mrow></md>
   We should always check to see whether the fraction can be reduced.  Factor the numerator to find
             <md><mrow>\dfrac{-2x+2}{x-1} = \dfrac{-2\cancel{(x-1)}}{\cancel{x-1}} = -2</mrow></md></p>
-</solution></example>
+</solution></activity>
 
 <warning><p>In the Example above, the subtraction symbol in the numerator <m>(x-3)-(3x-5)</m> applies to <em>both</em> terms of <m>(3x-5)</m>.  That is why
     <me>(x-3)-(3x-5) = x-3-3x+5</me></p></warning>
@@ -529,7 +529,7 @@ We add or subtract algebraic fractions with the same three steps.</p>
     <li>Reduce the sum or difference if necessary.</li>
 </ol></p></assemblage>
 
-<example><statement><p>Subtract: <m>~\dfrac{x+2}{6}-\dfrac{x-1}{15}</m></p></statement>
+<activity><statement><p>Subtract: <m>~\dfrac{x+2}{6}-\dfrac{x-1}{15}</m></p></statement>
     
 <solution><p>Step 1: We find the LCD:  The smallest multiple of both 6 and 15 is 30.</p>
     <p>Step 2:  We build each fraction to an equivalent one with denominator 30. The building factor for the first fraction is <m>\alert{5}</m>, and for the second fraction the building factor is <m>\alert{2}</m>.
@@ -541,7 +541,7 @@ We add or subtract algebraic fractions with the same three steps.</p>
             <mrow>\amp = \dfrac{5x+10-2x+2}{30} = \dfrac{3x+12}{30}</mrow></md></p>
     <p>Step 4: Finally, we reduce the fraction.
             <me>\dfrac{3x+12}{30} = \dfrac{\cancel{3}(x+4)}{\cancel{3} \cdot 10} = \dfrac{x+4}{10}</me></p>
-  </solution></example> 
+  </solution></activity> 
 
 <exercise component="webwork"><title>Practice 5</title>
 <webwork><pg-code>
@@ -641,7 +641,7 @@ We add or subtract algebraic fractions with the same three steps.</p>
 
 <p>The <term>lowest common denominator</term><idx>lowest common denominator</idx><idx><h>fraction</h><h>lowest common denominator</h><see>lowest common denominator</see></idx> for two or more algebraic fractions is the simplest algebraic expression that is a multiple of each denominator. If neither denominator can be factored, then their LCD is just the product of the two expressions.</p>
 
-<example><statement><p>Add:  <m>~\dfrac{6}{x} + \dfrac{x}{x-2}</m> </p></statement>
+<activity><statement><p>Add:  <m>~\dfrac{6}{x} + \dfrac{x}{x-2}</m> </p></statement>
 
 <solution><p>Step 1: The LCD for these fractions is just the product of their denominators, <m>x(x-2)</m>.</p>
 <p>Step 2: We build each fraction to an equivalent one with denominator <m>x(x-2)</m>.  The building factor for <m>\dfrac{6}{x}</m> is <m>\alert{(x-2)}</m> and the building factor for <m>\dfrac{x}{x-2}</m> is <m>\alert{x}</m>.  We multiply numerator and denominator of each fraction by its building factor.
@@ -650,7 +650,7 @@ We add or subtract algebraic fractions with the same three steps.</p>
 <p>Step 3: We combine the resulting like fractions.
     <md><mrow>\dfrac{6}{x} + \dfrac{x}{x-2} \amp = \dfrac{6x-12}{x(x-2)} + \dfrac{x^2}{x(x-2)} \amp \amp \blert{\text{Combine the numerators.}}</mrow>
         <mrow>\amp = \dfrac{x^2+6x-12}{x-2}</mrow></md></p>
-<p>Step 4: The numerator of this fraction cannot be factored, so the sum cannot be reduced.</p></solution></example>
+<p>Step 4: The numerator of this fraction cannot be factored, so the sum cannot be reduced.</p></solution></activity>
 
 <exercise component="webwork"><title>Practice 6</title>
 <webwork><pg-code>
@@ -714,12 +714,12 @@ You can check that both 12 and 18 divide evenly into 36.</p>
     <li>Include each different factor in the LCD as many times as it occurs in any one of the given denominators.</li>
 </ol></p></assemblage>
 
-<example xml:id="Example-find-LCD"><statement><p>Find the LCD for the fractions <m>~\dfrac{2x}{x^2-1}~</m> and <m>~\dfrac{x+3}{x^2+x}~</m>  <m>~\alert{\text{[TK]}}~~</m></p></statement>
+<activity xml:id="Example-find-LCD"><statement><p>Find the LCD for the fractions <m>~\dfrac{2x}{x^2-1}~</m> and <m>~\dfrac{x+3}{x^2+x}~</m>  <m>~\alert{\text{[TK]}}~~</m></p></statement>
 
 <solution><p>We factor the denominators of each of the given fractions.
     <me>x^2-1 = (x-1)(x+1)~~~~\text{and}~~~~x^2+x = x(x+1)</me>
  The factor <m>(x-1)</m> occurs once in the first denominator, the factor <m>x</m> occurs once in the second denominator, and the factor <m>(x+1)</m> occurs once in each denominator.  Therefore we include in our LCD one copy of each of these factors.  The LCD is  <m>x(x-1)(x+1)</m>.  </p>
-</solution></example>
+</solution></activity>
 
 <aside><p><m>\alert{\text{[TK]}}~~</m>For more on finding the LCD, see <xref ref="tkLCD" text="custom"> Section 8.3.4 </xref> of the Toolkit.</p></aside>
 
@@ -748,7 +748,7 @@ You can check that both 12 and 18 divide evenly into 36.</p>
     <me>\dfrac{a}{b} = \dfrac{a \cdot c}{b \cdot c},~~~~\text{if}~~~~c \ne 0</me>  
 It is the opposite of reducing a fraction, because we multiply, rather than divide, the numerator and denominator by an appropriate factor. To find the <term>building factor</term><idx>building factor</idx><idx><h>fraction</h><h>building factor</h></idx>, we compare the factors of the original denominator with those of the desired common denominator.</p>
 
-<example><statement><p>Add:  <m>~\dfrac{x-4}{x^2-2x} + \dfrac{4}{x^2-4}</m> <m>~\alert{\text{[TK]}}</m> </p></statement>
+<activity><statement><p>Add:  <m>~\dfrac{x-4}{x^2-2x} + \dfrac{4}{x^2-4}</m> <m>~\alert{\text{[TK]}}</m> </p></statement>
 
 <solution><p>Step 1: Find the LCD. We factor each denominator completely.
     <md><mrow>x^2-2x \amp = x(x-2)</mrow>
@@ -763,7 +763,7 @@ The building factor for <m>\dfrac{4}{(x-2)(x+2)}</m> is <m>\alert{x}</m>.
         <mrow>\amp = \dfrac{x^2+2x+8}{x(x-2)(x+2)}</mrow></md></p>
 <p>Step 4: Finally, we reduce the fraction.
     <me>\dfrac{x^2+2x+8}{x(x-2)(x+2)} = \dfrac{(x+4)\cancel{(x-2)}}{x\cancel{(x-2)}(x+2)} = \dfrac{x+4}{x(x+2)}</me></p>
-</solution></example>
+</solution></activity>
 
 <aside><p><m>\alert{\text{[TK]}}~~</m>For more help with building, see <xref ref="tkBuild" text="custom"> Section 8.3.5 </xref> of the Toolkit.</p></aside>
 
@@ -856,7 +856,7 @@ The building factor for <m>\dfrac{4}{(x-2)(x+2)}</m> is <m>\alert{x}</m>.
 <subsection><title>Applications</title>
 <p>Recall that the formulas for rational functions are algebraic fractions. It is often useful to simplify the formula for a function before using it.</p> 
 
-<example><statement><p>When estimating their travel time, pilots must take into account the prevailing winds.  A tail wind adds to the plane's ground speed, while a head wind decreases the ground speed.  Skyhigh Airlines is setting up a shuttle service from Dallas to Phoenix, a distance of 800  miles.<ol marker="a.">
+<activity><statement><p>When estimating their travel time, pilots must take into account the prevailing winds.  A tail wind adds to the plane's ground speed, while a head wind decreases the ground speed.  Skyhigh Airlines is setting up a shuttle service from Dallas to Phoenix, a distance of 800  miles.<ol marker="a.">
     <li>Express the time needed for a one-way trip, without wind, as a function of the speed of the plane.</li>
     <li>Suppose there is a prevailing wind of 30 miles per hour blowing from the west.  Write expressions for the flying time from Dallas to Phoenix and from Phoenix to Dallas.</li>
     <li>Write an expression for the round trip flying time with a 30-mile-per-hour wind from the west, as a function of the plane's speed.  Simplify your expression.</li></ol></p></statement>
@@ -872,7 +872,7 @@ The building factor for <m>\dfrac{4}{(x-2)(x+2)}</m> is <m>\alert{x}</m>.
     The LCD for these fractions is <m>(r-30)(r+30)</m>.  Thus,
         <md><mrow>\dfrac{800}{r-30} +\dfrac{800}{r+30} \amp = \dfrac{800\alert{(r+30)}}{(r-30)\alert{(r+30)}} +\dfrac{800\alert{(r-30)}}{(r+30)\alert{(r-30)}}</mrow>
             <mrow>\amp = \dfrac{(800r+24,000)+(800r-24,000)}{(r+30)(r-30)}</mrow>
-            <mrow> \amp = \dfrac{1600r}{r^2-900}</mrow></md></p></li></ol></p></solution></example>
+            <mrow> \amp = \dfrac{1600r}{r^2-900}</mrow></md></p></li></ol></p></solution></activity>
 
 <exercise component="webwork"><title>Practice 9</title>
 <webwork><pg-code>

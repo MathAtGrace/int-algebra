@@ -6,7 +6,7 @@
 
 <introduction><p>Applied problems that involve more than one unknown are often easier to model and solve with a system of equations.</p></introduction>
 
-<example><statement><p>Write equations about the number of tables and the number of chairs:
+<activity><statement><p>Write equations about the number of tables and the number of chairs:
     <ol marker="a.">
         <li>There are four chairs for each table.</li>
         <li>Chairs cost $125 each; a table costs $350.  Darryl spent $10,200 on tables and chairs.</li>
@@ -16,9 +16,9 @@
     <ol marker="a.">
         <li>The number of chairs is 4 times the number of tables: <m>~y=4x</m>.</li> 
         <li><m>125y+350x=10,200</m></li>
-    </ol></p></solution></example>
+    </ol></p></solution></activity>
 
-<example><statement><p>Write equations about the dimensions of a rectangle:
+<activity><statement><p>Write equations about the dimensions of a rectangle:
     <ol marker="a.">
         <li>The perimeter of the rectangle is 42 meters.</li>
         <li>The length is 3 meters more than twice the width.</li>
@@ -28,7 +28,7 @@
     <ol marker="a.">
         <li><m>2x+2y=42</m></li>  
         <li><m>y=3+2x</m></li>
-    </ol></p></solution></example>
+    </ol></p></solution></activity>
 
 <exercise><statement><p>Write equations about the number of calories in a hamburger and in a chocolate shake.
     <ol marker="a.">    
@@ -55,16 +55,16 @@
 
 <introduction><p>Recall that a solution to a system makes each equation in the system true.</p></introduction>
 
-<example><statement><p>Decide whether <m>(3,-2)</m> is a solution of the system 
+<activity><statement><p>Decide whether <m>(3,-2)</m> is a solution of the system 
     <md><mrow>x = 5y+13</mrow>
         <mrow>2x+3y=0</mrow></md></p> </statement>
 
 <solution><p>A solution must satisfy both equations.  We substitute <m>x=\alert{3}</m> and <m>y=\alert{-2}</m> into the equations. 
     <md><mrow>\alert{3} = 5(\alert{-2})+13 ? \amp \amp \text{Yes}</mrow>
         <mrow> 2(\alert{3})+3(\alert{-2})=0 ? \amp \amp \text{Yes}</mrow></md>
-Yes, <m>(3,-2)</m> is a solution</p></solution></example>
+Yes, <m>(3,-2)</m> is a solution</p></solution></activity>
                     
-<example><statement><p>Find the solution of the system graphed below.</p>
+<activity><statement><p>Find the solution of the system graphed below.</p>
     <!-- <image source="images/fig-8-1-1.png"><description>graph</description></image> --><image width="35%" xml:id="fig-linear-system-50-1300"><description>Linear system</description><latex-image>
         <!-- CDATA prevents certain LaTeX code from being interpreted as xml -->
         <![CDATA[\tikzset{%
@@ -92,7 +92,7 @@ Yes, <m>(3,-2)</m> is a solution</p></solution></example>
         </latex-image></image>
 </statement>
     
-<solution><p>The solution must lie on both graphs, so it is the intersection point, <m>P</m>. The coordinates of point <m>P</m> are <m>(50, 1300)</m>, so the solution of the system is <m>t=50,~y=1300</m>. </p></solution></example>
+<solution><p>The solution must lie on both graphs, so it is the intersection point, <m>P</m>. The coordinates of point <m>P</m> are <m>(50, 1300)</m>, so the solution of the system is <m>t=50,~y=1300</m>. </p></solution></activity>
 
 <exercise><statement><p>Decide whether <m>(-3,-2)</m> is a solution of the system 
     <md><mrow>x + 3y \amp = -9</mrow>
@@ -132,18 +132,18 @@ Yes, <m>(3,-2)</m> is a solution</p></solution></example>
 
 <p>"Revenue" is the amount of money a company takes in from selling its product. A negative profit is the same as a loss.</p>
 
-<example><statement><p>The owner of a sandwich shop spent $800 last week for labor and supplies. She received $1150 in revenue.  What was her profit?</p></statement>
+<activity><statement><p>The owner of a sandwich shop spent $800 last week for labor and supplies. She received $1150 in revenue.  What was her profit?</p></statement>
 
 <solution><p>We evaluate the formula with <m>R=1150</m> and <m>C=800</m> to find
     <md><mrow>P \amp = R-C</mrow>
         <mrow> \amp = 1150 - 800 = 350</mrow></md>
-The owner's profit was $350.</p></solution></example>
+The owner's profit was $350.</p></solution></activity>
 
-<example><statement><p>EcoGreen made $1848 profit on low-flow shower heads last year, and spent $3426 in costs.  What was their revenue from shower heads?</p></statement>
+<activity><statement><p>EcoGreen made $1848 profit on low-flow shower heads last year, and spent $3426 in costs.  What was their revenue from shower heads?</p></statement>
 
 <solution><p>We usse the profit formula and solve the equation
     <me>1848 = R - 3246</me>
-to find that <m>R=5094</m>.  Their revenue was $5094.</p></solution></example>
+to find that <m>R=5094</m>.  Their revenue was $5094.</p></solution></activity>
 
 <exercise><statement><p><ol marker="a.">
     <li>The Earth Alliance made $6000 in revenue from selling tickets to Earth Day, an educational event for children.  Write an expression for their profit in terms of their costs.</li>  

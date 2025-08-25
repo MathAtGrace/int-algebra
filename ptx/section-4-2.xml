@@ -128,7 +128,7 @@ Now we'll see that the same formula holds for any parabola.  Use your calculator
     <p>For the graph of  <m>~~y=ax^2+bx+c=0,~~</m> the <m>x</m>-coordinate of the vertex is 
         <me>\blert{x_v=\dfrac{-b}{2a}}</me></p></assemblage>
 
-<example xml:id="example-parabola-vertex2"><statement><p> Find the vertex of the graph of <m>f(x) = -2x^2 + x + 1</m>.</p>
+<activity xml:id="example-parabola-vertex2"><statement><p> Find the vertex of the graph of <m>f(x) = -2x^2 + x + 1</m>.</p>
 </statement>
 
 <solution><p>For this equation, <m>a = -2</m>, <m>b = 1</m>, and <m>c = 1</m>. The <m>x</m>-coordinate of the vertex is given by
@@ -138,7 +138,7 @@ To find the <m>y</m>-coordinate of the vertex, we substitute <m>x = \alert{\dfra
             <mrow>\amp= -2\left(\frac{1}{16}\right)+ \frac{4}{16}+\frac{16}{16}=\frac{18}{16}=\frac{9}{8}</mrow></md>
 So the coordinates of the vertex are <m>\left(\dfrac{1}{4},\dfrac{9}{8}\right)</m>. Alternatively, we can use the calculator to evaluate <m>-2x^2 + x + 1</m> for <m>x = 0.25</m>. We enter</p>
     <p><m>\qquad\qquad</m> <kbd>(-)</kbd> <m>2</m> <kbd name="times"/> <m>0.25</m> <kbd name="squared"/> <kbd name="plus"/> <m>0.25</m> <kbd name="plus"/> <m>1</m></p>
-<p>and press <kbd>ENTER</kbd>. The calculator returns the <m>y</m>-value <m>1.125</m>. Thus, the vertex is the point <m>(0.25, 1.125)</m>, which is the decimal equivalent of <m>\left(\dfrac{1}{4},\dfrac{9}{8}\right)</m>.</p></solution></example>
+<p>and press <kbd>ENTER</kbd>. The calculator returns the <m>y</m>-value <m>1.125</m>. Thus, the vertex is the point <m>(0.25, 1.125)</m>, which is the decimal equivalent of <m>\left(\dfrac{1}{4},\dfrac{9}{8}\right)</m>.</p></solution></activity>
 
 <exercise component="webwork"><title>Practice 1</title>
     <webwork><pg-code>
@@ -168,7 +168,7 @@ So the coordinates of the vertex are <m>\left(\dfrac{1}{4},\dfrac{9}{8}\right)</
 
 <p>Once we know the vertex of a parabola, we can make a quick sketch of the graph.</p>
 
-<example><statement><p>Sketch a graph of <m>~y=x^2+3x+1</m></p></statement>
+<activity><statement><p>Sketch a graph of <m>~y=x^2+3x+1</m></p></statement>
 
 <solution><p>The vertex of the graph is given by
     <md><mrow>x_v \amp = \dfrac{-b}{2a} = \dfrac{-3}{2(1)} = -1.5</mrow>
@@ -199,7 +199,7 @@ The vertex is the point <m>(-1.5,-1.25)</m>.</p>
         \end{tikzpicture}]]>
         </latex-image></image>
 <p>If we need more accuracy in our graph, we can find and plot more points, including the <m>x</m>-intercepts. <m>~\alert{\text{[TK]}}</m></p>
-</solution></example>
+</solution></activity>
 
 <aside><p><m>\alert{\text{[TK]}}~~</m>To review finding the <m>x</m>-intercepts of a parabola, see <xref ref="ParabolaX-Ints" text="custom"> Section 3.2.2 </xref>.</p></aside>
 
@@ -271,7 +271,7 @@ Usually, when the price of an item increases, the number of items sold decreases
 
 <p>Finding the maximum or minimum value for a variable expression is a common problem in applications. For example, if you own a company that manufactures blue jeans, you might like to know how much to charge for your jeans in order to maximize your revenue. As you increase the price of the jeans, your revenue may increase for a while. But if you charge too much for the jeans, consumers will not buy as many pairs, and your revenue may actually start to decrease. Is there some optimum price you should charge for a pair of jeans in order to achieve the greatest revenue?</p>
 
-<example xml:id="example-maximum-revenue"><statement><p>Late Nite Blues finds that it can sell <m>600 - 15x</m> pairs of jeans per week if it charges <m>x</m> dollars per pair. (Notice that as the price increases, the number of pairs of jeans sold decreases.)
+<activity xml:id="example-maximum-revenue"><statement><p>Late Nite Blues finds that it can sell <m>600 - 15x</m> pairs of jeans per week if it charges <m>x</m> dollars per pair. (Notice that as the price increases, the number of pairs of jeans sold decreases.)
         <ol marker="a.">
             <li><p>Write an equation for the revenue as a function of the price of a pair of jeans.</p></li>
             <li><p>Graph the function.</p></li>
@@ -288,7 +288,7 @@ Usually, when the price of an item increases, the number of items sold decreases
                 <md><mrow>x_v\amp=\frac{-b}{2a}=\frac{-600}{2(-15)}=20</mrow>
                     <mrow>y_v\amp=600(\alert{20}) - 15(\alert{20})^2 = 6000</mrow></md>
         The revenue takes on its maximum value when <m>x = 20</m>, and the maximum value is <m>R = 6000</m>. This means that Late Nite Blues should charge $20 for a pair of jeans in order to maximize revenue at $6000 a week.</p></li></ol></p>
-    </solution></example>
+    </solution></activity>
 
 <note><p>If the equation relating two variables is quadratic, then the maximum or minimum value is easy to find: It is the value at the vertex. If the parabola opens downward, as in <xref ref="example-maximum-revenue" text="type-global"/>, there is a maximum value at the vertex. If the parabola opens upward, there is a minimum value at the vertex.<idx>maximum value</idx><idx>minimum value</idx><idx><h>maximum value</h><seealso>parabola</seealso></idx><idx><h>minimum value</h><seealso>parabola</seealso></idx>
 <idx><h>parabola</h><h>maximum value</h></idx><idx><h>quadratic equation</h><h>maximum value</h></idx>
@@ -382,10 +382,10 @@ This equation is an example of the <term>vertex form</term><idx>vertex form</idx
     <me>\blert{y=a(x-x_v)^2+y_v}</me>
 where the vertex of the graph is <m>~(x_v,y_v)</m>.</p></assemblage>
 
-<example xml:id="example-vertex-form"><statement><p>Find the vertex of the graph of <m>y = -3(x - 4)^2 + 6</m>. Is the vertex a maximum or a minimum point of the graph?</p></statement>
+<activity xml:id="example-vertex-form"><statement><p>Find the vertex of the graph of <m>y = -3(x - 4)^2 + 6</m>. Is the vertex a maximum or a minimum point of the graph?</p></statement>
 
 <solution><p>We compare the equation to the vertex form to see that the coordinates of the vertex are <m>(4, 6)</m>. For this equation, <m>a = -3 \lt 0</m>, so the parabola opens downward. The vertex is the maximum point of the graph.</p>
-</solution></example>
+</solution></activity>
 
 <p>To understand why the vertex form works, substitute <m>x_v = \alert{4}</m> into <m>y = -3(x - 4)^2 + 6</m> from <xref ref="example-vertex-form" text="type-global"/> to find
     <me>y = -3(\alert{4} - 4)^2 + 6 = 6</me>
@@ -451,7 +451,7 @@ which confirms that when <m>x = 4</m>, <m>y = 6</m>. Next, notice that if <m>x</
 
 <aside><p><m>\alert{\text{[TK]}}~~</m>To review completing the square, see <xref ref="SolvebyCompletingSquare" text="custom"> Section 3.4.2 </xref>.</p></aside>
 
-<example xml:id="example-write-in-vertex-form"><statement><p>Write the equation <m>y = 3x^2 - 6x - 1</m> in vertex form and find the vertex of its graph.</p></statement>
+<activity xml:id="example-write-in-vertex-form"><statement><p>Write the equation <m>y = 3x^2 - 6x - 1</m> in vertex form and find the vertex of its graph.</p></statement>
 
 <solution><p>We factor the lead coefficient, <m>3</m>, from the variable terms, leaving a space to complete the square.
         <me>y = 3(x^2 - 2x <fillin characters="6" /> ) - 1</me>
@@ -461,7 +461,7 @@ We must add <m>1</m> to complete the square. However, we are really adding <m>3(
         <me>y = 3(x^2 - 2x \alert{{}+{}1}) - 1\,\alert{-\,3}</me>
 The expression inside parentheses is now a perfect square, and the vertex form is
         <me>y = 3(x - 1)^2 - 4</me>
-The vertex of the parabola is <m>(1,-4)</m>.</p></solution></example>
+The vertex of the parabola is <m>(1,-4)</m>.</p></solution></activity>
 
 <exercise component="webwork"><title>Practice 5</title>
     <webwork><pg-code>
@@ -503,7 +503,7 @@ The vertex of the parabola is <m>(1,-4)</m>.</p></solution></example>
 
 <p>We can make a quick sketch of a parabola whose equation is given in vertex form.</p>
 
-<example><statement><p>Graph the equation <m>~y=\dfrac{-1}{2}(x+3)^2-2</m></p></statement>
+<activity><statement><p>Graph the equation <m>~y=\dfrac{-1}{2}(x+3)^2-2</m></p></statement>
     
 <solution><p>The vertex is the point <m>(-3,2)</m>.  We can find the <m>y</m>-intercept by setting <m>x=0</m>.
             <me>y = \dfrac{-1}{2}(\alert{0}+3)^2-2 = \dfrac{-9}{2}-2 = -6\dfrac{1}{2}</me>
@@ -527,7 +527,7 @@ The <m>y</m>-intercept is the point <m>\left(0, -6\dfrac{1}{2}\right)</m>. The a
             \filldraw[magenta!90!black] (-6,-13/2) circle (.15);
             \draw[samples=65,domain={-sqrt(12)-3:sqrt(12)-3},smooth,variable=\x,red,very thick, <->,>=stealth'] plot ( {\x}, { -1/2*(\x+3)^2-2 });
             \end{tikzpicture}]]>
-            </latex-image></image></solution></example>
+            </latex-image></image></solution></activity>
 
 <aside><p><m>\alert{\text{[TK]}}~~</m>To see more examples of sketching from the vertex form, see <xref ref="tkVertForm" text="custom"> Section 4.2.1 </xref> of the Toolkit.</p></aside>
 
@@ -558,7 +558,7 @@ The <m>y</m>-intercept is the point <m>\left(0, -6\dfrac{1}{2}\right)</m>. The a
 
 <p>If we know the vertex of a parabola and one other point, we can use the vertex form to find its equation. <m>~\alert{\text{[TK]}}</m></p>
 
-<example><statement><p>When Andre practices free-throws at the park, the ball leaves his hands at a height of 7 feet, and reaches the vertex of its trajectory 10 feet away at a height of 11 feet.<ol marker="a.">
+<activity><statement><p>When Andre practices free-throws at the park, the ball leaves his hands at a height of 7 feet, and reaches the vertex of its trajectory 10 feet away at a height of 11 feet.<ol marker="a.">
     <li>Find a quadratic equation for the ball's trajectory.</li>
     <li>Do you think Andre's free-throw would score on a regulation basketball court, where the hoop is 15 feet from the shooter and 10 feet high?</li>
 </ol></p></statement>
@@ -578,7 +578,7 @@ The <m>y</m>-intercept is the point <m>\left(0, -6\dfrac{1}{2}\right)</m>. The a
             <mrow>y \amp =-0.04(25)+11 = 10</mrow></md>
     From our computations, we see that the point <m>(15,10)</m> is indeed on the trajectory. However, because Andre's shot will probably hit the backboard just where the hoop attaches and bounce off, so it is unlikely that his shot will score.</p> </li>
 </ol></p>
-</solution></example> 
+</solution></activity> 
 
 <aside><p><m>\alert{\text{[TK]}}~~</m>For more examples of finding the vertex form, see <xref ref="tkSolveforParam" text="custom"> Section 4.2.3 </xref> of the Toolkit.</p></aside>
 

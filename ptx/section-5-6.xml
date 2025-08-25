@@ -9,7 +9,7 @@
 <p>To create a good model we first decide what kind of function to use. What sort of function has the right shape to describe the process we want to model? Should it be increasing or decreasing, or some combination of both? Is the slope constant or is it changing?</p>
 <p> In Examples <xref ref="example-home-to-school" text="global"/> and <xref ref="concavity" text="global"/>, we investigate how the shape of a graph illustrates the nature of the process it models.</p>
 
-<example xml:id="example-home-to-school"><statement>
+<activity xml:id="example-home-to-school"><statement>
     <p>Forrest leaves his house to go to school. For each of the following situations, sketch a possible graph of Forrest's distance from home as a function of time.<ol marker="a.">
     <li><p>Forrest walks at a constant speed until he reaches the bus stop.</p></li>
     <li><p>Forrest walks at a constant speed until he reaches the bus stop; then he waits there until the bus arrives.</p></li>
@@ -23,7 +23,7 @@
     <li><p>The first part of the graph is the same as part (a). But while Forrest waits for the bus, his distance from home remains constant, so the graph at that time is a horizontal line, as shown in figure (b). The line has slope <m>0</m> because while Forrest is waiting for the bus, his speed is <m>0</m>.</p></li>
     
     <li><p>The graph begins like the graph in part (b). The last section of the graph represents the bus ride. It has a constant slope because the bus is moving at a constant speed. Because the bus (probably) moves faster than Forrest walks, the slope of this segment is greater than the slope for the walking section. The graph is shown in figure (c).</p></li>
-</ol></p></solution></example>
+</ol></p></solution></activity>
 
 <exercise component="webwork"><title>Practice 1</title>
   <webwork><pg-code>
@@ -91,7 +91,7 @@
 
 <p>The graphs in <xref ref="example-home-to-school" text="type-global"/> are portions of straight lines. We can also consider graphs that bend upward or downward. The bend is called the <term>concavity</term><idx><h>concavity</h></idx><idx><h>concavity</h><seealso>concave up, concave down</seealso></idx><idx><h>graph</h><h>concavity</h></idx> of the graph.</p>
 
-<example xml:id="concavity"><statement><p>The two functions described in this example are both increasing functions, but they increase in different ways. Match each function to its graph and to the appropriate table of values.</p>
+<activity xml:id="concavity"><statement><p>The two functions described in this example are both increasing functions, but they increase in different ways. Match each function to its graph and to the appropriate table of values.</p>
     <p><ol marker="a.">
         <li><p>The number of flu cases reported at an urban medical center during an epidemic is an increasing function of time, and it is growing at a faster and faster rate.</p></li>
         <li><p>The temperature of a potato placed in a hot oven increases rapidly at first, then more slowly as it approaches the temperature of the oven.</p></li>
@@ -150,7 +150,7 @@
         </md>
     The decreasing slopes can be seen in the figure below. The graph is increasing but bends downward.</p>
         <image width="40%" source="images/fig-concave-down" ><description>cocave down graph</description></image></li>
-    </ol></p></solution></example>
+    </ol></p></solution></activity>
 
 <p>A graph that bends upward is called <term>concave up</term><idx>concave up</idx><idx><h>graph</h><h>concave up</h></idx>, and one that bends down is <term>concave down</term><idx>concave down</idx><idx><h>graph</h><h>concave down</h></idx>.</p>
 
@@ -260,7 +260,7 @@
 
 <p>We have considered situations that can be modeled by linear or quadratic functions.  In this section we'll look at a few of the other basic functions.</p>
 
-<example><statement><p>Choose one of the eight basic functions to model each situation, and sketch a possible graph. <m>~\alert{\text{[TK]}}~~</m>
+<activity><statement><p>Choose one of the eight basic functions to model each situation, and sketch a possible graph. <m>~\alert{\text{[TK]}}~~</m>
     <ol marker="a.">
     <li>The number of board-feet, <m>B</m>, that can be cut from a Ponderosa pine is a function of the <em>cube</em> of the circumference, <m>c</m>, of the tree at a standard height.</li>
     <li>The manager of an appliance store must decide how many coffee-makers to order every quarter. The optimal order size, <m>Q</m>, is a function of the <em>square root</em> of the annual demand for coffee-makers, <m>D</m>.</li>
@@ -303,7 +303,7 @@
             \draw[samples=65,domain={sqrt(2):8},smooth,variable=\x,red,very thick, <->,>=stealth'] plot ( {\x}, {16/(\x)^2});
             \end{tikzpicture}]]>
             </latex-image></image></li>
-        </ol></p></solution></example>
+        </ol></p></solution></activity>
 
 <aside><p><m>\alert{\text{[TK]}}~~</m>For more about the basic functions, see <xref ref="tkBasicProp" text="custom"> Section 5.6.1 </xref> of the Toolkit.</p></aside>
 
@@ -415,7 +415,7 @@
 
 <p>The next Example illustrates an application of the function <m>f(x)=\sqrt{x}</m>.</p>
 
-<example xml:id="example-sound"><statement><p>The speed of sound is a function of the temperature of the air in kelvins. (The temperature, <m>T</m>, in kelvins is given by <m>T = C + 273</m>, where <m>C</m> is the temperature in degrees Celsius.) The table shows the speed of sound, <m>s</m>, in meters per second, at various temperatures, <m>T</m>.</p>
+<activity xml:id="example-sound"><statement><p>The speed of sound is a function of the temperature of the air in kelvins. (The temperature, <m>T</m>, in kelvins is given by <m>T = C + 273</m>, where <m>C</m> is the temperature in degrees Celsius.) The table shows the speed of sound, <m>s</m>, in meters per second, at various temperatures, <m>T</m>.</p>
 <tabular top="major" halign="center" right="minor" left="minor" bottom="minor">
         <row bottom="minor">
             <cell><m>T ~ (\degree K)</m></cell>
@@ -457,7 +457,7 @@
             <md><mrow>\text{distance} \amp= \text{speed} \times \text{time}</mrow>
                 <mrow>\amp = (343.4\text{ m/sec}) (6 \text{ sec}) = 2060.4 \text{ meters}</mrow></md>
     The thunderstorm is 2060 meters, or about 1.3 miles, away.</p></li></ol></p>
-</solution></example>
+</solution></activity>
 
 <exercise component="webwork"><title>Practice 4</title>
     <webwork><pg-code>
@@ -641,7 +641,7 @@
 <p>For example, the equation <m>\abs{x - 2} = 6</m> means "the distance between <m>x</m> and <m>2</m> is <m>6</m> units." The number <m>x</m> could be to the left or the right of <m>2</m> on the number line. Thus, the equation has two solutions, <m>8</m> and <m>-4</m>, as shown below.</p>
 <image width="70%" source="images/fig-abs-x-minus-2-is-6"  ><description>6 units from 2</description></image>
 
-<example xml:id="example-distances"><statement><p>Write each statement using absolute value notation. Illustrate the solutions on a number line.<ol marker="a.">
+<activity xml:id="example-distances"><statement><p>Write each statement using absolute value notation. Illustrate the solutions on a number line.<ol marker="a.">
         <li><m>x</m> is three units from the origin.</li>
         <li><m>p</m> is two units from <m>5</m>.</li>
         <li><m>a</m> is within four units of <m>-2</m>.</li>
@@ -655,7 +655,7 @@
         <image width="70%" source="images/fig-abs-p-minus-5-is-2"><description>absolut value of p-5 is 2</description></image></li>
     <li><p>The distance between <m>a</m> and <m>-2</m> is less than four units, or <m>\abs{a - (-2)} \lt 4</m>, or <m>\abs{a + 2} \lt 4</m>. Count four units on either side of <m>-2</m>, to find <m>-6</m> and <m>2</m>. Then <m>a</m> is between <m>-6</m> and <m>2</m>, or <m>-6 \lt a \lt 2</m>.</p>
         <image width="70%" source="images/fig-4-units-from-negative-2"><description>4 units from -2</description></image></li>
-    </ol></p></solution></example>
+    </ol></p></solution></activity>
 
 <exercise component="webwork"><title>QuickCheck 5</title>
 <webwork><pg-code>       
@@ -839,7 +839,7 @@
         <li><p>The graph of <m>y=|2x-8|</m> is a straight line.</p></li>
     </ol></p></statement></exercise>
 
-<example xml:id="example-abs-equation"><statement><p><ol marker="a.">
+<activity xml:id="example-abs-equation"><statement><p><ol marker="a.">
         <li><p>Use a graph of <m>y = \abs{3x - 6}</m> to solve the equation 
             <m>\abs{3x - 6} = 9</m>.</p></li>
         <li><p>Use a graph of <m>y = \abs{3x - 6}</m> to solve the equation
@@ -854,7 +854,7 @@
         <mrow>x  = \alert{5}\text{: }\amp</mrow> 
         <mrow>\amp ~~ \abs{3(\alert{5}) - 6} = \abs{9} = 9</mrow></md></p></li>
     <li><p>There are no points on the graph of <m>y = \abs{3x - 6}</m> with <m>y = -2</m>, so the equation <m>\abs{3x - 6} = -2</m> has no solutions.</p></li>
-    </ol></p></solution></example>
+    </ol></p></solution></activity>
 
 <aside><p><m>\alert{\text{[TK]}}~~</m>For more practice with absolute value functions, see <xref ref="tkSimpAbsVal" text="custom"> Section 5.6.2 </xref> of the Toolkit.</p></aside>
 
@@ -968,7 +968,7 @@
               <li><p><m>x=-9</m> or <m>x=2</m></p></li></ol></p></solution></exercise>
 <p>To solve an absolute value equation algebraically, we use the definition of absolute value.</p>
 
-<example xml:id="example-abs-algebraic"><statement><p>Solve the equation <m>\abs{3x - 6} = 9</m> algebraically.</p></statement>
+<activity xml:id="example-abs-algebraic"><statement><p>Solve the equation <m>\abs{3x - 6} = 9</m> algebraically.</p></statement>
 <solution><p>We write the piecewise definition of <m>\abs{3x - 6}</m>.
     <me>
     \abs{3x-6} =
@@ -981,7 +981,7 @@ Thus, the absolute value equation <m>\abs{3x - 6} = 9</m> is equivalent to two r
     <me>3x - 6 =9~~~  \text{ or }~~~ -(3x - 6) = 9</me>
 or, by simplifying the second equation,
     <me>3x - 6 =9~~~ \text{ or }~~~ 3x - 6 = -9</me>
-Solving these two equations gives us the same solutions we found in <xref ref="example-abs-equation" text="type-global"/>, namely <m>x = 5</m> and <m>-1</m>.</p></solution></example>
+Solving these two equations gives us the same solutions we found in <xref ref="example-abs-equation" text="type-global"/>, namely <m>x = 5</m> and <m>-1</m>.</p></solution></activity>
 
 <p>In general, we have the following strategy for solving absolute value equations.</p>
 
@@ -1060,13 +1060,13 @@ Solving these two equations gives us the same solutions we found in <xref ref="e
         <li><p><m>-5 \gt x-3 \lt 5</m>.</p></li>
     </ol></p></statement></exercise>
 
-<example xml:id="example-abs-inequality"><statement><p>Solve <m>~\abs{4x - 15} \lt 0.01</m></p></statement>
+<activity xml:id="example-abs-inequality"><statement><p>Solve <m>~\abs{4x - 15} \lt 0.01</m></p></statement>
 <solution><p>First, we solve the equation <m>~\abs{4x - 15} = 0.01</m>. There are two cases:
     <md><mrow>4x - 15 \amp = 0.01 \amp \text{or} \amp\amp 4x - 15 \amp= -0.01</mrow>
         <mrow>4x \amp = 15.01 \amp\amp\amp 4x \amp = 14.99</mrow>
         <mrow>x \amp = 3.7525 \amp\amp\amp x \amp= 3.7475</mrow></md>
 Because the inequality symbol is <m>\lt</m>, the solutions of the inequality are between these two values: <m>3.7475 \lt x \lt 3.7525</m>. In interval notation, the solutions are <m>(3.7475, 3.7525)</m>.  <m>~\alert{\text{[TK]}}~~</m></p> 
-</solution></example>
+</solution></activity>
 
 <aside><p><m>\alert{\text{[TK]}}~~</m>To review interval notation, see <xref ref="tkIntNot" text="custom"> Section 5.6.3 </xref> of the Toolkit.</p></aside>
 
