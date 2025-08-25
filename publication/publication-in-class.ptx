@@ -21,7 +21,7 @@
     <tableofcontents level="2"/>
         <exercise-divisional answer="no" solution="no"/>
         <exercise-inline answer="no" solution="no"/>
-        <activity answer="no" solution="no"/>
+        <exercise-project answer="no" solution="no"/>
     <fillin textstyle="underline" mathstyle="box"/>
   </common>
   <numbering>
