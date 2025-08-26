@@ -1,0 +1,54 @@
+\documentclass[10pt]{article}
+\usepackage{geometry}
+\geometry{letterpaper,total={340pt,9.0in}}
+%% Custom Page Layout Adjustments (use publisher page-geometry)
+\usepackage{amsmath,amssymb}
+\usepackage{tikz}
+\usetikzlibrary{calc}
+\usetikzlibrary{arrows}
+\usetikzlibrary{decorations.pathreplacing}
+\usetikzlibrary{patterns}
+\usetikzlibrary{calc,intersections,through,backgrounds}
+\usetikzlibrary{shapes.geometric}
+\ifdefined\tikzset
+\tikzset{ampersand replacement = \amp}
+\fi
+\newcommand\degree[0]{^{\circ}}
+\newcommand\Ccancel[2][black]{\renewcommand\CancelColor{\color{#1}}\cancel{#2}}
+\newcommand{\alert}[1]{\boldsymbol{\color{magenta}{#1}}}
+\newcommand{\blert}[1]{\boldsymbol{\color{blue}{#1}}}
+\newcommand{\bluetext}[1]{\color{blue}{#1}} 
+\delimitershortfall-1sp
+\newcommand\abs[1]{\left|#1\right|}
+\newcommand{\lt}{<}
+\newcommand{\gt}{>}
+\newcommand{\amp}{&}
+\begin{document}
+\pagestyle{empty}
+\resizebox{\width}{\height}{
+\tikzset{%
+}
+\begin{tikzpicture} [xscale=.4, yscale=.4] 
+\draw[cyan] (0,0) grid (7,10);
+\draw[black,thick,->,>=stealth'] (0,0)--(7.6,0) node[above]{$t$};
+\draw[black,thick,->,>=stealth'] (0,0)--(0,10.6) node[left, xshift=1mm, yshift=1mm]{$y$};
+\foreach \x  in {5} {
+    \draw[black,thick] (\x,.15)--++(0,-.3) node[below, fill=white, inner sep=1, yshift=-2]{$\x$};
+}
+\foreach \x [evaluate=\x as \xi using int(10*\x)] in {5,10} {
+    \draw[black,thick] (.15,\x)--++(-.3,0) node[left, fill=white, inner sep=1, xshift=-2]{$\xi$};
+}
+\draw[samples=65,domain={0:ln(20)/ln(2)},smooth,variable=\x,red,very thick, ->,>=stealth'] plot (\x, {1/2*2^(\x)});
+\node[text=red,fill=white, inner sep=1] at (6.7,6.5) {$E(t)=5\cdot 2^t$};
+\filldraw[red] (1,1) circle (.1);
+\filldraw[red] (2,2) circle (.1);
+\filldraw[red] (3,4) circle (.1);
+\filldraw[red] (4,8) circle (.1);
+\draw[blue,very thick, ->,>=stealth'] (0,1/2)--(7,19/10) node[above, xshift=-.2cm, yshift=2, fill=white, inner sep=1]{$L(t)=5+2t$};
+\filldraw[blue] (1,7/10) circle (.1);
+\filldraw[blue] (2,9/10) circle (.1);
+\filldraw[blue] (3,11/10) circle (.1);
+\filldraw[blue] (4,13/10) circle (.1);
+\end{tikzpicture}
+}
+\end{document}

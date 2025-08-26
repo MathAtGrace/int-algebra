@@ -1,0 +1,53 @@
+\documentclass[10pt]{article}
+\usepackage{geometry}
+\geometry{letterpaper,total={340pt,9.0in}}
+%% Custom Page Layout Adjustments (use publisher page-geometry)
+\usepackage{amsmath,amssymb}
+\usepackage{tikz}
+\usetikzlibrary{calc}
+\usetikzlibrary{arrows}
+\usetikzlibrary{decorations.pathreplacing}
+\usetikzlibrary{patterns}
+\usetikzlibrary{calc,intersections,through,backgrounds}
+\usetikzlibrary{shapes.geometric}
+\ifdefined\tikzset
+\tikzset{ampersand replacement = \amp}
+\fi
+\newcommand\degree[0]{^{\circ}}
+\newcommand\Ccancel[2][black]{\renewcommand\CancelColor{\color{#1}}\cancel{#2}}
+\newcommand{\alert}[1]{\boldsymbol{\color{magenta}{#1}}}
+\newcommand{\blert}[1]{\boldsymbol{\color{blue}{#1}}}
+\newcommand{\bluetext}[1]{\color{blue}{#1}} 
+\delimitershortfall-1sp
+\newcommand\abs[1]{\left|#1\right|}
+\newcommand{\lt}{<}
+\newcommand{\gt}{>}
+\newcommand{\amp}{&}
+\begin{document}
+\pagestyle{empty}
+\resizebox{\width}{\height}{
+\tikzset{%
+}
+\begin{tikzpicture} [scale=.3]
+\draw[cyan] (-10,-10) grid (10,10);
+\draw[black,thick, ->, >=stealth'] (-10,0)--(10.6,0) node[right]{$x$};
+\draw[black,thick, ->, >=stealth'] (0,-10)--(0,10.6) node[above]{$y$};
+\foreach \x in {-10,-5,5,10} {
+ \draw[black] (\x,.1) --++(0,-.2)  node[below, yshift=-2, fill=white, inner sep=1]   {$\x$};
+ }
+\foreach \x in {-10,-5,5,10} {
+ \draw[black] (.1,\x) --++(-.2,0)  node[left, xshift=-2, fill=white, inner sep=1]   {$\x$};
+ }
+% \def\a{sqrt(32)};
+\def\b{4};
+\def\h{0};
+\def\k{0};
+\draw[black] ({\h-sqrt(32)},{\k-\b}) rectangle ({\h+sqrt(32)},{\k+\b});
+\draw[samples=2,domain={-10:10},smooth,variable=\x,gray,dashed] plot ( {\x}, { \k+\b/sqrt(32) * (\x - \h) } );
+\draw[samples=2,domain={-10:10},smooth,variable=\x,gray,dashed] plot ( {\x}, { \k-\b/sqrt(32) * (\x - \h) } );
+\filldraw[black] (\h,\k) circle (.1);
+\draw[samples=65,domain={-1.2:1.2},smooth,variable=\x,red,very thick, <->,>=stealth'] plot ( {\h+sqrt(32)*cosh(\x)}, {\k+\b*sinh(\x)});
+\draw[samples=65,domain={-1.2:1.2},smooth,variable=\x,red,very thick, <->,>=stealth'] plot ( {\h-sqrt(32)*cosh(\x)}, {\k+\b*sinh(\x)});
+\end{tikzpicture}
+}
+\end{document}

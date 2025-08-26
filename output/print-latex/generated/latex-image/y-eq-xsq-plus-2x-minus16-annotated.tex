@@ -1,0 +1,49 @@
+\documentclass[10pt]{article}
+\usepackage{geometry}
+\geometry{letterpaper,total={340pt,9.0in}}
+%% Custom Page Layout Adjustments (use publisher page-geometry)
+\usepackage{amsmath,amssymb}
+\usepackage{tikz}
+\usetikzlibrary{calc}
+\usetikzlibrary{arrows}
+\usetikzlibrary{decorations.pathreplacing}
+\usetikzlibrary{patterns}
+\usetikzlibrary{calc,intersections,through,backgrounds}
+\usetikzlibrary{shapes.geometric}
+\ifdefined\tikzset
+\tikzset{ampersand replacement = \amp}
+\fi
+\newcommand\degree[0]{^{\circ}}
+\newcommand\Ccancel[2][black]{\renewcommand\CancelColor{\color{#1}}\cancel{#2}}
+\newcommand{\alert}[1]{\boldsymbol{\color{magenta}{#1}}}
+\newcommand{\blert}[1]{\boldsymbol{\color{blue}{#1}}}
+\newcommand{\bluetext}[1]{\color{blue}{#1}} 
+\delimitershortfall-1sp
+\newcommand\abs[1]{\left|#1\right|}
+\newcommand{\lt}{<}
+\newcommand{\gt}{>}
+\newcommand{\amp}{&}
+\begin{document}
+\pagestyle{empty}
+\resizebox{\width}{\height}{
+\tikzset{%
+}
+\begin{tikzpicture} [xscale=.36, yscale=.18]
+\draw[cyan] (-8,-18) grid[ystep=2] (6,12);
+\draw[black,very thick, ->, >=stealth'] (-8,0)--(6.6,0) node[right]{$x$};
+\draw[black,very thick, ->, >=stealth'] (0,-18)--(0,13.6) node[above]{$y$};
+\foreach \x  in  {-8,-4,4} {
+\draw[black] (\x,.3) --++(0,-.6);
+}
+\foreach \x in  {-16,-8} {
+ \draw[black] (.3,\x) --++(-.6,0) node[left, xshift=-2, fill=white, inner sep=1]   {$\x$};
+}
+\draw[blue] (.3,8) --++(-.6,0) node[left, xshift=-2, fill=white, inner sep=1]   {\bf$8$};
+\draw[samples=65,domain={-sqrt(29)-1:sqrt(29)-1},smooth,variable=\x,red,very thick, <->,>=stealth'] plot ( {\x}, {(\x)^2+2*\x-16});
+\filldraw[blue] (-6,8) ellipse (.2 and .4);
+\filldraw[blue] (4,8) ellipse (.2 and .4);
+\draw[magenta!90!black,thick,->,>=stealth'] (-6,8) -- (-6,0) node[below, yshift=-3, fill=white, inner sep=2] {\bf $-6$};
+\draw[magenta!90!black,thick,->,>=stealth'] (4,8) -- (4,0) node[below, yshift=-3, fill=white, inner sep=2] {\bf $4$};
+\end{tikzpicture}
+}
+\end{document}

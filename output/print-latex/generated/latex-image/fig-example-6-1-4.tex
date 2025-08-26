@@ -1,0 +1,45 @@
+\documentclass[10pt]{article}
+\usepackage{geometry}
+\geometry{letterpaper,total={340pt,9.0in}}
+%% Custom Page Layout Adjustments (use publisher page-geometry)
+\usepackage{amsmath,amssymb}
+\usepackage{tikz}
+\usetikzlibrary{calc}
+\usetikzlibrary{arrows}
+\usetikzlibrary{decorations.pathreplacing}
+\usetikzlibrary{patterns}
+\usetikzlibrary{calc,intersections,through,backgrounds}
+\usetikzlibrary{shapes.geometric}
+\ifdefined\tikzset
+\tikzset{ampersand replacement = \amp}
+\fi
+\newcommand\degree[0]{^{\circ}}
+\newcommand\Ccancel[2][black]{\renewcommand\CancelColor{\color{#1}}\cancel{#2}}
+\newcommand{\alert}[1]{\boldsymbol{\color{magenta}{#1}}}
+\newcommand{\blert}[1]{\boldsymbol{\color{blue}{#1}}}
+\newcommand{\bluetext}[1]{\color{blue}{#1}} 
+\delimitershortfall-1sp
+\newcommand\abs[1]{\left|#1\right|}
+\newcommand{\lt}{<}
+\newcommand{\gt}{>}
+\newcommand{\amp}{&}
+\begin{document}
+\pagestyle{empty}
+\resizebox{\width}{\height}{
+\tikzset{%
+}
+\begin{tikzpicture} [xscale=.6, yscale=.4]
+\draw[cyan] (0,0) grid (6,10);
+\draw[black,thick, ->, >=stealth'] (0,0)--(6.6,0) node[right]{$d$};
+\draw[black,thick, ->, >=stealth'] (0,0)--(0,10.6) node[above]{$I$};
+\foreach \x  in {5} {
+ \draw[black] (\x,.1) --++(0,-.2)  node[below, yshift=-2, fill=white, inner sep=1]   {$\x$};
+ }
+\foreach \x [evaluate=\x as \xi using int(1000*\x)] in {5,10} {
+ \draw[black] (.1,\x) --++(-.2,0)  node[left, xshift=-2, fill=white, inner sep=1]   {$\xi$};
+}
+\draw[samples=65,domain={sqrt(.137):6},smooth,variable=\x,red,very thick, <->,>=stealth'] plot ( {\x}, {1.37/(\x)^2});
+\node[above, text=red, fill=white, inner sep=2] at (3,6) {$I=1370d^{-2}$};
+\end{tikzpicture}
+}
+\end{document}

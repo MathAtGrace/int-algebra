@@ -1,0 +1,48 @@
+\documentclass[10pt]{article}
+\usepackage{geometry}
+\geometry{letterpaper,total={340pt,9.0in}}
+%% Custom Page Layout Adjustments (use publisher page-geometry)
+\usepackage{amsmath,amssymb}
+\usepackage{tikz}
+\usetikzlibrary{calc}
+\usetikzlibrary{arrows}
+\usetikzlibrary{decorations.pathreplacing}
+\usetikzlibrary{patterns}
+\usetikzlibrary{calc,intersections,through,backgrounds}
+\usetikzlibrary{shapes.geometric}
+\ifdefined\tikzset
+\tikzset{ampersand replacement = \amp}
+\fi
+\newcommand\degree[0]{^{\circ}}
+\newcommand\Ccancel[2][black]{\renewcommand\CancelColor{\color{#1}}\cancel{#2}}
+\newcommand{\alert}[1]{\boldsymbol{\color{magenta}{#1}}}
+\newcommand{\blert}[1]{\boldsymbol{\color{blue}{#1}}}
+\newcommand{\bluetext}[1]{\color{blue}{#1}} 
+\delimitershortfall-1sp
+\newcommand\abs[1]{\left|#1\right|}
+\newcommand{\lt}{<}
+\newcommand{\gt}{>}
+\newcommand{\amp}{&}
+\begin{document}
+\pagestyle{empty}
+\resizebox{\width}{\height}{
+\tikzset{%
+}
+\begin{tikzpicture} [scale=.3]
+\draw[cyan] (0,0) grid (15,25);
+\draw[black,thick, ->, >=stealth'] (0,0)--(15.8,0) node[right]{$t$};
+\draw[black,thick, ->, >=stealth'] (0,0)--(0,25.8) node[above]{$I$};
+\foreach \x in {5,10,15} {
+ \draw[black,thick] (\x,0.1) --++(0,-.2)  node[below]   {$\x$};
+ \draw[cyan,ultra thick] (\x,0)--++(0,25);
+}
+\foreach \x [evaluate=\x as \xi using int(200*\x)] in {5,10,...,25} {
+
+ \draw[black] (.1,\x) --++(-.20,0)  node[left]   {$\xi$};
+ \draw[cyan,ultra thick] (0,\x)--++(15,0);
+ }
+\node[font=\bf] at (7.5,-2.3) {Time (days)};
+\node[rotate=90,font=\bf] at (-3.7,12.5) {Number of infected people};
+\end{tikzpicture}
+}
+\end{document}

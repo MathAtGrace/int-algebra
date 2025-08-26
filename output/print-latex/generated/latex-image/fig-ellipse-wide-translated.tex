@@ -1,0 +1,48 @@
+\documentclass[10pt]{article}
+\usepackage{geometry}
+\geometry{letterpaper,total={340pt,9.0in}}
+%% Custom Page Layout Adjustments (use publisher page-geometry)
+\usepackage{amsmath,amssymb}
+\usepackage{tikz}
+\usetikzlibrary{calc}
+\usetikzlibrary{arrows}
+\usetikzlibrary{decorations.pathreplacing}
+\usetikzlibrary{patterns}
+\usetikzlibrary{calc,intersections,through,backgrounds}
+\usetikzlibrary{shapes.geometric}
+\ifdefined\tikzset
+\tikzset{ampersand replacement = \amp}
+\fi
+\newcommand\degree[0]{^{\circ}}
+\newcommand\Ccancel[2][black]{\renewcommand\CancelColor{\color{#1}}\cancel{#2}}
+\newcommand{\alert}[1]{\boldsymbol{\color{magenta}{#1}}}
+\newcommand{\blert}[1]{\boldsymbol{\color{blue}{#1}}}
+\newcommand{\bluetext}[1]{\color{blue}{#1}} 
+\delimitershortfall-1sp
+\newcommand\abs[1]{\left|#1\right|}
+\newcommand{\lt}{<}
+\newcommand{\gt}{>}
+\newcommand{\amp}{&}
+\begin{document}
+\pagestyle{empty}
+\resizebox{\width}{\height}{
+\tikzset{%
+}
+\begin{tikzpicture} [scale=.7]
+\coordinate (O) at (5,5);
+\draw[black,thick, ->, >=stealth'] (-.5,0)--(10,0) node[right]{$x$};
+\draw[black,thick, ->, >=stealth'] (0,-.5)--(0,10) node[above]{$y$};
+\draw[gray,thick,dashed] (5,-.5)--++(0,10.5);
+\draw[gray,thick,dashed] (-.5,5)--++(10.5,0);
+\draw[red, thick] (O) ellipse (3 and 2);
+\draw[green, very thick] (O)-- ++(0,2);
+\draw[blue, ultra thick] (O) -- ++(3,0);
+\filldraw[black] ($(O)+({-sqrt(5)},0)$) circle (.1) node[above, text=black]{$F_1$};
+\filldraw[gray] (O) circle (.1) node[below left, text=black]{$(h,k)$};
+\filldraw[black] ($(O)+({sqrt(5)},0)$) circle (.1) node[above, text=black]{$F_2$};
+\draw [blue!70!black, decorate, decoration={brace,amplitude=8pt}] (O)++(3,0)--(O) node[below, midway, yshift=-.25cm]{$a$};
+\draw [green!70!black, decorate, decoration={brace,amplitude=7pt}] (O)++(0,2)--(O) node[right, midway, xshift=.2cm]{$b$};
+\node[fill=white, inner sep=2] at (2.3, 1.3){$a>b$};
+\end{tikzpicture}
+}
+\end{document}

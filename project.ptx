@@ -5,7 +5,7 @@
   <targets>
     <target name="web" format="html" source="int-alg.xml" publication="publication.ptx" />
     <target name="ww" format="html" source="int-alg.xml" publication="publication-webwork.ptx" />
-    <target name="print-latex" format="latex" source="int-alg.xml" publication="publication.ptx" />
+    <target name="print-latex" format="latex" source="int-alg.xml" publication="publication-in-class.ptx" />
     <target name="print" format="pdf" source="int-alg.xml" publication="publication.ptx" />
     <target name="print-class" format="pdf" source="int-alg.xml" publication="publication-in-class.ptx" />
     <target name="solutions" format="pdf" source="int-alg.xml" publication="publication-solutions.ptx" />

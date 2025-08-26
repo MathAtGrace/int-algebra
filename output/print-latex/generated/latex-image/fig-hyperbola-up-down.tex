@@ -1,0 +1,55 @@
+\documentclass[10pt]{article}
+\usepackage{geometry}
+\geometry{letterpaper,total={340pt,9.0in}}
+%% Custom Page Layout Adjustments (use publisher page-geometry)
+\usepackage{amsmath,amssymb}
+\usepackage{tikz}
+\usetikzlibrary{calc}
+\usetikzlibrary{arrows}
+\usetikzlibrary{decorations.pathreplacing}
+\usetikzlibrary{patterns}
+\usetikzlibrary{calc,intersections,through,backgrounds}
+\usetikzlibrary{shapes.geometric}
+\ifdefined\tikzset
+\tikzset{ampersand replacement = \amp}
+\fi
+\newcommand\degree[0]{^{\circ}}
+\newcommand\Ccancel[2][black]{\renewcommand\CancelColor{\color{#1}}\cancel{#2}}
+\newcommand{\alert}[1]{\boldsymbol{\color{magenta}{#1}}}
+\newcommand{\blert}[1]{\boldsymbol{\color{blue}{#1}}}
+\newcommand{\bluetext}[1]{\color{blue}{#1}} 
+\delimitershortfall-1sp
+\newcommand\abs[1]{\left|#1\right|}
+\newcommand{\lt}{<}
+\newcommand{\gt}{>}
+\newcommand{\amp}{&}
+\begin{document}
+\pagestyle{empty}
+\resizebox{\width}{\height}{
+\begin{tikzpicture} [scale=0.6]
+\pgfkeys{/pgf/declare function={asinh(\x) = ln(\x + sqrt(\x^2+1));}}
+\draw[black,thick, ->, >=stealth'] (-4.5,0)--(4.5,0) node[right]{$x$};
+\draw[black,thick, ->, >=stealth'] (0,-4.5)--(0,4.5) node[above]{$y$};
+\def\b{1.5};
+\def\a{1};
+\def\c{sqrt((\a)^2+(\b)^2)};
+\draw[samples=65,domain={-asinh(4.5/\b):asinh(4.5/\b)},smooth,variable=\x,red,very thick, <->,>=stealth'] plot ( {\a*sinh(\x)}, {\b*cosh(\x)});
+\draw[samples=65,domain={-asinh(4.5/\b):asinh(4.5/\b)},smooth,variable=\x,red,very thick, <->,>=stealth'] plot ( {\a*sinh(\x)}, {-\b*cosh(\x)});
+\draw[blue,very thick] (0,{-\b})--(0,\b);
+\draw [blue, decorate, decoration={brace,amplitude=8}] (0,{-\b})--(0,{\b});
+\node[align=center] at (-2.5,1.5){Transverse\\axis};
+\draw [blue,->, >=stealth'] (-2,1.2) to [out=350,in=115] (-.3,.2);
+\filldraw[green!80!black] (\a,0) circle (.08) node[above right] {$(a,0)$};
+\filldraw[green!80!black] (-\a,0) circle (.08) node[above left]  {$(-a,0)$};
+\draw[green!80!black,very thick] ({-\a},0)--(\a,0);
+\draw [green!80!black, decorate, decoration={brace,amplitude=8}] ({\a},0)--({-\a},0);
+\node[align=center] at (3.2,-1.1){Conjugate\\axis};
+\draw [green!80!black,->, >=stealth'] (1.9,-.6) to [out=170,in=335] (.3,-.3);
+\filldraw[red] (0,\b) circle (.1) node[below right, text=red]  {$(0,b)$};
+\filldraw[red] (0,-\b) circle (.1) node[above right]  {$(0,-b)$};
+\filldraw[black] (0,{-\c}) circle (.08) node[below right] {$F_2$};
+\filldraw[black] (0,{\c}) circle (.08) node[above right] {$F_1$};
+\node at (-3.2,-1.2) {$\displaystyle{\frac{y^2}{b^2} - \frac{x^2}{a^2}=1 }$};
+\end{tikzpicture}
+}
+\end{document}

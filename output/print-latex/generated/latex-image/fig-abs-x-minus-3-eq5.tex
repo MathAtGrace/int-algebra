@@ -1,0 +1,48 @@
+\documentclass[10pt]{article}
+\usepackage{geometry}
+\geometry{letterpaper,total={340pt,9.0in}}
+%% Custom Page Layout Adjustments (use publisher page-geometry)
+\usepackage{amsmath,amssymb}
+\usepackage{tikz}
+\usetikzlibrary{calc}
+\usetikzlibrary{arrows}
+\usetikzlibrary{decorations.pathreplacing}
+\usetikzlibrary{patterns}
+\usetikzlibrary{calc,intersections,through,backgrounds}
+\usetikzlibrary{shapes.geometric}
+\ifdefined\tikzset
+\tikzset{ampersand replacement = \amp}
+\fi
+\newcommand\degree[0]{^{\circ}}
+\newcommand\Ccancel[2][black]{\renewcommand\CancelColor{\color{#1}}\cancel{#2}}
+\newcommand{\alert}[1]{\boldsymbol{\color{magenta}{#1}}}
+\newcommand{\blert}[1]{\boldsymbol{\color{blue}{#1}}}
+\newcommand{\bluetext}[1]{\color{blue}{#1}} 
+\delimitershortfall-1sp
+\newcommand\abs[1]{\left|#1\right|}
+\newcommand{\lt}{<}
+\newcommand{\gt}{>}
+\newcommand{\amp}{&}
+\begin{document}
+\pagestyle{empty}
+\resizebox{\width}{\height}{
+\tikzset{%
+}
+\begin{tikzpicture} [scale=.7]
+\draw[black,thick,->,>=stealth'] (-9.4,0)--(2.85,0);
+\foreach \x  in  {-8, -7, ..., 2}
+ \draw[black] (\x,.15) --++(0,-.3);
+\foreach \x in  {-8, -6, ..., 2} {
+ \node[below] at (\x,-.1) {\x};
+}
+\draw [black, decorate, decoration={brace,amplitude=5pt}]
+(-8,.25) -- ++(5,0) node [black,above,midway, yshift=.2cm] 
+{Five units};
+\draw [black, decorate, decoration={brace,amplitude=5pt}]
+(-3,.25) -- ++(5,0) node [black,above,midway, yshift=.2cm] 
+{Five units};
+\filldraw[red] (-8,0) circle (.1);
+\filldraw[red] (2,0) circle (.1);
+\end{tikzpicture}
+}
+\end{document}

@@ -1,0 +1,52 @@
+\documentclass[10pt]{article}
+\usepackage{geometry}
+\geometry{letterpaper,total={340pt,9.0in}}
+%% Custom Page Layout Adjustments (use publisher page-geometry)
+\usepackage{amsmath,amssymb}
+\usepackage{tikz}
+\usetikzlibrary{calc}
+\usetikzlibrary{arrows}
+\usetikzlibrary{decorations.pathreplacing}
+\usetikzlibrary{patterns}
+\usetikzlibrary{calc,intersections,through,backgrounds}
+\usetikzlibrary{shapes.geometric}
+\ifdefined\tikzset
+\tikzset{ampersand replacement = \amp}
+\fi
+\newcommand\degree[0]{^{\circ}}
+\newcommand\Ccancel[2][black]{\renewcommand\CancelColor{\color{#1}}\cancel{#2}}
+\newcommand{\alert}[1]{\boldsymbol{\color{magenta}{#1}}}
+\newcommand{\blert}[1]{\boldsymbol{\color{blue}{#1}}}
+\newcommand{\bluetext}[1]{\color{blue}{#1}} 
+\delimitershortfall-1sp
+\newcommand\abs[1]{\left|#1\right|}
+\newcommand{\lt}{<}
+\newcommand{\gt}{>}
+\newcommand{\amp}{&}
+\begin{document}
+\pagestyle{empty}
+\resizebox{\width}{\height}{
+\tikzset{%
+}
+\begin{tikzpicture} [scale=.7]
+\draw[black,thick, ->, >=stealth'] (-5,0)--(5,0) node[right]{$x$};
+\draw[black,thick, ->, >=stealth'] (0,-4.3)--(0,5) node[above]{$y$};
+\draw[red, thick] (0,0) ellipse (2 and 3);
+\draw[blue, ultra thick] (0,-3) -- (0,3);
+\draw[green, ultra thick](-2,0)--(2,0);
+\filldraw[black] (0,{sqrt(5)}) circle (.1) node[left, text=black]{$F_1$};
+\filldraw[red] (-2,0) circle (.1) node[above left, text=black]{$(-a,0)$};
+\filldraw[red] (2,0) circle (.1) node[above right, text=black]{$(a,0)$};
+\filldraw[red] (0,3) circle (.1) node[above left, text=black]{$(0,b)$};
+\filldraw[red] (0,-3) circle (.1) node[below right, text=black]{$(0,-b)$};
+\filldraw[black] (0,{-sqrt(5)}) circle (.1) node[left, text=black]{$F_2$};
+\draw [green!70!black, decorate, decoration={brace,amplitude=10pt}] (2,0)--(-2,0);
+\draw [green!70!black,->, >=stealth'] (-1.8,-2) to [out=20,in=240] (-.1,-.65);
+\node[text=green!50!black] at (-3.35,-2){Minor axis};
+\node at (3.7,-1.7) {\Large${\frac{x^2}{a^2}+\frac{y^2}{b^2}={} }$\normalsize 1};
+\node at (0, -4.7) {$a < b$};
+\draw [blue!80!black, decorate, decoration={brace,amplitude=10pt}] (0,3)--(0,-3);
+\draw [blue!80!black,<-, >=stealth'] (.65,0.1) to [out=40,in=200] (1.5,3.2) node[right]{Major axis};
+\end{tikzpicture}
+}
+\end{document}

@@ -1,0 +1,53 @@
+\documentclass[10pt]{article}
+\usepackage{geometry}
+\geometry{letterpaper,total={340pt,9.0in}}
+%% Custom Page Layout Adjustments (use publisher page-geometry)
+\usepackage{amsmath,amssymb}
+\usepackage{tikz}
+\usetikzlibrary{calc}
+\usetikzlibrary{arrows}
+\usetikzlibrary{decorations.pathreplacing}
+\usetikzlibrary{patterns}
+\usetikzlibrary{calc,intersections,through,backgrounds}
+\usetikzlibrary{shapes.geometric}
+\ifdefined\tikzset
+\tikzset{ampersand replacement = \amp}
+\fi
+\newcommand\degree[0]{^{\circ}}
+\newcommand\Ccancel[2][black]{\renewcommand\CancelColor{\color{#1}}\cancel{#2}}
+\newcommand{\alert}[1]{\boldsymbol{\color{magenta}{#1}}}
+\newcommand{\blert}[1]{\boldsymbol{\color{blue}{#1}}}
+\newcommand{\bluetext}[1]{\color{blue}{#1}} 
+\delimitershortfall-1sp
+\newcommand\abs[1]{\left|#1\right|}
+\newcommand{\lt}{<}
+\newcommand{\gt}{>}
+\newcommand{\amp}{&}
+\begin{document}
+\pagestyle{empty}
+\resizebox{\width}{\height}{
+\tikzset{%
+}
+\begin{tikzpicture} [scale=.4]
+\draw[cyan] (-5,-5) grid (5,5);
+\draw[black,thick,->,>=stealth'] (-5,0)--++(10.6,0) node[above]{$x$};
+\draw[black,thick,->,>=stealth'] (0,-5)--++(0,10.6) node[left]{$y$};
+\draw[red,very thick, <->, >=stealth'] (11,-5)--(14.5,5);
+\draw[blue,very thick, <->, >=stealth'] (9.5,-5)--(13,5);
+\node[align=center] at (0,-6.5) {Consistent and \\independent: one solution};
+
+\draw[cyan] (7,-5) grid (17,5);
+\draw[black,thick,->,>=stealth'] (7,0)--++(10.6,0) node[above]{$x$};
+\draw[black,thick,->,>=stealth'] (12,-5)--++(0,10.6) node[left]{$y$};
+\draw[red,very thick, <->, >=stealth'] (-2,5)--(5,-.5);
+\draw[blue,very thick, <->, >=stealth'] (-4,-5)--(5,4);
+\node[align=center] at (12,-6.5) {Inconsistent:  \\no solution};
+
+\draw[cyan] (19,-5) grid (29,5);
+\draw[black,thick,->,>=stealth'] (19,0)--++(10.6,0) node[above]{$x$};
+\draw[black,thick,->,>=stealth'] (24,-5)--++(0,10.6) node[left]{$y$};
+\draw[red,very thick, <->, >=stealth'] (20,5)--(29,-.5);
+\node[align=center] at (24,-6.5) {Dependent:  \\infinitely many solutions};
+\end{tikzpicture}
+}
+\end{document}

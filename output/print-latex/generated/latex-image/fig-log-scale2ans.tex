@@ -1,0 +1,48 @@
+\documentclass[10pt]{article}
+\usepackage{geometry}
+\geometry{letterpaper,total={340pt,9.0in}}
+%% Custom Page Layout Adjustments (use publisher page-geometry)
+\usepackage{amsmath,amssymb}
+\usepackage{tikz}
+\usetikzlibrary{calc}
+\usetikzlibrary{arrows}
+\usetikzlibrary{decorations.pathreplacing}
+\usetikzlibrary{patterns}
+\usetikzlibrary{calc,intersections,through,backgrounds}
+\usetikzlibrary{shapes.geometric}
+\ifdefined\tikzset
+\tikzset{ampersand replacement = \amp}
+\fi
+\newcommand\degree[0]{^{\circ}}
+\newcommand\Ccancel[2][black]{\renewcommand\CancelColor{\color{#1}}\cancel{#2}}
+\newcommand{\alert}[1]{\boldsymbol{\color{magenta}{#1}}}
+\newcommand{\blert}[1]{\boldsymbol{\color{blue}{#1}}}
+\newcommand{\bluetext}[1]{\color{blue}{#1}} 
+\delimitershortfall-1sp
+\newcommand\abs[1]{\left|#1\right|}
+\newcommand{\lt}{<}
+\newcommand{\gt}{>}
+\newcommand{\amp}{&}
+\begin{document}
+\pagestyle{empty}
+\resizebox{\width}{\height}{
+\tikzset{%
+}
+\begin{tikzpicture} [scale=1.25]
+\draw[black,thick, ->, >=stealth'] (-.3,0)--(10.6,0);
+\foreach \x [evaluate=\x as \xi using int(10*(\x+1)] in  {0,1,2,...,9} {
+ \draw[black] ({10*log10((\x+1)},-.1) --++(0,.2)  node[above]   {$\xi$};
+}
+\draw[black] (0,.1) --++(0,-.2)  node[below]   {$10^{1}$};
+\node[rotate=90,below ] at ({10*log10(2)-.2},-.6) {$10^{1.30}$};
+\node[rotate=90,below ] at ({10*log10(3)-.2},-.6) {$10^{1.48}$};
+\node[rotate=90,below ] at ({10*log10(4)-.2},-.6) {$10^{1.60}$};
+\node[rotate=90,below ] at ({10*log10(5)-.2},-.6) {$10^{1.70}$};
+\node[rotate=90,below ] at ({10*log10(6)-.2},-.6) {$10^{1.78}$};
+\node[rotate=90,below ] at ({10*log10(7)-.2},-.6) {$10^{1.85}$};
+\node[rotate=90,below ] at ({10*log10(8)-.2},-.6) {$10^{1.90}$};
+\node[rotate=90,below ] at ({10*log10(9)-.2},-.6) {$10^{1.95}$};
+\draw[black] (10,.1) --++(0,-.2)  node[below]   {$10^{2}$};
+\end{tikzpicture}
+}
+\end{document}

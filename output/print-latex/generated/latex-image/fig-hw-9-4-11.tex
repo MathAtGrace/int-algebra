@@ -1,0 +1,52 @@
+\documentclass[10pt]{article}
+\usepackage{geometry}
+\geometry{letterpaper,total={340pt,9.0in}}
+%% Custom Page Layout Adjustments (use publisher page-geometry)
+\usepackage{amsmath,amssymb}
+\usepackage{tikz}
+\usetikzlibrary{calc}
+\usetikzlibrary{arrows}
+\usetikzlibrary{decorations.pathreplacing}
+\usetikzlibrary{patterns}
+\usetikzlibrary{calc,intersections,through,backgrounds}
+\usetikzlibrary{shapes.geometric}
+\ifdefined\tikzset
+\tikzset{ampersand replacement = \amp}
+\fi
+\newcommand\degree[0]{^{\circ}}
+\newcommand\Ccancel[2][black]{\renewcommand\CancelColor{\color{#1}}\cancel{#2}}
+\newcommand{\alert}[1]{\boldsymbol{\color{magenta}{#1}}}
+\newcommand{\blert}[1]{\boldsymbol{\color{blue}{#1}}}
+\newcommand{\bluetext}[1]{\color{blue}{#1}} 
+\delimitershortfall-1sp
+\newcommand\abs[1]{\left|#1\right|}
+\newcommand{\lt}{<}
+\newcommand{\gt}{>}
+\newcommand{\amp}{&}
+\begin{document}
+\pagestyle{empty}
+\resizebox{\width}{\height}{
+\tikzset{%
+}
+\begin{tikzpicture} [scale=.55]
+\draw[cyan] (-7,-7) grid (7,7);
+\draw[black,thick, ->, >=stealth'] (-7,0)--(7.6,0) node[right]{$x$};
+\draw[black,thick, ->, >=stealth'] (0,-7)--(0,7.6) node[above]{$y$};
+\foreach \x in {-5,5} {
+ \draw[black] (\x,.1) --++(0,-.2)  node[below, yshift=-2, fill=white, inner sep=1]   {$\x$};
+ }
+\foreach \x in {-5,5} {
+ \draw[black] (.1,\x) --++(-.2,0)  node[left, xshift=-2, fill=white, inner sep=1]   {$\x$};
+ }
+\def\a{3};
+\def\b{4};
+\def\h{0};
+\def\k{0};
+%\draw[black] ({\h-\a},{\k-\b}) rectangle ({\h+\a},{\k+\b});
+\draw[samples=2,domain={-5.25:5.25},smooth,variable=\x,gray,dashed] plot ( {\x}, { \k+\b/\a * (\x - \h) } );
+\draw[samples=2,domain={-5.25:5.25},smooth,variable=\x,gray,dashed] plot ( {\x}, { \k-\b/\a * (\x - \h) } );
+\draw[samples=65,domain={-1.35:1.35},smooth,variable=\x,red,very thick, <->,>=stealth'] plot ( {\h+\a*cosh(\x)}, {\k+\b*sinh(\x)});
+\draw[samples=65,domain={-1.35:1.35},smooth,variable=\x,red,very thick, <->,>=stealth'] plot ( {\h-\a*cosh(\x)}, {\k+\b*sinh(\x)});
+\end{tikzpicture}
+}
+\end{document}
